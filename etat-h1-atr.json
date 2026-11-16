@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 96.26,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.10351,
-   "stop": 1.10521,
-   "objectif": 1.1001,
-   "unites": 1000,
-   "risque": 1.54,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-13T16:04+00:00",
-   "t_entree": 1794585810
-  }
- ],
+ "capital": 99.22,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -74,40 +59,28 @@
    "ferme_le": "2026-11-13T15:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -1.21
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.10351,
+   "stop": 1.10521,
+   "objectif": 1.1001,
+   "unites": 1000,
+   "risque": 1.54,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-13T16:04+00:00",
+   "t_entree": 1794585810,
+   "sortie": 1.1001,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-16T18:00+00:00",
+   "frais_nuit": 0.14,
+   "resultat": 2.96
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-13T04:59+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10644,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique d'1 h.",
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-13T04:59+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3917.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique d'1 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-13T05:59+00:00",
    "marche": "EURUSD",
@@ -983,6 +956,36 @@
     "Annonce importante trop proche : Fed Chairman Warsh Speaks (USD)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-16T18:56+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09999,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique d'1 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T18:56+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3851.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique d'1 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1133,14 +1136,18 @@
   {
    "quand": "2026-11-16T17:13+00:00",
    "valeur": 98.27
+  },
+  {
+   "quand": "2026-11-16T18:56+00:00",
+   "valeur": 99.22
   }
  ],
- "valeur": 98.27,
+ "valeur": 99.22,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "h1_atr",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-16T17:13+00:00",
+ "mis_a_jour": "2026-11-16T18:56+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h, stop serré",
  "regle": "Tendance d'1 h, stop réglé sur la taille des bougies, objectif 2 fois le risque",
