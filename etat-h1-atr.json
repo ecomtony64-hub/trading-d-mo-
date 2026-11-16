@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 99.22,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.10009,
+   "stop": 1.09886,
+   "objectif": 1.10256,
+   "unites": 1000,
+   "risque": 1.12,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-16T23:44+00:00",
+   "t_entree": 1794872444
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -81,36 +96,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-13T10:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10619,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-13T10:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3900.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 18.38 € (plus de 5 % du compte)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-13T10:48+00:00",
    "marche": "EURUSD",
@@ -986,6 +971,34 @@
     "Compte trop petit : la plus petite position acceptée par un courtier risquerait 19.3 € (plus de 5 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-16T23:44+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09999,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T23:44+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3858.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 18.7 € (plus de 5 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1156,14 +1169,18 @@
   {
    "quand": "2026-11-16T22:49+00:00",
    "valeur": 99.22
+  },
+  {
+   "quand": "2026-11-16T23:44+00:00",
+   "valeur": 99.13
   }
  ],
- "valeur": 99.22,
+ "valeur": 99.13,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "h1_atr",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-16T22:49+00:00",
+ "mis_a_jour": "2026-11-16T23:44+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h, stop serré",
  "regle": "Tendance d'1 h, stop réglé sur la taille des bougies, objectif 2 fois le risque",
