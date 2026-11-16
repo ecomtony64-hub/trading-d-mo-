@@ -1,0 +1,1126 @@
+{
+ "capital_depart": 100.0,
+ "capital": 100.52,
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.10241,
+   "stop": 1.10402,
+   "objectif": 1.0992,
+   "unites": 3000,
+   "risque": 4.38,
+   "marge": 100.0,
+   "reel": true,
+   "ouvert_le": "2026-11-13T20:48+00:00",
+   "t_entree": 1794602851
+  }
+ ],
+ "historique": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.10583,
+   "stop": 1.10741,
+   "objectif": 1.10267,
+   "unites": 1000,
+   "risque": 1.43,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-12T20:40+00:00",
+   "t_entree": 1794515972,
+   "sortie": 1.10746,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-13T07:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.47
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.10619,
+   "stop": 1.1073,
+   "objectif": 1.10399,
+   "unites": 1000,
+   "risque": 1.0,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-13T08:00+00:00",
+   "t_entree": 1794556770,
+   "sortie": 1.10399,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-13T15:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 1.99
+  }
+ ],
+ "analyses": [
+  {
+   "quand": "2026-11-13T02:59+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10644,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T02:59+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3915.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 25.93 € (plus de 5 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T03:59+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10668,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T03:59+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3924.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 20.65 € (plus de 5 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T04:59+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10644,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T04:59+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3917.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 22.0 € (plus de 5 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T05:59+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10619,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T05:59+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3899.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 18.89 € (plus de 5 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T06:49+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10619,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T06:49+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3898.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 18.34 € (plus de 5 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T08:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10619,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T08:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3904.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 18.88 € (plus de 5 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T08:48+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10619,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T08:48+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3898.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 18.62 € (plus de 5 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T10:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10619,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T10:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3900.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 18.38 € (plus de 5 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T10:48+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10534,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T10:48+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3899.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 18.46 € (plus de 10 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T12:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10583,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T12:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3896.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 18.81 € (plus de 10 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T12:49+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10485,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T12:49+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3894.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 18.97 € (plus de 10 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T13:35+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10705,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
+    "Annonce importante trop proche : Core PPI m/m (USD).",
+    "Annonce importante trop proche : PPI m/m (USD).",
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T13:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3888.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
+    "Annonce importante trop proche : Core PPI m/m (USD).",
+    "Annonce importante trop proche : PPI m/m (USD)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T15:02+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10583,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T15:02+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3898.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T15:18+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10522,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T15:18+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3889.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T15:30+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.104,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T15:30+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3887.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T16:04+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10351,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T16:04+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3881.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T16:51+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10327,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T16:51+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3888.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T18:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10302,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T18:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3893.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T18:48+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10314,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T18:48+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3886.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T19:59+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10278,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T19:59+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3878.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T20:48+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10241,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T20:48+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3879.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T22:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10254,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-13T22:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3883.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T00:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10278,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T00:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3903.4,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 20.89 € (plus de 10 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T01:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10266,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T01:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3896.3,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T01:59+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10266,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T01:59+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3878.3,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 23.29 € (plus de 10 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T02:59+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10229,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T02:59+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3877.8,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 24.33 € (plus de 10 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T04:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10205,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T04:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3876.9,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 22.14 € (plus de 10 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T05:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10217,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T05:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3874.7,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 25.31 € (plus de 10 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T05:59+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10229,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T05:59+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3850.4,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 22.04 € (plus de 10 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T06:48+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10156,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T06:48+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3843.0,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 24.15 € (plus de 10 % du compte)."
+   ],
+   "alerte": null
+  }
+ ],
+ "courbe": [
+  {
+   "quand": "2026-11-12T20:40+00:00",
+   "valeur": 99.91
+  },
+  {
+   "quand": "2026-11-12T23:42+00:00",
+   "valeur": 100.24
+  },
+  {
+   "quand": "2026-11-13T00:00+00:00",
+   "valeur": 100.35
+  },
+  {
+   "quand": "2026-11-13T01:01+00:00",
+   "valeur": 100.13
+  },
+  {
+   "quand": "2026-11-13T01:59+00:00",
+   "valeur": 99.25
+  },
+  {
+   "quand": "2026-11-13T02:59+00:00",
+   "valeur": 99.36
+  },
+  {
+   "quand": "2026-11-13T03:59+00:00",
+   "valeur": 99.14
+  },
+  {
+   "quand": "2026-11-13T04:59+00:00",
+   "valeur": 99.36
+  },
+  {
+   "quand": "2026-11-13T05:59+00:00",
+   "valeur": 99.58
+  },
+  {
+   "quand": "2026-11-13T06:49+00:00",
+   "valeur": 99.58
+  },
+  {
+   "quand": "2026-11-13T08:00+00:00",
+   "valeur": 98.44
+  },
+  {
+   "quand": "2026-11-13T08:48+00:00",
+   "valeur": 98.44
+  },
+  {
+   "quand": "2026-11-13T10:00+00:00",
+   "valeur": 98.44
+  },
+  {
+   "quand": "2026-11-13T10:48+00:00",
+   "valeur": 99.21
+  },
+  {
+   "quand": "2026-11-13T12:00+00:00",
+   "valeur": 98.77
+  },
+  {
+   "quand": "2026-11-13T12:49+00:00",
+   "valeur": 99.65
+  },
+  {
+   "quand": "2026-11-13T13:35+00:00",
+   "valeur": 97.66
+  },
+  {
+   "quand": "2026-11-13T15:02+00:00",
+   "valeur": 98.77
+  },
+  {
+   "quand": "2026-11-13T15:18+00:00",
+   "valeur": 99.32
+  },
+  {
+   "quand": "2026-11-13T15:30+00:00",
+   "valeur": 100.43
+  },
+  {
+   "quand": "2026-11-13T16:04+00:00",
+   "valeur": 100.52
+  },
+  {
+   "quand": "2026-11-13T16:51+00:00",
+   "valeur": 100.52
+  },
+  {
+   "quand": "2026-11-13T18:00+00:00",
+   "valeur": 100.52
+  },
+  {
+   "quand": "2026-11-13T18:48+00:00",
+   "valeur": 100.52
+  },
+  {
+   "quand": "2026-11-13T19:59+00:00",
+   "valeur": 100.52
+  },
+  {
+   "quand": "2026-11-13T20:48+00:00",
+   "valeur": 100.24
+  },
+  {
+   "quand": "2026-11-13T22:00+00:00",
+   "valeur": 99.91
+  },
+  {
+   "quand": "2026-11-16T00:00+00:00",
+   "valeur": 99.24
+  },
+  {
+   "quand": "2026-11-16T01:00+00:00",
+   "valeur": 99.57
+  },
+  {
+   "quand": "2026-11-16T01:59+00:00",
+   "valeur": 99.57
+  },
+  {
+   "quand": "2026-11-16T02:59+00:00",
+   "valeur": 100.57
+  },
+  {
+   "quand": "2026-11-16T04:00+00:00",
+   "valeur": 101.23
+  },
+  {
+   "quand": "2026-11-16T05:00+00:00",
+   "valeur": 100.9
+  },
+  {
+   "quand": "2026-11-16T05:59+00:00",
+   "valeur": 100.57
+  },
+  {
+   "quand": "2026-11-16T06:48+00:00",
+   "valeur": 102.55
+  }
+ ],
+ "valeur": 102.55,
+ "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
+ "methode": "elan",
+ "ratio": 2.0,
+ "conditions": "réelles",
+ "mis_a_jour": "2026-11-16T06:48+00:00",
+ "erreur_calendrier": null,
+ "nom": "Élan 24 h (risque fort)",
+ "regle": "Le prix a bougé de plus de 0,3 % en 24 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
+ "risque_vise": 8.0
+}

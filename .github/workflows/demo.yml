@@ -1,0 +1,29 @@
+name: Démo trading (toutes les heures)
+on:
+  schedule:
+    - cron: "7 * * * 1-5"   # chaque heure, du lundi au vendredi (heure UTC)
+  workflow_dispatch: {}      # bouton « Run workflow » pour lancer à la main
+permissions:
+  contents: write
+concurrency: demo
+jobs:
+  tourner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Faire tourner les comptes
+        run: python3 tout.py --leger | grep -v '^\[' | tee sortie.txt
+      - name: Préparer les données de la page
+        run: python3 publier.py
+      - name: Enregistrer
+        run: |
+          git config user.name "demo-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A ':!sortie.txt'
+          git diff --cached --quiet || git commit -m "Démo : $(date -u +'%d/%m %H:%M') UTC"
+          git push
+          curl -s "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/donnees.js" > /dev/null || true
