@@ -78,36 +78,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-13T05:59+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10619,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-13T05:59+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3899.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 18.89 € (plus de 5 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-13T06:49+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -978,6 +948,36 @@
     "Compte trop petit : la plus petite position acceptée par un courtier risquerait 21.12 € (plus de 10 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-16T19:58+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10059,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-16T19:58+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3864.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 19.32 € (plus de 10 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1132,14 +1132,18 @@
   {
    "quand": "2026-11-16T18:56+00:00",
    "valeur": 109.14
+  },
+  {
+   "quand": "2026-11-16T19:58+00:00",
+   "valeur": 107.49
   }
  ],
- "valeur": 109.14,
+ "valeur": 107.49,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "mm_h1",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-16T18:56+00:00",
+ "mis_a_jour": "2026-11-16T19:58+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h (risque fort)",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
