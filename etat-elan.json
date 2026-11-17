@@ -63,41 +63,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-13T13:35+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10705,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
-    "Annonce importante trop proche : Core PPI m/m (USD).",
-    "Annonce importante trop proche : PPI m/m (USD).",
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-13T13:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3888.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
-    "Annonce importante trop proche : Core PPI m/m (USD).",
-    "Annonce importante trop proche : PPI m/m (USD)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-13T15:02+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -980,6 +945,36 @@
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-17T04:59+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10072,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-17T04:59+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3877.5,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1166,6 +1161,10 @@
   {
    "quand": "2026-11-17T03:55+00:00",
    "valeur": 108.86
+  },
+  {
+   "quand": "2026-11-17T04:59+00:00",
+   "valeur": 108.86
   }
  ],
  "valeur": 108.86,
@@ -1173,7 +1172,7 @@
  "methode": "elan",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-17T03:55+00:00",
+ "mis_a_jour": "2026-11-17T04:59+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h (risque fort)",
  "regle": "Le prix a bougé de plus de 0,3 % en 24 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
