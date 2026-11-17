@@ -82,36 +82,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-13T15:18+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10522,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-13T15:18+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3889.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 20.04 € (plus de 10 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-13T15:30+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -980,6 +950,36 @@
     "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-17T07:18+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10072,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-17T07:18+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3880.7,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
   }
  ],
  "courbe": [
@@ -1174,6 +1174,10 @@
   {
    "quand": "2026-11-17T06:00+00:00",
    "valeur": 104.89
+  },
+  {
+   "quand": "2026-11-17T07:18+00:00",
+   "valeur": 104.89
   }
  ],
  "valeur": 104.89,
@@ -1181,7 +1185,7 @@
  "methode": "mm_h1",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-17T06:00+00:00",
+ "mis_a_jour": "2026-11-17T07:18+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h (risque fort)",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
