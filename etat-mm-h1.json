@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 104.89,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.10035,
+   "stop": 1.10151,
+   "objectif": 1.09804,
+   "unites": 3000,
+   "risque": 3.15,
+   "marge": 100.0,
+   "reel": true,
+   "ouvert_le": "2026-11-17T09:02+00:00",
+   "t_entree": 1794906106
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -81,36 +96,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-13T15:30+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.104,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-13T15:30+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3887.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 20.43 € (plus de 10 % du compte)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-13T16:04+00:00",
    "marche": "EURUSD",
@@ -980,6 +965,34 @@
     "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
    ],
    "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-17T09:02+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10035,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-17T09:02+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3874.8,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
   }
  ],
  "courbe": [
@@ -1178,14 +1191,18 @@
   {
    "quand": "2026-11-17T07:18+00:00",
    "valeur": 104.89
+  },
+  {
+   "quand": "2026-11-17T09:02+00:00",
+   "valeur": 104.61
   }
  ],
- "valeur": 104.89,
+ "valeur": 104.61,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "mm_h1",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-17T07:18+00:00",
+ "mis_a_jour": "2026-11-17T09:02+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h (risque fort)",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
