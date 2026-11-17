@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 103.04,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09975,
+   "stop": 1.10249,
+   "objectif": 1.09427,
+   "unites": 1000,
+   "risque": 2.49,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-17T23:52+00:00",
+   "t_entree": 1794959505
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -43,36 +58,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-16T04:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10205,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-16T04:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3876.9,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (jour)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-16T05:00+00:00",
    "marche": "EURUSD",
@@ -948,6 +933,34 @@
     "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (jour)."
    ],
    "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-17T23:52+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09975,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-17T23:52+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3850.7,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (jour)."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
   }
  ],
  "courbe": [
@@ -1194,14 +1207,18 @@
   {
    "quand": "2026-11-17T22:56+00:00",
    "valeur": 103.04
+  },
+  {
+   "quand": "2026-11-17T23:52+00:00",
+   "valeur": 102.95
   }
  ],
- "valeur": 103.04,
+ "valeur": 102.95,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "cassure_j",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-17T22:56+00:00",
+ "mis_a_jour": "2026-11-17T23:52+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure jour",
  "regle": "Le prix dépasse son plus haut ou plus bas des 20 derniers jours, objectif 2 fois le risque",
