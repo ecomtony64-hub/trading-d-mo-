@@ -63,36 +63,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-13T18:48+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10314,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-13T18:48+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3886.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-13T19:59+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -976,6 +946,36 @@
     "Annonce importante trop proche : Retail Sales m/m (USD)."
    ],
    "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-17T14:56+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09938,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-17T14:56+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3870.3,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
   }
  ],
  "courbe": [
@@ -1190,6 +1190,10 @@
   {
    "quand": "2026-11-17T13:07+00:00",
    "valeur": 108.86
+  },
+  {
+   "quand": "2026-11-17T14:56+00:00",
+   "valeur": 108.86
   }
  ],
  "valeur": 108.86,
@@ -1197,7 +1201,7 @@
  "methode": "elan",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-17T13:07+00:00",
+ "mis_a_jour": "2026-11-17T14:56+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h (risque fort)",
  "regle": "Le prix a bougé de plus de 0,3 % en 24 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
