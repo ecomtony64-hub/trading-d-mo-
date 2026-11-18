@@ -93,6 +93,36 @@
     "Le prix n'est pas sorti de la journée intérieure."
    ],
    "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T13:14+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09733,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Hier n'était pas une journée « intérieure »."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T13:14+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3758.1,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'est pas sorti de la journée intérieure."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
   }
  ],
  "courbe": [
@@ -107,6 +137,10 @@
   {
    "quand": "2026-11-18T12:00+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-18T13:14+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -115,7 +149,7 @@
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-18T12:00+00:00",
+ "mis_a_jour": "2026-11-18T13:14+00:00",
  "erreur_calendrier": null,
  "nom": "Journée intérieure",
  "regle": "Sortie d'une journée restée à l'intérieur de la précédente, objectif 3 fois le risque"
