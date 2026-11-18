@@ -63,6 +63,36 @@
     "Compte trop petit : la plus petite position acceptée par un courtier risquerait 44.44 € (plus de 5 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-18T21:54+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09769,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-18T21:54+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3726.8,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 44.43 € (plus de 5 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -73,6 +103,10 @@
   {
    "quand": "2026-11-18T21:24+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-18T21:54+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -81,7 +115,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-18T21:24+00:00",
+ "mis_a_jour": "2026-11-18T21:54+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 4 h",
  "regle": "Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 4 h, objectif 2 fois le risque"
