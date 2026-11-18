@@ -93,6 +93,36 @@
     "Ce n'est pas l'ouverture du lundi."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-18T23:52+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09757,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Ce n'est pas l'ouverture du lundi."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-18T23:52+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3743.5,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Ce n'est pas l'ouverture du lundi."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -107,6 +137,10 @@
   {
    "quand": "2026-11-18T22:54+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-18T23:52+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -115,7 +149,7 @@
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-18T22:54+00:00",
+ "mis_a_jour": "2026-11-18T23:52+00:00",
  "erreur_calendrier": null,
  "nom": "Trou du lundi",
  "regle": "Le lundi à l'ouverture, si le prix a sauté loin de la clôture du vendredi, on parie qu'il revient, objectif 3 fois le risque"
