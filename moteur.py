@@ -353,6 +353,8 @@ def main():
             raisons.append(f"Déjà {MAX_PAR_MARCHE} trades ouverts sur ce marché.")
         elif sur_marche and d["h1"][-1]["t"] - max(p["t_entree"] for p in sur_marche) < ECART_H * 3600:
             raisons.append(f"Un trade a été ouvert sur ce marché il y a moins de {ECART_H} h.")
+        if etat["capital"] <= 0:
+            raisons.append("Compte vide : il a perdu ses 100 €. Il sera supprimé (avec l'accord de Tony).")
         if fort and etat["capital"] < 0.5 * etat.get("capital_depart", 100.0):
             raisons.append("Compte en pause : il a perdu la moitié de sa mise de départ.")
         plan = None
