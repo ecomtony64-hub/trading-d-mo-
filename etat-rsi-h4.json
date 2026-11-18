@@ -111,40 +111,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-17T13:07+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09951,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Annonce importante trop proche : Core Retail Sales m/m (USD).",
-    "Annonce importante trop proche : Retail Sales m/m (USD).",
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
-   "quand": "2026-11-17T13:07+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3861.8,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'est ni très bas ni très haut sur le graphique de 4 h (indicateur RSI entre 30 et 70).",
-    "Annonce importante trop proche : Core Retail Sales m/m (USD).",
-    "Annonce importante trop proche : Retail Sales m/m (USD)."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
    "quand": "2026-11-17T14:56+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1019,6 +985,37 @@
     "Compte trop petit : la plus petite position acceptée par un courtier risquerait 44.43 € (plus de 5 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-18T22:54+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09769,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'est ni très bas ni très haut sur le graphique de 4 h (indicateur RSI entre 30 et 70).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-18T22:54+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3727.8,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 44.43 € (plus de 5 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1349,6 +1346,10 @@
   {
    "quand": "2026-11-18T21:54+00:00",
    "valeur": 90.31
+  },
+  {
+   "quand": "2026-11-18T22:54+00:00",
+   "valeur": 90.31
   }
  ],
  "valeur": 90.31,
@@ -1356,7 +1357,7 @@
  "methode": "rsi_h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-18T21:54+00:00",
+ "mis_a_jour": "2026-11-18T22:54+00:00",
  "erreur_calendrier": null,
  "nom": "Contre-pied 4 h",
  "regle": "Achat quand le prix est tombé très bas, vente quand il est monté très haut, sur 4 h, objectif 2 fois le risque",
