@@ -33,11 +33,45 @@
     "Pas de signal : après 3 bougies de même couleur (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-18T21:24+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09757,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : après 3 bougies de même couleur (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-18T21:24+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3727.3,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : après 3 bougies de même couleur (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
   {
    "quand": "2026-11-18T21:23+00:00",
+   "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-18T21:24+00:00",
    "valeur": 100.0
   }
  ],
@@ -47,7 +81,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-18T21:23+00:00",
+ "mis_a_jour": "2026-11-18T21:24+00:00",
  "erreur_calendrier": null,
  "nom": "3 bougies, on suit 4 h",
  "regle": "Après 3 bougies de même couleur, on suit le mouvement sur 4 h, objectif 2 fois le risque"
