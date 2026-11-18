@@ -920,5 +920,38 @@
    "--mode",
    "c:roc10-h1"
   ]
+ },
+ "lundi-trou": {
+  "fichier": "etat-lundi-trou.json",
+  "nom": "Trou du lundi",
+  "regle": "Le lundi à l'ouverture, si le prix a sauté loin de la clôture du vendredi, on parie qu'il revient, objectif 3 fois le risque",
+  "args": [
+   "--mode",
+   "lundi_trou",
+   "--ratio",
+   "3"
+  ]
+ },
+ "vendredi": {
+  "fichier": "etat-vendredi.json",
+  "nom": "Vendredi contre-pied",
+  "regle": "Le vendredi après-midi, si la semaine a beaucoup bougé, on parie sur un petit retour, objectif 3 fois le risque",
+  "args": [
+   "--mode",
+   "vendredi",
+   "--ratio",
+   "3"
+  ]
+ },
+ "tortue": {
+  "fichier": "etat-tortue.json",
+  "nom": "Tortue 55 jours",
+  "regle": "Le prix dépasse son plus haut ou plus bas des 55 derniers jours, objectif 1,5 fois le risque",
+  "args": [
+   "--mode",
+   "tortue",
+   "--ratio",
+   "1.5"
+  ]
  }
 }
