@@ -25,37 +25,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-17T04:59+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10072,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de petit retour en arrière dans une tendance de 4 h.",
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-17T04:59+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3877.5,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de petit retour en arrière dans une tendance de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-17T06:00+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -934,6 +903,38 @@
     "Pas de petit retour en arrière dans une tendance de 4 h."
    ],
    "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T18:57+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09806,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h.",
+    "Annonce importante trop proche : FOMC Meeting Minutes (USD)."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T18:57+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3742.1,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h.",
+    "Annonce importante trop proche : FOMC Meeting Minutes (USD)."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
   }
  ],
  "courbe": [
@@ -1240,6 +1241,10 @@
   {
    "quand": "2026-11-18T17:07+00:00",
    "valeur": 107.86
+  },
+  {
+   "quand": "2026-11-18T18:57+00:00",
+   "valeur": 107.86
   }
  ],
  "valeur": 107.86,
@@ -1247,7 +1252,7 @@
  "methode": "repli",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-18T17:07+00:00",
+ "mis_a_jour": "2026-11-18T18:57+00:00",
  "erreur_calendrier": null,
  "nom": "Repli dans la tendance",
  "regle": "Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque",

@@ -40,36 +40,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-17T04:59+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10072,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-17T04:59+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3877.5,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 38.13 € (plus de 5 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-17T06:00+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -941,6 +911,37 @@
     "Compte trop petit : la plus petite position acceptée par un courtier risquerait 44.74 € (plus de 5 % du compte)."
    ],
    "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T18:57+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09806,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Annonce importante trop proche : FOMC Meeting Minutes (USD).",
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T18:57+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3742.1,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Annonce importante trop proche : FOMC Meeting Minutes (USD)."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
   }
  ],
  "courbe": [
@@ -1247,14 +1248,18 @@
   {
    "quand": "2026-11-18T17:07+00:00",
    "valeur": 108.36
+  },
+  {
+   "quand": "2026-11-18T18:57+00:00",
+   "valeur": 107.48
   }
  ],
- "valeur": 108.36,
+ "valeur": 107.48,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "mm_j",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-18T17:07+00:00",
+ "mis_a_jour": "2026-11-18T18:57+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes jour",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur le journalier, objectif 2 fois le risque",
