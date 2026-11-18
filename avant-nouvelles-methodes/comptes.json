@@ -1,0 +1,192 @@
+{
+ "courant": {
+  "fichier": "etat.json",
+  "nom": "Tendance jour + 4 h",
+  "regle": "Les graphiques jour et 4 h vont dans le même sens, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "strict"
+  ]
+ },
+ "actif": {
+  "fichier": "etat-actif.json",
+  "nom": "Tendance 4 h + 1 h",
+  "regle": "Les graphiques 4 h et 1 h vont dans le même sens, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "actif"
+  ]
+ },
+ "triple": {
+  "fichier": "etat-triple.json",
+  "nom": "Triple accord",
+  "regle": "Jour, 4 h et 1 h vont tous dans le même sens, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "triple"
+  ]
+ },
+ "rapide": {
+  "fichier": "etat-rapide.json",
+  "nom": "Tendance 1 h (risque fort)",
+  "regle": "Tendance du graphique d'1 h seul, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
+  "args": [
+   "--mode",
+   "rapide",
+   "--risque",
+   "8"
+  ]
+ },
+ "h4": {
+  "fichier": "etat-h4.json",
+  "nom": "Tendance 4 h",
+  "regle": "Tendance du graphique de 4 h seul, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "h4"
+  ]
+ },
+ "jour": {
+  "fichier": "etat-jour.json",
+  "nom": "Tendance jour",
+  "regle": "Tendance du graphique journalier seul, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "jour"
+  ]
+ },
+ "h1-atr": {
+  "fichier": "etat-h1-atr.json",
+  "nom": "Tendance 1 h, stop serré",
+  "regle": "Tendance d'1 h, stop réglé sur la taille des bougies, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "h1_atr"
+  ]
+ },
+ "h4-atr": {
+  "fichier": "etat-h4-atr.json",
+  "nom": "Tendance 4 h, stop serré",
+  "regle": "Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "h4_atr"
+  ]
+ },
+ "mm-h1": {
+  "fichier": "etat-mm-h1.json",
+  "nom": "Moyennes 1 h (risque fort)",
+  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
+  "args": [
+   "--mode",
+   "mm_h1",
+   "--risque",
+   "8"
+  ]
+ },
+ "mm-h4": {
+  "fichier": "etat-mm-h4.json",
+  "nom": "Moyennes 4 h",
+  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "mm_h4"
+  ]
+ },
+ "mm-j": {
+  "fichier": "etat-mm-j.json",
+  "nom": "Moyennes jour",
+  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur le journalier, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "mm_j"
+  ]
+ },
+ "mm200": {
+  "fichier": "etat-mm200.json",
+  "nom": "Tendance 1 h + moyenne longue",
+  "regle": "Tendance d'1 h confirmée par la moyenne des 200 dernières heures, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "mm200"
+  ]
+ },
+ "cassure-h1": {
+  "fichier": "etat-cassure-h1.json",
+  "nom": "Cassure 1 h (risque fort)",
+  "regle": "Le prix dépasse son plus haut ou plus bas des 20 dernières heures, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
+  "args": [
+   "--mode",
+   "cassure_h1",
+   "--risque",
+   "8"
+  ]
+ },
+ "cassure-h4": {
+  "fichier": "etat-cassure-h4.json",
+  "nom": "Cassure 4 h",
+  "regle": "Le prix dépasse son plus haut ou plus bas des 20 dernières bougies de 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "cassure_h4"
+  ]
+ },
+ "cassure-j": {
+  "fichier": "etat-cassure-j.json",
+  "nom": "Cassure jour",
+  "regle": "Le prix dépasse son plus haut ou plus bas des 20 derniers jours, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "cassure_j"
+  ]
+ },
+ "large": {
+  "fichier": "etat-large.json",
+  "nom": "Cassure 4 h + grande tendance",
+  "regle": "Cassure sur 4 h dans le sens de la moyenne de 50 jours, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "large"
+  ]
+ },
+ "repli": {
+  "fichier": "etat-repli.json",
+  "nom": "Repli dans la tendance",
+  "regle": "Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "repli"
+  ]
+ },
+ "elan": {
+  "fichier": "etat-elan.json",
+  "nom": "Élan 24 h (risque fort)",
+  "regle": "Le prix a bougé de plus de 0,3 % en 24 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
+  "args": [
+   "--mode",
+   "elan",
+   "--risque",
+   "8"
+  ]
+ },
+ "rsi-h1": {
+  "fichier": "etat-rsi-h1.json",
+  "nom": "Contre-pied 1 h (risque fort)",
+  "regle": "Achat quand le prix est tombé très bas, vente quand il est monté très haut, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
+  "args": [
+   "--mode",
+   "rsi_h1",
+   "--risque",
+   "8"
+  ]
+ },
+ "rsi-h4": {
+  "fichier": "etat-rsi-h4.json",
+  "nom": "Contre-pied 4 h",
+  "regle": "Achat quand le prix est tombé très bas, vente quand il est monté très haut, sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "rsi_h4"
+  ]
+ }
+}

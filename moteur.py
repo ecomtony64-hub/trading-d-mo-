@@ -106,6 +106,9 @@ def atr(b, n=14):
 
 
 def signal(mode, d, tj, t4, t1):
+    import os as _o; sys.path.insert(0, _o.path.join(_o.path.dirname(_o.path.abspath(__file__)), "nouvelles-methodes")); import methodes as _nm
+    if mode in _nm.METHODES:
+        return _nm.METHODES[mode][1](d)
     """Renvoie (sens ou None, raison du refus, type de stop) pour la méthode du compte."""
     H, B = "HAUSSIER", "BAISSIER"
 
@@ -208,6 +211,9 @@ def signal(mode, d, tj, t4, t1):
 
 
 def calcul_stop(type_stop, sens, entree, d, h4_hauts, h4_bas, h1_hauts, h1_bas):
+    if type_stop in ("couloir", "bougie"):
+        import methodes as _nm
+        return _nm.stop(type_stop, sens, entree, d)
     if type_stop.startswith("atr"):
         a = atr(d["h1"] if type_stop == "atr_h1" else d["h4"])
         if not a:

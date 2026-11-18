@@ -188,5 +188,71 @@
    "--mode",
    "rsi_h4"
   ]
+ },
+ "macd-h4": {
+  "fichier": "etat-macd-h4.json",
+  "nom": "MACD 4 h",
+  "regle": "Croisement de l'élan (MACD) sur 4 h dans le sens de la moyenne de 50 jours, objectif 3 fois le risque",
+  "args": [
+   "--mode",
+   "macd_h4",
+   "--ratio",
+   "3"
+  ]
+ },
+ "compression": {
+  "fichier": "etat-compression.json",
+  "nom": "Sortie de calme 4 h",
+  "regle": "Après une période très calme sur 4 h, on suit la sortie des bandes, objectif 3 fois le risque",
+  "args": [
+   "--mode",
+   "compression",
+   "--ratio",
+   "3"
+  ]
+ },
+ "londres": {
+  "fichier": "etat-londres.json",
+  "nom": "Ouverture de Londres",
+  "regle": "Cassure du couloir de la nuit à l'ouverture de Londres, objectif 3 fois le risque",
+  "args": [
+   "--mode",
+   "ouverture_londres",
+   "--ratio",
+   "3"
+  ]
+ },
+ "interieure": {
+  "fichier": "etat-interieure.json",
+  "nom": "Journée intérieure",
+  "regle": "Sortie d'une journée restée à l'intérieur de la précédente, objectif 3 fois le risque",
+  "args": [
+   "--mode",
+   "bougie_interieure",
+   "--ratio",
+   "3"
+  ]
+ },
+ "avalement": {
+  "fichier": "etat-avalement.json",
+  "nom": "Bougie de retournement 4 h",
+  "regle": "Bougie qui avale la précédente sur un plus haut ou plus bas de 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "avalement",
+   "--ratio",
+   "2"
+  ]
+ },
+ "elastique": {
+  "fichier": "etat-elastique.json",
+  "nom": "Élastique jour",
+  "regle": "Contre-pied quand le prix est très loin de sa moyenne de 20 jours, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "elastique",
+   "--ratio",
+   "2"
+  ]
  }
 }
