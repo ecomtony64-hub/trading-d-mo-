@@ -1,20 +1,20 @@
 {
  "capital_depart": 100.0,
- "capital": 115.23,
+ "capital": 110.87,
  "positions": [
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
    "sens": "VENTE",
-   "entree": 1.09649,
-   "stop": 1.09762,
-   "objectif": 1.09424,
+   "entree": 1.09806,
+   "stop": 1.09927,
+   "objectif": 1.09563,
    "unites": 3000,
-   "risque": 3.08,
+   "risque": 3.32,
    "marge": 100.0,
    "reel": true,
-   "ouvert_le": "2026-11-18T09:05+00:00",
-   "t_entree": 1794992687
+   "ouvert_le": "2026-11-18T10:08+00:00",
+   "t_entree": 1794996463
   }
  ],
  "historique": [
@@ -150,39 +150,28 @@
    "ferme_le": "2026-11-18T08:00+00:00",
    "frais_nuit": 0.0,
    "resultat": 8.51
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09649,
+   "stop": 1.09762,
+   "objectif": 1.09424,
+   "unites": 3000,
+   "risque": 3.08,
+   "marge": 100.0,
+   "reel": true,
+   "ouvert_le": "2026-11-18T09:05+00:00",
+   "t_entree": 1794992687,
+   "sortie": 1.0980859149932862,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-18T10:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -4.36
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-16T21:50+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10011,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-16T21:50+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3859.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 19.34 € (plus de 10 % du compte)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-16T22:49+00:00",
    "marche": "EURUSD",
@@ -1049,6 +1038,34 @@
     "Compte trop petit : la plus petite position acceptée par un courtier risquerait 21.19 € (plus de 10 % du compte)."
    ],
    "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T10:08+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09806,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T10:08+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3782.4,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 22.34 € (plus de 10 % du compte)."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
   }
  ],
  "courbe": [
@@ -1331,14 +1348,18 @@
   {
    "quand": "2026-11-18T09:33+00:00",
    "valeur": 113.31
+  },
+  {
+   "quand": "2026-11-18T10:08+00:00",
+   "valeur": 110.61
   }
  ],
- "valeur": 113.31,
+ "valeur": 110.61,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "mm_h1",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-18T09:33+00:00",
+ "mis_a_jour": "2026-11-18T10:08+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h (risque fort)",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
