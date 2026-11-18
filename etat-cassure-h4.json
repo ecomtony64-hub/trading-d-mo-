@@ -20,37 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-16T15:19+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10193,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h).",
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-16T15:19+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3879.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-16T17:13+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -953,6 +922,37 @@
     "Compte trop petit : la plus petite position acceptée par un courtier risquerait 45.21 € (plus de 5 % du compte)."
    ],
    "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T05:02+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09926,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h).",
+    "Une position est déjà ouverte sur ce marché."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T05:02+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3785.5,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 43.17 € (plus de 5 % du compte)."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
   }
  ],
  "courbe": [
@@ -1215,14 +1215,18 @@
   {
    "quand": "2026-11-18T03:57+00:00",
    "valeur": 104.11
+  },
+  {
+   "quand": "2026-11-18T05:02+00:00",
+   "valeur": 104.22
   }
  ],
- "valeur": 104.11,
+ "valeur": 104.22,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "cassure_h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-18T03:57+00:00",
+ "mis_a_jour": "2026-11-18T05:02+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 4 h",
  "regle": "Le prix dépasse son plus haut ou plus bas des 20 dernières bougies de 4 h, objectif 2 fois le risque",
