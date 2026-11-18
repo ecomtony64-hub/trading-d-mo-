@@ -40,36 +40,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-17T06:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10144,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-17T06:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3886.2,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-17T07:18+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -959,6 +929,36 @@
     "Annonce importante trop proche : FOMC Meeting Minutes (USD)."
    ],
    "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T20:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09685,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-18T20:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3725.4,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1269,14 +1269,18 @@
   {
    "quand": "2026-11-18T18:57+00:00",
    "valeur": 107.48
+  },
+  {
+   "quand": "2026-11-18T20:00+00:00",
+   "valeur": 108.58
   }
  ],
- "valeur": 107.48,
+ "valeur": 108.58,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "h4_atr",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-18T18:57+00:00",
+ "mis_a_jour": "2026-11-18T20:00+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h, stop serré",
  "regle": "Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque",

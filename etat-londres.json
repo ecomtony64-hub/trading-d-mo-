@@ -245,6 +245,36 @@
     "Annonce importante trop proche : FOMC Meeting Minutes (USD)."
    ],
    "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T20:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09685,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Ce n'est pas la matinée de Londres."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-18T20:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3725.4,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Ce n'est pas la matinée de Londres."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -279,6 +309,10 @@
   {
    "quand": "2026-11-18T18:57+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-18T20:00+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -287,7 +321,7 @@
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-18T18:57+00:00",
+ "mis_a_jour": "2026-11-18T20:00+00:00",
  "erreur_calendrier": null,
  "nom": "Ouverture de Londres",
  "regle": "Cassure du couloir de la nuit à l'ouverture de Londres, objectif 3 fois le risque"
