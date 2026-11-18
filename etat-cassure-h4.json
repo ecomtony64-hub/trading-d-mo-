@@ -1,7 +1,23 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
+ "capital": 106.28,
  "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09649,
+   "stop": 1.09947,
+   "objectif": 1.09053,
+   "unites": 1000,
+   "risque": 2.72,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-18T09:05+00:00",
+   "t_entree": 1794992687
+  }
+ ],
+ "historique": [
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -14,42 +30,15 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-13T15:30+00:00",
-   "t_entree": 1794583769
+   "t_entree": 1794583769,
+   "sortie": 1.09691,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-18T08:00+00:00",
+   "frais_nuit": 0.18,
+   "resultat": 6.28
   }
  ],
- "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-16T19:58+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10059,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h).",
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-16T19:58+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3864.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-16T20:52+00:00",
    "marche": "EURUSD",
@@ -952,6 +941,34 @@
     "Compte trop petit : la plus petite position acceptée par un courtier risquerait 45.65 € (plus de 5 % du compte)."
    ],
    "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T09:05+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09649,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T09:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3768.2,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
   }
  ],
  "courbe": [
@@ -1226,14 +1243,18 @@
   {
    "quand": "2026-11-18T07:21+00:00",
    "valeur": 104.99
+  },
+  {
+   "quand": "2026-11-18T09:05+00:00",
+   "valeur": 106.19
   }
  ],
- "valeur": 104.99,
+ "valeur": 106.19,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "cassure_h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-18T07:21+00:00",
+ "mis_a_jour": "2026-11-18T09:05+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 4 h",
  "regle": "Le prix dépasse son plus haut ou plus bas des 20 dernières bougies de 4 h, objectif 2 fois le risque",

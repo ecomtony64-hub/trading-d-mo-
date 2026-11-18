@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 106.43,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09649,
+   "stop": 1.09987,
+   "objectif": 1.08974,
+   "unites": 1000,
+   "risque": 3.08,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-18T09:05+00:00",
+   "t_entree": 1794992687
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -43,37 +58,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-16T19:58+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10059,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord.",
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-16T19:58+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3864.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-16T20:52+00:00",
    "marche": "EURUSD",
@@ -955,6 +939,34 @@
     "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
    ],
    "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T09:05+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09649,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
+  },
+  {
+   "quand": "2026-11-18T09:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3768.2,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
+   ],
+   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
   }
  ],
  "courbe": [
@@ -1229,14 +1241,18 @@
   {
    "quand": "2026-11-18T07:21+00:00",
    "valeur": 106.43
+  },
+  {
+   "quand": "2026-11-18T09:05+00:00",
+   "valeur": 106.34
   }
  ],
- "valeur": 106.43,
+ "valeur": 106.34,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "mm200",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-18T07:21+00:00",
+ "mis_a_jour": "2026-11-18T09:05+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h + moyenne longue",
  "regle": "Tendance d'1 h confirmée par la moyenne des 200 dernières heures, objectif 2 fois le risque",
