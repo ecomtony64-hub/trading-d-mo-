@@ -1,0 +1,802 @@
+[
+ {
+  "cle": "donch10-h1",
+  "nom": "Cassure 10 bougies 1 h",
+  "trades": 1314,
+  "gagnes_pct": 38,
+  "R_ancien": 40.7,
+  "R_recent": 8.9
+ },
+ {
+  "cle": "stochc-h4",
+  "nom": "Stochastique contre-pied 4 h",
+  "trades": 231,
+  "gagnes_pct": 38,
+  "R_ancien": 19.1,
+  "R_recent": 3.4
+ },
+ {
+  "cle": "macd5-35-j",
+  "nom": "MACD 5/35/5 jour",
+  "trades": 15,
+  "gagnes_pct": 67,
+  "R_ancien": 8.9,
+  "R_recent": 5.9
+ },
+ {
+  "cle": "super2-h4",
+  "nom": "Stop suiveur 2x 4 h",
+  "trades": 183,
+  "gagnes_pct": 39,
+  "R_ancien": 27.7,
+  "R_recent": -2.8
+ },
+ {
+  "cle": "mm10-30-h4",
+  "nom": "Moyennes 10/30 4 h",
+  "trades": 147,
+  "gagnes_pct": 39,
+  "R_ancien": 22.4,
+  "R_recent": -2.0
+ },
+ {
+  "cle": "heikin-j",
+  "nom": "Changement de couleur lissé jour",
+  "trades": 14,
+  "gagnes_pct": 50,
+  "R_ancien": 2.9,
+  "R_recent": 3.9
+ },
+ {
+  "cle": "mm20-50-h4",
+  "nom": "Moyennes 20/50 4 h",
+  "trades": 94,
+  "gagnes_pct": 39,
+  "R_ancien": 16.2,
+  "R_recent": -3.4
+ },
+ {
+  "cle": "ema9-21-j",
+  "nom": "Moyennes rapides 9/21 jour",
+  "trades": 14,
+  "gagnes_pct": 43,
+  "R_ancien": 0.9,
+  "R_recent": 2.9
+ },
+ {
+  "cle": "ema21-55-j",
+  "nom": "Moyennes rapides 21/55 jour",
+  "trades": 9,
+  "gagnes_pct": 44,
+  "R_ancien": 1.9,
+  "R_recent": 0.9
+ },
+ {
+  "cle": "donch10-j",
+  "nom": "Cassure 10 bougies jour",
+  "trades": 18,
+  "gagnes_pct": 44,
+  "R_ancien": -1.1,
+  "R_recent": 6.9
+ },
+ {
+  "cle": "donch20-j",
+  "nom": "Cassure 20 bougies jour",
+  "trades": 14,
+  "gagnes_pct": 43,
+  "R_ancien": -1.1,
+  "R_recent": 4.9
+ },
+ {
+  "cle": "ema12-26-j",
+  "nom": "Moyennes rapides 12/26 jour",
+  "trades": 12,
+  "gagnes_pct": 42,
+  "R_ancien": -0.1,
+  "R_recent": 2.9
+ },
+ {
+  "cle": "mm10-50-h4",
+  "nom": "Moyennes 10/50 4 h",
+  "trades": 109,
+  "gagnes_pct": 39,
+  "R_ancien": 16.8,
+  "R_recent": -4.7
+ },
+ {
+  "cle": "pinbar-h4",
+  "nom": "Bougie à longue mèche 4 h",
+  "trades": 95,
+  "gagnes_pct": 35,
+  "R_ancien": -0.0,
+  "R_recent": -0.2
+ },
+ {
+  "cle": "roc20-j",
+  "nom": "Élan 20 bougies jour",
+  "trades": 17,
+  "gagnes_pct": 35,
+  "R_ancien": -2.1,
+  "R_recent": 2.9
+ },
+ {
+  "cle": "donch55-j",
+  "nom": "Cassure 55 bougies jour",
+  "trades": 7,
+  "gagnes_pct": 29,
+  "R_ancien": -1.0,
+  "R_recent": -0.0
+ },
+ {
+  "cle": "macd12-26-j",
+  "nom": "MACD 12/26/9 jour",
+  "trades": 23,
+  "gagnes_pct": 35,
+  "R_ancien": -3.2,
+  "R_recent": 3.9
+ },
+ {
+  "cle": "roc10-j",
+  "nom": "Élan 10 bougies jour",
+  "trades": 24,
+  "gagnes_pct": 33,
+  "R_ancien": -2.2,
+  "R_recent": 1.9
+ },
+ {
+  "cle": "interieure-h4",
+  "nom": "Sortie de bougie intérieure 4 h",
+  "trades": 113,
+  "gagnes_pct": 37,
+  "R_ancien": 12.5,
+  "R_recent": -4.6
+ },
+ {
+  "cle": "mm20-100-h1",
+  "nom": "Moyennes 20/100 1 h",
+  "trades": 200,
+  "gagnes_pct": 38,
+  "R_ancien": 11.8,
+  "R_recent": -5.0
+ },
+ {
+  "cle": "aroon-h4",
+  "nom": "Aroon 4 h",
+  "trades": 155,
+  "gagnes_pct": 37,
+  "R_ancien": 15.1,
+  "R_recent": -6.0
+ },
+ {
+  "cle": "boll25r-h4",
+  "nom": "Rebond bandes 2.5 4 h",
+  "trades": 119,
+  "gagnes_pct": 37,
+  "R_ancien": 13.4,
+  "R_recent": -5.6
+ },
+ {
+  "cle": "mm5-20-h4",
+  "nom": "Moyennes 5/20 4 h",
+  "trades": 191,
+  "gagnes_pct": 35,
+  "R_ancien": 5.3,
+  "R_recent": -3.7
+ },
+ {
+  "cle": "roc20-h4",
+  "nom": "Élan 20 bougies 4 h",
+  "trades": 190,
+  "gagnes_pct": 38,
+  "R_ancien": 32.4,
+  "R_recent": -11.9
+ },
+ {
+  "cle": "bollc-j",
+  "nom": "Sortie des bandes jour",
+  "trades": 19,
+  "gagnes_pct": 32,
+  "R_ancien": 1.9,
+  "R_recent": -3.1
+ },
+ {
+  "cle": "pinbar-j",
+  "nom": "Bougie à longue mèche jour",
+  "trades": 33,
+  "gagnes_pct": 30,
+  "R_ancien": -1.2,
+  "R_recent": -2.3
+ },
+ {
+  "cle": "ema12-26-h4",
+  "nom": "Moyennes rapides 12/26 4 h",
+  "trades": 134,
+  "gagnes_pct": 37,
+  "R_ancien": 14.1,
+  "R_recent": -7.0
+ },
+ {
+  "cle": "super3-h4",
+  "nom": "Stop suiveur 3x 4 h",
+  "trades": 123,
+  "gagnes_pct": 36,
+  "R_ancien": 9.4,
+  "R_recent": -5.8
+ },
+ {
+  "cle": "repli20-h4",
+  "nom": "Retour sur la moyenne 20 4 h",
+  "trades": 177,
+  "gagnes_pct": 34,
+  "R_ancien": -9.1,
+  "R_recent": 7.3
+ },
+ {
+  "cle": "super3-j",
+  "nom": "Stop suiveur 3x jour",
+  "trades": 13,
+  "gagnes_pct": 23,
+  "R_ancien": -1.1,
+  "R_recent": -3.1
+ },
+ {
+  "cle": "super2-j",
+  "nom": "Stop suiveur 2x jour",
+  "trades": 15,
+  "gagnes_pct": 20,
+  "R_ancien": -6.1,
+  "R_recent": -0.0
+ },
+ {
+  "cle": "mm20-100-h4",
+  "nom": "Moyennes 20/100 4 h",
+  "trades": 60,
+  "gagnes_pct": 32,
+  "R_ancien": -6.8,
+  "R_recent": 1.2
+ },
+ {
+  "cle": "donch20f-h4",
+  "nom": "Cassure 20 + moyenne 200 4 h",
+  "trades": 167,
+  "gagnes_pct": 33,
+  "R_ancien": -6.9,
+  "R_recent": -2.4
+ },
+ {
+  "cle": "ema9-21-h4",
+  "nom": "Moyennes rapides 9/21 4 h",
+  "trades": 155,
+  "gagnes_pct": 35,
+  "R_ancien": 8.4,
+  "R_recent": -8.2
+ },
+ {
+  "cle": "bollc-h4",
+  "nom": "Sortie des bandes 4 h",
+  "trades": 200,
+  "gagnes_pct": 33,
+  "R_ancien": -6.9,
+  "R_recent": -4.0
+ },
+ {
+  "cle": "rsi50-21-h4",
+  "nom": "RSI 21 passe 50 4 h",
+  "trades": 122,
+  "gagnes_pct": 34,
+  "R_ancien": 2.8,
+  "R_recent": -7.1
+ },
+ {
+  "cle": "ccis-h4",
+  "nom": "CCI suivi 4 h",
+  "trades": 237,
+  "gagnes_pct": 35,
+  "R_ancien": 6.7,
+  "R_recent": -8.3
+ },
+ {
+  "cle": "rsi7-30-h4",
+  "nom": "RSI 7 (30/70) 4 h",
+  "trades": 253,
+  "gagnes_pct": 33,
+  "R_ancien": -8.8,
+  "R_recent": -3.4
+ },
+ {
+  "cle": "ccic-h4",
+  "nom": "CCI contre-pied 4 h",
+  "trades": 259,
+  "gagnes_pct": 35,
+  "R_ancien": 8.6,
+  "R_recent": -9.3
+ },
+ {
+  "cle": "donch55-h4",
+  "nom": "Cassure 55 bougies 4 h",
+  "trades": 135,
+  "gagnes_pct": 33,
+  "R_ancien": -14.1,
+  "R_recent": 5.3
+ },
+ {
+  "cle": "rsi7-35-h4",
+  "nom": "RSI 7 (35/65) 4 h",
+  "trades": 256,
+  "gagnes_pct": 35,
+  "R_ancien": 13.8,
+  "R_recent": -11.2
+ },
+ {
+  "cle": "ema21-55-h4",
+  "nom": "Moyennes rapides 21/55 4 h",
+  "trades": 89,
+  "gagnes_pct": 31,
+  "R_ancien": -2.3,
+  "R_recent": -6.7
+ },
+ {
+  "cle": "williams-h4",
+  "nom": "Williams %R 4 h",
+  "trades": 278,
+  "gagnes_pct": 33,
+  "R_ancien": -4.4,
+  "R_recent": -6.8
+ },
+ {
+  "cle": "rsi14-25-h4",
+  "nom": "RSI 14 (25/75) 4 h",
+  "trades": 55,
+  "gagnes_pct": 29,
+  "R_ancien": -0.4,
+  "R_recent": -8.7
+ },
+ {
+  "cle": "kelt20-h4",
+  "nom": "Canal de Keltner 2 4 h",
+  "trades": 154,
+  "gagnes_pct": 32,
+  "R_ancien": -16.6,
+  "R_recent": 2.9
+ },
+ {
+  "cle": "adx-h4",
+  "nom": "ADX + croisement DI 4 h",
+  "trades": 158,
+  "gagnes_pct": 34,
+  "R_ancien": 9.4,
+  "R_recent": -12.3
+ },
+ {
+  "cle": "rsi50-14-h4",
+  "nom": "RSI 14 passe 50 4 h",
+  "trades": 152,
+  "gagnes_pct": 32,
+  "R_ancien": -17.4,
+  "R_recent": 2.7
+ },
+ {
+  "cle": "trois-h4",
+  "nom": "3 bougies, on suit 4 h",
+  "trades": 275,
+  "gagnes_pct": 36,
+  "R_ancien": 28.8,
+  "R_recent": -19.0
+ },
+ {
+  "cle": "rsi14-30-h1",
+  "nom": "RSI 14 (30/70) 1 h",
+  "trades": 429,
+  "gagnes_pct": 35,
+  "R_ancien": -15.8,
+  "R_recent": -3.8
+ },
+ {
+  "cle": "rsi14-35-h4",
+  "nom": "RSI 14 (35/65) 4 h",
+  "trades": 197,
+  "gagnes_pct": 32,
+  "R_ancien": -4.3,
+  "R_recent": -9.5
+ },
+ {
+  "cle": "macd12-26-h4",
+  "nom": "MACD 12/26/9 4 h",
+  "trades": 228,
+  "gagnes_pct": 32,
+  "R_ancien": -11.7,
+  "R_recent": -7.4
+ },
+ {
+  "cle": "donch20-h4",
+  "nom": "Cassure 20 bougies 4 h",
+  "trades": 220,
+  "gagnes_pct": 32,
+  "R_ancien": -7.3,
+  "R_recent": -9.3
+ },
+ {
+  "cle": "rsi14-25-h1",
+  "nom": "RSI 14 (25/75) 1 h",
+  "trades": 231,
+  "gagnes_pct": 33,
+  "R_ancien": -8.9,
+  "R_recent": -10.3
+ },
+ {
+  "cle": "rsi7-25-h4",
+  "nom": "RSI 7 (25/75) 4 h",
+  "trades": 210,
+  "gagnes_pct": 31,
+  "R_ancien": -9.6,
+  "R_recent": -11.7
+ },
+ {
+  "cle": "macd5-35-h4",
+  "nom": "MACD 5/35/5 4 h",
+  "trades": 265,
+  "gagnes_pct": 31,
+  "R_ancien": -21.4,
+  "R_recent": -6.2
+ },
+ {
+  "cle": "boll20r-h4",
+  "nom": "Rebond bandes 2 4 h",
+  "trades": 211,
+  "gagnes_pct": 31,
+  "R_ancien": -13.5,
+  "R_recent": -11.9
+ },
+ {
+  "cle": "donch10-h4",
+  "nom": "Cassure 10 bougies 4 h",
+  "trades": 293,
+  "gagnes_pct": 33,
+  "R_ancien": -2.2,
+  "R_recent": -15.6
+ },
+ {
+  "cle": "kelt15-h4",
+  "nom": "Canal de Keltner 1.5 4 h",
+  "trades": 212,
+  "gagnes_pct": 30,
+  "R_ancien": -18.6,
+  "R_recent": -10.9
+ },
+ {
+  "cle": "ema21-55-h1",
+  "nom": "Moyennes rapides 21/55 1 h",
+  "trades": 272,
+  "gagnes_pct": 33,
+  "R_ancien": -11.5,
+  "R_recent": -13.2
+ },
+ {
+  "cle": "stochs-h4",
+  "nom": "Stochastique suivi 4 h",
+  "trades": 221,
+  "gagnes_pct": 31,
+  "R_ancien": -10.7,
+  "R_recent": -13.5
+ },
+ {
+  "cle": "roc10-h4",
+  "nom": "Élan 10 bougies 4 h",
+  "trades": 246,
+  "gagnes_pct": 32,
+  "R_ancien": -7.3,
+  "R_recent": -15.8
+ },
+ {
+  "cle": "troisc-h4",
+  "nom": "3 bougies, contre-pied 4 h",
+  "trades": 270,
+  "gagnes_pct": 31,
+  "R_ancien": -33.4,
+  "R_recent": 6.4
+ },
+ {
+  "cle": "rsi14-30-h4",
+  "nom": "RSI 14 (30/70) 4 h",
+  "trades": 125,
+  "gagnes_pct": 30,
+  "R_ancien": 3.3,
+  "R_recent": -19.7
+ },
+ {
+  "cle": "boll25r-h1",
+  "nom": "Rebond bandes 2.5 1 h",
+  "trades": 515,
+  "gagnes_pct": 34,
+  "R_ancien": -33.8,
+  "R_recent": -6.2
+ },
+ {
+  "cle": "repli20-h1",
+  "nom": "Retour sur la moyenne 20 1 h",
+  "trades": 674,
+  "gagnes_pct": 35,
+  "R_ancien": -6.6,
+  "R_recent": -20.4
+ },
+ {
+  "cle": "ema12-26-h1",
+  "nom": "Moyennes rapides 12/26 1 h",
+  "trades": 514,
+  "gagnes_pct": 34,
+  "R_ancien": -35.1,
+  "R_recent": -5.8
+ },
+ {
+  "cle": "heikin-h4",
+  "nom": "Changement de couleur lissé 4 h",
+  "trades": 307,
+  "gagnes_pct": 30,
+  "R_ancien": -30.8,
+  "R_recent": -13.8
+ },
+ {
+  "cle": "super3-h1",
+  "nom": "Stop suiveur 3x 1 h",
+  "trades": 506,
+  "gagnes_pct": 34,
+  "R_ancien": -42.6,
+  "R_recent": -2.7
+ },
+ {
+  "cle": "rsi7-25-h1",
+  "nom": "RSI 7 (25/75) 1 h",
+  "trades": 738,
+  "gagnes_pct": 34,
+  "R_ancien": -38.3,
+  "R_recent": -15.4
+ },
+ {
+  "cle": "rsi50-14-h1",
+  "nom": "RSI 14 passe 50 1 h",
+  "trades": 594,
+  "gagnes_pct": 34,
+  "R_ancien": -47.0,
+  "R_recent": -5.1
+ },
+ {
+  "cle": "rsi50-21-h1",
+  "nom": "RSI 21 passe 50 1 h",
+  "trades": 511,
+  "gagnes_pct": 34,
+  "R_ancien": -20.0,
+  "R_recent": -23.8
+ },
+ {
+  "cle": "donch20f-h1",
+  "nom": "Cassure 20 + moyenne 200 1 h",
+  "trades": 762,
+  "gagnes_pct": 35,
+  "R_ancien": -12.8,
+  "R_recent": -27.3
+ },
+ {
+  "cle": "ema9-21-h1",
+  "nom": "Moyennes rapides 9/21 1 h",
+  "trades": 591,
+  "gagnes_pct": 33,
+  "R_ancien": -46.7,
+  "R_recent": -15.0
+ },
+ {
+  "cle": "roc10-h1",
+  "nom": "Élan 10 bougies 1 h",
+  "trades": 975,
+  "gagnes_pct": 35,
+  "R_ancien": -54.3,
+  "R_recent": -3.8
+ },
+ {
+  "cle": "donch55-h1",
+  "nom": "Cassure 55 bougies 1 h",
+  "trades": 551,
+  "gagnes_pct": 33,
+  "R_ancien": -41.7,
+  "R_recent": -21.6
+ },
+ {
+  "cle": "mm20-50-h1",
+  "nom": "Moyennes 20/50 1 h",
+  "trades": 355,
+  "gagnes_pct": 33,
+  "R_ancien": -6.5,
+  "R_recent": -32.4
+ },
+ {
+  "cle": "williams-h1",
+  "nom": "Williams %R 1 h",
+  "trades": 1106,
+  "gagnes_pct": 35,
+  "R_ancien": -52.1,
+  "R_recent": -12.4
+ },
+ {
+  "cle": "mm10-30-h1",
+  "nom": "Moyennes 10/30 1 h",
+  "trades": 537,
+  "gagnes_pct": 36,
+  "R_ancien": 26.4,
+  "R_recent": -43.2
+ },
+ {
+  "cle": "roc20-h1",
+  "nom": "Élan 20 bougies 1 h",
+  "trades": 859,
+  "gagnes_pct": 35,
+  "R_ancien": -63.9,
+  "R_recent": 9.5
+ },
+ {
+  "cle": "mm10-50-h1",
+  "nom": "Moyennes 10/50 1 h",
+  "trades": 386,
+  "gagnes_pct": 32,
+  "R_ancien": -22.0,
+  "R_recent": -29.1
+ },
+ {
+  "cle": "macd12-26-h1",
+  "nom": "MACD 12/26/9 1 h",
+  "trades": 898,
+  "gagnes_pct": 35,
+  "R_ancien": -78.2,
+  "R_recent": 34.5
+ },
+ {
+  "cle": "heikin-h1",
+  "nom": "Changement de couleur lissé 1 h",
+  "trades": 1172,
+  "gagnes_pct": 35,
+  "R_ancien": -67.6,
+  "R_recent": 6.5
+ },
+ {
+  "cle": "troisc-h1",
+  "nom": "3 bougies, contre-pied 1 h",
+  "trades": 976,
+  "gagnes_pct": 34,
+  "R_ancien": -53.3,
+  "R_recent": -22.9
+ },
+ {
+  "cle": "donch20-h1",
+  "nom": "Cassure 20 bougies 1 h",
+  "trades": 959,
+  "gagnes_pct": 35,
+  "R_ancien": 4.1,
+  "R_recent": -41.7
+ },
+ {
+  "cle": "stochc-h1",
+  "nom": "Stochastique contre-pied 1 h",
+  "trades": 878,
+  "gagnes_pct": 34,
+  "R_ancien": -83.0,
+  "R_recent": 12.3
+ },
+ {
+  "cle": "ccis-h1",
+  "nom": "CCI suivi 1 h",
+  "trades": 1061,
+  "gagnes_pct": 34,
+  "R_ancien": -70.0,
+  "R_recent": -19.0
+ },
+ {
+  "cle": "rsi14-35-h1",
+  "nom": "RSI 14 (35/65) 1 h",
+  "trades": 733,
+  "gagnes_pct": 33,
+  "R_ancien": -84.0,
+  "R_recent": 2.3
+ },
+ {
+  "cle": "trois-h1",
+  "nom": "3 bougies, on suit 1 h",
+  "trades": 1063,
+  "gagnes_pct": 34,
+  "R_ancien": -31.2,
+  "R_recent": -40.7
+ },
+ {
+  "cle": "boll20r-h1",
+  "nom": "Rebond bandes 2 1 h",
+  "trades": 839,
+  "gagnes_pct": 33,
+  "R_ancien": -76.1,
+  "R_recent": -15.4
+ },
+ {
+  "cle": "macd5-35-h1",
+  "nom": "MACD 5/35/5 1 h",
+  "trades": 1066,
+  "gagnes_pct": 34,
+  "R_ancien": -85.8,
+  "R_recent": -2.0
+ },
+ {
+  "cle": "kelt15-h1",
+  "nom": "Canal de Keltner 1.5 1 h",
+  "trades": 920,
+  "gagnes_pct": 33,
+  "R_ancien": -58.0,
+  "R_recent": -35.0
+ },
+ {
+  "cle": "super2-h1",
+  "nom": "Stop suiveur 2x 1 h",
+  "trades": 748,
+  "gagnes_pct": 32,
+  "R_ancien": -76.4,
+  "R_recent": -27.8
+ },
+ {
+  "cle": "ccic-h1",
+  "nom": "CCI contre-pied 1 h",
+  "trades": 897,
+  "gagnes_pct": 33,
+  "R_ancien": -87.5,
+  "R_recent": -8.4
+ },
+ {
+  "cle": "mm5-20-h1",
+  "nom": "Moyennes 5/20 1 h",
+  "trades": 754,
+  "gagnes_pct": 32,
+  "R_ancien": -92.3,
+  "R_recent": -9.1
+ },
+ {
+  "cle": "kelt20-h1",
+  "nom": "Canal de Keltner 2 1 h",
+  "trades": 685,
+  "gagnes_pct": 32,
+  "R_ancien": -43.8,
+  "R_recent": -45.3
+ },
+ {
+  "cle": "rsi7-30-h1",
+  "nom": "RSI 7 (30/70) 1 h",
+  "trades": 934,
+  "gagnes_pct": 32,
+  "R_ancien": -82.5,
+  "R_recent": -39.5
+ },
+ {
+  "cle": "adx-h1",
+  "nom": "ADX + croisement DI 1 h",
+  "trades": 659,
+  "gagnes_pct": 31,
+  "R_ancien": -96.2,
+  "R_recent": -26.5
+ },
+ {
+  "cle": "bollc-h1",
+  "nom": "Sortie des bandes 1 h",
+  "trades": 873,
+  "gagnes_pct": 32,
+  "R_ancien": -64.2,
+  "R_recent": -52.0
+ },
+ {
+  "cle": "rsi7-35-h1",
+  "nom": "RSI 7 (35/65) 1 h",
+  "trades": 1029,
+  "gagnes_pct": 32,
+  "R_ancien": -103.8,
+  "R_recent": -31.0
+ },
+ {
+  "cle": "stochs-h1",
+  "nom": "Stochastique suivi 1 h",
+  "trades": 900,
+  "gagnes_pct": 32,
+  "R_ancien": -80.5,
+  "R_recent": -56.0
+ }
+]
