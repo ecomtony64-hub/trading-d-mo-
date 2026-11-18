@@ -254,5 +254,671 @@
    "--ratio",
    "2"
   ]
+ },
+ "c-donch10-h1": {
+  "fichier": "etat-c-donch10-h1.json",
+  "nom": "Cassure 10 bougies 1 h",
+  "regle": "Le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:donch10-h1"
+  ]
+ },
+ "c-stochc-h4": {
+  "fichier": "etat-c-stochc-h4.json",
+  "nom": "Stochastique contre-pied 4 h",
+  "regle": "Contre-pied : la stochastique ressort de 20/80 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:stochc-h4"
+  ]
+ },
+ "c-macd5-35-j": {
+  "fichier": "etat-c-macd5-35-j.json",
+  "nom": "MACD 5/35/5 jour",
+  "regle": "Croisement du MACD 5/35/5 sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:macd5-35-j"
+  ]
+ },
+ "c-super2-h4": {
+  "fichier": "etat-c-super2-h4.json",
+  "nom": "Stop suiveur 2x 4 h",
+  "regle": "Le prix traverse une ligne suiveuse à 2 fois la taille moyenne des bougies sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:super2-h4"
+  ]
+ },
+ "c-mm10-30-h4": {
+  "fichier": "etat-c-mm10-30-h4.json",
+  "nom": "Moyennes 10/30 4 h",
+  "regle": "La moyenne de 10 bougies croise celle de 30 sur le graphique 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:mm10-30-h4"
+  ]
+ },
+ "c-heikin-j": {
+  "fichier": "etat-c-heikin-j.json",
+  "nom": "Changement de couleur lissé jour",
+  "regle": "Les bougies lissées (Heikin-Ashi) changent de couleur sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:heikin-j"
+  ]
+ },
+ "c-mm20-50-h4": {
+  "fichier": "etat-c-mm20-50-h4.json",
+  "nom": "Moyennes 20/50 4 h",
+  "regle": "La moyenne de 20 bougies croise celle de 50 sur le graphique 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:mm20-50-h4"
+  ]
+ },
+ "c-ema9-21-j": {
+  "fichier": "etat-c-ema9-21-j.json",
+  "nom": "Moyennes rapides 9/21 jour",
+  "regle": "Croisement des moyennes rapides 9 et 21 sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:ema9-21-j"
+  ]
+ },
+ "c-ema21-55-j": {
+  "fichier": "etat-c-ema21-55-j.json",
+  "nom": "Moyennes rapides 21/55 jour",
+  "regle": "Croisement des moyennes rapides 21 et 55 sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:ema21-55-j"
+  ]
+ },
+ "c-donch10-j": {
+  "fichier": "etat-c-donch10-j.json",
+  "nom": "Cassure 10 bougies jour",
+  "regle": "Le prix casse le plus haut ou le plus bas des 10 dernières bougies sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:donch10-j"
+  ]
+ },
+ "c-donch20-j": {
+  "fichier": "etat-c-donch20-j.json",
+  "nom": "Cassure 20 bougies jour",
+  "regle": "Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:donch20-j"
+  ]
+ },
+ "c-ema12-26-j": {
+  "fichier": "etat-c-ema12-26-j.json",
+  "nom": "Moyennes rapides 12/26 jour",
+  "regle": "Croisement des moyennes rapides 12 et 26 sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:ema12-26-j"
+  ]
+ },
+ "c-mm10-50-h4": {
+  "fichier": "etat-c-mm10-50-h4.json",
+  "nom": "Moyennes 10/50 4 h",
+  "regle": "La moyenne de 10 bougies croise celle de 50 sur le graphique 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:mm10-50-h4"
+  ]
+ },
+ "c-pinbar-h4": {
+  "fichier": "etat-c-pinbar-h4.json",
+  "nom": "Bougie à longue mèche 4 h",
+  "regle": "Bougie à longue mèche sur un extrême des 20 dernières sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:pinbar-h4"
+  ]
+ },
+ "c-roc20-j": {
+  "fichier": "etat-c-roc20-j.json",
+  "nom": "Élan 20 bougies jour",
+  "regle": "Le prix repasse au-dessus ou en dessous de son niveau d'il y a 20 bougies sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:roc20-j"
+  ]
+ },
+ "c-donch55-j": {
+  "fichier": "etat-c-donch55-j.json",
+  "nom": "Cassure 55 bougies jour",
+  "regle": "Le prix casse le plus haut ou le plus bas des 55 dernières bougies sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:donch55-j"
+  ]
+ },
+ "c-macd12-26-j": {
+  "fichier": "etat-c-macd12-26-j.json",
+  "nom": "MACD 12/26/9 jour",
+  "regle": "Croisement du MACD 12/26/9 sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:macd12-26-j"
+  ]
+ },
+ "c-roc10-j": {
+  "fichier": "etat-c-roc10-j.json",
+  "nom": "Élan 10 bougies jour",
+  "regle": "Le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:roc10-j"
+  ]
+ },
+ "c-interieure-h4": {
+  "fichier": "etat-c-interieure-h4.json",
+  "nom": "Sortie de bougie intérieure 4 h",
+  "regle": "Le prix sort d'une bougie restée dans la précédente sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:interieure-h4"
+  ]
+ },
+ "c-mm20-100-h1": {
+  "fichier": "etat-c-mm20-100-h1.json",
+  "nom": "Moyennes 20/100 1 h",
+  "regle": "La moyenne de 20 bougies croise celle de 100 sur le graphique 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:mm20-100-h1"
+  ]
+ },
+ "c-aroon-h4": {
+  "fichier": "etat-c-aroon-h4.json",
+  "nom": "Aroon 4 h",
+  "regle": "Les lignes Aroon haut/bas se croisent sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:aroon-h4"
+  ]
+ },
+ "c-boll25r-h4": {
+  "fichier": "etat-c-boll25r-h4.json",
+  "nom": "Rebond bandes 2.5 4 h",
+  "regle": "Contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:boll25r-h4"
+  ]
+ },
+ "c-mm5-20-h4": {
+  "fichier": "etat-c-mm5-20-h4.json",
+  "nom": "Moyennes 5/20 4 h",
+  "regle": "La moyenne de 5 bougies croise celle de 20 sur le graphique 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:mm5-20-h4"
+  ]
+ },
+ "c-roc20-h4": {
+  "fichier": "etat-c-roc20-h4.json",
+  "nom": "Élan 20 bougies 4 h",
+  "regle": "Le prix repasse au-dessus ou en dessous de son niveau d'il y a 20 bougies sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:roc20-h4"
+  ]
+ },
+ "c-bollc-j": {
+  "fichier": "etat-c-bollc-j.json",
+  "nom": "Sortie des bandes jour",
+  "regle": "Suivi : le prix sort des bandes de Bollinger sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:bollc-j"
+  ]
+ },
+ "c-pinbar-j": {
+  "fichier": "etat-c-pinbar-j.json",
+  "nom": "Bougie à longue mèche jour",
+  "regle": "Bougie à longue mèche sur un extrême des 20 dernières sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:pinbar-j"
+  ]
+ },
+ "c-ema12-26-h4": {
+  "fichier": "etat-c-ema12-26-h4.json",
+  "nom": "Moyennes rapides 12/26 4 h",
+  "regle": "Croisement des moyennes rapides 12 et 26 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:ema12-26-h4"
+  ]
+ },
+ "c-super3-h4": {
+  "fichier": "etat-c-super3-h4.json",
+  "nom": "Stop suiveur 3x 4 h",
+  "regle": "Le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:super3-h4"
+  ]
+ },
+ "c-repli20-h4": {
+  "fichier": "etat-c-repli20-h4.json",
+  "nom": "Retour sur la moyenne 20 4 h",
+  "regle": "Dans la tendance (moyenne 100), le prix touche la moyenne 20 et repart sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:repli20-h4"
+  ]
+ },
+ "c-super3-j": {
+  "fichier": "etat-c-super3-j.json",
+  "nom": "Stop suiveur 3x jour",
+  "regle": "Le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:super3-j"
+  ]
+ },
+ "c-super2-j": {
+  "fichier": "etat-c-super2-j.json",
+  "nom": "Stop suiveur 2x jour",
+  "regle": "Le prix traverse une ligne suiveuse à 2 fois la taille moyenne des bougies sur jour, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:super2-j"
+  ]
+ },
+ "c-mm20-100-h4": {
+  "fichier": "etat-c-mm20-100-h4.json",
+  "nom": "Moyennes 20/100 4 h",
+  "regle": "La moyenne de 20 bougies croise celle de 100 sur le graphique 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:mm20-100-h4"
+  ]
+ },
+ "c-donch20f-h4": {
+  "fichier": "etat-c-donch20f-h4.json",
+  "nom": "Cassure 20 + moyenne 200 4 h",
+  "regle": "Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:donch20f-h4"
+  ]
+ },
+ "c-ema9-21-h4": {
+  "fichier": "etat-c-ema9-21-h4.json",
+  "nom": "Moyennes rapides 9/21 4 h",
+  "regle": "Croisement des moyennes rapides 9 et 21 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:ema9-21-h4"
+  ]
+ },
+ "c-bollc-h4": {
+  "fichier": "etat-c-bollc-h4.json",
+  "nom": "Sortie des bandes 4 h",
+  "regle": "Suivi : le prix sort des bandes de Bollinger sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:bollc-h4"
+  ]
+ },
+ "c-rsi50-21-h4": {
+  "fichier": "etat-c-rsi50-21-h4.json",
+  "nom": "RSI 21 passe 50 4 h",
+  "regle": "Le RSI 21 passe 50 dans le sens de la moyenne 200 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:rsi50-21-h4"
+  ]
+ },
+ "c-ccis-h4": {
+  "fichier": "etat-c-ccis-h4.json",
+  "nom": "CCI suivi 4 h",
+  "regle": "Suivi : le CCI dépasse +100 ou passe sous -100 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:ccis-h4"
+  ]
+ },
+ "c-rsi7-30-h4": {
+  "fichier": "etat-c-rsi7-30-h4.json",
+  "nom": "RSI 7 (30/70) 4 h",
+  "regle": "Contre-pied : le RSI 7 ressort de sa zone 30/70 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:rsi7-30-h4"
+  ]
+ },
+ "c-ccic-h4": {
+  "fichier": "etat-c-ccic-h4.json",
+  "nom": "CCI contre-pied 4 h",
+  "regle": "Contre-pied : le CCI ressort de -100/+100 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:ccic-h4"
+  ]
+ },
+ "c-donch55-h4": {
+  "fichier": "etat-c-donch55-h4.json",
+  "nom": "Cassure 55 bougies 4 h",
+  "regle": "Le prix casse le plus haut ou le plus bas des 55 dernières bougies sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:donch55-h4"
+  ]
+ },
+ "c-rsi7-35-h4": {
+  "fichier": "etat-c-rsi7-35-h4.json",
+  "nom": "RSI 7 (35/65) 4 h",
+  "regle": "Contre-pied : le RSI 7 ressort de sa zone 35/65 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:rsi7-35-h4"
+  ]
+ },
+ "c-ema21-55-h4": {
+  "fichier": "etat-c-ema21-55-h4.json",
+  "nom": "Moyennes rapides 21/55 4 h",
+  "regle": "Croisement des moyennes rapides 21 et 55 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:ema21-55-h4"
+  ]
+ },
+ "c-williams-h4": {
+  "fichier": "etat-c-williams-h4.json",
+  "nom": "Williams %R 4 h",
+  "regle": "Contre-pied : le Williams %R ressort de sa zone extrême sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:williams-h4"
+  ]
+ },
+ "c-rsi14-25-h4": {
+  "fichier": "etat-c-rsi14-25-h4.json",
+  "nom": "RSI 14 (25/75) 4 h",
+  "regle": "Contre-pied : le RSI 14 ressort de sa zone 25/75 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:rsi14-25-h4"
+  ]
+ },
+ "c-kelt20-h4": {
+  "fichier": "etat-c-kelt20-h4.json",
+  "nom": "Canal de Keltner 2 4 h",
+  "regle": "Le prix sort du canal de Keltner (2 fois la taille moyenne) sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:kelt20-h4"
+  ]
+ },
+ "c-adx-h4": {
+  "fichier": "etat-c-adx-h4.json",
+  "nom": "ADX + croisement DI 4 h",
+  "regle": "Les lignes DI se croisent avec une tendance forte (ADX > 25) sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:adx-h4"
+  ]
+ },
+ "c-rsi50-14-h4": {
+  "fichier": "etat-c-rsi50-14-h4.json",
+  "nom": "RSI 14 passe 50 4 h",
+  "regle": "Le RSI 14 passe 50 dans le sens de la moyenne 200 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:rsi50-14-h4"
+  ]
+ },
+ "c-trois-h4": {
+  "fichier": "etat-c-trois-h4.json",
+  "nom": "3 bougies, on suit 4 h",
+  "regle": "Après 3 bougies de même couleur, on suit le mouvement sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:trois-h4"
+  ]
+ },
+ "c-rsi14-30-h1": {
+  "fichier": "etat-c-rsi14-30-h1.json",
+  "nom": "RSI 14 (30/70) 1 h",
+  "regle": "Contre-pied : le RSI 14 ressort de sa zone 30/70 sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:rsi14-30-h1"
+  ]
+ },
+ "c-rsi14-35-h4": {
+  "fichier": "etat-c-rsi14-35-h4.json",
+  "nom": "RSI 14 (35/65) 4 h",
+  "regle": "Contre-pied : le RSI 14 ressort de sa zone 35/65 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:rsi14-35-h4"
+  ]
+ },
+ "c-macd12-26-h4": {
+  "fichier": "etat-c-macd12-26-h4.json",
+  "nom": "MACD 12/26/9 4 h",
+  "regle": "Croisement du MACD 12/26/9 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:macd12-26-h4"
+  ]
+ },
+ "c-donch20-h4": {
+  "fichier": "etat-c-donch20-h4.json",
+  "nom": "Cassure 20 bougies 4 h",
+  "regle": "Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:donch20-h4"
+  ]
+ },
+ "c-rsi14-25-h1": {
+  "fichier": "etat-c-rsi14-25-h1.json",
+  "nom": "RSI 14 (25/75) 1 h",
+  "regle": "Contre-pied : le RSI 14 ressort de sa zone 25/75 sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:rsi14-25-h1"
+  ]
+ },
+ "c-rsi7-25-h4": {
+  "fichier": "etat-c-rsi7-25-h4.json",
+  "nom": "RSI 7 (25/75) 4 h",
+  "regle": "Contre-pied : le RSI 7 ressort de sa zone 25/75 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:rsi7-25-h4"
+  ]
+ },
+ "c-macd5-35-h4": {
+  "fichier": "etat-c-macd5-35-h4.json",
+  "nom": "MACD 5/35/5 4 h",
+  "regle": "Croisement du MACD 5/35/5 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:macd5-35-h4"
+  ]
+ },
+ "c-boll20r-h4": {
+  "fichier": "etat-c-boll20r-h4.json",
+  "nom": "Rebond bandes 2 4 h",
+  "regle": "Contre-pied : le prix rentre dans les bandes de Bollinger (2) sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:boll20r-h4"
+  ]
+ },
+ "c-donch10-h4": {
+  "fichier": "etat-c-donch10-h4.json",
+  "nom": "Cassure 10 bougies 4 h",
+  "regle": "Le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:donch10-h4"
+  ]
+ },
+ "c-kelt15-h4": {
+  "fichier": "etat-c-kelt15-h4.json",
+  "nom": "Canal de Keltner 1.5 4 h",
+  "regle": "Le prix sort du canal de Keltner (1.5 fois la taille moyenne) sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:kelt15-h4"
+  ]
+ },
+ "c-ema21-55-h1": {
+  "fichier": "etat-c-ema21-55-h1.json",
+  "nom": "Moyennes rapides 21/55 1 h",
+  "regle": "Croisement des moyennes rapides 21 et 55 sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:ema21-55-h1"
+  ]
+ },
+ "c-stochs-h4": {
+  "fichier": "etat-c-stochs-h4.json",
+  "nom": "Stochastique suivi 4 h",
+  "regle": "Suivi : la stochastique dépasse 80 ou passe sous 20 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:stochs-h4"
+  ]
+ },
+ "c-roc10-h4": {
+  "fichier": "etat-c-roc10-h4.json",
+  "nom": "Élan 10 bougies 4 h",
+  "regle": "Le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:roc10-h4"
+  ]
+ },
+ "c-troisc-h4": {
+  "fichier": "etat-c-troisc-h4.json",
+  "nom": "3 bougies, contre-pied 4 h",
+  "regle": "Après 3 bougies de même couleur, on parie sur le retour sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:troisc-h4"
+  ]
+ },
+ "c-rsi14-30-h4": {
+  "fichier": "etat-c-rsi14-30-h4.json",
+  "nom": "RSI 14 (30/70) 4 h",
+  "regle": "Contre-pied : le RSI 14 ressort de sa zone 30/70 sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:rsi14-30-h4"
+  ]
+ },
+ "c-boll25r-h1": {
+  "fichier": "etat-c-boll25r-h1.json",
+  "nom": "Rebond bandes 2.5 1 h",
+  "regle": "Contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:boll25r-h1"
+  ]
+ },
+ "c-repli20-h1": {
+  "fichier": "etat-c-repli20-h1.json",
+  "nom": "Retour sur la moyenne 20 1 h",
+  "regle": "Dans la tendance (moyenne 100), le prix touche la moyenne 20 et repart sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:repli20-h1"
+  ]
+ },
+ "c-ema12-26-h1": {
+  "fichier": "etat-c-ema12-26-h1.json",
+  "nom": "Moyennes rapides 12/26 1 h",
+  "regle": "Croisement des moyennes rapides 12 et 26 sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:ema12-26-h1"
+  ]
+ },
+ "c-heikin-h4": {
+  "fichier": "etat-c-heikin-h4.json",
+  "nom": "Changement de couleur lissé 4 h",
+  "regle": "Les bougies lissées (Heikin-Ashi) changent de couleur sur 4 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:heikin-h4"
+  ]
+ },
+ "c-super3-h1": {
+  "fichier": "etat-c-super3-h1.json",
+  "nom": "Stop suiveur 3x 1 h",
+  "regle": "Le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:super3-h1"
+  ]
+ },
+ "c-rsi7-25-h1": {
+  "fichier": "etat-c-rsi7-25-h1.json",
+  "nom": "RSI 7 (25/75) 1 h",
+  "regle": "Contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:rsi7-25-h1"
+  ]
+ },
+ "c-rsi50-14-h1": {
+  "fichier": "etat-c-rsi50-14-h1.json",
+  "nom": "RSI 14 passe 50 1 h",
+  "regle": "Le RSI 14 passe 50 dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:rsi50-14-h1"
+  ]
+ },
+ "c-rsi50-21-h1": {
+  "fichier": "etat-c-rsi50-21-h1.json",
+  "nom": "RSI 21 passe 50 1 h",
+  "regle": "Le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:rsi50-21-h1"
+  ]
+ },
+ "c-donch20f-h1": {
+  "fichier": "etat-c-donch20f-h1.json",
+  "nom": "Cassure 20 + moyenne 200 1 h",
+  "regle": "Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:donch20f-h1"
+  ]
+ },
+ "c-ema9-21-h1": {
+  "fichier": "etat-c-ema9-21-h1.json",
+  "nom": "Moyennes rapides 9/21 1 h",
+  "regle": "Croisement des moyennes rapides 9 et 21 sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:ema9-21-h1"
+  ]
+ },
+ "c-roc10-h1": {
+  "fichier": "etat-c-roc10-h1.json",
+  "nom": "Élan 10 bougies 1 h",
+  "regle": "Le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h, objectif 2 fois le risque",
+  "args": [
+   "--mode",
+   "c:roc10-h1"
+  ]
  }
 }

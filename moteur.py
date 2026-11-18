@@ -109,6 +109,9 @@ def atr(b, n=14):
 
 
 def signal(mode, d, tj, t4, t1):
+    if mode.startswith("c:"):
+        import os as _o, time as _t; sys.path.insert(0, _o.path.join(_o.path.dirname(_o.path.abspath(__file__)), "cent")); import strategies as _cs
+        return _cs.signal(mode[2:], d, _t.time())
     import os as _o; sys.path.insert(0, _o.path.join(_o.path.dirname(_o.path.abspath(__file__)), "nouvelles-methodes")); import methodes as _nm
     if mode in _nm.METHODES:
         return _nm.METHODES[mode][1](d)
@@ -214,6 +217,9 @@ def signal(mode, d, tj, t4, t1):
 
 
 def calcul_stop(type_stop, sens, entree, d, h4_hauts, h4_bas, h1_hauts, h1_bas):
+    if type_stop.startswith("cent_"):
+        import strategies as _cs
+        return _cs.stop(type_stop, sens, entree, d)
     if type_stop in ("couloir", "bougie"):
         import methodes as _nm
         return _nm.stop(type_stop, sens, entree, d)
