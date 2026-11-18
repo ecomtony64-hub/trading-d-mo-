@@ -942,16 +942,5 @@
    "--ratio",
    "3"
   ]
- },
- "tortue": {
-  "fichier": "etat-tortue.json",
-  "nom": "Tortue 55 jours",
-  "regle": "Le prix dépasse son plus haut ou plus bas des 55 derniers jours, objectif 1,5 fois le risque",
-  "args": [
-   "--mode",
-   "tortue",
-   "--ratio",
-   "1.5"
-  ]
  }
 }
