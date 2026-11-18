@@ -1,0 +1,54 @@
+{
+ "capital_depart": 100.0,
+ "capital": 100.0,
+ "positions": [],
+ "historique": [],
+ "analyses": [
+  {
+   "quand": "2026-11-18T21:23+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09769,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement des moyennes rapides 12 et 26 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-18T21:23+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3728.4,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement des moyennes rapides 12 et 26 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  }
+ ],
+ "courbe": [
+  {
+   "quand": "2026-11-18T21:23+00:00",
+   "valeur": 100.0
+  }
+ ],
+ "valeur": 100.0,
+ "news": "",
+ "methode": "c:ema12-26-h4",
+ "ratio": 2.0,
+ "risque_vise": 1.0,
+ "conditions": "réelles",
+ "mis_a_jour": "2026-11-18T21:23+00:00",
+ "erreur_calendrier": null,
+ "nom": "Moyennes rapides 12/26 4 h",
+ "regle": "Croisement des moyennes rapides 12 et 26 sur 4 h, objectif 2 fois le risque"
+}

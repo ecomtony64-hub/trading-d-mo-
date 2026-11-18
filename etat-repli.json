@@ -25,37 +25,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-17T09:02+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10035,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de petit retour en arrière dans une tendance de 4 h.",
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
-   "quand": "2026-11-17T09:02+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3874.8,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de petit retour en arrière dans une tendance de 4 h."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
    "quand": "2026-11-17T10:06+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -933,6 +902,36 @@
     "Pas de petit retour en arrière dans une tendance de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-18T21:23+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09769,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-18T21:23+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3728.4,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1251,6 +1250,10 @@
   {
    "quand": "2026-11-18T20:56+00:00",
    "valeur": 107.86
+  },
+  {
+   "quand": "2026-11-18T21:23+00:00",
+   "valeur": 107.86
   }
  ],
  "valeur": 107.86,
@@ -1258,7 +1261,7 @@
  "methode": "repli",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-18T20:56+00:00",
+ "mis_a_jour": "2026-11-18T21:23+00:00",
  "erreur_calendrier": null,
  "nom": "Repli dans la tendance",
  "regle": "Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque",
