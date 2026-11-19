@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 108.5,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "ACHAT",
-   "entree": 1.09961,
-   "stop": 1.09589,
-   "objectif": 1.10703,
-   "unites": 1000,
-   "risque": 3.38,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-19T13:18+00:00",
-   "t_entree": 1795094267
-  }
- ],
+ "capital": 104.95,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -36,40 +21,28 @@
    "ferme_le": "2026-11-18T12:00+00:00",
    "frais_nuit": 0.23,
    "resultat": 8.5
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09961,
+   "stop": 1.09589,
+   "objectif": 1.10703,
+   "unites": 1000,
+   "risque": 3.38,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-19T13:18+00:00",
+   "t_entree": 1795094267,
+   "sortie": 1.0957203590393065,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-19T22:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -3.55
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-18T12:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09649,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens.",
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
-   "quand": "2026-11-18T12:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3763.5,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
   {
    "quand": "2026-11-18T13:14+00:00",
    "marche": "EURUSD",
@@ -941,6 +914,36 @@
     "Stop trop loin : ce trade risquerait 89.6 € (plus de 15 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T22:15+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09721,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T22:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3627.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin du prix (plus de 3 %)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1347,14 +1350,18 @@
   {
    "quand": "2026-11-19T21:26+00:00",
    "valeur": 106.21
+  },
+  {
+   "quand": "2026-11-19T22:15+00:00",
+   "valeur": 104.95
   }
  ],
- "valeur": 106.21,
+ "valeur": 104.95,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "actif",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T21:26+00:00",
+ "mis_a_jour": "2026-11-19T22:15+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h + 1 h",
  "regle": "Les graphiques 4 h et 1 h vont dans le même sens, objectif 2 fois le risque",

@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09721,
+   "stop": 1.09884,
+   "objectif": 1.09395,
+   "unites": 1000,
+   "risque": 1.49,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-19T22:15+00:00",
+   "t_entree": 1795126484
+  }
+ ],
  "historique": [],
  "analyses": [
   {
@@ -663,6 +678,34 @@
     "Pas de signal : le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T22:15+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09721,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T22:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3627.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -753,15 +796,19 @@
   {
    "quand": "2026-11-19T21:26+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-19T22:15+00:00",
+   "valeur": 99.91
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.91,
  "news": "",
  "methode": "c:super3-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T21:26+00:00",
+ "mis_a_jour": "2026-11-19T22:15+00:00",
  "erreur_calendrier": null,
  "nom": "Stop suiveur 3x 1 h",
  "regle": "Le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 1 h, objectif 2 fois le risque"

@@ -1,6 +1,6 @@
 {
  "capital_depart": 100.0,
- "capital": 105.59,
+ "capital": 98.17,
  "positions": [
   {
    "marche": "EURUSD",
@@ -15,34 +15,6 @@
    "reel": true,
    "ouvert_le": "2026-11-17T02:52+00:00",
    "t_entree": 1794883963
-  },
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "ACHAT",
-   "entree": 1.09997,
-   "stop": 1.09683,
-   "objectif": 1.10625,
-   "unites": 1000,
-   "risque": 2.86,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-19T09:05+00:00",
-   "t_entree": 1795079087
-  },
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "ACHAT",
-   "entree": 1.09961,
-   "stop": 1.09635,
-   "objectif": 1.10612,
-   "unites": 1000,
-   "risque": 2.96,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-19T13:18+00:00",
-   "t_entree": 1795094267
   }
  ],
  "historique": [
@@ -64,40 +36,47 @@
    "ferme_le": "2026-11-17T01:00+00:00",
    "frais_nuit": 0.18,
    "resultat": 5.59
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09997,
+   "stop": 1.09683,
+   "objectif": 1.10625,
+   "unites": 1000,
+   "risque": 2.86,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-19T09:05+00:00",
+   "t_entree": 1795079087,
+   "sortie": 1.0957203590393065,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-19T22:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -3.87
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09961,
+   "stop": 1.09635,
+   "objectif": 1.10612,
+   "unites": 1000,
+   "risque": 2.96,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-19T13:18+00:00",
+   "t_entree": 1795094267,
+   "sortie": 1.0957203590393065,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-19T22:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -3.55
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-18T12:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09649,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h.",
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
-   "quand": "2026-11-18T12:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3763.5,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
   {
    "quand": "2026-11-18T13:14+00:00",
    "marche": "EURUSD",
@@ -976,6 +955,36 @@
     "Déjà 2 trade(s) ouvert(s) sur ce compte."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T22:15+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09721,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T22:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3627.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 52.04 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1382,14 +1391,18 @@
   {
    "quand": "2026-11-19T21:26+00:00",
    "valeur": 103.44
+  },
+  {
+   "quand": "2026-11-19T22:15+00:00",
+   "valeur": 100.83
   }
  ],
- "valeur": 103.44,
+ "valeur": 100.83,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "h4_atr",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T21:26+00:00",
+ "mis_a_jour": "2026-11-19T22:15+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h, stop serré",
  "regle": "Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque",

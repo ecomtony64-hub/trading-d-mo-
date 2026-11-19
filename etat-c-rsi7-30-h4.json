@@ -1,7 +1,8 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
- "positions": [
+ "capital": 96.13,
+ "positions": [],
+ "historique": [
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -14,10 +15,14 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-19T09:05+00:00",
-   "t_entree": 1795079087
+   "t_entree": 1795079087,
+   "sortie": 1.0957203590393065,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-19T22:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -3.87
   }
  ],
- "historique": [],
  "analyses": [
   {
    "quand": "2026-11-18T21:23+00:00",
@@ -678,6 +683,36 @@
     "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 30/70 sur 4 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T22:15+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09721,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 30/70 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T22:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3627.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 30/70 sur 4 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -768,15 +803,19 @@
   {
    "quand": "2026-11-19T21:26+00:00",
    "valeur": 97.38
+  },
+  {
+   "quand": "2026-11-19T22:15+00:00",
+   "valeur": 96.13
   }
  ],
- "valeur": 97.38,
+ "valeur": 96.13,
  "news": "",
  "methode": "c:rsi7-30-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T21:26+00:00",
+ "mis_a_jour": "2026-11-19T22:15+00:00",
  "erreur_calendrier": null,
  "nom": "RSI 7 (30/70) 4 h",
  "regle": "Contre-pied : le RSI 7 ressort de sa zone 30/70 sur 4 h, objectif 2 fois le risque"
