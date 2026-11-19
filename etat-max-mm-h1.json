@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09794,
+   "stop": 1.09955,
+   "objectif": 1.0947,
+   "unites": 2000,
+   "risque": 2.95,
+   "marge": 66.67,
+   "reel": true,
+   "ouvert_le": "2026-11-19T17:04+00:00",
+   "t_entree": 1795107828
+  }
+ ],
  "historique": [],
  "analyses": [
   {
@@ -33,21 +48,53 @@
     "Compte trop petit : le courtier demanderait 167.77 € de garantie pour cette position."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T17:04+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09794,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T17:04+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3689.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 1 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
   {
    "quand": "2026-11-19T16:00+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-19T17:04+00:00",
+   "valeur": 99.83
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.83,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T16:00+00:00",
+ "mis_a_jour": "2026-11-19T17:04+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h (risque max)",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise maximale : presque tout le compte en garantie, 1 trade à la fois"

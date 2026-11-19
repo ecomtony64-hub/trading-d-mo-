@@ -483,6 +483,36 @@
     "Pas de signal : le prix casse le plus haut ou le plus bas des 55 dernières bougies sur jour (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T17:04+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09794,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 55 dernières bougies sur jour (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T17:04+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3689.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 55 dernières bougies sur jour (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -549,6 +579,10 @@
   {
    "quand": "2026-11-19T16:00+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-19T17:04+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -557,7 +591,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T16:00+00:00",
+ "mis_a_jour": "2026-11-19T17:04+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 55 bougies jour",
  "regle": "Le prix casse le plus haut ou le plus bas des 55 dernières bougies sur jour, objectif 2 fois le risque"

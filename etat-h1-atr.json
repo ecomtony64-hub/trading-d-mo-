@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 92.09,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09794,
+   "stop": 1.09955,
+   "objectif": 1.0947,
+   "unites": 1000,
+   "risque": 1.47,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-19T17:04+00:00",
+   "t_entree": 1795107828
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -233,37 +248,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-18T05:02+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09926,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique d'1 h.",
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
-   "quand": "2026-11-18T05:02+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3785.5,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 26.84 € (plus de 5 % du compte)."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
   {
    "quand": "2026-11-18T06:06+00:00",
    "marche": "EURUSD",
@@ -1132,6 +1116,34 @@
     "Stop trop loin : ce trade risquerait 21.57 € (plus de 15 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T17:04+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09794,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T17:04+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3689.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 21.77 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1514,14 +1526,18 @@
   {
    "quand": "2026-11-19T16:00+00:00",
    "valeur": 92.09
+  },
+  {
+   "quand": "2026-11-19T17:04+00:00",
+   "valeur": 92.0
   }
  ],
- "valeur": 92.09,
+ "valeur": 92.0,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "h1_atr",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T16:00+00:00",
+ "mis_a_jour": "2026-11-19T17:04+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h, stop serré",
  "regle": "Tendance d'1 h, stop réglé sur la taille des bougies, objectif 2 fois le risque",
