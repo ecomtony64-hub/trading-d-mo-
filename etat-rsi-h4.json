@@ -111,36 +111,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-18T10:08+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09806,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
-   "quand": "2026-11-18T10:08+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3782.4,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 45.03 € (plus de 5 % du compte)."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
    "quand": "2026-11-18T12:00+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1022,6 +992,37 @@
     "Déjà 2 trade(s) ouvert(s) sur ce compte."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T21:26+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09709,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'est ni très bas ni très haut sur le graphique de 4 h (indicateur RSI entre 30 et 70).",
+    "Déjà 2 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T21:26+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3661.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 2 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1424,14 +1425,18 @@
   {
    "quand": "2026-11-19T20:37+00:00",
    "valeur": 90.52
+  },
+  {
+   "quand": "2026-11-19T21:26+00:00",
+   "valeur": 89.21
   }
  ],
- "valeur": 90.52,
+ "valeur": 89.21,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "rsi_h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T20:37+00:00",
+ "mis_a_jour": "2026-11-19T21:26+00:00",
  "erreur_calendrier": null,
  "nom": "Contre-pied 4 h",
  "regle": "Achat quand le prix est tombé très bas, vente quand il est monté très haut, sur 4 h, objectif 2 fois le risque",
