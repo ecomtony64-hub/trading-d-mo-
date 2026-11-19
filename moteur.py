@@ -372,7 +372,7 @@ def main():
         elif sur_marche and d["h1"][-1]["t"] - max(p["t_entree"] for p in sur_marche) < ECART_H * 3600:
             raisons.append(f"Un trade a été ouvert sur ce marché il y a moins de {ECART_H} h.")
         etat.pop("mort", None)   # Tony, 19/11 : aucun compte ne « meurt », on garde tout visible
-        if etat["capital"] <= 0:
+        if etat["capital"] <= 0 and not maxi:
             raisons.append("Compte vide : il a perdu ses 100 €. Il sera supprimé (avec l'accord de Tony).")
         if fort and etat["capital"] < 0.5 * etat.get("capital_depart", 100.0):
             raisons.append("Compte en pause : il a perdu la moitié de sa mise de départ.")
@@ -389,8 +389,8 @@ def main():
             else:
                 objectif = entree + ratio * dist if sens == "ACHAT" else entree - ratio * dist
                 # Taille (Tony, 19/11) : environ MARGE_TRADE € de garantie par trade, levier légal européen (30 EUR/USD, 20 or).
-                if maxi:   # 90 % de l'argent libre en garantie, arrondi vers le bas
-                    ideal = 0.9 * (etat["capital"] - sum(p.get("marge", 0) for p in etat["positions"])) * eurusd * f["levier"] / prix
+                if maxi:   # taille fixe : 90 % de 100 € en garantie (2 000 unités d'EUR/USD), même si le compte baisse ou passe sous 0 (Tony, 19/11)
+                    ideal = 0.9 * etat.get("capital_depart", 100.0) * eurusd * f["levier"] / prix
                     unites = max(f["pas"], int(ideal // f["pas"]) * f["pas"])
                 else:
                     ideal = MARGE_TRADE * eurusd * f["levier"] / prix
@@ -400,11 +400,12 @@ def main():
                 marge = round(unites * prix / f["levier"] / eurusd, 2)
                 risque_ouvert = sum(p.get("risque", 0) for p in etat["positions"])
                 plafond = 0.25 if maxi else RISQUE_MAX_TRADE
-                if risque_eur > etat["capital"] * plafond:
+                sans_limite = maxi and code == "EURUSD"   # risque max : aucun blocage, il trade jusqu'au bout, solde négatif compris
+                if not sans_limite and risque_eur > etat["capital"] * plafond:
                     raisons.append(f"Stop trop loin : ce trade risquerait {risque_eur} € (plus de {round(plafond * 100)} % du compte).")
-                elif risque_ouvert + risque_eur > etat["capital"] * max(RISQUE_TOTAL, plafond):
+                elif not sans_limite and risque_ouvert + risque_eur > etat["capital"] * max(RISQUE_TOTAL, plafond):
                     raisons.append(f"Trop de risque en jeu : {round(risque_ouvert + risque_eur, 2)} € avec ce trade (maximum {round(max(RISQUE_TOTAL, plafond) * 100)} % du compte au total).")
-                elif marge + marge_prise > etat["capital"]:
+                elif not sans_limite and marge + marge_prise > etat["capital"]:
                     raisons.append(f"Compte trop petit : le courtier demanderait {marge} € de garantie pour cette position.")
                 else:
                     r = m["decimales"]
