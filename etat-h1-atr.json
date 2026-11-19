@@ -263,34 +263,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-18T13:14+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09733,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "TRADE",
-   "sens": "VENTE",
-   "raisons": [],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
-   "quand": "2026-11-18T13:14+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3758.1,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 22.46 € (plus de 5 % du compte)."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
    "quand": "2026-11-18T14:57+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1158,6 +1130,36 @@
     "Déjà 2 trade(s) ouvert(s) sur ce compte."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T22:59+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09721,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 2 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T22:59+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3627.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 2 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1568,6 +1570,10 @@
   {
    "quand": "2026-11-19T22:15+00:00",
    "valeur": 92.46
+  },
+  {
+   "quand": "2026-11-19T22:59+00:00",
+   "valeur": 92.46
   }
  ],
  "valeur": 92.46,
@@ -1575,7 +1581,7 @@
  "methode": "h1_atr",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T22:15+00:00",
+ "mis_a_jour": "2026-11-19T22:59+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h, stop serré",
  "regle": "Tendance d'1 h, stop réglé sur la taille des bougies, objectif 2 fois le risque",
