@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 108.5,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09997,
+   "stop": 1.09589,
+   "objectif": 1.10812,
+   "unites": 1000,
+   "risque": 3.71,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-19T09:05+00:00",
+   "t_entree": 1795079087
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -24,36 +39,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-17T21:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10035,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
-   "quand": "2026-11-17T21:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3852.9,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
   {
    "quand": "2026-11-17T22:56+00:00",
    "marche": "EURUSD",
@@ -935,6 +920,34 @@
     "Pas de tendance claire sur le graphique de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T09:05+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09987,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T09:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3739.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 18.64 € (plus de 5 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1293,14 +1306,18 @@
   {
    "quand": "2026-11-19T07:18+00:00",
    "valeur": 108.5
+  },
+  {
+   "quand": "2026-11-19T09:05+00:00",
+   "valeur": 108.41
   }
  ],
- "valeur": 108.5,
+ "valeur": 108.41,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T07:18+00:00",
+ "mis_a_jour": "2026-11-19T09:05+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h",
  "regle": "Tendance du graphique de 4 h seul, objectif 2 fois le risque",
