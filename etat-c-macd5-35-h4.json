@@ -529,6 +529,36 @@
     "Pas de signal : croisement du MACD 5/35/5 sur 4 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T17:56+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09842,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement du MACD 5/35/5 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T17:56+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3686.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement du MACD 5/35/5 sur 4 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -599,15 +629,19 @@
   {
    "quand": "2026-11-19T17:04+00:00",
    "valeur": 99.91
+  },
+  {
+   "quand": "2026-11-19T17:56+00:00",
+   "valeur": 100.34
   }
  ],
- "valeur": 99.91,
+ "valeur": 100.34,
  "news": "",
  "methode": "c:macd5-35-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T17:04+00:00",
+ "mis_a_jour": "2026-11-19T17:56+00:00",
  "erreur_calendrier": null,
  "nom": "MACD 5/35/5 4 h",
  "regle": "Croisement du MACD 5/35/5 sur 4 h, objectif 2 fois le risque"
