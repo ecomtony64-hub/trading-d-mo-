@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09661,
+   "stop": 1.0996,
+   "objectif": 1.09063,
+   "unites": 1000,
+   "risque": 2.73,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-19T05:07+00:00",
+   "t_entree": 1795064807
+  }
+ ],
  "historique": [],
  "analyses": [
   {
@@ -243,6 +258,34 @@
     "Pas de signal : le prix sort d'une bougie restée dans la précédente sur 4 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T05:07+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09661,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T05:07+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3724.4,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix sort d'une bougie restée dans la précédente sur 4 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -277,15 +320,19 @@
   {
    "quand": "2026-11-19T03:58+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-19T05:07+00:00",
+   "valeur": 99.91
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.91,
  "news": "",
  "methode": "c:interieure-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T03:58+00:00",
+ "mis_a_jour": "2026-11-19T05:07+00:00",
  "erreur_calendrier": null,
  "nom": "Sortie de bougie intérieure 4 h",
  "regle": "Le prix sort d'une bougie restée dans la précédente sur 4 h, objectif 2 fois le risque"
