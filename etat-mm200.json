@@ -63,36 +63,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-17T23:52+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09975,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
-   "quand": "2026-11-17T23:52+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3850.7,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
    "quand": "2026-11-18T01:14+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -966,6 +936,36 @@
     "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T12:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09951,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T12:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3728.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 13.55 € (plus de 5 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1332,6 +1332,10 @@
   {
    "quand": "2026-11-19T10:12+00:00",
    "valeur": 103.18
+  },
+  {
+   "quand": "2026-11-19T12:00+00:00",
+   "valeur": 103.18
   }
  ],
  "valeur": 103.18,
@@ -1339,7 +1343,7 @@
  "methode": "mm200",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T10:12+00:00",
+ "mis_a_jour": "2026-11-19T12:00+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h + moyenne longue",
  "regle": "Tendance d'1 h confirmée par la moyenne des 200 dernières heures, objectif 2 fois le risque",
