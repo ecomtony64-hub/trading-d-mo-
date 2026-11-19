@@ -371,11 +371,7 @@ def main():
             raisons.append(f"Déjà {MAX_PAR_MARCHE} trades ouverts sur ce marché.")
         elif sur_marche and d["h1"][-1]["t"] - max(p["t_entree"] for p in sur_marche) < ECART_H * 3600:
             raisons.append(f"Un trade a été ouvert sur ce marché il y a moins de {ECART_H} h.")
-        # Compte « risque max » (Tony, 19/11) : s'il n'a plus de quoi ouvrir la plus petite position, il meurt (définitif).
-        if maxi and code == "EURUSD" and not etat["positions"] and 0.9 * etat["capital"] * f_min_levier(code) < FRAIS[code]["pas"] * prix / eurusd:
-            etat["mort"] = True
-        if etat.get("mort"):
-            raisons.append("Compte mort : il a perdu presque tout son argent, il ne trade plus.")
+        etat.pop("mort", None)   # Tony, 19/11 : aucun compte ne « meurt », on garde tout visible
         if etat["capital"] <= 0:
             raisons.append("Compte vide : il a perdu ses 100 €. Il sera supprimé (avec l'accord de Tony).")
         if fort and etat["capital"] < 0.5 * etat.get("capital_depart", 100.0):
