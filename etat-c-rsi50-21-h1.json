@@ -740,6 +740,36 @@
     "Pas de signal : le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T23:38+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09709,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T23:38+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3626.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -838,15 +868,19 @@
   {
    "quand": "2026-11-19T22:59+00:00",
    "valeur": 101.12
+  },
+  {
+   "quand": "2026-11-19T23:38+00:00",
+   "valeur": 101.23
   }
  ],
- "valeur": 101.12,
+ "valeur": 101.23,
  "news": "",
  "methode": "c:rsi50-21-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T22:59+00:00",
+ "mis_a_jour": "2026-11-19T23:38+00:00",
  "erreur_calendrier": null,
  "nom": "RSI 21 passe 50 1 h",
  "regle": "Le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque"

@@ -723,6 +723,36 @@
     "Pas de signal : suivi : le prix sort des bandes de Bollinger sur 4 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T23:38+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09709,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : suivi : le prix sort des bandes de Bollinger sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T23:38+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3626.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : suivi : le prix sort des bandes de Bollinger sur 4 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -821,6 +851,10 @@
   {
    "quand": "2026-11-19T22:59+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-19T23:38+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -829,7 +863,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T22:59+00:00",
+ "mis_a_jour": "2026-11-19T23:38+00:00",
  "erreur_calendrier": null,
  "nom": "Sortie des bandes 4 h",
  "regle": "Suivi : le prix sort des bandes de Bollinger sur 4 h, objectif 2 fois le risque"

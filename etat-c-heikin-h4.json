@@ -760,6 +760,37 @@
     "Pas de signal : les bougies lissées (Heikin-Ashi) changent de couleur sur 4 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T23:38+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09709,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : les bougies lissées (Heikin-Ashi) changent de couleur sur 4 h (attendu).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T23:38+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3626.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : les bougies lissées (Heikin-Ashi) changent de couleur sur 4 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -858,15 +889,19 @@
   {
    "quand": "2026-11-19T22:59+00:00",
    "valeur": 96.59
+  },
+  {
+   "quand": "2026-11-19T23:38+00:00",
+   "valeur": 96.7
   }
  ],
- "valeur": 96.59,
+ "valeur": 96.7,
  "news": "",
  "methode": "c:heikin-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T22:59+00:00",
+ "mis_a_jour": "2026-11-19T23:38+00:00",
  "erreur_calendrier": null,
  "nom": "Changement de couleur lissé 4 h",
  "regle": "Les bougies lissées (Heikin-Ashi) changent de couleur sur 4 h, objectif 2 fois le risque"
