@@ -274,6 +274,7 @@ def main():
     chemin = sys.argv[1]
     vetos, news, mode, ratio = {}, "", "strict", RATIO
     risque, risque_max, fort = RISQUE, RISQUE_MAX, False
+    maxi = False
     args = sys.argv[2:]
     for i, a in enumerate(args):
         if a == "--veto":
@@ -285,6 +286,8 @@ def main():
             mode = args[i + 1]
         if a == "--ratio":
             ratio = float(args[i + 1])
+        if a == "--max":   # compte « risque max » (Tony, 19/11) : presque tout le compte en garantie, 1 trade à la fois
+            maxi = True
         if a == "--risque":   # compte « risque fort » : vise ce % du compte par trade, plafond 25 % au-dessus
             risque = float(args[i + 1]) / 100
             risque_max, fort = risque * 1.25, True
@@ -358,8 +361,8 @@ def main():
         # Plusieurs trades en même temps (Tony, 18/11) : au plus MAX_PAR_MARCHE par marché,
         # au moins ECART_H heures entre deux ouvertures sur le même marché, et risque total ouvert limité.
         sur_marche = [p for p in etat["positions"] if p["marche"] == code]
-        if len(etat["positions"]) >= MAX_OUVERTS:
-            raisons.append(f"Déjà {MAX_OUVERTS} trades ouverts sur ce compte.")
+        if len(etat["positions"]) >= (1 if maxi else MAX_OUVERTS):
+            raisons.append(f"Déjà {1 if maxi else MAX_OUVERTS} trade(s) ouvert(s) sur ce compte.")
         elif len(sur_marche) >= MAX_PAR_MARCHE:
             raisons.append(f"Déjà {MAX_PAR_MARCHE} trades ouverts sur ce marché.")
         elif sur_marche and d["h1"][-1]["t"] - max(p["t_entree"] for p in sur_marche) < ECART_H * 3600:
@@ -381,16 +384,21 @@ def main():
             else:
                 objectif = entree + ratio * dist if sens == "ACHAT" else entree - ratio * dist
                 # Taille (Tony, 19/11) : environ MARGE_TRADE € de garantie par trade, levier légal européen (30 EUR/USD, 20 or).
-                ideal = MARGE_TRADE * eurusd * f["levier"] / prix
-                unites = max(f["pas"], int(round(ideal / f["pas"])) * f["pas"])   # arrondi à la taille du courtier
+                if maxi:   # 90 % de l'argent libre en garantie, arrondi vers le bas
+                    ideal = 0.9 * (etat["capital"] - sum(p.get("marge", 0) for p in etat["positions"])) * eurusd * f["levier"] / prix
+                    unites = max(f["pas"], int(ideal // f["pas"]) * f["pas"])
+                else:
+                    ideal = MARGE_TRADE * eurusd * f["levier"] / prix
+                    unites = max(f["pas"], int(round(ideal / f["pas"])) * f["pas"])   # arrondi à la taille du courtier
                 marge_prise = sum(p.get("marge", 0) for p in etat["positions"])
                 risque_eur = round(unites * dist / eurusd, 2)
                 marge = round(unites * prix / f["levier"] / eurusd, 2)
                 risque_ouvert = sum(p.get("risque", 0) for p in etat["positions"])
-                if risque_eur > etat["capital"] * RISQUE_MAX_TRADE:
-                    raisons.append(f"Stop trop loin : ce trade risquerait {risque_eur} € (plus de {round(RISQUE_MAX_TRADE * 100)} % du compte).")
-                elif risque_ouvert + risque_eur > etat["capital"] * RISQUE_TOTAL:
-                    raisons.append(f"Trop de risque déjà en jeu : {round(risque_ouvert, 2)} € sur les trades ouverts (maximum {round(RISQUE_TOTAL * 100)} % du compte au total).")
+                plafond = 0.25 if maxi else RISQUE_MAX_TRADE
+                if risque_eur > etat["capital"] * plafond:
+                    raisons.append(f"Stop trop loin : ce trade risquerait {risque_eur} € (plus de {round(plafond * 100)} % du compte).")
+                elif risque_ouvert + risque_eur > etat["capital"] * max(RISQUE_TOTAL, plafond):
+                    raisons.append(f"Trop de risque en jeu : {round(risque_ouvert + risque_eur, 2)} € avec ce trade (maximum {round(max(RISQUE_TOTAL, plafond) * 100)} % du compte au total).")
                 elif marge + marge_prise > etat["capital"]:
                     raisons.append(f"Compte trop petit : le courtier demanderait {marge} € de garantie pour cette position.")
                 else:
