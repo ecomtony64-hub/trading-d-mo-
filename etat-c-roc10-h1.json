@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 96.58,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09842,
+   "stop": 1.10011,
+   "objectif": 1.09503,
+   "unites": 1000,
+   "risque": 1.54,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-19T18:47+00:00",
+   "t_entree": 1795114005
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -598,6 +613,34 @@
     "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T18:47+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09842,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T18:47+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3684.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -672,15 +715,19 @@
   {
    "quand": "2026-11-19T17:56+00:00",
    "valeur": 96.58
+  },
+  {
+   "quand": "2026-11-19T18:47+00:00",
+   "valeur": 96.49
   }
  ],
- "valeur": 96.58,
+ "valeur": 96.49,
  "news": "",
  "methode": "c:roc10-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T17:56+00:00",
+ "mis_a_jour": "2026-11-19T18:47+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 10 bougies 1 h",
  "regle": "Le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h, objectif 2 fois le risque"
