@@ -15,7 +15,15 @@ for doc, c in comptes.items():
     if doc != "courant":
         d["news"] = ""
     out[doc] = d
-paquet = {"genere": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"), "etat": out}
+# Prix pour la Salle de trading : les 80 dernières bougies d'1 h téléchargées par le moteur (t en millisecondes).
+prix = {}
+for code, sym in (("EURUSD", "EURUSD=X"), ("OR", "GC=F")):
+    f = os.path.join(ici, f"prix-cache-{sym}-60m-60d.json")
+    if os.path.exists(f):
+        b = json.load(open(f))[-80:]
+        prix[code] = {"maj": dt.datetime.fromtimestamp(os.path.getmtime(f), dt.timezone.utc).isoformat(timespec="minutes"),
+                      "bougies": [{"t": x["t"] * 1000, "o": x["o"], "h": x["h"], "l": x["l"], "c": x["c"]} for x in b]}
+paquet = {"genere": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"), "etat": out, "prix": prix}
 json.dump(paquet, open(os.path.join(ici, "donnees.json"), "w"), ensure_ascii=False, separators=(",", ":"))
 open(os.path.join(ici, "donnees.js"), "w").write("window.DEMO_DONNEES=" + json.dumps(paquet, ensure_ascii=False, separators=(",", ":")) + ";\n")
 print(len(out), "comptes publiés")

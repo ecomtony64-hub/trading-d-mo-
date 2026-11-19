@@ -1,0 +1,338 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;padding:0}[hidden]{display:none!important}</style>
+<title>Salle de trading en direct</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout : écran de salle des marchés. Bandeau prix, grand graphique en bougies avec les trades dessus, trades en cours à côté, puis course des comptes, comptes mise maximale et fil des événements. Un seul look sombre assumé. */
+:root{
+  --bg:#0a0f1a; --panel:#111827; --panel2:#0d1422; --line:#1f2a3d; --grid:#172133;
+  --fg:#e8edf6; --muted:#8a97ad; --dim:#4b5a73;
+  --accent:#f5a524; --accent-soft:rgba(245,165,36,.14);
+  --up:#2fd18a; --up-soft:rgba(47,209,138,.14); --down:#ff5f6d; --down-soft:rgba(255,95,109,.14);
+  --display:"Sora",system-ui,sans-serif; --text:"Inter",system-ui,-apple-system,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+body{background:var(--bg);color:var(--fg);font-family:var(--text);font-size:15px;line-height:1.45}
+.wrap{max-width:1280px;margin:0 auto;padding-block:16px 40px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:14px}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance}
+h1{font-size:clamp(1.35rem,3vw,1.8rem);font-weight:800;letter-spacing:-.01em}
+h2{font-size:1rem;font-weight:700}
+p{margin:0}
+.muted{color:var(--muted)} .small{font-size:.82rem} .mono{font-family:var(--mono)} .num{font-variant-numeric:tabular-nums}
+.pos{color:var(--up)} .neg{color:var(--down)} .zero{color:var(--muted)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.ph{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+.live{display:inline-flex;align-items:center;gap:8px;font:600 .72rem var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--down);margin-bottom:6px}
+.live i{width:9px;height:9px;border-radius:50%;background:var(--down);box-shadow:0 0 0 0 rgba(255,95,109,.6);animation:pulse 1.8s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 9px rgba(255,95,109,0)}100%{box-shadow:0 0 0 0 rgba(255,95,109,0)}}
+.clock{font:600 .82rem var(--mono);color:var(--muted);text-align:right;display:flex;flex-direction:column;gap:2px}
+.clock b{font:700 1.5rem var(--display);color:var(--fg)}
+.cd{color:var(--accent)}
+
+.tape{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+@media (max-width:820px){.tape{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.tk{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.tk span{font:600 .7rem var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.tk b{font:700 1.35rem var(--display);font-variant-numeric:tabular-nums}
+.tk small{font:.78rem var(--mono);color:var(--muted);overflow-wrap:anywhere}
+
+.main{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:14px;align-items:start}
+@media (max-width:960px){.main{grid-template-columns:minmax(0,1fr)}}
+.tabs{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.tabs button{font:600 .82rem var(--mono);padding:6px 12px;border:0;background:var(--panel2);color:var(--muted);cursor:pointer}
+.tabs button+button{border-left:1px solid var(--line)}
+.tabs button[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent)}
+.tabs button:focus-visible,.trade:focus-visible,.ev:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.chart{position:relative}
+.chart svg{display:block;width:100%}
+.tip{position:absolute;pointer-events:none;background:#000;color:var(--fg);border:1px solid var(--line);font:.76rem var(--mono);padding:5px 8px;border-radius:6px;white-space:nowrap;transform:translate(-50%,-115%)}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font:.74rem var(--mono);color:var(--muted)}
+.legend i{display:inline-block;width:16px;height:0;border-top:2px solid;vertical-align:middle;margin-right:5px}
+.note{font:.78rem var(--mono);color:var(--muted);border-left:3px solid var(--accent);padding:4px 10px}
+
+.trades{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;max-height:640px;overflow-y:auto}
+.trade{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:10px;display:flex;flex-direction:column;gap:6px;cursor:pointer}
+.trade.sel{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.trade .row{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.trade .nm{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.pill{font:600 .7rem var(--mono);padding:2px 7px;border-radius:5px;white-space:nowrap}
+.p-up{background:var(--up-soft);color:var(--up)} .p-down{background:var(--down-soft);color:var(--down)} .p-max{background:var(--accent-soft);color:var(--accent)}
+.pnl{font:700 1.05rem var(--display);font-variant-numeric:tabular-nums;white-space:nowrap}
+.gauge{position:relative;height:8px;border-radius:4px;background:linear-gradient(90deg,var(--down-soft),var(--grid) 33%,var(--grid) 34%,var(--up-soft))}
+.gauge .mk{position:absolute;top:-4px;width:3px;height:16px;border-radius:2px;background:var(--fg);transform:translateX(-50%);transition:left .6s}
+.gauge .en{position:absolute;top:-2px;width:1px;height:12px;background:var(--muted)}
+.gl{display:flex;justify-content:space-between;font:.7rem var(--mono);color:var(--muted)}
+.facts{display:flex;gap:12px;flex-wrap:wrap;font:.74rem var(--mono);color:var(--muted)}
+.facts b{color:var(--fg);font-weight:600}
+
+.duo{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:14px;align-items:start}
+@media (max-width:960px){.duo{grid-template-columns:minmax(0,1fr)}}
+.board{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:520px){.board{grid-template-columns:1fr}}
+.board ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px}
+.board li{display:flex;justify-content:space-between;gap:8px;font-size:.85rem;padding:4px 6px;border-radius:6px}
+.board li span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.board li .sw{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:6px;vertical-align:middle}
+
+.maxs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+@media (max-width:960px){.maxs{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.mx{background:var(--panel2);border:1px solid var(--line);border-top:3px solid var(--accent);border-radius:10px;padding:10px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.mx .nm{font-size:.82rem;font-weight:600;min-height:2.4em}
+.mx b{font:700 1.25rem var(--display);font-variant-numeric:tabular-nums}
+.mx .bar{height:6px;border-radius:3px;background:var(--grid);overflow:hidden}
+.mx .bar i{display:block;height:100%;background:var(--accent)}
+
+.feed{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;max-height:420px;overflow-y:auto}
+.ev{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;padding:8px 2px;border-top:1px solid var(--line);cursor:pointer}
+.ev:first-child{border-top:0}
+.ev .ic{width:26px;height:26px;border-radius:7px;display:grid;place-items:center;font:700 .8rem var(--mono)}
+.ev .tx{min-width:0}
+.ev .tx b{display:block;font-size:.85rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ev .tx span{font:.72rem var(--mono);color:var(--muted)}
+.empty{color:var(--muted);font-size:.88rem;padding:8px 0}
+@media (prefers-reduced-motion:reduce){.live i{animation:none}.gauge .mk{transition:none}}
+</style></head><body>
+
+<div class="wrap">
+  <header>
+    <div>
+      <div class="live"><i></i>En direct · argent fictif</div>
+      <h1>Salle de trading</h1>
+      <p class="muted small" id="etat-src">Chargement des tradeurs…</p>
+    </div>
+    <div class="clock"><b id="heure">--:--</b><span>Prochain passage des tradeurs <span class="cd" id="cd">—</span></span><span id="dern">—</span></div>
+  </header>
+
+  <section class="tape" aria-label="Chiffres en direct">
+    <div class="tk"><span>Euro / Dollar</span><b class="num" id="t-eur">—</b><small id="t-eur-s">—</small></div>
+    <div class="tk"><span>Or (dollars l'once)</span><b class="num" id="t-or">—</b><small id="t-or-s">—</small></div>
+    <div class="tk"><span>Trades en cours</span><b class="num" id="t-tr">—</b><small id="t-tr-s">—</small></div>
+    <div class="tk"><span>Gain ou perte en cours</span><b class="num" id="t-pnl">—</b><small id="t-pnl-s">—</small></div>
+  </section>
+
+  <div class="main">
+    <section class="panel">
+      <div class="ph"><h2 id="g-titre">Euro / Dollar, bougies d'une heure</h2>
+        <div class="tabs" role="group" aria-label="Marché"><button type="button" data-m="EURUSD" aria-pressed="true">EUR/USD</button><button type="button" data-m="OR" aria-pressed="false">Or</button></div></div>
+      <div class="chart" id="box"><svg id="g" role="img" aria-label="Graphique du prix avec les trades"></svg><div class="tip" id="tip" hidden></div></div>
+      <div class="legend"><span><i style="border-color:var(--fg)"></i>Entrée du trade choisi</span><span><i style="border-color:var(--down);border-top-style:dashed"></i>Stop (on coupe)</span><span><i style="border-color:var(--up);border-top-style:dashed"></i>Objectif (on encaisse)</span><span>▲ achat · ▼ vente · ● sortie</span></div>
+      <p class="note">Les tradeurs regardent le marché environ toutes les 5 minutes, du lundi au vendredi (GitHub peut parfois avoir quelques minutes de retard). Entre deux passages, ils ne décident rien. La page se met à jour toute seule. Les gains en cours sont estimés avec le dernier prix connu, avant frais.</p>
+    </section>
+
+    <section class="panel">
+      <div class="ph"><h2>Trades en cours</h2><span class="small muted" id="tr-n"></span></div>
+      <ul class="trades" id="trades"><li class="empty">Chargement…</li></ul>
+    </section>
+  </div>
+
+  <div class="duo">
+    <section class="panel">
+      <div class="ph"><h2>La course des comptes</h2><span class="small muted">Chaque compte part de 100 €</span></div>
+      <div class="chart" id="box2"><svg id="g2" role="img" aria-label="Valeur des comptes heure par heure"></svg><div class="tip" id="tip2" hidden></div></div>
+      <div class="board">
+        <div><h3 class="small pos">En tête</h3><ol id="b-top"></ol></div>
+        <div><h3 class="small neg">En queue</h3><ol id="b-bas"></ol></div>
+      </div>
+    </section>
+    <section class="panel">
+      <div class="ph"><h2>Fil des trades</h2><span class="small muted">Ouvertures et sorties, les plus récentes d'abord</span></div>
+      <ul class="feed" id="feed"><li class="empty">Chargement…</li></ul>
+    </section>
+  </div>
+
+  <section class="panel">
+    <div class="ph"><h2>Les 5 comptes mise maximale</h2><span class="small muted">Presque tout le compte part en garantie. Une grosse perte peut faire passer le compte sous 0 €.</span></div>
+    <div class="maxs" id="maxs"></div>
+  </section>
+</div>
+
+<script>
+(function(){
+  const $=id=>document.getElementById(id), ns="http://www.w3.org/2000/svg";
+  const eur=n=>(Number(n)||0).toLocaleString("fr-FR",{minimumFractionDigits:2,maximumFractionDigits:2})+" €";
+  const sg=n=>(n>0.004?"+":n<-0.004?"−":"")+eur(Math.abs(n));
+  const cls=n=>n>0.004?"pos":n<-0.004?"neg":"zero";
+  const px=(m,v)=>Number(v).toLocaleString("fr-FR",{minimumFractionDigits:m==="OR"?1:5,maximumFractionDigits:m==="OR"?1:5});
+  const hm=t=>new Date(t).toLocaleString("fr-FR",{timeZone:"Europe/Paris",hour:"2-digit",minute:"2-digit"});
+  const jh=t=>new Date(t).toLocaleString("fr-FR",{timeZone:"Europe/Paris",weekday:"short",day:"2-digit",hour:"2-digit",minute:"2-digit"});
+  const el=(t,c,x)=>{const e=document.createElement(t); if(c) e.className=c; if(x!=null) e.textContent=x; return e;};
+  const sv=(p,n,a)=>{const e=document.createElementNS(ns,n); for(const q in a) e.setAttribute(q,a[q]); p.appendChild(e); return e;};
+  const NOMS={EURUSD:"Euro / Dollar",OR:"Or"};
+
+  const base={}, gh={}, docs={}, prix={EURUSD:null,OR:null};
+  let marche="EURUSD", selT=null;
+  try{ marche=localStorage.getItem("direct-marche")||"EURUSD"; }catch(e){}
+  const estMax=k=>/^max-/.test(k)||/risque max/i.test((docs[k]||{}).nom||"");
+  const nom=k=>(docs[k]&&docs[k].nom)||k;
+
+  function dernier(m){ const p=prix[m]; if(p&&p.bougies&&p.bougies.length) return p.bougies[p.bougies.length-1].c;
+    let best=null; Object.values(docs).forEach(d=>(d.analyses||[]).forEach(a=>{ if(a.marche===m&&(!best||a.quand>best.quand)) best=a; })); return best?best.prix:null; }
+  function latent(p){ const c=dernier(p.marche), e=dernier("EURUSD")||1.1; if(c==null) return 0; const s=p.sens==="ACHAT"?1:-1; return p.unites*(c-p.entree)*s/e; }
+
+  function trades(){ const L=[]; Object.keys(docs).forEach(k=>(docs[k].positions||[]).forEach((p,i)=>L.push({k,p,id:k+"#"+i,rt:Number(docs[k].ratio)||2}))); return L.sort((a,b)=>String(b.p.ouvert_le).localeCompare(String(a.p.ouvert_le))); }
+
+  function tout(){
+    if(!Object.keys(docs).length) return;
+    const ks=Object.keys(docs), last=ks.map(k=>docs[k].mis_a_jour||"").sort().pop();
+    $("dern").textContent="Dernier passage : "+jh(last);
+    $("etat-src").textContent=ks.length+" tradeurs démo, chacun avec 100 € fictifs au départ.";
+    // bandeau prix
+    ["EURUSD","OR"].forEach(m=>{
+      const id=m==="OR"?"t-or":"t-eur", p=prix[m], c=dernier(m);
+      $(id).textContent=c!=null?px(m,c):"—";
+      if(p&&p.bougies&&p.bougies.length>24){ const b=p.bougies, v=(b[b.length-1].c/b[b.length-25].c-1)*100; $(id+"-s").innerHTML=""; $(id+"-s").append(el("span",v>=0?"pos":"neg",(v>=0?"▲ +":"▼ ")+v.toFixed(2).replace(".",",")+" %")," sur 24 h · "+hm(b[b.length-1].t)); }
+      else $(id+"-s").textContent="dernier prix vu par les tradeurs";
+    });
+    const T=trades(), tot=T.reduce((s,x)=>s+latent(x.p),0), gar=T.reduce((s,x)=>s+(Number(x.p.marge)||0),0);
+    $("t-tr").textContent=T.length; $("t-tr-s").textContent=eur(gar)+" de garantie bloquée";
+    $("t-pnl").textContent=sg(tot); $("t-pnl").className="num "+cls(tot); $("t-pnl-s").textContent="sur tous les trades ouverts, environ";
+    listeTrades(T); graph(); course(); fil(); maxs();
+  }
+
+  function listeTrades(T){
+    const ul=$("trades"); ul.innerHTML="";
+    $("tr-n").textContent=T.length+" ouverts";
+    if(!T.length){ ul.appendChild(el("li","empty","Aucun trade ouvert pour l'instant. Les tradeurs attendent un signal.")); return; }
+    if(!selT||!T.find(x=>x.id===selT)) selT=(T.find(x=>x.p.marche===marche)||T[0]).id;
+    T.forEach(x=>{
+      const p=x.p, li=el("li","trade"+(x.id===selT?" sel":"")); li.tabIndex=0;
+      const r1=el("div","row"), nm=el("span","nm",nom(x.k)); r1.appendChild(nm);
+      const l=latent(p); r1.appendChild(el("span","pnl "+cls(l),sg(l))); li.appendChild(r1);
+      const r2=el("div","row"); const pl=el("span");
+      pl.appendChild(el("span","pill "+(p.sens==="ACHAT"?"p-up":"p-down"),(p.sens==="ACHAT"?"▲ Achat ":"▼ Vente ")+(p.marche==="OR"?"Or":"EUR/USD")));
+      if(estMax(x.k)){ pl.append(" "); pl.appendChild(el("span","pill p-max","mise max")); }
+      r2.appendChild(pl); r2.appendChild(el("span","small muted mono","depuis "+jh(p.ouvert_le))); li.appendChild(r2);
+      // jauge stop → objectif
+      const c=dernier(p.marche), g=el("div","gauge"), lo=Math.min(p.stop,p.objectif), hi=Math.max(p.stop,p.objectif);
+      const pos=v=>{ let f=(v-p.stop)/(p.objectif-p.stop); return Math.max(0,Math.min(1,f))*100; };
+      const en=el("i","en"); en.style.left=pos(p.entree)+"%"; g.appendChild(en);
+      if(c!=null){ const mk=el("i","mk"); mk.style.left=pos(c)+"%"; g.appendChild(mk); }
+      li.appendChild(g);
+      const gl=el("div","gl"); gl.appendChild(el("span",null,"Stop "+px(p.marche,p.stop)+" · −"+eur(p.risque))); gl.appendChild(el("span",null,"Objectif "+px(p.marche,p.objectif)+" · +"+eur((Number(p.risque)||0)*x.rt))); li.appendChild(gl);
+      const f=el("div","facts"); f.innerHTML=""; [["Entrée",px(p.marche,p.entree)],["Prix",c!=null?px(p.marche,c):"—"],["Garantie",eur(p.marge)]].forEach(([a,b])=>{ const s=el("span",null,a+" "); s.appendChild(el("b",null,b)); f.appendChild(s); }); li.appendChild(f);
+      const go=()=>{ selT=x.id; if(p.marche!==marche) setM(p.marche); else tout(); if(window.innerWidth<=960) $("box").scrollIntoView({behavior:"smooth",block:"center"}); };
+      li.addEventListener("click",go); li.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); go(); }});
+      ul.appendChild(li);
+    });
+  }
+
+  function setM(m){ marche=m; try{localStorage.setItem("direct-marche",m);}catch(e){} document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.m===m))); $("g-titre").textContent=NOMS[m]+", bougies d'une heure"; tout(); }
+  document.querySelectorAll(".tabs button").forEach(b=>b.addEventListener("click",()=>setM(b.dataset.m)));
+  setM(marche);
+
+  function graph(){
+    const box=$("box"), svg=$("g"), W=Math.max(300,box.clientWidth||700), H=W<560?280:380, L=8, R=70, T=14, B=26;
+    svg.setAttribute("viewBox","0 0 "+W+" "+H); svg.setAttribute("height",H); svg.innerHTML="";
+    const P=prix[marche], bs=(P&&P.bougies||[]).slice(-(W<560?36:60));
+    const TR=trades().filter(x=>x.p.marche===marche), sel=trades().find(x=>x.id===selT&&x.p.marche===marche);
+    const H2=[]; Object.keys(docs).forEach(k=>(docs[k].historique||[]).forEach(h=>{ if(h.marche===marche) H2.push({k,h}); }));
+    if(!bs.length){ const t=sv(svg,"text",{x:W/2,y:H/2,"text-anchor":"middle",fill:"var(--muted)","font-size":13}); t.textContent="Le graphique du prix arrive à la prochaine mise à jour."; return; }
+    const t0=bs[0].t, t1=bs[bs.length-1].t, step=(t1-t0)/Math.max(1,bs.length-1)||3600e3;
+    let lo=Math.min(...bs.map(b=>b.l)), hi=Math.max(...bs.map(b=>b.h));
+    if(sel){ lo=Math.min(lo,sel.p.stop,sel.p.objectif); hi=Math.max(hi,sel.p.stop,sel.p.objectif); }
+    const pad=(hi-lo)*.06||1e-4; lo-=pad; hi+=pad;
+    const x=t=>L+(t-t0+step/2)/(t1-t0+step)*(W-L-R), y=v=>T+(hi-v)/(hi-lo)*(H-T-B), cw=Math.max(2,(W-L-R)/bs.length*.62);
+    // grille
+    for(let i=0;i<=4;i++){ const v=lo+(hi-lo)*i/4; sv(svg,"line",{x1:L,x2:W-R,y1:y(v),y2:y(v),stroke:"var(--grid)"}); const t=sv(svg,"text",{x:W-R+6,y:y(v)+4,"font-size":10.5,fill:"var(--dim)","font-family":"JetBrains Mono, monospace"}); t.textContent=px(marche,v); }
+    let jour=""; bs.forEach(b=>{ const j=new Date(b.t).toLocaleDateString("fr-FR",{timeZone:"Europe/Paris",weekday:"short",day:"2-digit"}); if(j!==jour){ jour=j; sv(svg,"line",{x1:x(b.t),x2:x(b.t),y1:T,y2:H-B,stroke:"var(--grid)","stroke-dasharray":"2 4"}); const t=sv(svg,"text",{x:x(b.t)+3,y:H-8,"font-size":10.5,fill:"var(--dim)","font-family":"JetBrains Mono, monospace"}); t.textContent=j; }});
+    // bougies
+    bs.forEach(b=>{ const up=b.c>=b.o, col=up?"var(--up)":"var(--down)";
+      sv(svg,"line",{x1:x(b.t),x2:x(b.t),y1:y(b.h),y2:y(b.l),stroke:col,"stroke-width":1});
+      sv(svg,"rect",{x:x(b.t)-cw/2,y:y(Math.max(b.o,b.c)),width:cw,height:Math.max(1,Math.abs(y(b.o)-y(b.c))),fill:col,rx:1}); });
+    // trade choisi : entrée, stop, objectif
+    if(sel){ const p=sel.p, xa=Math.min(W-R-90,Math.max(L,x(+new Date(p.ouvert_le))));
+      sv(svg,"rect",{x:xa,y:Math.min(y(p.entree),y(p.objectif)),width:W-R-xa,height:Math.abs(y(p.entree)-y(p.objectif)),fill:"var(--up-soft)"});
+      sv(svg,"rect",{x:xa,y:Math.min(y(p.entree),y(p.stop)),width:W-R-xa,height:Math.abs(y(p.entree)-y(p.stop)),fill:"var(--down-soft)"});
+      [[p.objectif,"var(--up)","Objectif +"+eur((Number(p.risque)||0)*sel.rt),"6 4"],[p.stop,"var(--down)","Stop −"+eur(p.risque),"6 4"],[p.entree,"var(--fg)","Entrée","" ]].forEach(([v,c,t,d])=>{
+        sv(svg,"line",{x1:xa,x2:W-R,y1:y(v),y2:y(v),stroke:c,"stroke-width":1.4,"stroke-dasharray":d});
+        const tt=sv(svg,"text",{x:W-R-4,y:y(v)-4,"text-anchor":"end","font-size":11,"font-weight":600,fill:c}); tt.textContent=t; });
+    }
+    // entrées des trades ouverts et sorties passées
+    const vis=t=>t>=t0-step&&t<=t1+step;
+    TR.forEach(z=>{ const t=+new Date(z.p.ouvert_le); if(!vis(t)) return; const X=x(t), Y=y(z.p.entree), a=z.p.sens==="ACHAT", s=z.id===selT?7:5;
+      sv(svg,"path",{d:a?`M${X} ${Y+3} l${-s} ${s*1.6} h${2*s} z`:`M${X} ${Y-3} l${-s} ${-s*1.6} h${2*s} z`,fill:a?"var(--up)":"var(--down)",stroke:z.id===selT?"var(--fg)":"var(--bg)","stroke-width":1}); });
+    H2.forEach(({h})=>{ const t=+new Date(h.ferme_le); if(!vis(t)||h.sortie==null) return; sv(svg,"circle",{cx:x(t),cy:y(h.sortie),r:3.5,fill:h.resultat>=0?"var(--up)":"var(--down)",stroke:"var(--bg)","stroke-width":1}); });
+    // prix actuel
+    const c=bs[bs.length-1].c; sv(svg,"rect",{x:W-R+2,y:y(c)-9,width:R-4,height:18,rx:4,fill:"var(--accent)"});
+    const ct=sv(svg,"text",{x:W-R+6,y:y(c)+4,"font-size":11,"font-weight":600,fill:"#1a1206","font-family":"JetBrains Mono, monospace"}); ct.textContent=px(marche,c);
+    sv(svg,"line",{x1:L,x2:W-R,y1:y(c),y2:y(c),stroke:"var(--accent)","stroke-width":1,"stroke-dasharray":"1 3"});
+    const tip=$("tip");
+    svg.onpointermove=ev=>{ const rc=svg.getBoundingClientRect(), mx=(ev.clientX-rc.left)*W/rc.width; let b=bs[0]; bs.forEach(z=>{ if(Math.abs(x(z.t)-mx)<Math.abs(x(b.t)-mx)) b=z; });
+      tip.hidden=false; tip.textContent=jh(b.t)+" · ouverture "+px(marche,b.o)+" · clôture "+px(marche,b.c); tip.style.left=Math.max(110,Math.min(rc.width-110,x(b.t)*rc.width/W))+"px"; tip.style.top=(y(b.h)*rc.height/H)+"px"; };
+    svg.onpointerleave=()=>{ tip.hidden=true; };
+  }
+
+  const COUL=["#2fd18a","#4cc9f0","#a78bfa"], COULB=["#ff5f6d","#fb7185","#f472b6"];
+  function course(){
+    const box=$("box2"), svg=$("g2"), W=Math.max(300,box.clientWidth||600), H=W<560?220:260, L=44, R=12, T=12, B=24;
+    svg.setAttribute("viewBox","0 0 "+W+" "+H); svg.setAttribute("height",H); svg.innerHTML="";
+    const ks=Object.keys(docs).sort((a,b)=>(docs[b].valeur||0)-(docs[a].valeur||0));
+    const ser=ks.map(k=>({k,pts:(docs[k].courbe||[]).map(p=>({t:+new Date(p.quand),v:Number(p.valeur)})).filter(p=>!isNaN(p.t)&&!isNaN(p.v))}));
+    const all=ser.flatMap(s=>s.pts); if(!all.length) return;
+    let t0=Math.min(...all.map(p=>p.t)), t1=Math.max(...all.map(p=>p.t)); if(t1===t0){t0-=3600e3;t1+=3600e3;}
+    let lo=Math.min(100,...all.map(p=>p.v)), hi=Math.max(100,...all.map(p=>p.v)); const pad=Math.max(.5,(hi-lo)*.08); lo-=pad; hi+=pad;
+    const x=t=>L+(t-t0)/(t1-t0)*(W-L-R), y=v=>T+(hi-v)/(hi-lo)*(H-T-B);
+    for(let i=0;i<=4;i++){ const v=lo+(hi-lo)*i/4; sv(svg,"line",{x1:L,x2:W-R,y1:y(v),y2:y(v),stroke:"var(--grid)"}); const t=sv(svg,"text",{x:L-6,y:y(v)+4,"text-anchor":"end","font-size":10.5,fill:"var(--dim)","font-family":"JetBrains Mono, monospace"}); t.textContent=Math.round(v)+" €"; }
+    sv(svg,"line",{x1:L,x2:W-R,y1:y(100),y2:y(100),stroke:"var(--muted)","stroke-dasharray":"4 4"});
+    [t0,t1].forEach((t,i)=>{ const e=sv(svg,"text",{x:i?W-R:L,y:H-6,"text-anchor":i?"end":"start","font-size":10.5,fill:"var(--dim)","font-family":"JetBrains Mono, monospace"}); e.textContent=jh(t); });
+    const path=pts=>pts.map((p,i)=>(i?"L":"M")+x(p.t).toFixed(1)+" "+y(p.v).toFixed(1)).join(" ");
+    const top=ks.slice(0,3), bas=ks.slice(-3).reverse(), mx=ks.filter(estMax);
+    const col=k=>top.includes(k)?COUL[top.indexOf(k)]:bas.includes(k)?COULB[bas.indexOf(k)]:mx.includes(k)?"var(--accent)":null;
+    ser.filter(s=>!col(s.k)&&s.pts.length>1).forEach(s=>sv(svg,"path",{d:path(s.pts),fill:"none",stroke:"var(--line)","stroke-width":1}));
+    ser.filter(s=>col(s.k)&&s.pts.length>1).forEach(s=>{ sv(svg,"path",{d:path(s.pts),fill:"none",stroke:col(s.k),"stroke-width":mx.includes(s.k)&&!top.includes(s.k)&&!bas.includes(s.k)?1.4:2.4,"stroke-dasharray":mx.includes(s.k)&&!top.includes(s.k)&&!bas.includes(s.k)?"3 3":""});
+      const lp=s.pts[s.pts.length-1]; sv(svg,"circle",{cx:x(lp.t),cy:y(lp.v),r:3.5,fill:col(s.k)}); });
+    const li=(k,c)=>{ const l=el("li"), a=el("span"), sw=el("i","sw"); sw.style.background=c; a.appendChild(sw); a.append(nom(k)); l.appendChild(a); const d=(docs[k].valeur||100)-(Number(docs[k].capital_depart)||100); l.appendChild(el("span","num mono "+cls(d),eur(docs[k].valeur))); return l; };
+    $("b-top").innerHTML=""; top.forEach((k,i)=>$("b-top").appendChild(li(k,COUL[i])));
+    $("b-bas").innerHTML=""; bas.forEach((k,i)=>$("b-bas").appendChild(li(k,COULB[i])));
+  }
+
+  function fil(){
+    const E=[]; Object.keys(docs).forEach(k=>{ (docs[k].positions||[]).forEach(p=>E.push({t:p.ouvert_le,k,ty:"o",p})); (docs[k].historique||[]).forEach(h=>{ E.push({t:h.ferme_le,k,ty:"f",p:h}); }); });
+    E.sort((a,b)=>String(b.t).localeCompare(String(a.t)));
+    const ul=$("feed"); ul.innerHTML=""; if(!E.length){ ul.appendChild(el("li","empty","Pas encore de trade.")); return; }
+    E.slice(0,30).forEach(e=>{ const li=el("li","ev"); li.tabIndex=0; const p=e.p, a=p.sens==="ACHAT";
+      const ic=el("span","ic",e.ty==="o"?(a?"▲":"▼"):(p.resultat>=0?"✓":"✕")); ic.style.background=e.ty==="o"?"var(--accent-soft)":p.resultat>=0?"var(--up-soft)":"var(--down-soft)"; ic.style.color=e.ty==="o"?"var(--accent)":p.resultat>=0?"var(--up)":"var(--down)"; li.appendChild(ic);
+      const tx=el("span","tx"); tx.appendChild(el("b",null,nom(e.k)));
+      tx.appendChild(el("span",null,(e.ty==="o"?(a?"Achète ":"Vend ")+(p.marche==="OR"?"de l'or":"l'euro")+" à "+px(p.marche,p.entree):(p.motif||"Sortie")+" à "+px(p.marche,p.sortie))+" · "+jh(e.t))); li.appendChild(tx);
+      li.appendChild(e.ty==="o"?el("span","small mono muted","mise "+eur(p.marge)):el("span","num mono "+cls(p.resultat),sg(Number(p.resultat)||0)));
+      if(e.ty==="o"){ const id=e.k+"#"+(docs[e.k].positions||[]).indexOf(p); li.addEventListener("click",()=>{ selT=id; if(p.marche!==marche) setM(p.marche); else tout(); $("box").scrollIntoView({behavior:"smooth",block:"center"}); }); }
+      ul.appendChild(li); });
+  }
+
+  function maxs(){
+    const box=$("maxs"); box.innerHTML=""; const ks=Object.keys(docs).filter(estMax).sort((a,b)=>(docs[b].valeur||0)-(docs[a].valeur||0));
+    if(!ks.length){ box.appendChild(el("p","empty","Aucun compte mise maximale pour l'instant.")); return; }
+    ks.forEach(k=>{ const d=docs[k], v=Number(d.valeur)||0, g=v-(Number(d.capital_depart)||100), P=d.positions||[], c=el("div","mx");
+      c.appendChild(el("span","nm",nom(k).replace(" (risque max)","")));
+      c.appendChild(el("b",cls(g),eur(v)));
+      c.appendChild(el("span","small mono "+cls(g),sg(g)+" depuis le départ"));
+      const gar=P.reduce((s,p)=>s+(Number(p.marge)||0),0), bar=el("div","bar"), i=el("i"); i.style.width=Math.min(100,gar/Math.max(1,v)*100)+"%"; bar.appendChild(i); c.appendChild(bar);
+      c.appendChild(el("span","small muted",P.length?eur(gar)+" en garantie · perte possible "+eur(P.reduce((s,p)=>s+(Number(p.risque)||0),0)):"Pas de trade en cours"));
+      box.appendChild(c); });
+  }
+
+  // horloge et compte à rebours jusqu'au prochain passage (toutes les 5 min, lundi-vendredi)
+  function horloge(){
+    const n=new Date(); $("heure").textContent=hm(n);
+    let t=new Date(Math.ceil((n.getTime()+1000)/300e3)*300e3);
+    if(t.getUTCDay()===0||t.getUTCDay()===6){ while(t.getUTCDay()!==1) t=new Date(t.getTime()+3600e3); t.setUTCHours(0,0,0,0); $("cd").textContent="lundi"; return; }
+    const m=Math.max(1,Math.round((t-n)/60000)); $("cd").textContent="dans "+m+" min";
+  }
+  horloge(); setInterval(horloge,20000);
+  let rt; window.addEventListener("resize",()=>{ clearTimeout(rt); rt=setTimeout(tout,200); });
+
+  // Sources : base de la page (mise à jour par Claude) et fichier GitHub de la démo si le navigateur l'accepte. Pour chaque compte, la plus récente gagne.
+  function fusion(){ Object.keys(docs).forEach(k=>delete docs[k]);
+    new Set([...Object.keys(base),...Object.keys(gh)]).forEach(k=>{ const a=base[k], b=gh[k]; docs[k]=!a?b:!b?a:(String(b.mis_a_jour||"")>=String(a.mis_a_jour||"")?b:a); }); tout(); }
+  // Version GitHub Pages : lit donnees.json du même site toutes les minutes, sans Claude.
+  async function charge(){
+    try{ let r; try{ r=await fetch("https://raw.githubusercontent.com/ecomtony64-hub/trading-d-mo-/main/donnees.json?t="+Date.now(),{cache:"no-store"}); }catch(e){} if(!r||!r.ok) r=await fetch("donnees.json?t="+Date.now(),{cache:"no-store"}); if(!r.ok) throw 0; const d=await r.json();
+      Object.keys(gh).forEach(k=>delete gh[k]); Object.assign(gh,d.etat||{}); if(d.prix) Object.assign(prix,d.prix); fusion();
+    }catch(e){ $("etat-src").textContent="Impossible de lire les données de la démo. Nouvel essai dans une minute."; }
+  }
+  charge(); setInterval(charge,60*1000);
+})();
+</script>
+
+</body></html>
