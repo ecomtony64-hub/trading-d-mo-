@@ -1,7 +1,7 @@
-name: Démo trading (toutes les heures)
+name: Démo trading (toutes les 5 min)
 on:
   schedule:
-    - cron: "7 * * * 1-5"   # chaque heure, du lundi au vendredi (heure UTC)
+    - cron: "*/5 * * * 1-5"   # toutes les 5 min (le plus souvent possible sur GitHub), lun-ven (UTC)
   workflow_dispatch: {}      # bouton « Run workflow » pour lancer à la main
 permissions:
   contents: write
