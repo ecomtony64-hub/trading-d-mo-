@@ -29,6 +29,20 @@
    "reel": true,
    "ouvert_le": "2026-11-19T09:05+00:00",
    "t_entree": 1795079087
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09951,
+   "stop": 1.10276,
+   "objectif": 1.09299,
+   "unites": 1000,
+   "risque": 2.96,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-19T13:18+00:00",
+   "t_entree": 1795094267
   }
  ],
  "historique": [
@@ -91,36 +105,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-18T01:14+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09902,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
-   "quand": "2026-11-18T01:14+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3827.0,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 42.92 € (plus de 5 % du compte)."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
   {
    "quand": "2026-11-18T02:54+00:00",
    "marche": "EURUSD",
@@ -985,6 +969,34 @@
     "Compte trop petit : la plus petite position acceptée par un courtier risquerait 47.87 € (plus de 5 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T13:18+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09951,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T13:18+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3720.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 47.36 € (plus de 5 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1355,14 +1367,18 @@
   {
    "quand": "2026-11-19T12:00+00:00",
    "valeur": 100.93
+  },
+  {
+   "quand": "2026-11-19T13:18+00:00",
+   "valeur": 100.84
   }
  ],
- "valeur": 100.93,
+ "valeur": 100.84,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "mm_j",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T12:00+00:00",
+ "mis_a_jour": "2026-11-19T13:18+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes jour",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur le journalier, objectif 2 fois le risque",

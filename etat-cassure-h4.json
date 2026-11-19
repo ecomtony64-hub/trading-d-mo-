@@ -44,37 +44,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-18T01:14+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09902,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h).",
-    "Une position est déjà ouverte sur ce marché."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
-   "quand": "2026-11-18T01:14+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3827.0,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 42.92 € (plus de 5 % du compte)."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
    "quand": "2026-11-18T02:54+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -953,6 +922,36 @@
     "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T13:18+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09951,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T13:18+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3720.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1323,6 +1322,10 @@
   {
    "quand": "2026-11-19T12:00+00:00",
    "valeur": 103.53
+  },
+  {
+   "quand": "2026-11-19T13:18+00:00",
+   "valeur": 103.53
   }
  ],
  "valeur": 103.53,
@@ -1330,7 +1333,7 @@
  "methode": "cassure_h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T12:00+00:00",
+ "mis_a_jour": "2026-11-19T13:18+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 4 h",
  "regle": "Le prix dépasse son plus haut ou plus bas des 20 dernières bougies de 4 h, objectif 2 fois le risque",

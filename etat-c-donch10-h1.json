@@ -1,7 +1,8 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
- "positions": [
+ "capital": 99.0,
+ "positions": [],
+ "historique": [
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -14,10 +15,14 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-19T09:05+00:00",
-   "t_entree": 1795079087
+   "t_entree": 1795079087,
+   "sortie": 1.0988699999999998,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-19T12:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.0
   }
  ],
- "historique": [],
  "analyses": [
   {
    "quand": "2026-11-18T21:23+00:00",
@@ -407,6 +412,36 @@
     "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T13:18+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09951,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T13:18+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3720.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -461,15 +496,19 @@
   {
    "quand": "2026-11-19T12:00+00:00",
    "valeur": 99.58
+  },
+  {
+   "quand": "2026-11-19T13:18+00:00",
+   "valeur": 99.0
   }
  ],
- "valeur": 99.58,
+ "valeur": 99.0,
  "news": "",
  "methode": "c:donch10-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T12:00+00:00",
+ "mis_a_jour": "2026-11-19T13:18+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 10 bougies 1 h",
  "regle": "Le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h, objectif 2 fois le risque"
