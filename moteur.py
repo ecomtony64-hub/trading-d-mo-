@@ -23,7 +23,10 @@ FRAIS = {
     "OR": {"spread": 0.35, "glissement": 0.20, "nuit": 0.40, "pas": 1, "levier": 20},
 }
 RISQUE_MAX = 0.05  # si la taille minimale fait risquer plus de 5 % du compte, le trade est refusé
-MAX_PAR_MARCHE = 3   # trades ouverts en même temps sur un même marché
+MAX_PAR_MARCHE = 2   # trades ouverts en même temps sur un même marché
+MAX_OUVERTS = 2      # trades ouverts en même temps sur un compte (Tony, 19/11)
+MARGE_TRADE = 30.0   # garantie visée par trade, en € (Tony, 19/11)
+RISQUE_MAX_TRADE = 0.15  # sécurité : refus si un trade risque plus de 15 % du compte
 ECART_H = 4          # heures minimum entre deux ouvertures sur le même marché
 RISQUE_TOTAL = 0.20  # risque total de tous les trades ouverts : 20 % du compte au plus
 MAJEURES = ("FOMC", "Federal Funds Rate", "Non-Farm", "CPI")
@@ -355,7 +358,9 @@ def main():
         # Plusieurs trades en même temps (Tony, 18/11) : au plus MAX_PAR_MARCHE par marché,
         # au moins ECART_H heures entre deux ouvertures sur le même marché, et risque total ouvert limité.
         sur_marche = [p for p in etat["positions"] if p["marche"] == code]
-        if len(sur_marche) >= MAX_PAR_MARCHE:
+        if len(etat["positions"]) >= MAX_OUVERTS:
+            raisons.append(f"Déjà {MAX_OUVERTS} trades ouverts sur ce compte.")
+        elif len(sur_marche) >= MAX_PAR_MARCHE:
             raisons.append(f"Déjà {MAX_PAR_MARCHE} trades ouverts sur ce marché.")
         elif sur_marche and d["h1"][-1]["t"] - max(p["t_entree"] for p in sur_marche) < ECART_H * 3600:
             raisons.append(f"Un trade a été ouvert sur ce marché il y a moins de {ECART_H} h.")
@@ -375,17 +380,15 @@ def main():
                 raisons.append("Stop trop loin du prix (plus de 3 %).")
             else:
                 objectif = entree + ratio * dist if sens == "ACHAT" else entree - ratio * dist
-                ideal = etat["capital"] * risque * eurusd / dist
-                unites = max(f["pas"], int(ideal // f["pas"]) * f["pas"])   # taille arrondie au minimum du courtier
+                # Taille (Tony, 19/11) : environ MARGE_TRADE € de garantie par trade, levier légal européen (30 EUR/USD, 20 or).
+                ideal = MARGE_TRADE * eurusd * f["levier"] / prix
+                unites = max(f["pas"], int(round(ideal / f["pas"])) * f["pas"])   # arrondi à la taille du courtier
                 marge_prise = sum(p.get("marge", 0) for p in etat["positions"])
-                if fort:   # la garantie demandée par le courtier limite aussi la taille
-                    libre = (etat["capital"] - marge_prise) * eurusd * f["levier"] / prix
-                    unites = max(f["pas"], min(unites, int(libre // f["pas"]) * f["pas"]))
                 risque_eur = round(unites * dist / eurusd, 2)
                 marge = round(unites * prix / f["levier"] / eurusd, 2)
                 risque_ouvert = sum(p.get("risque", 0) for p in etat["positions"])
-                if risque_eur > etat["capital"] * risque_max:
-                    raisons.append(f"Compte trop petit : la plus petite position acceptée par un courtier risquerait {risque_eur} € (plus de {round(risque_max * 100)} % du compte).")
+                if risque_eur > etat["capital"] * RISQUE_MAX_TRADE:
+                    raisons.append(f"Stop trop loin : ce trade risquerait {risque_eur} € (plus de {round(RISQUE_MAX_TRADE * 100)} % du compte).")
                 elif risque_ouvert + risque_eur > etat["capital"] * RISQUE_TOTAL:
                     raisons.append(f"Trop de risque déjà en jeu : {round(risque_ouvert, 2)} € sur les trades ouverts (maximum {round(RISQUE_TOTAL * 100)} % du compte au total).")
                 elif marge + marge_prise > etat["capital"]:
