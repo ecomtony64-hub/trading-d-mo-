@@ -1,20 +1,20 @@
 {
  "capital_depart": 100.0,
- "capital": 98.66,
+ "capital": 97.58,
  "positions": [
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
    "sens": "VENTE",
-   "entree": 1.09601,
-   "stop": 1.09715,
-   "objectif": 1.09374,
+   "entree": 1.09794,
+   "stop": 1.09899,
+   "objectif": 1.09582,
    "unites": 1000,
-   "risque": 1.04,
+   "risque": 0.96,
    "marge": 33.33,
    "reel": true,
-   "ouvert_le": "2026-11-19T03:58+00:00",
-   "t_entree": 1795060666
+   "ouvert_le": "2026-11-19T07:18+00:00",
+   "t_entree": 1795072665
   }
  ],
  "historique": [
@@ -36,6 +36,25 @@
    "ferme_le": "2026-11-19T03:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -1.34
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09601,
+   "stop": 1.09715,
+   "objectif": 1.09374,
+   "unites": 1000,
+   "risque": 1.04,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-19T03:58+00:00",
+   "t_entree": 1795060666,
+   "sortie": 1.0972000000000002,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-19T06:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.08
   }
  ],
  "analyses": [
@@ -307,6 +326,34 @@
     "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T07:18+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09794,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T07:18+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3737.0,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -345,15 +392,19 @@
   {
    "quand": "2026-11-19T05:07+00:00",
    "valeur": 98.02
+  },
+  {
+   "quand": "2026-11-19T07:18+00:00",
+   "valeur": 97.49
   }
  ],
- "valeur": 98.02,
+ "valeur": 97.49,
  "news": "",
  "methode": "c:roc10-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T05:07+00:00",
+ "mis_a_jour": "2026-11-19T07:18+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 10 bougies 1 h",
  "regle": "Le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h, objectif 2 fois le risque"
