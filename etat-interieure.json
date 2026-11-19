@@ -725,6 +725,36 @@
     "Hier n'était pas une journée « intérieure »."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T14:57+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09963,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Hier n'était pas une journée « intérieure »."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T14:57+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3709.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Hier n'était pas une journée « intérieure »."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -823,6 +853,10 @@
   {
    "quand": "2026-11-19T13:18+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-19T14:57+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -831,7 +865,7 @@
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T13:18+00:00",
+ "mis_a_jour": "2026-11-19T14:57+00:00",
  "erreur_calendrier": null,
  "nom": "Journée intérieure",
  "regle": "Sortie d'une journée restée à l'intérieur de la précédente, objectif 3 fois le risque"

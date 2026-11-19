@@ -1,7 +1,8 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
- "positions": [
+ "capital": 98.71,
+ "positions": [],
+ "historique": [
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -14,10 +15,14 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-19T12:00+00:00",
-   "t_entree": 1795089586
+   "t_entree": 1795089586,
+   "sortie": 1.1009300000000002,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-19T14:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.29
   }
  ],
- "historique": [],
  "analyses": [
   {
    "quand": "2026-11-18T21:23+00:00",
@@ -437,6 +442,36 @@
     "Pas de signal : contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T14:57+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09963,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T14:57+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3709.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -495,15 +530,19 @@
   {
    "quand": "2026-11-19T13:18+00:00",
    "valeur": 99.91
+  },
+  {
+   "quand": "2026-11-19T14:57+00:00",
+   "valeur": 98.71
   }
  ],
- "valeur": 99.91,
+ "valeur": 98.71,
  "news": "",
  "methode": "c:boll25r-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T13:18+00:00",
+ "mis_a_jour": "2026-11-19T14:57+00:00",
  "erreur_calendrier": null,
  "nom": "Rebond bandes 2.5 1 h",
  "regle": "Contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 1 h, objectif 2 fois le risque"
