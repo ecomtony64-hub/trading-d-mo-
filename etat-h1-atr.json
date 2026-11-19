@@ -215,36 +215,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-17T22:56+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10011,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique d'1 h."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
-   "quand": "2026-11-17T22:56+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3851.9,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 21.53 € (plus de 5 % du compte)."
-   ],
-   "alerte": "FOMC Meeting Minutes le 18/11 à 19:00 UTC"
-  },
-  {
    "quand": "2026-11-17T23:52+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1114,6 +1084,36 @@
     "Compte trop petit : la plus petite position acceptée par un courtier risquerait 24.17 € (plus de 5 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T10:12+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09987,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique d'1 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T10:12+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3728.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique d'1 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1476,6 +1476,10 @@
   {
    "quand": "2026-11-19T09:05+00:00",
    "valeur": 93.45
+  },
+  {
+   "quand": "2026-11-19T10:12+00:00",
+   "valeur": 93.45
   }
  ],
  "valeur": 93.45,
@@ -1483,7 +1487,7 @@
  "methode": "h1_atr",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T09:05+00:00",
+ "mis_a_jour": "2026-11-19T10:12+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h, stop serré",
  "regle": "Tendance d'1 h, stop réglé sur la taille des bougies, objectif 2 fois le risque",

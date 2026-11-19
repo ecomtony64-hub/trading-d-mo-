@@ -635,6 +635,36 @@
     "Pas de bougie de retournement sur un extrême de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-19T10:12+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09987,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de bougie de retournement sur un extrême de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-19T10:12+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3728.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de bougie de retournement sur un extrême de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -721,6 +751,10 @@
   {
    "quand": "2026-11-19T09:05+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-19T10:12+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -729,7 +763,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-19T09:05+00:00",
+ "mis_a_jour": "2026-11-19T10:12+00:00",
  "erreur_calendrier": null,
  "nom": "Bougie de retournement 4 h",
  "regle": "Bougie qui avale la précédente sur un plus haut ou plus bas de 4 h, objectif 2 fois le risque"
