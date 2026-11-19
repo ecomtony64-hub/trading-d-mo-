@@ -10,7 +10,7 @@ for doc, c in comptes.items():
     e = json.load(open(f))
     d = {k: e.get(k) for k in ("capital", "capital_depart", "valeur", "methode", "ratio", "conditions", "mis_a_jour",
                                "erreur_calendrier", "news", "positions")}
-    d.update(nom=c["nom"], regle=c["regle"], historique=e.get("historique", [])[-10:], courbe=e.get("courbe", [])[-12:],
+    d.update(nom=c["nom"] + (" — MORT" if e.get("mort") else ""), regle=c["regle"], historique=e.get("historique", [])[-10:], courbe=e.get("courbe", [])[-12:],
              analyses=e.get("analyses", [])[-2:])
     if doc != "courant":
         d["news"] = ""
