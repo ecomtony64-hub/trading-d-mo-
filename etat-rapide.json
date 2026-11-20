@@ -15,6 +15,20 @@
    "reel": true,
    "ouvert_le": "2026-11-19T17:04+00:00",
    "t_entree": 1795107828
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09876,
+   "stop": 1.09818,
+   "objectif": 1.09992,
+   "unites": 1000,
+   "risque": 0.53,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-20T16:08+00:00",
+   "t_entree": 1795190863
   }
  ],
  "historique": [
@@ -153,36 +167,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-19T22:15+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09721,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 2 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-19T22:15+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3627.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 2 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-19T22:59+00:00",
    "marche": "EURUSD",
@@ -1052,6 +1036,34 @@
     "Stop trop loin : ce trade risquerait 44.28 € (plus de 15 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T16:08+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09866,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T16:08+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3550.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 42.42 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1578,14 +1590,18 @@
   {
    "quand": "2026-11-20T15:55+00:00",
    "valeur": 90.25
+  },
+  {
+   "quand": "2026-11-20T16:08+00:00",
+   "valeur": 91.25
   }
  ],
- "valeur": 90.25,
+ "valeur": 91.25,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "rapide",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T15:55+00:00",
+ "mis_a_jour": "2026-11-20T16:08+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h (risque fort)",
  "regle": "Tendance du graphique d'1 h seul, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
