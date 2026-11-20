@@ -1,29 +1,40 @@
 name: Démo trading (toutes les 5 min)
+# GitHub ne lance en réalité les tâches « toutes les 5 min » qu'environ une fois par heure.
+# Donc chaque lancement reste allumé ~55 min et fait lui-même un passage toutes les 5 min.
 on:
   schedule:
-    - cron: "*/5 * * * 1-5"   # toutes les 5 min (le plus souvent possible sur GitHub), lun-ven (UTC)
-  workflow_dispatch: {}      # bouton « Run workflow » pour lancer à la main
+    - cron: "*/15 * * * 1-5"   # filet de sécurité : relance si aucun passage n'est en cours (lun-ven, UTC)
+  workflow_dispatch: {}
 permissions:
   contents: write
-concurrency: demo
+concurrency:
+  group: demo
+  cancel-in-progress: false
 jobs:
   tourner:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 65
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Faire tourner les comptes
-        run: python3 tout.py --leger | grep -v '^\[' | tee sortie.txt
-      - name: Préparer les données de la page
-        run: python3 publier.py
-      - name: Enregistrer
+      - name: Passages toutes les 5 min pendant ~55 min
         run: |
           git config user.name "demo-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A ':!sortie.txt'
-          git diff --cached --quiet || git commit -m "Démo : $(date -u +'%d/%m %H:%M') UTC"
-          git push
-          curl -s "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/donnees.js" > /dev/null || true
+          fin=$(( $(date +%s) + 55*60 ))
+          while [ "$(date +%s)" -lt "$fin" ]; do
+            jour=$(date -u +%u); heure=$(date -u +%H)
+            if [ "$jour" -ge 6 ] || { [ "$jour" -eq 5 ] && [ "$heure" -ge 22 ]; }; then echo "Marché fermé"; break; fi
+            git pull -q --rebase || true
+            python3 tout.py --leger | grep -v '^\[' | grep -E "ERREUR|CHANGEMENTS" || true
+            python3 publier.py
+            git add -A
+            git diff --cached --quiet || git commit -qm "Démo : $(date -u +'%d/%m %H:%M') UTC"
+            git push -q || { git pull -q --rebase && git push -q; } || true
+            curl -s "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/donnees.js" > /dev/null || true
+            reste=$(( 300 - $(date +%s) % 300 ))
+            [ $(( $(date +%s) + reste )) -lt "$fin" ] || break
+            sleep "$reste"
+          done
