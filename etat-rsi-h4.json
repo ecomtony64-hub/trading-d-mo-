@@ -111,36 +111,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-20T17:45+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09782,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'est ni très bas ni très haut sur le graphique de 4 h (indicateur RSI entre 30 et 70)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-20T17:45+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3531.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 66.61 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-20T17:50+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1009,6 +979,36 @@
     "Stop trop loin : ce trade risquerait 64.87 € (plus de 15 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T20:15+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09721,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'est ni très bas ni très haut sur le graphique de 4 h (indicateur RSI entre 30 et 70)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T20:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3520.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 64.87 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1731,6 +1731,10 @@
   {
    "quand": "2026-11-20T20:14+00:00",
    "valeur": 89.43
+  },
+  {
+   "quand": "2026-11-20T20:15+00:00",
+   "valeur": 89.43
   }
  ],
  "valeur": 89.43,
@@ -1738,7 +1742,7 @@
  "methode": "rsi_h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T20:14+00:00",
+ "mis_a_jour": "2026-11-20T20:15+00:00",
  "erreur_calendrier": null,
  "nom": "Contre-pied 4 h",
  "regle": "Achat quand le prix est tombé très bas, vente quand il est monté très haut, sur 4 h, objectif 2 fois le risque",
