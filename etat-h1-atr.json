@@ -1,36 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 88.22,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09794,
-   "stop": 1.09955,
-   "objectif": 1.0947,
-   "unites": 1000,
-   "risque": 1.47,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-19T17:04+00:00",
-   "t_entree": 1795107828
-  },
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "ACHAT",
-   "entree": 1.09647,
-   "stop": 1.09501,
-   "objectif": 1.09939,
-   "unites": 1000,
-   "risque": 1.33,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-20T10:31+00:00",
-   "t_entree": 1795170645
-  }
- ],
+ "capital": 89.37,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -316,39 +287,47 @@
    "ferme_le": "2026-11-20T10:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -1.23
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09794,
+   "stop": 1.09955,
+   "objectif": 1.0947,
+   "unites": 1000,
+   "risque": 1.47,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-19T17:04+00:00",
+   "t_entree": 1795107828,
+   "sortie": 1.0996000000000001,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-20T13:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.51
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09647,
+   "stop": 1.09501,
+   "objectif": 1.09939,
+   "unites": 1000,
+   "risque": 1.33,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-20T10:31+00:00",
+   "t_entree": 1795170645,
+   "sortie": 1.09939,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-20T13:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 2.66
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-19T05:07+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09661,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique d'1 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-19T05:07+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3724.4,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 27.87 € (plus de 5 % du compte)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-19T07:18+00:00",
    "marche": "EURUSD",
@@ -1212,6 +1191,36 @@
     "Pas de tendance claire sur le graphique d'1 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T13:37+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09963,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique d'1 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T13:37+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3555.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 38.69 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1682,14 +1691,18 @@
   {
    "quand": "2026-11-20T12:20+00:00",
    "valeur": 89.47
+  },
+  {
+   "quand": "2026-11-20T13:37+00:00",
+   "valeur": 89.37
   }
  ],
- "valeur": 89.47,
+ "valeur": 89.37,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "h1_atr",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T12:20+00:00",
+ "mis_a_jour": "2026-11-20T13:37+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h, stop serré",
  "regle": "Tendance d'1 h, stop réglé sur la taille des bougies, objectif 2 fois le risque",

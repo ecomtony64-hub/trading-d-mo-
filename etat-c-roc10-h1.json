@@ -1,34 +1,20 @@
 {
  "capital_depart": 100.0,
- "capital": 95.51,
+ "capital": 92.69,
  "positions": [
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09842,
-   "stop": 1.10011,
-   "objectif": 1.09503,
+   "sens": "ACHAT",
+   "entree": 1.09973,
+   "stop": 1.09802,
+   "objectif": 1.10313,
    "unites": 1000,
-   "risque": 1.54,
+   "risque": 1.55,
    "marge": 33.33,
    "reel": true,
-   "ouvert_le": "2026-11-19T18:47+00:00",
-   "t_entree": 1795114005
-  },
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09745,
-   "stop": 1.09876,
-   "objectif": 1.09485,
-   "unites": 1000,
-   "risque": 1.19,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-20T09:33+00:00",
-   "t_entree": 1795167164
+   "ouvert_le": "2026-11-20T13:37+00:00",
+   "t_entree": 1795181804
   }
  ],
  "historique": [
@@ -107,40 +93,47 @@
    "ferme_le": "2026-11-20T08:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -1.07
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09842,
+   "stop": 1.10011,
+   "objectif": 1.09503,
+   "unites": 1000,
+   "risque": 1.54,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-19T18:47+00:00",
+   "t_entree": 1795114005,
+   "sortie": 1.10016,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-20T13:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.58
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09745,
+   "stop": 1.09876,
+   "objectif": 1.09485,
+   "unites": 1000,
+   "risque": 1.19,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-20T09:33+00:00",
+   "t_entree": 1795167164,
+   "sortie": 1.09881,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-20T13:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.24
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-19T05:07+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09661,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h (attendu).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-19T05:07+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3724.4,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-19T07:18+00:00",
    "marche": "EURUSD",
@@ -1014,6 +1007,34 @@
     "Stop trop loin : ce trade risquerait 39.17 € (plus de 15 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T13:37+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09963,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T13:37+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3555.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1168,15 +1189,19 @@
   {
    "quand": "2026-11-20T12:20+00:00",
    "valeur": 97.3
+  },
+  {
+   "quand": "2026-11-20T13:37+00:00",
+   "valeur": 92.6
   }
  ],
- "valeur": 97.3,
+ "valeur": 92.6,
  "news": "",
  "methode": "c:roc10-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T12:20+00:00",
+ "mis_a_jour": "2026-11-20T13:37+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 10 bougies 1 h",
  "regle": "Le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h, objectif 2 fois le risque"
