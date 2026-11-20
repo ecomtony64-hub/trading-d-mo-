@@ -320,36 +320,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-19T03:58+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09601,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique d'1 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-19T03:58+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3716.3,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 26.38 € (plus de 5 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-19T05:07+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1211,6 +1181,37 @@
     "Pas de tendance claire sur le graphique d'1 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T12:20+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09685,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique d'1 h.",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T12:20+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3571.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique d'1 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1677,6 +1678,10 @@
   {
    "quand": "2026-11-20T11:26+00:00",
    "valeur": 89.47
+  },
+  {
+   "quand": "2026-11-20T12:20+00:00",
+   "valeur": 89.47
   }
  ],
  "valeur": 89.47,
@@ -1684,7 +1689,7 @@
  "methode": "h1_atr",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T11:26+00:00",
+ "mis_a_jour": "2026-11-20T12:20+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h, stop serré",
  "regle": "Tendance d'1 h, stop réglé sur la taille des bougies, objectif 2 fois le risque",
