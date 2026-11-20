@@ -40,37 +40,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-20T18:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09757,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de petit retour en arrière dans une tendance de 4 h.",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-20T18:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3526.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de petit retour en arrière dans une tendance de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-20T18:05+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -947,6 +916,36 @@
     "Pas de petit retour en arrière dans une tendance de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T20:30+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09697,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T20:30+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3514.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1681,6 +1680,10 @@
   {
    "quand": "2026-11-20T20:25+00:00",
    "valeur": 109.74
+  },
+  {
+   "quand": "2026-11-20T20:30+00:00",
+   "valeur": 109.74
   }
  ],
  "valeur": 109.74,
@@ -1688,7 +1691,7 @@
  "methode": "repli",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T20:25+00:00",
+ "mis_a_jour": "2026-11-20T20:30+00:00",
  "erreur_calendrier": null,
  "nom": "Repli dans la tendance",
  "regle": "Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque",
