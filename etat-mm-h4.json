@@ -111,36 +111,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-19T10:12+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09987,
-   "jour": "RANGE",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique de 4 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-19T10:12+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3728.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : la plus petite position acceptée par un courtier risquerait 47.7 € (plus de 5 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-19T12:00+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1007,6 +977,36 @@
     "Stop trop loin : ce trade risquerait 63.08 € (plus de 15 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T15:05+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09842,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique de 4 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T15:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3567.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 63.08 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1489,6 +1489,10 @@
   {
    "quand": "2026-11-20T15:03+00:00",
    "valeur": 98.72
+  },
+  {
+   "quand": "2026-11-20T15:05+00:00",
+   "valeur": 98.72
   }
  ],
  "valeur": 98.72,
@@ -1496,7 +1500,7 @@
  "methode": "mm_h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T15:03+00:00",
+ "mis_a_jour": "2026-11-20T15:05+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 4 h",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 4 h, objectif 2 fois le risque",
