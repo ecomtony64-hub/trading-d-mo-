@@ -48,36 +48,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-20T07:22+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09866,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-20T07:22+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3551.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques jour et 4 h ne vont pas dans le même sens."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-20T08:34+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -955,6 +925,37 @@
     "Pas de tendance claire : les graphiques jour et 4 h ne vont pas dans le même sens."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T16:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09866,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques jour et 4 h ne vont pas dans le même sens.",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T16:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3549.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques jour et 4 h ne vont pas dans le même sens."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1521,6 +1522,10 @@
   {
    "quand": "2026-11-20T16:50+00:00",
    "valeur": 99.19
+  },
+  {
+   "quand": "2026-11-20T16:55+00:00",
+   "valeur": 99.19
   }
  ],
  "valeur": 99.19,
@@ -1528,7 +1533,7 @@
  "methode": "strict",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T16:50+00:00",
+ "mis_a_jour": "2026-11-20T16:55+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance jour + 4 h",
  "regle": "Les graphiques jour et 4 h vont dans le même sens, objectif 2 fois le risque",
