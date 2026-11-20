@@ -97,34 +97,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-19T21:26+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09709,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "TRADE",
-   "sens": "VENTE",
-   "raisons": [],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-19T21:26+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3661.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 2 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-19T22:15+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -996,6 +968,36 @@
     "Stop trop loin : ce trade risquerait 44.28 € (plus de 15 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T15:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09987,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T15:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3548.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 44.28 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1518,6 +1520,10 @@
   {
    "quand": "2026-11-20T15:50+00:00",
    "valeur": 99.77
+  },
+  {
+   "quand": "2026-11-20T15:55+00:00",
+   "valeur": 99.77
   }
  ],
  "valeur": 99.77,
@@ -1525,7 +1531,7 @@
  "methode": "mm200",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T15:50+00:00",
+ "mis_a_jour": "2026-11-20T15:55+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h + moyenne longue",
  "regle": "Tendance d'1 h confirmée par la moyenne des 200 dernières heures, objectif 2 fois le risque",
