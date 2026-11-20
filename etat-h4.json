@@ -106,36 +106,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-19T16:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09854,
-   "jour": "RANGE",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 2 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-19T16:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3686.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 2 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-19T17:04+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1004,6 +974,36 @@
     "Stop trop loin du prix (plus de 3 %)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T15:25+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.0989,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T15:25+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3574.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin du prix (plus de 3 %)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1502,6 +1502,10 @@
   {
    "quand": "2026-11-20T15:20+00:00",
    "valeur": 99.61
+  },
+  {
+   "quand": "2026-11-20T15:25+00:00",
+   "valeur": 99.61
   }
  ],
  "valeur": 99.61,
@@ -1509,7 +1513,7 @@
  "methode": "h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T15:20+00:00",
+ "mis_a_jour": "2026-11-20T15:25+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h",
  "regle": "Tendance du graphique de 4 h seul, objectif 2 fois le risque",
