@@ -5,36 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-20T09:33+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09745,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Ce n'est pas vendredi après-midi."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-20T09:33+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3585.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Ce n'est pas vendredi après-midi."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-20T10:31+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -903,6 +873,36 @@
     "Ce n'est pas vendredi après-midi."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T17:10+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09842,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Ce n'est pas vendredi après-midi."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T17:10+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3544.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Ce n'est pas vendredi après-midi."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1157,6 +1157,10 @@
   {
    "quand": "2026-11-20T17:00+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-20T17:10+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -1165,7 +1169,7 @@
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T17:00+00:00",
+ "mis_a_jour": "2026-11-20T17:10+00:00",
  "erreur_calendrier": null,
  "nom": "Vendredi contre-pied",
  "regle": "Le vendredi après-midi, si la semaine a beaucoup bougé, on parie sur un petit retour, objectif 3 fois le risque"

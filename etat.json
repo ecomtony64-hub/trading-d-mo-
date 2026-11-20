@@ -48,37 +48,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-20T09:33+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09745,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 2 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-20T09:33+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3585.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques jour et 4 h ne vont pas dans le même sens.",
-    "Déjà 2 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-20T10:31+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -958,6 +927,37 @@
     "Pas de tendance claire : les graphiques jour et 4 h ne vont pas dans le même sens."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T17:10+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09842,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques jour et 4 h ne vont pas dans le même sens.",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T17:10+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3544.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques jour et 4 h ne vont pas dans le même sens."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1532,14 +1532,18 @@
   {
    "quand": "2026-11-20T17:00+00:00",
    "valeur": 99.19
+  },
+  {
+   "quand": "2026-11-20T17:10+00:00",
+   "valeur": 99.85
   }
  ],
- "valeur": 99.19,
+ "valeur": 99.85,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "strict",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T17:00+00:00",
+ "mis_a_jour": "2026-11-20T17:10+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance jour + 4 h",
  "regle": "Les graphiques jour et 4 h vont dans le même sens, objectif 2 fois le risque",
