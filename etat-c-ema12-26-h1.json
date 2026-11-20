@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 98.47,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09852,
+   "stop": 1.09689,
+   "objectif": 1.10177,
+   "unites": 1000,
+   "risque": 1.48,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-20T15:03+00:00",
+   "t_entree": 1795186966
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -24,36 +39,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-19T09:05+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09987,
-   "jour": "RANGE",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement des moyennes rapides 12 et 26 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-19T09:05+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3739.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement des moyennes rapides 12 et 26 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-19T10:12+00:00",
    "marche": "EURUSD",
@@ -924,6 +909,34 @@
     "Pas de signal : croisement des moyennes rapides 12 et 26 sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T15:03+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09842,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T15:03+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3567.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement des moyennes rapides 12 et 26 sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1086,15 +1099,19 @@
   {
    "quand": "2026-11-20T14:33+00:00",
    "valeur": 98.47
+  },
+  {
+   "quand": "2026-11-20T15:03+00:00",
+   "valeur": 98.38
   }
  ],
- "valeur": 98.47,
+ "valeur": 98.38,
  "news": "",
  "methode": "c:ema12-26-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T14:33+00:00",
+ "mis_a_jour": "2026-11-20T15:03+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes rapides 12/26 1 h",
  "regle": "Croisement des moyennes rapides 12 et 26 sur 1 h, objectif 2 fois le risque"
