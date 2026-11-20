@@ -149,36 +149,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-18T22:54+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09769,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique d'1 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-18T22:54+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3727.8,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique d'1 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-18T23:52+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1043,6 +1013,36 @@
     "Déjà 2 trade(s) ouvert(s) sur ce compte."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T08:34+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09782,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 2 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T08:34+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3579.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 2 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1493,6 +1493,10 @@
   {
    "quand": "2026-11-20T07:22+00:00",
    "valeur": 93.37
+  },
+  {
+   "quand": "2026-11-20T08:34+00:00",
+   "valeur": 93.37
   }
  ],
  "valeur": 93.37,
@@ -1500,7 +1504,7 @@
  "methode": "rapide",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T07:22+00:00",
+ "mis_a_jour": "2026-11-20T08:34+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h (risque fort)",
  "regle": "Tendance du graphique d'1 h seul, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
