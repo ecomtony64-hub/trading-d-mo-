@@ -23,8 +23,8 @@ FRAIS = {
     "OR": {"spread": 0.35, "glissement": 0.20, "nuit": 0.40, "pas": 1, "levier": 20},
 }
 RISQUE_MAX = 0.05  # si la taille minimale fait risquer plus de 5 % du compte, le trade est refusé
-MAX_PAR_MARCHE = 2   # trades ouverts en même temps sur un même marché
-MAX_OUVERTS = 2      # trades ouverts en même temps sur un compte (Tony, 19/11)
+MAX_PAR_MARCHE = 15  # trades ouverts en même temps sur un même marché (Tony, 20/11)
+MAX_OUVERTS = 15     # trades ouverts en même temps sur un compte (Tony, 20/11) ; en pratique la garantie limite à ~3
 MARGE_TRADE = 30.0   # garantie visée par trade, en € (Tony, 19/11)
 RISQUE_MAX_TRADE = 0.15  # sécurité : refus si un trade risque plus de 15 % du compte
 ECART_H = 4          # heures minimum entre deux ouvertures sur le même marché
