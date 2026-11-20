@@ -20,36 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-20T15:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.0989,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement du MACD 5/35/5 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-20T15:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3535.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement du MACD 5/35/5 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-20T15:45+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -918,6 +888,36 @@
     "Pas de signal : croisement du MACD 5/35/5 sur 4 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-20T18:15+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09745,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement du MACD 5/35/5 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-20T18:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3530.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement du MACD 5/35/5 sur 4 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1232,6 +1232,10 @@
   {
    "quand": "2026-11-20T18:10+00:00",
    "valeur": 99.47
+  },
+  {
+   "quand": "2026-11-20T18:15+00:00",
+   "valeur": 99.47
   }
  ],
  "valeur": 99.47,
@@ -1240,7 +1244,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-20T18:10+00:00",
+ "mis_a_jour": "2026-11-20T18:15+00:00",
  "erreur_calendrier": null,
  "nom": "MACD 5/35/5 4 h",
  "regle": "Croisement du MACD 5/35/5 sur 4 h, objectif 2 fois le risque"
