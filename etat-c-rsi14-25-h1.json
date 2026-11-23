@@ -20,36 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-23T20:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09016,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T20:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3639.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le RSI 14 ressort de sa zone 25/75 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T21:00+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -941,6 +911,37 @@
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 14 ressort de sa zone 25/75 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T23:20+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09087,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 14 ressort de sa zone 25/75 sur 1 h (attendu).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T23:20+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3636.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -2377,15 +2378,19 @@
   {
    "quand": "2026-11-23T23:15+00:00",
    "valeur": 100.46
+  },
+  {
+   "quand": "2026-11-23T23:20+00:00",
+   "valeur": 100.24
   }
  ],
- "valeur": 100.46,
+ "valeur": 100.24,
  "news": "",
  "methode": "c:rsi14-25-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T23:15+00:00",
+ "mis_a_jour": "2026-11-23T23:20+00:00",
  "erreur_calendrier": null,
  "nom": "RSI 14 (25/75) 1 h",
  "regle": "Contre-pied : le RSI 14 ressort de sa zone 25/75 sur 1 h, objectif 2 fois le risque"
