@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 97.2,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09938,
-   "stop": 1.10268,
-   "objectif": 1.09279,
-   "unites": 1000,
-   "risque": 3.0,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-23T08:29+00:00",
-   "t_entree": 1795422525
-  }
- ],
+ "capital": 103.23,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -36,40 +21,28 @@
    "ferme_le": "2026-11-23T12:00+00:00",
    "frais_nuit": 0.14,
    "resultat": -2.8
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09938,
+   "stop": 1.10268,
+   "objectif": 1.09279,
+   "unites": 1000,
+   "risque": 3.0,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T08:29+00:00",
+   "t_entree": 1795422525,
+   "sortie": 1.09279,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-23T13:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 6.03
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-23T11:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09673,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : après 3 bougies de même couleur (attendu).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T11:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3620.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : après 3 bougies de même couleur (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T11:25+00:00",
    "marche": "EURUSD",
@@ -943,6 +916,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3617.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : après 3 bougies de même couleur (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T14:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09337,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : après 3 bougies de même couleur (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T14:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3616.3,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -1966,15 +1969,19 @@
   {
    "quand": "2026-11-23T13:55+00:00",
    "valeur": 102.05
+  },
+  {
+   "quand": "2026-11-23T14:00+00:00",
+   "valeur": 103.23
   }
  ],
- "valeur": 102.05,
+ "valeur": 103.23,
  "news": "",
  "methode": "c:troisc-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T13:55+00:00",
+ "mis_a_jour": "2026-11-23T14:00+00:00",
  "erreur_calendrier": null,
  "nom": "3 bougies, contre-pied 4 h",
  "regle": "Après 3 bougies de même couleur, on parie sur le retour sur 4 h, objectif 2 fois le risque"

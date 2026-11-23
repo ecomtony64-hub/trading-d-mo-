@@ -1,7 +1,8 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
- "positions": [
+ "capital": 117.95,
+ "positions": [],
+ "historique": [
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -14,7 +15,12 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-19T12:00+00:00",
-   "t_entree": 1795089586
+   "t_entree": 1795089586,
+   "sortie": 1.09291,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-23T13:00+00:00",
+   "frais_nuit": 0.18,
+   "resultat": 5.85
   },
   {
    "marche": "EURUSD",
@@ -28,7 +34,12 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-19T16:00+00:00",
-   "t_entree": 1795103986
+   "t_entree": 1795103986,
+   "sortie": 1.09166,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-23T13:00+00:00",
+   "frais_nuit": 0.14,
+   "resultat": 6.16
   },
   {
    "marche": "EURUSD",
@@ -42,41 +53,15 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-20T16:08+00:00",
-   "t_entree": 1795190863
+   "t_entree": 1795190863,
+   "sortie": 1.09207,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-23T13:00+00:00",
+   "frais_nuit": 0.09,
+   "resultat": 5.94
   }
  ],
- "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-23T11:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09673,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : dans la tendance (moyenne 100) (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T11:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3620.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : dans la tendance (moyenne 100) (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T11:25+00:00",
    "marche": "EURUSD",
@@ -937,6 +922,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3617.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : dans la tendance (moyenne 100) (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T14:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09337,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : dans la tendance (moyenne 100) (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T14:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3616.3,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -1960,15 +1975,19 @@
   {
    "quand": "2026-11-23T13:55+00:00",
    "valeur": 113.25
+  },
+  {
+   "quand": "2026-11-23T14:00+00:00",
+   "valeur": 117.95
   }
  ],
- "valeur": 113.25,
+ "valeur": 117.95,
  "news": "",
  "methode": "c:repli20-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T13:55+00:00",
+ "mis_a_jour": "2026-11-23T14:00+00:00",
  "erreur_calendrier": null,
  "nom": "Retour sur la moyenne 20 4 h",
  "regle": "Dans la tendance (moyenne 100), le prix touche la moyenne 20 et repart sur 4 h, objectif 2 fois le risque"
