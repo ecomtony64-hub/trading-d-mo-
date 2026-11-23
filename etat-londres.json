@@ -20,36 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-23T07:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10023,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix reste dans le couloir de la nuit."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T07:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3627.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix reste dans le couloir de la nuit."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T07:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -912,6 +882,37 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3618.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix reste dans le couloir de la nuit."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T10:59+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09673,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix reste dans le couloir de la nuit.",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T10:59+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3623.4,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -1835,15 +1836,19 @@
   {
    "quand": "2026-11-23T10:45+00:00",
    "valeur": 100.12
+  },
+  {
+   "quand": "2026-11-23T10:59+00:00",
+   "valeur": 100.56
   }
  ],
- "valeur": 100.12,
+ "valeur": 100.56,
  "news": "",
  "methode": "ouverture_londres",
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T10:45+00:00",
+ "mis_a_jour": "2026-11-23T10:59+00:00",
  "erreur_calendrier": null,
  "nom": "Ouverture de Londres",
  "regle": "Cassure du couloir de la nuit à l'ouverture de Londres, objectif 3 fois le risque"
