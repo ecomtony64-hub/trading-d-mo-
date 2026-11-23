@@ -44,36 +44,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T19:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.0898,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Impossible de placer un stop logique."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T19:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3654.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 96.26 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T19:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -910,6 +880,36 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 49.15 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T21:45+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09039,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Impossible de placer un stop logique."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T21:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3634.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h."
    ],
    "alerte": null
   },
@@ -2607,6 +2607,10 @@
   },
   {
    "quand": "2026-11-23T21:40+00:00",
+   "valeur": 111.75
+  },
+  {
+   "quand": "2026-11-23T21:45+00:00",
    "valeur": 111.75
   },
   {

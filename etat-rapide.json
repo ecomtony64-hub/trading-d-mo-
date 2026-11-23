@@ -272,36 +272,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T19:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.0898,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique d'1 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T19:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3654.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 39.59 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T19:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1166,6 +1136,36 @@
    "sens": null,
    "raisons": [
     "Compte trop petit : le courtier demanderait 166.76 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T21:45+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09039,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique d'1 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T21:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3634.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 166.64 € de garantie pour cette position."
    ],
    "alerte": null
   }
@@ -2833,6 +2833,10 @@
   },
   {
    "quand": "2026-11-23T21:40+00:00",
+   "valeur": 84.74
+  },
+  {
+   "quand": "2026-11-23T21:45+00:00",
    "valeur": 84.74
   },
   {
