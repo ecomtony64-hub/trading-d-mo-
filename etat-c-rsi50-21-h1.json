@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 98.7,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.0983,
+   "stop": 1.09938,
+   "objectif": 1.09612,
+   "unites": 1000,
+   "risque": 0.99,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T10:00+00:00",
+   "t_entree": 1795427567
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -62,36 +77,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-23T06:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09987,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T06:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3617.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T06:25+00:00",
    "marche": "EURUSD",
@@ -961,6 +946,34 @@
     "Pas de signal : le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-23T10:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.0983,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T10:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3616.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1795,15 +1808,19 @@
   {
    "quand": "2026-11-23T09:55+00:00",
    "valeur": 98.7
+  },
+  {
+   "quand": "2026-11-23T10:00+00:00",
+   "valeur": 98.61
   }
  ],
- "valeur": 98.7,
+ "valeur": 98.61,
  "news": "",
  "methode": "c:rsi50-21-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T09:55+00:00",
+ "mis_a_jour": "2026-11-23T10:00+00:00",
  "erreur_calendrier": null,
  "nom": "RSI 21 passe 50 1 h",
  "regle": "Le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque"
