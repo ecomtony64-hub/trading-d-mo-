@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 96.13,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09625,
+   "stop": 1.09988,
+   "objectif": 1.08899,
+   "unites": 1000,
+   "risque": 3.31,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T12:00+00:00",
+   "t_entree": 1795434884
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -24,36 +39,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-23T09:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09938,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le CCI ressort de -100/+100 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T09:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3611.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le CCI ressort de -100/+100 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T09:05+00:00",
    "marche": "EURUSD",
@@ -911,6 +896,34 @@
   },
   {
    "quand": "2026-11-23T11:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3621.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le CCI ressort de -100/+100 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T12:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09625,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T12:00+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3621.7,
@@ -1849,15 +1862,19 @@
   {
    "quand": "2026-11-23T11:55+00:00",
    "valeur": 96.13
+  },
+  {
+   "quand": "2026-11-23T12:00+00:00",
+   "valeur": 96.04
   }
  ],
- "valeur": 96.13,
+ "valeur": 96.04,
  "news": "",
  "methode": "c:ccic-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T11:55+00:00",
+ "mis_a_jour": "2026-11-23T12:00+00:00",
  "erreur_calendrier": null,
  "nom": "CCI contre-pied 4 h",
  "regle": "Contre-pied : le CCI ressort de -100/+100 sur 4 h, objectif 2 fois le risque"

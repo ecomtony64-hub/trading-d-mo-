@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 90.39,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09625,
+   "stop": 1.09744,
+   "objectif": 1.09387,
+   "unites": 1000,
+   "risque": 1.09,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T12:00+00:00",
+   "t_entree": 1795434884
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -138,36 +153,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-23T09:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09938,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement des moyennes rapides 9 et 21 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T09:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3611.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement des moyennes rapides 9 et 21 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T09:05+00:00",
    "marche": "EURUSD",
@@ -1025,6 +1010,34 @@
   },
   {
    "quand": "2026-11-23T11:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3621.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement des moyennes rapides 9 et 21 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T12:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09625,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T12:00+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3621.7,
@@ -1963,15 +1976,19 @@
   {
    "quand": "2026-11-23T11:55+00:00",
    "valeur": 90.39
+  },
+  {
+   "quand": "2026-11-23T12:00+00:00",
+   "valeur": 90.3
   }
  ],
- "valeur": 90.39,
+ "valeur": 90.3,
  "news": "",
  "methode": "c:ema9-21-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T11:55+00:00",
+ "mis_a_jour": "2026-11-23T12:00+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes rapides 9/21 1 h",
  "regle": "Croisement des moyennes rapides 9 et 21 sur 1 h, objectif 2 fois le risque"
