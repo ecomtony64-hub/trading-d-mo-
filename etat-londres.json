@@ -1,39 +1,24 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
- "historique": [],
- "analyses": [
+ "positions": [
   {
-   "quand": "2026-11-23T06:35+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
-   "prix": 1.10011,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Ce n'est pas la matinée de Londres."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T06:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3615.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Ce n'est pas la matinée de Londres."
-   ],
-   "alerte": null
-  },
+   "sens": "VENTE",
+   "entree": 1.09745,
+   "stop": 1.10047,
+   "objectif": 1.0884,
+   "unites": 1000,
+   "risque": 2.75,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T10:15+00:00",
+   "t_entree": 1795428887
+  }
+ ],
+ "historique": [],
+ "analyses": [
   {
    "quand": "2026-11-23T06:50+00:00",
    "marche": "EURUSD",
@@ -894,6 +879,34 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3616.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix reste dans le couloir de la nuit."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T10:15+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09745,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T10:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3620.0,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -1789,15 +1802,19 @@
   {
    "quand": "2026-11-23T10:10+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-23T10:15+00:00",
+   "valeur": 99.91
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.91,
  "news": "",
  "methode": "ouverture_londres",
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T10:10+00:00",
+ "mis_a_jour": "2026-11-23T10:15+00:00",
  "erreur_calendrier": null,
  "nom": "Ouverture de Londres",
  "regle": "Cassure du couloir de la nuit à l'ouverture de Londres, objectif 3 fois le risque"
