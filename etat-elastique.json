@@ -5,36 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-23T09:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09866,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'est pas trop éloigné de sa moyenne de 20 jours."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T09:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3612.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 71.56 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T09:53+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -901,6 +871,36 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 70.24 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T12:20+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09661,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'est pas trop éloigné de sa moyenne de 20 jours."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T12:20+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3617.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 70.46 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -1885,6 +1885,10 @@
   {
    "quand": "2026-11-23T12:15+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-23T12:20+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -1893,7 +1897,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T12:15+00:00",
+ "mis_a_jour": "2026-11-23T12:20+00:00",
  "erreur_calendrier": null,
  "nom": "Élastique jour",
  "regle": "Contre-pied quand le prix est très loin de sa moyenne de 20 jours, objectif 2 fois le risque"
