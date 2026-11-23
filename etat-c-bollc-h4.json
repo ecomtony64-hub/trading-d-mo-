@@ -40,36 +40,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T15:05+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09254,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : suivi : le prix sort des bandes de Bollinger sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T15:05+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3672.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : suivi : le prix sort des bandes de Bollinger sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T15:10+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -924,6 +894,36 @@
   },
   {
    "quand": "2026-11-23T17:54+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3653.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : suivi : le prix sort des bandes de Bollinger sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T17:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.08849,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T17:55+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3653.2,
@@ -2102,6 +2102,10 @@
   {
    "quand": "2026-11-23T17:54+00:00",
    "valeur": 98.06
+  },
+  {
+   "quand": "2026-11-23T17:55+00:00",
+   "valeur": 98.06
   }
  ],
  "valeur": 98.06,
@@ -2110,7 +2114,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T17:54+00:00",
+ "mis_a_jour": "2026-11-23T17:55+00:00",
  "erreur_calendrier": null,
  "nom": "Sortie des bandes 4 h",
  "regle": "Suivi : le prix sort des bandes de Bollinger sur 4 h, objectif 2 fois le risque"
