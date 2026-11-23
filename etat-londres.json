@@ -20,36 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-23T19:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.08944,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Ce n'est pas la matinée de Londres."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T19:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3651.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Ce n'est pas la matinée de Londres."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T19:05+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -906,6 +876,36 @@
   },
   {
    "quand": "2026-11-23T21:25+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3636.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Ce n'est pas la matinée de Londres."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T21:30+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09075,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Ce n'est pas la matinée de Londres."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T21:30+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3636.7,
@@ -2296,6 +2296,10 @@
   {
    "quand": "2026-11-23T21:25+00:00",
    "valeur": 106.05
+  },
+  {
+   "quand": "2026-11-23T21:30+00:00",
+   "valeur": 106.05
   }
  ],
  "valeur": 106.05,
@@ -2304,7 +2308,7 @@
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T21:25+00:00",
+ "mis_a_jour": "2026-11-23T21:30+00:00",
  "erreur_calendrier": null,
  "nom": "Ouverture de Londres",
  "regle": "Cassure du couloir de la nuit à l'ouverture de Londres, objectif 3 fois le risque"
