@@ -44,36 +44,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T16:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.08885,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Impossible de placer un stop logique."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T16:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3660.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 90.55 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T17:00+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -930,6 +900,36 @@
   },
   {
    "quand": "2026-11-23T19:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3654.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 96.26 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T19:20+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.0898,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Impossible de placer un stop logique."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T19:20+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3654.6,
@@ -2492,6 +2492,10 @@
   {
    "quand": "2026-11-23T19:15+00:00",
    "valeur": 111.75
+  },
+  {
+   "quand": "2026-11-23T19:20+00:00",
+   "valeur": 111.75
   }
  ],
  "valeur": 111.75,
@@ -2499,7 +2503,7 @@
  "methode": "repli",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T19:15+00:00",
+ "mis_a_jour": "2026-11-23T19:20+00:00",
  "erreur_calendrier": null,
  "nom": "Repli dans la tendance",
  "regle": "Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque",
