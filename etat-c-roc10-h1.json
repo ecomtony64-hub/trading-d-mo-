@@ -1,21 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 90.9,
+ "capital": 89.13,
  "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09782,
-   "stop": 1.09962,
-   "objectif": 1.0942,
-   "unites": 1000,
-   "risque": 1.65,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-20T17:45+00:00",
-   "t_entree": 1795196685
-  },
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -164,39 +150,28 @@
    "ferme_le": "2026-11-20T17:44+00:00",
    "frais_nuit": 0.0,
    "resultat": -1.79
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09782,
+   "stop": 1.09962,
+   "objectif": 1.0942,
+   "unites": 1000,
+   "risque": 1.65,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-20T17:45+00:00",
+   "t_entree": 1795196685,
+   "sortie": 1.0996700000000001,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-23T05:00+00:00",
+   "frais_nuit": 0.09,
+   "resultat": -1.77
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-23T02:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09866,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T02:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3582.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 44.98 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T03:00+00:00",
    "marche": "EURUSD",
@@ -1066,6 +1041,36 @@
     "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-23T05:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09963,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T05:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3623.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1760,15 +1765,19 @@
   {
    "quand": "2026-11-23T05:50+00:00",
    "valeur": 91.93
+  },
+  {
+   "quand": "2026-11-23T05:55+00:00",
+   "valeur": 91.89
   }
  ],
- "valeur": 91.93,
+ "valeur": 91.89,
  "news": "",
  "methode": "c:roc10-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T05:50+00:00",
+ "mis_a_jour": "2026-11-23T05:55+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 10 bougies 1 h",
  "regle": "Le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h, objectif 2 fois le risque"

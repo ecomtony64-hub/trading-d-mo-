@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 96.98,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09782,
-   "stop": 1.09962,
-   "objectif": 1.0942,
-   "unites": 2000,
-   "risque": 3.3,
-   "marge": 66.67,
-   "reel": true,
-   "ouvert_le": "2026-11-20T17:45+00:00",
-   "t_entree": 1795196685
-  }
- ],
+ "capital": 93.43,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -36,41 +21,28 @@
    "ferme_le": "2026-11-20T13:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -3.02
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09782,
+   "stop": 1.09962,
+   "objectif": 1.0942,
+   "unites": 2000,
+   "risque": 3.3,
+   "marge": 66.67,
+   "reel": true,
+   "ouvert_le": "2026-11-20T17:45+00:00",
+   "t_entree": 1795196685,
+   "sortie": 1.0996700000000001,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-23T05:00+00:00",
+   "frais_nuit": 0.18,
+   "resultat": -3.55
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-23T02:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09866,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette.",
-    "Déjà 1 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T02:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3582.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette.",
-    "Déjà 1 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T03:00+00:00",
    "marche": "EURUSD",
@@ -998,6 +970,36 @@
     "Déjà 1 trade(s) ouvert(s) sur ce compte."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-23T05:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09963,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T05:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3623.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1632,15 +1634,19 @@
   {
    "quand": "2026-11-23T05:50+00:00",
    "valeur": 94.39
+  },
+  {
+   "quand": "2026-11-23T05:55+00:00",
+   "valeur": 93.43
   }
  ],
- "valeur": 94.39,
+ "valeur": 93.43,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T05:50+00:00",
+ "mis_a_jour": "2026-11-23T05:55+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h (risque max)",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise maximale : presque tout le compte en garantie, 1 trade à la fois"
