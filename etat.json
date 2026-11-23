@@ -1,6 +1,6 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
+ "capital": 103.0,
  "positions": [
   {
    "marche": "EURUSD",
@@ -29,7 +29,9 @@
    "reel": true,
    "ouvert_le": "2026-11-20T08:34+00:00",
    "t_entree": 1795163627
-  },
+  }
+ ],
+ "historique": [
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -42,42 +44,16 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-20T13:37+00:00",
-   "t_entree": 1795181804
+   "t_entree": 1795181804,
+   "sortie": 1.09624,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-23T11:00+00:00",
+   "frais_nuit": 0.09,
+   "resultat": 3.0
   }
  ],
- "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-23T08:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09975,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques jour et 4 h ne vont pas dans le même sens."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T08:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3605.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques jour et 4 h ne vont pas dans le même sens."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T09:00+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -937,6 +913,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3619.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques jour et 4 h ne vont pas dans le même sens."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T11:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09625,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques jour et 4 h ne vont pas dans le même sens."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T11:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3621.7,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -2184,14 +2190,18 @@
   {
    "quand": "2026-11-23T11:50+00:00",
    "valeur": 105.12
+  },
+  {
+   "quand": "2026-11-23T11:55+00:00",
+   "valeur": 105.79
   }
  ],
- "valeur": 105.12,
+ "valeur": 105.79,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "strict",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T11:50+00:00",
+ "mis_a_jour": "2026-11-23T11:55+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance jour + 4 h",
  "regle": "Les graphiques jour et 4 h vont dans le même sens, objectif 2 fois le risque",
