@@ -25,36 +25,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T06:05+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09999,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix sort d'une bougie restée dans la précédente sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T06:05+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3619.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix sort d'une bougie restée dans la précédente sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T06:10+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -923,6 +893,36 @@
     "Pas de signal : le prix sort d'une bougie restée dans la précédente sur 4 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-23T09:20+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09866,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix sort d'une bougie restée dans la précédente sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T09:20+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3612.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix sort d'une bougie restée dans la précédente sur 4 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1745,6 +1745,10 @@
   {
    "quand": "2026-11-23T09:15+00:00",
    "valeur": 97.24
+  },
+  {
+   "quand": "2026-11-23T09:20+00:00",
+   "valeur": 97.24
   }
  ],
  "valeur": 97.24,
@@ -1753,7 +1757,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T09:15+00:00",
+ "mis_a_jour": "2026-11-23T09:20+00:00",
  "erreur_calendrier": null,
  "nom": "Sortie de bougie intérieure 4 h",
  "regle": "Le prix sort d'une bougie restée dans la précédente sur 4 h, objectif 2 fois le risque"
