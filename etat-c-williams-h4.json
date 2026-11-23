@@ -1,36 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 96.13,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "ACHAT",
-   "entree": 1.09804,
-   "stop": 1.09505,
-   "objectif": 1.104,
-   "unites": 1000,
-   "risque": 2.72,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-20T04:13+00:00",
-   "t_entree": 1795147967
-  },
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "ACHAT",
-   "entree": 1.09876,
-   "stop": 1.09547,
-   "objectif": 1.10535,
-   "unites": 1000,
-   "risque": 3.0,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-20T16:08+00:00",
-   "t_entree": 1795190863
-  }
- ],
+ "capital": 90.07,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -50,39 +21,47 @@
    "ferme_le": "2026-11-19T22:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -3.87
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09804,
+   "stop": 1.09505,
+   "objectif": 1.104,
+   "unites": 1000,
+   "risque": 2.72,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-20T04:13+00:00",
+   "t_entree": 1795147967,
+   "sortie": 1.095,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-23T12:00+00:00",
+   "frais_nuit": 0.14,
+   "resultat": -2.92
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09876,
+   "stop": 1.09547,
+   "objectif": 1.10535,
+   "unites": 1000,
+   "risque": 3.0,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-20T16:08+00:00",
+   "t_entree": 1795190863,
+   "sortie": 1.0954199999999998,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-23T12:00+00:00",
+   "frais_nuit": 0.09,
+   "resultat": -3.14
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-23T10:15+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09745,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le Williams %R ressort de sa zone extrême sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T10:15+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3620.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le Williams %R ressort de sa zone extrême sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T10:20+00:00",
    "marche": "EURUSD",
@@ -943,6 +922,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3615.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le Williams %R ressort de sa zone extrême sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T12:50+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09409,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le Williams %R ressort de sa zone extrême sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T12:50+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3621.0,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -1918,15 +1927,19 @@
   {
    "quand": "2026-11-23T12:45+00:00",
    "valeur": 91.99
+  },
+  {
+   "quand": "2026-11-23T12:50+00:00",
+   "valeur": 90.07
   }
  ],
- "valeur": 91.99,
+ "valeur": 90.07,
  "news": "",
  "methode": "c:williams-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T12:45+00:00",
+ "mis_a_jour": "2026-11-23T12:50+00:00",
  "erreur_calendrier": null,
  "nom": "Williams %R 4 h",
  "regle": "Contre-pied : le Williams %R ressort de sa zone extrême sur 4 h, objectif 2 fois le risque"
