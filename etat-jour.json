@@ -73,36 +73,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T14:50+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09373,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T14:50+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3675.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique journalier."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T14:55+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -962,6 +932,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3667.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique journalier."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T17:45+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.08921,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T17:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3662.1,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2441,14 +2441,18 @@
   {
    "quand": "2026-11-23T17:40+00:00",
    "valeur": 123.0
+  },
+  {
+   "quand": "2026-11-23T17:45+00:00",
+   "valeur": 122.13
   }
  ],
- "valeur": 123.0,
+ "valeur": 122.13,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "jour",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T17:40+00:00",
+ "mis_a_jour": "2026-11-23T17:45+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance jour",
  "regle": "Tendance du graphique journalier seul, objectif 2 fois le risque",
