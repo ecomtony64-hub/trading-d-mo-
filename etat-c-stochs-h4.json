@@ -1,39 +1,24 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
- "historique": [],
- "analyses": [
+ "positions": [
   {
-   "quand": "2026-11-23T17:30+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
-   "prix": 1.08873,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : suivi : la stochastique dépasse 80 ou passe sous 20 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T17:30+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3667.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : suivi : la stochastique dépasse 80 ou passe sous 20 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
+   "sens": "VENTE",
+   "entree": 1.09051,
+   "stop": 1.09448,
+   "objectif": 1.08257,
+   "unites": 1000,
+   "risque": 3.64,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T20:00+00:00",
+   "t_entree": 1795463805
+  }
+ ],
+ "historique": [],
+ "analyses": [
   {
    "quand": "2026-11-23T17:35+00:00",
    "marche": "EURUSD",
@@ -891,6 +876,34 @@
   },
   {
    "quand": "2026-11-23T19:57+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3641.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : suivi : la stochastique dépasse 80 ou passe sous 20 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T20:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09051,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T20:00+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3641.8,
@@ -2165,15 +2178,19 @@
   {
    "quand": "2026-11-23T19:57+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-23T20:00+00:00",
+   "valeur": 99.91
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.91,
  "news": "",
  "methode": "c:stochs-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T19:57+00:00",
+ "mis_a_jour": "2026-11-23T20:00+00:00",
  "erreur_calendrier": null,
  "nom": "Stochastique suivi 4 h",
  "regle": "Suivi : la stochastique dépasse 80 ou passe sous 20 sur 4 h, objectif 2 fois le risque"
