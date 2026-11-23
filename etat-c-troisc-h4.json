@@ -15,40 +15,24 @@
    "reel": true,
    "ouvert_le": "2026-11-20T00:23+00:00",
    "t_entree": 1795134167
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09938,
+   "stop": 1.10268,
+   "objectif": 1.09279,
+   "unites": 1000,
+   "risque": 3.0,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T08:29+00:00",
+   "t_entree": 1795422525
   }
  ],
  "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-23T04:50+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09818,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : après 3 bougies de même couleur (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T04:50+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3606.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : après 3 bougies de même couleur (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T04:55+00:00",
    "marche": "EURUSD",
@@ -918,6 +902,34 @@
     "Pas de signal : après 3 bougies de même couleur (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-23T08:29+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09938,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T08:29+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3601.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 71.51 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1696,15 +1708,19 @@
   {
    "quand": "2026-11-23T07:45+00:00",
    "valeur": 102.44
+  },
+  {
+   "quand": "2026-11-23T08:29+00:00",
+   "valeur": 101.36
   }
  ],
- "valeur": 102.44,
+ "valeur": 101.36,
  "news": "",
  "methode": "c:troisc-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T07:45+00:00",
+ "mis_a_jour": "2026-11-23T08:29+00:00",
  "erreur_calendrier": null,
  "nom": "3 bougies, contre-pied 4 h",
  "regle": "Après 3 bougies de même couleur, on parie sur le retour sur 4 h, objectif 2 fois le risque"

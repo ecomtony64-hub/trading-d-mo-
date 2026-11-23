@@ -1,39 +1,24 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
- "historique": [],
- "analyses": [
+ "positions": [
   {
-   "quand": "2026-11-23T04:50+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
-   "prix": 1.09818,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : suivi : le prix sort des bandes de Bollinger sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T04:50+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3606.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : suivi : le prix sort des bandes de Bollinger sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
+   "sens": "ACHAT",
+   "entree": 1.09948,
+   "stop": 1.09619,
+   "objectif": 1.10608,
+   "unites": 1000,
+   "risque": 3.0,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T08:29+00:00",
+   "t_entree": 1795422525
+  }
+ ],
+ "historique": [],
+ "analyses": [
   {
    "quand": "2026-11-23T04:55+00:00",
    "marche": "EURUSD",
@@ -903,6 +888,34 @@
     "Pas de signal : suivi : le prix sort des bandes de Bollinger sur 4 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-23T08:29+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09938,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T08:29+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3601.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : suivi : le prix sort des bandes de Bollinger sur 4 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1681,15 +1694,19 @@
   {
    "quand": "2026-11-23T07:45+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-23T08:29+00:00",
+   "valeur": 99.91
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.91,
  "news": "",
  "methode": "c:bollc-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T07:45+00:00",
+ "mis_a_jour": "2026-11-23T08:29+00:00",
  "erreur_calendrier": null,
  "nom": "Sortie des bandes 4 h",
  "regle": "Suivi : le prix sort des bandes de Bollinger sur 4 h, objectif 2 fois le risque"

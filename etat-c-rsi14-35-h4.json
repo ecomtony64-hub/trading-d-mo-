@@ -25,36 +25,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T04:50+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09818,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le RSI 14 ressort de sa zone 35/65 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T04:50+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3606.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 69.51 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T04:55+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -923,6 +893,36 @@
     "Pas de signal : contre-pied : le RSI 14 ressort de sa zone 35/65 sur 4 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-23T08:29+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09938,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 14 ressort de sa zone 35/65 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T08:29+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3601.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 14 ressort de sa zone 35/65 sur 4 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1701,6 +1701,10 @@
   {
    "quand": "2026-11-23T07:45+00:00",
    "valeur": 96.13
+  },
+  {
+   "quand": "2026-11-23T08:29+00:00",
+   "valeur": 96.13
   }
  ],
  "valeur": 96.13,
@@ -1709,7 +1713,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T07:45+00:00",
+ "mis_a_jour": "2026-11-23T08:29+00:00",
  "erreur_calendrier": null,
  "nom": "RSI 14 (35/65) 4 h",
  "regle": "Contre-pied : le RSI 14 ressort de sa zone 35/65 sur 4 h, objectif 2 fois le risque"
