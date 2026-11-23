@@ -25,36 +25,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T21:30+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09075,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Impossible de placer un stop logique."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T21:30+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3636.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 49.78 € (plus de 25 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T21:35+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -911,6 +881,36 @@
   },
   {
    "quand": "2026-11-23T23:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3630.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T23:50+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09087,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Impossible de placer un stop logique."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T23:50+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3630.2,
@@ -2321,6 +2321,10 @@
   {
    "quand": "2026-11-23T23:45+00:00",
    "valeur": 107.79
+  },
+  {
+   "quand": "2026-11-23T23:50+00:00",
+   "valeur": 107.79
   }
  ],
  "valeur": 107.79,
@@ -2329,7 +2333,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T23:45+00:00",
+ "mis_a_jour": "2026-11-23T23:50+00:00",
  "erreur_calendrier": null,
  "nom": "Repli dans la tendance (risque max)",
  "regle": "Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque, mise maximale : presque tout le compte en garantie, 1 trade à la fois"
