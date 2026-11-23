@@ -73,37 +73,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T16:35+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.08968,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T16:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3676.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T16:40+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -959,6 +928,36 @@
   },
   {
    "quand": "2026-11-23T19:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3651.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T19:10+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.08956,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T19:10+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3651.6,
@@ -2513,6 +2512,10 @@
   {
    "quand": "2026-11-23T19:05+00:00",
    "valeur": 107.62
+  },
+  {
+   "quand": "2026-11-23T19:10+00:00",
+   "valeur": 107.62
   }
  ],
  "valeur": 107.62,
@@ -2520,7 +2523,7 @@
  "methode": "cassure_h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T19:05+00:00",
+ "mis_a_jour": "2026-11-23T19:10+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 4 h",
  "regle": "Le prix dépasse son plus haut ou plus bas des 20 dernières bougies de 4 h, objectif 2 fois le risque",
