@@ -47,36 +47,6 @@
    "quand": "2026-11-23T20:50+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
-   "prix": 1.09039,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Impossible de placer un stop logique."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T20:50+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3639.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 47.51 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T20:50+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
    "prix": 1.09016,
    "jour": "BAISSIER",
    "h4": "HAUSSIER",
@@ -940,6 +910,36 @@
    "sens": null,
    "raisons": [
     "Pas de petit retour en arrière dans une tendance de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T23:10+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09111,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Impossible de placer un stop logique."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T23:10+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3640.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 46.65 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -2680,6 +2680,10 @@
   {
    "quand": "2026-11-23T23:05+00:00",
    "valeur": 111.75
+  },
+  {
+   "quand": "2026-11-23T23:10+00:00",
+   "valeur": 111.75
   }
  ],
  "valeur": 111.75,
@@ -2687,7 +2691,7 @@
  "methode": "repli",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T23:05+00:00",
+ "mis_a_jour": "2026-11-23T23:10+00:00",
  "erreur_calendrier": null,
  "nom": "Repli dans la tendance",
  "regle": "Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque",
