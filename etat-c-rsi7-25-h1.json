@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 98.71,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09938,
-   "stop": 1.10046,
-   "objectif": 1.09724,
-   "unites": 1000,
-   "risque": 0.98,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-23T09:00+00:00",
-   "t_entree": 1795424385
-  }
- ],
+ "capital": 100.66,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -36,39 +21,28 @@
    "ferme_le": "2026-11-19T14:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -1.29
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09938,
+   "stop": 1.10046,
+   "objectif": 1.09724,
+   "unites": 1000,
+   "risque": 0.98,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T09:00+00:00",
+   "t_entree": 1795424385,
+   "sortie": 1.09724,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-23T10:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 1.95
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-23T06:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.10047,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T06:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3621.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T07:00+00:00",
    "marche": "EURUSD",
@@ -941,6 +915,36 @@
     "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-23T10:25+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09697,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T10:25+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3621.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1795,15 +1799,19 @@
   {
    "quand": "2026-11-23T10:20+00:00",
    "valeur": 100.37
+  },
+  {
+   "quand": "2026-11-23T10:25+00:00",
+   "valeur": 100.66
   }
  ],
- "valeur": 100.37,
+ "valeur": 100.66,
  "news": "",
  "methode": "c:rsi7-25-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T10:20+00:00",
+ "mis_a_jour": "2026-11-23T10:25+00:00",
  "erreur_calendrier": null,
  "nom": "RSI 7 (25/75) 1 h",
  "regle": "Contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h, objectif 2 fois le risque"
