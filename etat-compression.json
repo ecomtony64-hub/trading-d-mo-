@@ -15,6 +15,20 @@
    "reel": true,
    "ouvert_le": "2026-11-23T12:50+00:00",
    "t_entree": 1795438185
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.08885,
+   "stop": 1.09279,
+   "objectif": 1.07702,
+   "unites": 1000,
+   "risque": 3.62,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T16:55+00:00",
+   "t_entree": 1795452947
   }
  ],
  "historique": [
@@ -39,36 +53,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-23T13:35+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09469,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T13:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3624.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de sortie après une période calme sur 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T13:40+00:00",
    "marche": "EURUSD",
@@ -929,6 +913,34 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3676.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de sortie après une période calme sur 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T16:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.08885,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T16:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3660.9,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2092,15 +2104,19 @@
   {
    "quand": "2026-11-23T16:40+00:00",
    "valeur": 100.73
+  },
+  {
+   "quand": "2026-11-23T16:55+00:00",
+   "valeur": 101.41
   }
  ],
- "valeur": 100.73,
+ "valeur": 101.41,
  "news": "",
  "methode": "compression",
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T16:40+00:00",
+ "mis_a_jour": "2026-11-23T16:55+00:00",
  "erreur_calendrier": null,
  "nom": "Sortie de calme 4 h",
  "regle": "Après une période très calme sur 4 h, on suit la sortie des bandes, objectif 3 fois le risque"
