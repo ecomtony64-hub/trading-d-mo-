@@ -5,36 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-20T20:30+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09697,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Hier n'était pas une journée « intérieure »."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-20T20:30+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3514.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Hier n'était pas une journée « intérieure »."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-20T20:35+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -903,6 +873,36 @@
     "Hier n'était pas une journée « intérieure »."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-23T02:11+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09854,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'est pas sorti de la journée intérieure."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T02:11+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3602.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Hier n'était pas une journée « intérieure »."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1481,6 +1481,10 @@
   {
    "quand": "2026-11-23T01:45+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-23T02:11+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -1489,7 +1493,7 @@
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T01:45+00:00",
+ "mis_a_jour": "2026-11-23T02:11+00:00",
  "erreur_calendrier": null,
  "nom": "Journée intérieure",
  "regle": "Sortie d'une journée restée à l'intérieur de la précédente, objectif 3 fois le risque"
