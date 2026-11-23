@@ -15,40 +15,24 @@
    "reel": true,
    "ouvert_le": "2026-11-23T15:15+00:00",
    "t_entree": 1795446884
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.0899,
+   "stop": 1.08594,
+   "objectif": 1.09781,
+   "unites": 1000,
+   "risque": 3.63,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T19:15+00:00",
+   "t_entree": 1795461285
   }
  ],
  "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-23T16:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.08968,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T16:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3674.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'est pas trop éloigné de sa moyenne de 20 jours."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T16:55+00:00",
    "marche": "EURUSD",
@@ -909,6 +893,34 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3651.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'est pas trop éloigné de sa moyenne de 20 jours."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T19:15+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.0898,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T19:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3654.6,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2188,15 +2200,19 @@
   {
    "quand": "2026-11-23T19:10+00:00",
    "valeur": 98.17
+  },
+  {
+   "quand": "2026-11-23T19:15+00:00",
+   "valeur": 98.29
   }
  ],
- "valeur": 98.17,
+ "valeur": 98.29,
  "news": "",
  "methode": "elastique",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T19:10+00:00",
+ "mis_a_jour": "2026-11-23T19:15+00:00",
  "erreur_calendrier": null,
  "nom": "Élastique jour",
  "regle": "Contre-pied quand le prix est très loin de sa moyenne de 20 jours, objectif 2 fois le risque"
