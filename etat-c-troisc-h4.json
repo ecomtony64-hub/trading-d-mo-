@@ -20,36 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-23T02:30+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09878,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : après 3 bougies de même couleur (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T02:30+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3585.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : après 3 bougies de même couleur (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T02:35+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -918,6 +888,36 @@
     "Pas de signal : après 3 bougies de même couleur (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-23T05:10+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09854,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : après 3 bougies de même couleur (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T05:10+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3609.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : après 3 bougies de même couleur (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1592,6 +1592,10 @@
   {
    "quand": "2026-11-23T05:05+00:00",
    "valeur": 100.68
+  },
+  {
+   "quand": "2026-11-23T05:10+00:00",
+   "valeur": 100.68
   }
  ],
  "valeur": 100.68,
@@ -1600,7 +1604,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T05:05+00:00",
+ "mis_a_jour": "2026-11-23T05:10+00:00",
  "erreur_calendrier": null,
  "nom": "3 bougies, contre-pied 4 h",
  "regle": "Après 3 bougies de même couleur, on parie sur le retour sur 4 h, objectif 2 fois le risque"
