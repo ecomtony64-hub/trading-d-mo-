@@ -48,36 +48,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-23T04:21+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09818,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T04:21+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3605.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique journalier."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T04:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -934,6 +904,36 @@
   },
   {
    "quand": "2026-11-23T07:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3627.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique journalier."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T07:20+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.10023,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Impossible de placer un stop logique."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T07:20+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3627.3,
@@ -2016,6 +2016,10 @@
   {
    "quand": "2026-11-23T07:15+00:00",
    "valeur": 92.48
+  },
+  {
+   "quand": "2026-11-23T07:20+00:00",
+   "valeur": 92.48
   }
  ],
  "valeur": 92.48,
@@ -2023,7 +2027,7 @@
  "methode": "jour",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T07:15+00:00",
+ "mis_a_jour": "2026-11-23T07:20+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance jour",
  "regle": "Tendance du graphique journalier seul, objectif 2 fois le risque",
