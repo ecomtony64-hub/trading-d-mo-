@@ -20,37 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-23T13:50+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09397,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Ce n'est pas la matinée de Londres.",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T13:50+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3617.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Ce n'est pas la matinée de Londres."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T13:55+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -912,6 +881,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3660.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Ce n'est pas la matinée de Londres."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T17:10+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.08897,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Ce n'est pas la matinée de Londres."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T17:10+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3673.9,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2087,15 +2086,19 @@
   {
    "quand": "2026-11-23T17:05+00:00",
    "valeur": 107.81
+  },
+  {
+   "quand": "2026-11-23T17:10+00:00",
+   "valeur": 107.7
   }
  ],
- "valeur": 107.81,
+ "valeur": 107.7,
  "news": "",
  "methode": "ouverture_londres",
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T17:05+00:00",
+ "mis_a_jour": "2026-11-23T17:10+00:00",
  "erreur_calendrier": null,
  "nom": "Ouverture de Londres",
  "regle": "Cassure du couloir de la nuit à l'ouverture de Londres, objectif 3 fois le risque"
