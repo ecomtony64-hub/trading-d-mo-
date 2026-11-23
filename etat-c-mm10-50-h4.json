@@ -5,36 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-23T21:05+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09051,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : la moyenne de 10 bougies croise celle de 50 sur le graphique 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T21:05+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3634.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : la moyenne de 10 bougies croise celle de 50 sur le graphique 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T21:10+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -897,6 +867,36 @@
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : la moyenne de 10 bougies croise celle de 50 sur le graphique 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T23:30+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09099,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : la moyenne de 10 bougies croise celle de 50 sur le graphique 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T23:30+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3630.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -2341,6 +2341,10 @@
   {
    "quand": "2026-11-23T23:25+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-23T23:30+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -2349,7 +2353,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T23:25+00:00",
+ "mis_a_jour": "2026-11-23T23:30+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 10/50 4 h",
  "regle": "La moyenne de 10 bougies croise celle de 50 sur le graphique 4 h, objectif 2 fois le risque"
