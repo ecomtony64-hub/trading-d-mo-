@@ -1,39 +1,24 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
- "historique": [],
- "analyses": [
+ "positions": [
   {
-   "quand": "2026-11-23T12:40+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
-   "prix": 1.09613,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 55 dernières bougies sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T12:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3615.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 55 dernières bougies sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
+   "sens": "VENTE",
+   "entree": 1.0898,
+   "stop": 1.09388,
+   "objectif": 1.08165,
+   "unites": 1000,
+   "risque": 3.74,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T16:00+00:00",
+   "t_entree": 1795449585
+  }
+ ],
+ "historique": [],
+ "analyses": [
   {
    "quand": "2026-11-23T12:45+00:00",
    "marche": "EURUSD",
@@ -894,6 +879,34 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3672.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 55 dernières bougies sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T16:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.0898,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T16:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3668.0,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -1981,15 +1994,19 @@
   {
    "quand": "2026-11-23T15:55+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-23T16:00+00:00",
+   "valeur": 99.91
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.91,
  "news": "",
  "methode": "c:donch55-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T15:55+00:00",
+ "mis_a_jour": "2026-11-23T16:00+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 55 bougies 4 h",
  "regle": "Le prix casse le plus haut ou le plus bas des 55 dernières bougies sur 4 h, objectif 2 fois le risque"

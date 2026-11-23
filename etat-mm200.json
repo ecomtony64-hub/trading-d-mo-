@@ -101,36 +101,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T12:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09661,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T12:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3614.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T12:45+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -990,6 +960,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3672.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T16:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.0898,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T16:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3668.0,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2393,6 +2393,10 @@
   {
    "quand": "2026-11-23T15:55+00:00",
    "valeur": 98.79
+  },
+  {
+   "quand": "2026-11-23T16:00+00:00",
+   "valeur": 98.79
   }
  ],
  "valeur": 98.79,
@@ -2400,7 +2404,7 @@
  "methode": "mm200",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T15:55+00:00",
+ "mis_a_jour": "2026-11-23T16:00+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h + moyenne longue",
  "regle": "Tendance d'1 h confirmée par la moyenne des 200 dernières heures, objectif 2 fois le risque",

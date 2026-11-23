@@ -1,36 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 102.52,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09794,
-   "stop": 1.10132,
-   "objectif": 1.09116,
-   "unites": 1000,
-   "risque": 3.08,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-20T04:13+00:00",
-   "t_entree": 1795147967
-  },
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09782,
-   "stop": 1.10132,
-   "objectif": 1.0908,
-   "unites": 1000,
-   "risque": 3.19,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-20T08:34+00:00",
-   "t_entree": 1795163627
-  }
- ],
+ "capital": 114.9,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -126,39 +97,47 @@
    "ferme_le": "2026-11-23T13:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -1.56
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09794,
+   "stop": 1.10132,
+   "objectif": 1.09116,
+   "unites": 1000,
+   "risque": 3.08,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-20T04:13+00:00",
+   "t_entree": 1795147967,
+   "sortie": 1.09116,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-23T15:00+00:00",
+   "frais_nuit": 0.14,
+   "resultat": 6.08
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09782,
+   "stop": 1.10132,
+   "objectif": 1.0908,
+   "unites": 1000,
+   "risque": 3.19,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-20T08:34+00:00",
+   "t_entree": 1795163627,
+   "sortie": 1.0908,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-23T15:00+00:00",
+   "frais_nuit": 0.14,
+   "resultat": 6.3
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-23T12:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09661,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T12:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3614.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 20.06 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T12:45+00:00",
    "marche": "EURUSD",
@@ -1026,6 +1005,36 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 79.98 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T16:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.0898,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Impossible de placer un stop logique."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T16:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3668.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 83.96 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -2422,14 +2431,18 @@
   {
    "quand": "2026-11-23T15:55+00:00",
    "valeur": 114.09
+  },
+  {
+   "quand": "2026-11-23T16:00+00:00",
+   "valeur": 114.9
   }
  ],
- "valeur": 114.09,
+ "valeur": 114.9,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T15:55+00:00",
+ "mis_a_jour": "2026-11-23T16:00+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h",
  "regle": "Tendance du graphique de 4 h seul, objectif 2 fois le risque",

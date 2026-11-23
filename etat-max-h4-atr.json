@@ -1,20 +1,20 @@
 {
  "capital_depart": 100.0,
- "capital": 93.35,
+ "capital": 86.56,
  "positions": [
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
    "sens": "ACHAT",
-   "entree": 1.09419,
-   "stop": 1.09054,
-   "objectif": 1.1015,
+   "entree": 1.0899,
+   "stop": 1.08582,
+   "objectif": 1.09805,
    "unites": 2000,
-   "risque": 6.68,
+   "risque": 7.48,
    "marge": 66.67,
    "reel": true,
-   "ouvert_le": "2026-11-23T12:50+00:00",
-   "t_entree": 1795438185
+   "ouvert_le": "2026-11-23T16:00+00:00",
+   "t_entree": 1795449585
   }
  ],
  "historique": [
@@ -36,39 +36,28 @@
    "ferme_le": "2026-11-23T12:00+00:00",
    "frais_nuit": 0.27,
    "resultat": -6.65
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09419,
+   "stop": 1.09054,
+   "objectif": 1.1015,
+   "unites": 2000,
+   "risque": 6.68,
+   "marge": 66.67,
+   "reel": true,
+   "ouvert_le": "2026-11-23T12:50+00:00",
+   "t_entree": 1795438185,
+   "sortie": 1.09049,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-23T15:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -6.79
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-23T12:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09613,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 1 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T12:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3615.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 1 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T12:45+00:00",
    "marche": "EURUSD",
@@ -927,6 +916,34 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3672.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 1 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T16:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.0898,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T16:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3668.0,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -1954,15 +1971,19 @@
   {
    "quand": "2026-11-23T15:55+00:00",
    "valeur": 88.36
+  },
+  {
+   "quand": "2026-11-23T16:00+00:00",
+   "valeur": 86.38
   }
  ],
- "valeur": 88.36,
+ "valeur": 86.38,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T15:55+00:00",
+ "mis_a_jour": "2026-11-23T16:00+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h, stop serré (risque max)",
  "regle": "Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque, mise maximale : presque tout le compte en garantie, 1 trade à la fois"
