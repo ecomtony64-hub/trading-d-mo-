@@ -40,36 +40,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T09:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.0983,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de petit retour en arrière dans une tendance de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T09:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3616.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin du prix (plus de 3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T10:00+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -936,6 +906,36 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 16.96 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T12:30+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09661,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T12:30+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3614.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 20.06 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -2204,6 +2204,10 @@
   {
    "quand": "2026-11-23T12:25+00:00",
    "valeur": 110.07
+  },
+  {
+   "quand": "2026-11-23T12:30+00:00",
+   "valeur": 110.07
   }
  ],
  "valeur": 110.07,
@@ -2211,7 +2215,7 @@
  "methode": "repli",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T12:25+00:00",
+ "mis_a_jour": "2026-11-23T12:30+00:00",
  "erreur_calendrier": null,
  "nom": "Repli dans la tendance",
  "regle": "Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque",
