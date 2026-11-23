@@ -20,36 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-23T05:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09914,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de sortie après une période calme sur 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T05:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3620.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de sortie après une période calme sur 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T05:45+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -922,6 +892,37 @@
     "Pas de sortie après une période calme sur 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-23T08:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09975,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de sortie après une période calme sur 4 h.",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T08:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3605.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de sortie après une période calme sur 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1764,6 +1765,10 @@
   {
    "quand": "2026-11-23T08:50+00:00",
    "valeur": 99.58
+  },
+  {
+   "quand": "2026-11-23T08:55+00:00",
+   "valeur": 99.58
   }
  ],
  "valeur": 99.58,
@@ -1772,7 +1777,7 @@
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T08:50+00:00",
+ "mis_a_jour": "2026-11-23T08:55+00:00",
  "erreur_calendrier": null,
  "nom": "Sortie de calme 4 h",
  "regle": "Après une période très calme sur 4 h, on suit la sortie des bandes, objectif 3 fois le risque"
