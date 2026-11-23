@@ -1,20 +1,20 @@
 {
  "capital_depart": 100.0,
- "capital": 99.87,
+ "capital": 98.9,
  "positions": [
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
    "sens": "ACHAT",
-   "entree": 1.10009,
-   "stop": 1.09907,
-   "objectif": 1.10213,
+   "entree": 1.09876,
+   "stop": 1.09771,
+   "objectif": 1.10085,
    "unites": 1000,
-   "risque": 0.93,
+   "risque": 0.95,
    "marge": 33.33,
    "reel": true,
-   "ouvert_le": "2026-11-23T06:05+00:00",
-   "t_entree": 1795413887
+   "ouvert_le": "2026-11-23T09:15+00:00",
+   "t_entree": 1795424986
   }
  ],
  "historique": [
@@ -283,39 +283,28 @@
    "ferme_le": "2026-11-23T05:00+00:00",
    "frais_nuit": 0.09,
    "resultat": -1.77
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.10009,
+   "stop": 1.09907,
+   "objectif": 1.10213,
+   "unites": 1000,
+   "risque": 0.93,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T06:05+00:00",
+   "t_entree": 1795413887,
+   "sortie": 1.0990199999999999,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-23T09:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.97
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-23T06:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09963,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T06:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3623.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T06:05+00:00",
    "marche": "EURUSD",
@@ -1174,6 +1163,34 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3611.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T09:15+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09866,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T09:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3613.9,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -2317,14 +2334,18 @@
   {
    "quand": "2026-11-23T09:10+00:00",
    "valeur": 99.23
+  },
+  {
+   "quand": "2026-11-23T09:15+00:00",
+   "valeur": 98.81
   }
  ],
- "valeur": 99.23,
+ "valeur": 98.81,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "mm_h1",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T09:10+00:00",
+ "mis_a_jour": "2026-11-23T09:15+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h (risque fort)",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
