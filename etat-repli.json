@@ -40,36 +40,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T01:35+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09842,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de petit retour en arrière dans une tendance de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T01:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3611.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de petit retour en arrière dans une tendance de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T01:40+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -929,6 +899,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3605.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T04:35+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.0983,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T04:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3608.9,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -1900,14 +1900,18 @@
   {
    "quand": "2026-11-23T04:30+00:00",
    "valeur": 108.65
+  },
+  {
+   "quand": "2026-11-23T04:35+00:00",
+   "valeur": 108.54
   }
  ],
- "valeur": 108.65,
+ "valeur": 108.54,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "repli",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T04:30+00:00",
+ "mis_a_jour": "2026-11-23T04:35+00:00",
  "erreur_calendrier": null,
  "nom": "Repli dans la tendance",
  "regle": "Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque",
