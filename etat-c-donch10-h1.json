@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 93.57,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "ACHAT",
-   "entree": 1.09973,
-   "stop": 1.09867,
-   "objectif": 1.10184,
-   "unites": 1000,
-   "risque": 0.96,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-23T06:00+00:00",
-   "t_entree": 1795413286
-  }
- ],
+ "capital": 92.55,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -112,39 +97,28 @@
    "ferme_le": "2026-11-20T17:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -1.58
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09973,
+   "stop": 1.09867,
+   "objectif": 1.10184,
+   "unites": 1000,
+   "risque": 0.96,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T06:00+00:00",
+   "t_entree": 1795413286,
+   "sortie": 1.0986096345901488,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-23T09:09+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.02
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-23T05:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09963,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T05:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3623.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T06:00+00:00",
    "marche": "EURUSD",
@@ -1021,6 +995,36 @@
     "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-23T09:10+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09866,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T09:10+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3613.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1835,15 +1839,19 @@
   {
    "quand": "2026-11-23T09:05+00:00",
    "valeur": 93.26
+  },
+  {
+   "quand": "2026-11-23T09:10+00:00",
+   "valeur": 92.55
   }
  ],
- "valeur": 93.26,
+ "valeur": 92.55,
  "news": "",
  "methode": "c:donch10-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T09:05+00:00",
+ "mis_a_jour": "2026-11-23T09:10+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 10 bougies 1 h",
  "regle": "Le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h, objectif 2 fois le risque"
