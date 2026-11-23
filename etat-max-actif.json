@@ -5,36 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-23T16:25+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.08932,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Impossible de placer un stop logique."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T16:25+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3668.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T16:30+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -891,6 +861,36 @@
   },
   {
    "quand": "2026-11-23T18:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3651.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T19:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.08944,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T19:00+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3651.0,
@@ -2061,6 +2061,10 @@
   {
    "quand": "2026-11-23T18:55+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-23T19:00+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -2069,7 +2073,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-23T18:55+00:00",
+ "mis_a_jour": "2026-11-23T19:00+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h + 1 h (risque max)",
  "regle": "Les graphiques 4 h et 1 h vont dans le même sens, objectif 2 fois le risque, mise maximale : presque tout le compte en garantie, 1 trade à la fois"
