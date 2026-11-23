@@ -40,37 +40,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T18:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.08921,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : suivi : le prix sort des bandes de Bollinger sur 4 h (attendu).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T18:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3656.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : suivi : le prix sort des bandes de Bollinger sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T18:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -950,6 +919,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3639.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : suivi : le prix sort des bandes de Bollinger sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T20:50+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09016,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : suivi : le prix sort des bandes de Bollinger sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T20:50+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3639.8,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2265,9 +2264,13 @@
   {
    "quand": "2026-11-23T20:50+00:00",
    "valeur": 96.31
+  },
+  {
+   "quand": "2026-11-23T20:50+00:00",
+   "valeur": 96.53
   }
  ],
- "valeur": 96.31,
+ "valeur": 96.53,
  "news": "",
  "methode": "c:bollc-h4",
  "ratio": 2.0,

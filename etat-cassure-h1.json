@@ -78,37 +78,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T18:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.08921,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (1 h).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T18:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3656.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (1 h)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T18:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -997,6 +966,37 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3644.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (1 h)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T20:50+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09016,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (1 h).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T20:50+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3639.8,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2628,9 +2628,13 @@
   {
    "quand": "2026-11-23T20:50+00:00",
    "valeur": 98.76
+  },
+  {
+   "quand": "2026-11-23T20:50+00:00",
+   "valeur": 99.09
   }
  ],
- "valeur": 98.76,
+ "valeur": 99.09,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "cassure_h1",
  "ratio": 2.0,

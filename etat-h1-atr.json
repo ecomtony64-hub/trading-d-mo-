@@ -472,37 +472,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T18:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.08921,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique d'1 h.",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T18:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3656.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 26.6 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T18:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1387,6 +1356,36 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 27.07 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T20:50+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09016,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-23T20:50+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3639.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 26.89 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -3006,6 +3005,10 @@
   },
   {
    "quand": "2026-11-23T20:45+00:00",
+   "valeur": 80.63
+  },
+  {
+   "quand": "2026-11-23T20:50+00:00",
    "valeur": 80.63
   },
   {
