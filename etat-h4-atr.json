@@ -168,36 +168,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T09:25+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09182,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T09:25+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3617.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 61.43 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T09:30+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1054,6 +1024,36 @@
   },
   {
    "quand": "2026-11-24T12:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3633.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 61.87 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T12:10+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09565,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T12:10+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3633.6,
@@ -3376,6 +3376,10 @@
   {
    "quand": "2026-11-24T12:05+00:00",
    "valeur": 103.29
+  },
+  {
+   "quand": "2026-11-24T12:10+00:00",
+   "valeur": 103.29
   }
  ],
  "valeur": 103.29,
@@ -3383,7 +3387,7 @@
  "methode": "h4_atr",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T12:05+00:00",
+ "mis_a_jour": "2026-11-24T12:10+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h, stop serré",
  "regle": "Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque",

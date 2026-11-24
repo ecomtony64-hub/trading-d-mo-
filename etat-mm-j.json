@@ -187,36 +187,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T09:25+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09182,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T09:25+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3617.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 61.43 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T09:30+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1071,6 +1041,36 @@
   },
   {
    "quand": "2026-11-24T12:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3633.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 61.87 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T12:10+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09565,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T12:10+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3633.6,
@@ -3393,6 +3393,10 @@
   {
    "quand": "2026-11-24T12:05+00:00",
    "valeur": 105.31
+  },
+  {
+   "quand": "2026-11-24T12:10+00:00",
+   "valeur": 105.31
   }
  ],
  "valeur": 105.31,
@@ -3400,7 +3404,7 @@
  "methode": "mm_j",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T12:05+00:00",
+ "mis_a_jour": "2026-11-24T12:10+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes jour",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur le journalier, objectif 2 fois le risque",
