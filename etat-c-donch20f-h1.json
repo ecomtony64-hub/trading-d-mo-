@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 104.91,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.0898,
-   "stop": 1.092,
-   "objectif": 1.0854,
-   "unites": 1000,
-   "risque": 2.02,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-23T16:00+00:00",
-   "t_entree": 1795449585
-  }
- ],
+ "capital": 102.85,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -55,39 +40,28 @@
    "ferme_le": "2026-11-23T15:00+00:00",
    "frais_nuit": 0.0,
    "resultat": 2.73
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.0898,
+   "stop": 1.092,
+   "objectif": 1.0854,
+   "unites": 1000,
+   "risque": 2.02,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T16:00+00:00",
+   "t_entree": 1795449585,
+   "sortie": 1.0920500000000002,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-24T01:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -2.06
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-23T23:10+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09111,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T23:10+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3640.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-23T23:15+00:00",
    "marche": "EURUSD",
@@ -948,6 +922,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3654.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T01:30+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09218,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T01:30+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3657.8,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -2499,15 +2503,19 @@
   {
    "quand": "2026-11-24T01:25+00:00",
    "valeur": 103.29
+  },
+  {
+   "quand": "2026-11-24T01:30+00:00",
+   "valeur": 102.85
   }
  ],
- "valeur": 103.29,
+ "valeur": 102.85,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T01:25+00:00",
+ "mis_a_jour": "2026-11-24T01:30+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 + moyenne 200 1 h",
  "regle": "Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque"
