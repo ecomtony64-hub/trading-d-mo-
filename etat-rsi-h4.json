@@ -135,36 +135,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T22:15+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09039,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'est ni très bas ni très haut sur le graphique de 4 h (indicateur RSI entre 30 et 70)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T22:15+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3634.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'est ni très bas ni très haut sur le graphique de 4 h (indicateur RSI entre 30 et 70)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T22:20+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1024,6 +994,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3644.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'est ni très bas ni très haut sur le graphique de 4 h (indicateur RSI entre 30 et 70)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T00:35+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09111,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'est ni très bas ni très haut sur le graphique de 4 h (indicateur RSI entre 30 et 70)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T00:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3642.7,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2843,6 +2843,10 @@
   {
    "quand": "2026-11-24T00:30+00:00",
    "valeur": 83.93
+  },
+  {
+   "quand": "2026-11-24T00:35+00:00",
+   "valeur": 84.15
   },
   {
    "quand": "2026-11-24T00:35+00:00",
