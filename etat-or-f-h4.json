@@ -1,6 +1,6 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
+ "capital": 109.97,
  "positions": [
   {
    "marche": "OR",
@@ -34,20 +34,6 @@
    "marche": "OR",
    "nom": "Or",
    "sens": "VENTE",
-   "entree": 3642.5,
-   "stop": 3676.7,
-   "objectif": 3574.1,
-   "unites": 0.16,
-   "risque": 4.99,
-   "marge": 26.57,
-   "reel": true,
-   "ouvert_le": "2026-11-24T13:04+00:00",
-   "t_entree": 1795524282
-  },
-  {
-   "marche": "OR",
-   "nom": "Or",
-   "sens": "VENTE",
    "entree": 3614.4,
    "stop": 3676.7,
    "objectif": 3489.8,
@@ -59,7 +45,27 @@
    "t_entree": 1795527901
   }
  ],
- "historique": [],
+ "historique": [
+  {
+   "marche": "OR",
+   "nom": "Or",
+   "sens": "VENTE",
+   "entree": 3642.5,
+   "stop": 3676.7,
+   "objectif": 3574.1,
+   "unites": 0.16,
+   "risque": 4.99,
+   "marge": 26.57,
+   "reel": true,
+   "ouvert_le": "2026-11-24T13:04+00:00",
+   "t_entree": 1795524282,
+   "sortie": 3574.1,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-24T15:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 9.97
+  }
+ ],
  "analyses": [
   {
    "quand": "2026-11-24T10:52+00:00",
@@ -877,6 +883,21 @@
     "Déjà 4 trade(s) ouvert(s) sur ce compte."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-24T16:10+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3568.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin du prix (plus de 3 %)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1099,16 +1120,20 @@
   {
    "quand": "2026-11-24T16:05+00:00",
    "valeur": 120.22
+  },
+  {
+   "quand": "2026-11-24T16:10+00:00",
+   "valeur": 124.53
   }
  ],
  "risque_trade": 5.0,
- "valeur": 120.22,
+ "valeur": 124.53,
  "news": "",
  "methode": "h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T16:05+00:00",
+ "mis_a_jour": "2026-11-24T16:10+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Tendance 4 h (risque fort)",
  "regle": "Or seulement. Tendance du graphique de 4 h seul, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus"

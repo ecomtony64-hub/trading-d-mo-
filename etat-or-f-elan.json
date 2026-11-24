@@ -1,21 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 109.81,
+ "capital": 119.39,
  "positions": [
-  {
-   "marche": "OR",
-   "nom": "Or",
-   "sens": "VENTE",
-   "entree": 3618.8,
-   "stop": 3642.7,
-   "objectif": 3571.0,
-   "unites": 0.22,
-   "risque": 4.79,
-   "marge": 36.27,
-   "reel": true,
-   "ouvert_le": "2026-11-24T14:28+00:00",
-   "t_entree": 1795529919
-  },
   {
    "marche": "OR",
    "nom": "Or",
@@ -50,6 +36,25 @@
    "ferme_le": "2026-11-24T15:00+00:00",
    "frais_nuit": 0.0,
    "resultat": 9.81
+  },
+  {
+   "marche": "OR",
+   "nom": "Or",
+   "sens": "VENTE",
+   "entree": 3618.8,
+   "stop": 3642.7,
+   "objectif": 3571.0,
+   "unites": 0.22,
+   "risque": 4.79,
+   "marge": 36.27,
+   "reel": true,
+   "ouvert_le": "2026-11-24T14:28+00:00",
+   "t_entree": 1795529919,
+   "sortie": 3571.0,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-24T15:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 9.58
   }
  ],
  "analyses": [
@@ -871,6 +876,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 1 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-24T16:10+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3568.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 1 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1093,16 +1113,20 @@
   {
    "quand": "2026-11-24T16:05+00:00",
    "valeur": 119.45
+  },
+  {
+   "quand": "2026-11-24T16:10+00:00",
+   "valeur": 123.99
   }
  ],
  "risque_trade": 5.0,
- "valeur": 119.45,
+ "valeur": 123.99,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T16:05+00:00",
+ "mis_a_jour": "2026-11-24T16:10+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Élan 24 h (risque fort) (risque fort)",
  "regle": "Or seulement. Le prix a bougé de plus de 0,3 % en 24 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus"
