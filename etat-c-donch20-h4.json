@@ -25,36 +25,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T19:05+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09697,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T19:05+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3556.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T19:10+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -914,6 +884,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3549.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T21:35+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09685,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T21:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3553.7,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3321,6 +3321,10 @@
   {
    "quand": "2026-11-24T21:30+00:00",
    "valeur": 96.22
+  },
+  {
+   "quand": "2026-11-24T21:35+00:00",
+   "valeur": 96.22
   }
  ],
  "valeur": 96.22,
@@ -3329,7 +3333,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T21:30+00:00",
+ "mis_a_jour": "2026-11-24T21:35+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 4 h",
  "regle": "Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 4 h, objectif 2 fois le risque"
