@@ -120,36 +120,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T05:45+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09135,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement des moyennes rapides 12 et 26 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T05:45+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3629.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement des moyennes rapides 12 et 26 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T05:50+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1006,6 +976,36 @@
   },
   {
    "quand": "2026-11-24T08:50+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3623.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement des moyennes rapides 12 et 26 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T08:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.0917,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement des moyennes rapides 12 et 26 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T08:55+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3623.4,
@@ -2868,6 +2868,10 @@
   {
    "quand": "2026-11-24T08:50+00:00",
    "valeur": 98.7
+  },
+  {
+   "quand": "2026-11-24T08:55+00:00",
+   "valeur": 98.7
   }
  ],
  "valeur": 98.7,
@@ -2876,7 +2880,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T08:50+00:00",
+ "mis_a_jour": "2026-11-24T08:55+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes rapides 12/26 1 h",
  "regle": "Croisement des moyennes rapides 12 et 26 sur 1 h, objectif 2 fois le risque"
