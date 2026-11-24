@@ -192,36 +192,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T10:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09409,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T10:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3624.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique de 4 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T11:00+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1081,6 +1051,36 @@
   },
   {
    "quand": "2026-11-24T13:30+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3629.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique de 4 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T13:35+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09637,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique de 4 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T13:35+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3629.7,
@@ -3463,6 +3463,10 @@
   {
    "quand": "2026-11-24T13:30+00:00",
    "valeur": 95.41
+  },
+  {
+   "quand": "2026-11-24T13:35+00:00",
+   "valeur": 95.41
   }
  ],
  "valeur": 95.41,
@@ -3470,7 +3474,7 @@
  "methode": "mm_h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T13:30+00:00",
+ "mis_a_jour": "2026-11-24T13:35+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 4 h",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 4 h, objectif 2 fois le risque",
