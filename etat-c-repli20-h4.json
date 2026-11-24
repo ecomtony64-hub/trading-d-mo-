@@ -63,36 +63,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T15:36+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09721,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : dans la tendance (moyenne 100) (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T15:36+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3592.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : dans la tendance (moyenne 100) (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T15:40+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -949,6 +919,36 @@
   },
   {
    "quand": "2026-11-24T18:10+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3566.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : dans la tendance (moyenne 100) (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T18:15+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09769,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : dans la tendance (moyenne 100) (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T18:15+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3566.3,
@@ -3203,6 +3203,10 @@
   {
    "quand": "2026-11-24T18:10+00:00",
    "valeur": 117.95
+  },
+  {
+   "quand": "2026-11-24T18:15+00:00",
+   "valeur": 117.95
   }
  ],
  "valeur": 117.95,
@@ -3211,7 +3215,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T18:10+00:00",
+ "mis_a_jour": "2026-11-24T18:15+00:00",
  "erreur_calendrier": null,
  "nom": "Retour sur la moyenne 20 4 h",
  "regle": "Dans la tendance (moyenne 100), le prix touche la moyenne 20 et repart sur 4 h, objectif 2 fois le risque"
