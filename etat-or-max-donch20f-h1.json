@@ -43,25 +43,24 @@
    "reel": true,
    "ouvert_le": "2026-11-24T19:05+00:00",
    "t_entree": 1795546499
+  },
+  {
+   "marche": "OR",
+   "nom": "Or",
+   "sens": "VENTE",
+   "entree": 3547.4,
+   "stop": 3575.6,
+   "objectif": 3491.0,
+   "unites": 0.38,
+   "risque": 9.77,
+   "marge": 61.46,
+   "reel": true,
+   "ouvert_le": "2026-11-24T21:00+00:00",
+   "t_entree": 1795552849
   }
  ],
  "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-24T15:45+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3592.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-24T15:50+00:00",
    "marche": "OR",
@@ -948,6 +947,19 @@
     "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-24T21:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3547.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1390,16 +1402,20 @@
   {
    "quand": "2026-11-24T20:55+00:00",
    "valeur": 120.47
+  },
+  {
+   "quand": "2026-11-24T21:00+00:00",
+   "valeur": 120.35
   }
  ],
  "risque_trade": 10.0,
- "valeur": 120.47,
+ "valeur": 120.35,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T20:55+00:00",
+ "mis_a_jour": "2026-11-24T21:00+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Cassure 20 + moyenne 200 1 h (risque max)",
  "regle": "Or seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus"
