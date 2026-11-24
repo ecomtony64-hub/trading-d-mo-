@@ -63,36 +63,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T18:15+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09769,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T18:15+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3566.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T18:20+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -952,6 +922,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3548.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T20:51+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09673,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T20:51+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3547.4,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3323,6 +3323,10 @@
   {
    "quand": "2026-11-24T20:50+00:00",
    "valeur": 102.85
+  },
+  {
+   "quand": "2026-11-24T20:51+00:00",
+   "valeur": 102.85
   }
  ],
  "valeur": 102.85,
@@ -3331,7 +3335,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T20:50+00:00",
+ "mis_a_jour": "2026-11-24T20:51+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 + moyenne 200 1 h",
  "regle": "Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque"
