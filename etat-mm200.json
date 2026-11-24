@@ -158,36 +158,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T00:15+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09111,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T00:15+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3626.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T00:20+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1044,6 +1014,36 @@
   },
   {
    "quand": "2026-11-24T02:54+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3647.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T02:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.0917,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T02:55+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3647.1,
@@ -2970,6 +2970,10 @@
   {
    "quand": "2026-11-24T02:54+00:00",
    "valeur": 97.73
+  },
+  {
+   "quand": "2026-11-24T02:55+00:00",
+   "valeur": 97.73
   }
  ],
  "valeur": 97.73,
@@ -2977,7 +2981,7 @@
  "methode": "mm200",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T02:54+00:00",
+ "mis_a_jour": "2026-11-24T02:55+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h + moyenne longue",
  "regle": "Tendance d'1 h confirmée par la moyenne des 200 dernières heures, objectif 2 fois le risque",
