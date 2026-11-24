@@ -136,6 +136,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 1 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-24T11:30+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3624.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 1 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -170,6 +185,10 @@
   {
    "quand": "2026-11-24T11:25+00:00",
    "valeur": 99.53
+  },
+  {
+   "quand": "2026-11-24T11:30+00:00",
+   "valeur": 99.53
   }
  ],
  "risque_trade": 10.0,
@@ -179,7 +198,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T11:25+00:00",
+ "mis_a_jour": "2026-11-24T11:30+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Élan 20 bougies 1 h (risque max)",
  "regle": "Or seulement. Le prix repasse au-dessus ou en dessous de son niveau d'il y a 20 bougies sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus"
