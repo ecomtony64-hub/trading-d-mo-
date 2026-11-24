@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 100.3,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09111,
+   "stop": 1.09324,
+   "objectif": 1.08684,
+   "unites": 1000,
+   "risque": 1.96,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-24T00:05+00:00",
+   "t_entree": 1795478685
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -150,36 +165,6 @@
    "alerte": null
   },
   {
-   "quand": "2026-11-23T21:45+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09039,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T21:45+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3634.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T21:50+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1009,6 +994,34 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3626.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T00:05+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09111,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T00:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3626.3,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2804,14 +2817,18 @@
   {
    "quand": "2026-11-24T00:00+00:00",
    "valeur": 100.3
+  },
+  {
+   "quand": "2026-11-24T00:05+00:00",
+   "valeur": 100.21
   }
  ],
- "valeur": 100.3,
+ "valeur": 100.21,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "elan",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T00:00+00:00",
+ "mis_a_jour": "2026-11-24T00:05+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h (risque fort)",
  "regle": "Le prix a bougé de plus de 0,3 % en 24 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",

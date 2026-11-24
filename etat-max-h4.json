@@ -74,36 +74,6 @@
    "alerte": null
   },
   {
-   "quand": "2026-11-23T21:45+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09039,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Impossible de placer un stop logique."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T21:45+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3634.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 52.27 € (plus de 25 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T21:50+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -940,6 +910,36 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 59.21 € (plus de 25 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T00:05+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09111,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T00:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3626.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 59.3 € (plus de 25 % du compte)."
    ],
    "alerte": null
   }
@@ -2352,6 +2352,10 @@
   {
    "quand": "2026-11-24T00:00+00:00",
    "valeur": 106.85
+  },
+  {
+   "quand": "2026-11-24T00:05+00:00",
+   "valeur": 106.85
   }
  ],
  "valeur": 106.85,
@@ -2360,7 +2364,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T00:00+00:00",
+ "mis_a_jour": "2026-11-24T00:05+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h (risque max)",
  "regle": "Tendance du graphique de 4 h seul, objectif 2 fois le risque, mise maximale : presque tout le compte en garantie, 1 trade à la fois"
