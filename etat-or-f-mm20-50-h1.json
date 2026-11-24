@@ -34,21 +34,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-24T18:51+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3560.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : la moyenne de 20 bougies croise celle de 50 sur le graphique 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T18:55+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -943,6 +928,21 @@
     "Pas de signal : la moyenne de 20 bougies croise celle de 50 sur le graphique 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-24T23:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3561.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : la moyenne de 20 bougies croise celle de 50 sur le graphique 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1521,10 +1521,14 @@
   {
    "quand": "2026-11-24T23:45+00:00",
    "valeur": 95.32
+  },
+  {
+   "quand": "2026-11-24T23:45+00:00",
+   "valeur": 95.47
   }
  ],
  "risque_trade": 5.0,
- "valeur": 95.32,
+ "valeur": 95.47,
  "news": "",
  "methode": "c:mm20-50-h1",
  "ratio": 2.0,

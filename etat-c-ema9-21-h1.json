@@ -192,36 +192,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T21:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09685,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement des moyennes rapides 9 et 21 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T21:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3549.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement des moyennes rapides 9 et 21 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T21:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1081,6 +1051,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3562.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement des moyennes rapides 9 et 21 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T23:45+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09637,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement des moyennes rapides 9 et 21 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T23:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3561.9,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3592,6 +3592,10 @@
   {
    "quand": "2026-11-24T23:40+00:00",
    "valeur": 96.2
+  },
+  {
+   "quand": "2026-11-24T23:45+00:00",
+   "valeur": 95.98
   },
   {
    "quand": "2026-11-24T23:45+00:00",

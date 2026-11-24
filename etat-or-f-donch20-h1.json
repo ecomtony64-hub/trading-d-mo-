@@ -48,21 +48,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-24T18:51+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3560.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T18:55+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -946,6 +931,21 @@
     "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-24T23:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3561.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1524,10 +1524,14 @@
   {
    "quand": "2026-11-24T23:45+00:00",
    "valeur": 102.38
+  },
+  {
+   "quand": "2026-11-24T23:45+00:00",
+   "valeur": 102.59
   }
  ],
  "risque_trade": 5.0,
- "valeur": 102.38,
+ "valeur": 102.59,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,

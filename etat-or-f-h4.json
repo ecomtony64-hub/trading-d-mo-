@@ -82,21 +82,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T18:52+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3560.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 4 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T18:55+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -980,6 +965,21 @@
     "Déjà 4 trade(s) ouvert(s) sur ce compte."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-24T23:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3561.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 4 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1558,10 +1558,14 @@
   {
    "quand": "2026-11-24T23:45+00:00",
    "valeur": 126.62
+  },
+  {
+   "quand": "2026-11-24T23:45+00:00",
+   "valeur": 126.74
   }
  ],
  "risque_trade": 5.0,
- "valeur": 126.62,
+ "valeur": 126.74,
  "news": "",
  "methode": "h4",
  "ratio": 2.0,
