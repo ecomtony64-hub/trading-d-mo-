@@ -54,21 +54,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T15:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3629.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T15:05+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -948,6 +933,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 1 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-24T20:30+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3554.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 1 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1362,16 +1362,20 @@
   {
    "quand": "2026-11-24T20:25+00:00",
    "valeur": 99.15
+  },
+  {
+   "quand": "2026-11-24T20:30+00:00",
+   "valeur": 99.0
   }
  ],
  "risque_trade": 1.0,
- "valeur": 99.15,
+ "valeur": 99.0,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T20:25+00:00",
+ "mis_a_jour": "2026-11-24T20:30+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Moyennes 1 h (risque fort) (prudent)",
  "regle": "Or seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; risque 1 % du compte par trade ; 4 trades ouverts au plus"
