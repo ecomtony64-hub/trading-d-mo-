@@ -25,36 +25,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T12:05+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09565,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix sort du canal de Keltner (1.5 fois la taille moyenne) sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T12:05+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3633.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix sort du canal de Keltner (1.5 fois la taille moyenne) sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T12:10+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -917,6 +887,36 @@
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix sort du canal de Keltner (1.5 fois la taille moyenne) sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T15:10+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09709,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix sort du canal de Keltner (1.5 fois la taille moyenne) sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T15:10+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3621.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -3033,6 +3033,10 @@
   {
    "quand": "2026-11-24T15:05+00:00",
    "valeur": 96.22
+  },
+  {
+   "quand": "2026-11-24T15:10+00:00",
+   "valeur": 96.22
   }
  ],
  "valeur": 96.22,
@@ -3041,7 +3045,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T15:05+00:00",
+ "mis_a_jour": "2026-11-24T15:10+00:00",
  "erreur_calendrier": null,
  "nom": "Canal de Keltner 1.5 4 h",
  "regle": "Le prix sort du canal de Keltner (1.5 fois la taille moyenne) sur 4 h, objectif 2 fois le risque"
