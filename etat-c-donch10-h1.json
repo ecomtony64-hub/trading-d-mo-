@@ -211,36 +211,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T14:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09794,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T14:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3628.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T15:00+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1119,6 +1089,36 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 26.32 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T17:47+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09757,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T17:47+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3563.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 26.16 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -3339,15 +3339,19 @@
   {
    "quand": "2026-11-24T17:40+00:00",
    "valeur": 98.23
+  },
+  {
+   "quand": "2026-11-24T17:47+00:00",
+   "valeur": 98.34
   }
  ],
- "valeur": 98.23,
+ "valeur": 98.34,
  "news": "",
  "methode": "c:donch10-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T17:40+00:00",
+ "mis_a_jour": "2026-11-24T17:47+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 10 bougies 1 h",
  "regle": "Le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h, objectif 2 fois le risque"

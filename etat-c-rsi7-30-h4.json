@@ -54,36 +54,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T14:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09794,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 30/70 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T14:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3628.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 30/70 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T15:00+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -943,6 +913,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3564.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 30/70 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T17:47+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09757,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 30/70 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T17:47+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3563.1,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3170,15 +3170,19 @@
   {
    "quand": "2026-11-24T17:40+00:00",
    "valeur": 107.3
+  },
+  {
+   "quand": "2026-11-24T17:47+00:00",
+   "valeur": 107.52
   }
  ],
- "valeur": 107.3,
+ "valeur": 107.52,
  "news": "",
  "methode": "c:rsi7-30-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T17:40+00:00",
+ "mis_a_jour": "2026-11-24T17:47+00:00",
  "erreur_calendrier": null,
  "nom": "RSI 7 (30/70) 4 h",
  "regle": "Contre-pied : le RSI 7 ressort de sa zone 30/70 sur 4 h, objectif 2 fois le risque"
