@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 93.13,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09409,
-   "stop": 1.09775,
-   "objectif": 1.08312,
-   "unites": 1000,
-   "risque": 3.34,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-23T12:50+00:00",
-   "t_entree": 1795438185
-  }
- ],
+ "capital": 89.7,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -55,39 +40,28 @@
    "ferme_le": "2026-11-24T09:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -3.65
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09409,
+   "stop": 1.09775,
+   "objectif": 1.08312,
+   "unites": 1000,
+   "risque": 3.34,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-23T12:50+00:00",
+   "t_entree": 1795438185,
+   "sortie": 1.0978,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-24T14:00+00:00",
+   "frais_nuit": 0.05,
+   "resultat": -3.43
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-24T11:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09505,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de sortie après une période calme sur 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T11:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3627.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de sortie après une période calme sur 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-24T11:25+00:00",
    "marche": "EURUSD",
@@ -948,6 +922,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3623.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de sortie après une période calme sur 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T14:28+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09757,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de sortie après une période calme sur 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T14:28+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3618.8,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3071,15 +3075,19 @@
   {
    "quand": "2026-11-24T13:55+00:00",
    "valeur": 90.63
+  },
+  {
+   "quand": "2026-11-24T14:28+00:00",
+   "valeur": 89.7
   }
  ],
- "valeur": 90.63,
+ "valeur": 89.7,
  "news": "",
  "methode": "compression",
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T13:55+00:00",
+ "mis_a_jour": "2026-11-24T14:28+00:00",
  "erreur_calendrier": null,
  "nom": "Sortie de calme 4 h",
  "regle": "Après une période très calme sur 4 h, on suit la sortie des bandes, objectif 3 fois le risque"
