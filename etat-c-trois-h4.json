@@ -44,36 +44,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-23T22:05+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09051,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : après 3 bougies de même couleur (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T22:05+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3631.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : après 3 bougies de même couleur (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T22:10+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -930,6 +900,36 @@
   },
   {
    "quand": "2026-11-24T00:25+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3634.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : après 3 bougies de même couleur (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T00:30+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09087,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : après 3 bougies de même couleur (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T00:30+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3634.4,
@@ -2432,6 +2432,10 @@
   {
    "quand": "2026-11-24T00:25+00:00",
    "valeur": 94.16
+  },
+  {
+   "quand": "2026-11-24T00:30+00:00",
+   "valeur": 94.16
   }
  ],
  "valeur": 94.16,
@@ -2440,7 +2444,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T00:25+00:00",
+ "mis_a_jour": "2026-11-24T00:30+00:00",
  "erreur_calendrier": null,
  "nom": "3 bougies, on suit 4 h",
  "regle": "Après 3 bougies de même couleur, on suit le mouvement sur 4 h, objectif 2 fois le risque"
