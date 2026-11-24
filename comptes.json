@@ -992,5 +992,1755 @@
    "h4_atr",
    "--max"
   ]
+ },
+ "or-p-donch10-h1": {
+  "fichier": "etat-or-p-donch10-h1.json",
+  "nom": "Or · Cassure 10 bougies 1 h (prudent)",
+  "regle": "Or seulement. Le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch10-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-donch10-h1": {
+  "fichier": "etat-or-donch10-h1.json",
+  "nom": "Or · Cassure 10 bougies 1 h (normal)",
+  "regle": "Or seulement. Le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch10-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-donch10-h1": {
+  "fichier": "etat-or-f-donch10-h1.json",
+  "nom": "Or · Cassure 10 bougies 1 h (risque fort)",
+  "regle": "Or seulement. Le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch10-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-donch10-h1": {
+  "fichier": "etat-or-max-donch10-h1.json",
+  "nom": "Or · Cassure 10 bougies 1 h (risque max)",
+  "regle": "Or seulement. Le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch10-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-donch55-h1": {
+  "fichier": "etat-or-p-donch55-h1.json",
+  "nom": "Or · Cassure 55 bougies 1 h (prudent)",
+  "regle": "Or seulement. Le prix casse le plus haut ou le plus bas des 55 dernières bougies sur 1 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch55-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-donch55-h1": {
+  "fichier": "etat-or-donch55-h1.json",
+  "nom": "Or · Cassure 55 bougies 1 h (normal)",
+  "regle": "Or seulement. Le prix casse le plus haut ou le plus bas des 55 dernières bougies sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch55-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-donch55-h1": {
+  "fichier": "etat-or-f-donch55-h1.json",
+  "nom": "Or · Cassure 55 bougies 1 h (risque fort)",
+  "regle": "Or seulement. Le prix casse le plus haut ou le plus bas des 55 dernières bougies sur 1 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch55-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-donch55-h1": {
+  "fichier": "etat-or-max-donch55-h1.json",
+  "nom": "Or · Cassure 55 bougies 1 h (risque max)",
+  "regle": "Or seulement. Le prix casse le plus haut ou le plus bas des 55 dernières bougies sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch55-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-donch20f-h1": {
+  "fichier": "etat-or-p-donch20f-h1.json",
+  "nom": "Or · Cassure 20 + moyenne 200 1 h (prudent)",
+  "regle": "Or seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch20f-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-donch20f-h1": {
+  "fichier": "etat-or-donch20f-h1.json",
+  "nom": "Or · Cassure 20 + moyenne 200 1 h (normal)",
+  "regle": "Or seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch20f-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-donch20f-h1": {
+  "fichier": "etat-or-f-donch20f-h1.json",
+  "nom": "Or · Cassure 20 + moyenne 200 1 h (risque fort)",
+  "regle": "Or seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch20f-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-donch20f-h1": {
+  "fichier": "etat-or-max-donch20f-h1.json",
+  "nom": "Or · Cassure 20 + moyenne 200 1 h (risque max)",
+  "regle": "Or seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch20f-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-ccis-h1": {
+  "fichier": "etat-or-p-ccis-h1.json",
+  "nom": "Or · CCI suivi 1 h (prudent)",
+  "regle": "Or seulement. Suivi : le CCI dépasse +100 ou passe sous -100 sur 1 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:ccis-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-ccis-h1": {
+  "fichier": "etat-or-ccis-h1.json",
+  "nom": "Or · CCI suivi 1 h (normal)",
+  "regle": "Or seulement. Suivi : le CCI dépasse +100 ou passe sous -100 sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:ccis-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-ccis-h1": {
+  "fichier": "etat-or-f-ccis-h1.json",
+  "nom": "Or · CCI suivi 1 h (risque fort)",
+  "regle": "Or seulement. Suivi : le CCI dépasse +100 ou passe sous -100 sur 1 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:ccis-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-ccis-h1": {
+  "fichier": "etat-or-max-ccis-h1.json",
+  "nom": "Or · CCI suivi 1 h (risque max)",
+  "regle": "Or seulement. Suivi : le CCI dépasse +100 ou passe sous -100 sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:ccis-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-donch20-h1": {
+  "fichier": "etat-or-p-donch20-h1.json",
+  "nom": "Or · Cassure 20 bougies 1 h (prudent)",
+  "regle": "Or seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch20-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-donch20-h1": {
+  "fichier": "etat-or-donch20-h1.json",
+  "nom": "Or · Cassure 20 bougies 1 h (normal)",
+  "regle": "Or seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch20-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-donch20-h1": {
+  "fichier": "etat-or-f-donch20-h1.json",
+  "nom": "Or · Cassure 20 bougies 1 h (risque fort)",
+  "regle": "Or seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch20-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-donch20-h1": {
+  "fichier": "etat-or-max-donch20-h1.json",
+  "nom": "Or · Cassure 20 bougies 1 h (risque max)",
+  "regle": "Or seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch20-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-trois-h1": {
+  "fichier": "etat-or-p-trois-h1.json",
+  "nom": "Or · 3 bougies, on suit 1 h (prudent)",
+  "regle": "Or seulement. Après 3 bougies de même couleur, on suit le mouvement sur 1 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:trois-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-trois-h1": {
+  "fichier": "etat-or-trois-h1.json",
+  "nom": "Or · 3 bougies, on suit 1 h (normal)",
+  "regle": "Or seulement. Après 3 bougies de même couleur, on suit le mouvement sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:trois-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-trois-h1": {
+  "fichier": "etat-or-f-trois-h1.json",
+  "nom": "Or · 3 bougies, on suit 1 h (risque fort)",
+  "regle": "Or seulement. Après 3 bougies de même couleur, on suit le mouvement sur 1 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:trois-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-trois-h1": {
+  "fichier": "etat-or-max-trois-h1.json",
+  "nom": "Or · 3 bougies, on suit 1 h (risque max)",
+  "regle": "Or seulement. Après 3 bougies de même couleur, on suit le mouvement sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:trois-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-mm20-50-h1": {
+  "fichier": "etat-or-p-mm20-50-h1.json",
+  "nom": "Or · Moyennes 20/50 1 h (prudent)",
+  "regle": "Or seulement. La moyenne de 20 bougies croise celle de 50 sur le graphique 1 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:mm20-50-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-mm20-50-h1": {
+  "fichier": "etat-or-mm20-50-h1.json",
+  "nom": "Or · Moyennes 20/50 1 h (normal)",
+  "regle": "Or seulement. La moyenne de 20 bougies croise celle de 50 sur le graphique 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:mm20-50-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-mm20-50-h1": {
+  "fichier": "etat-or-f-mm20-50-h1.json",
+  "nom": "Or · Moyennes 20/50 1 h (risque fort)",
+  "regle": "Or seulement. La moyenne de 20 bougies croise celle de 50 sur le graphique 1 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:mm20-50-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-mm20-50-h1": {
+  "fichier": "etat-or-max-mm20-50-h1.json",
+  "nom": "Or · Moyennes 20/50 1 h (risque max)",
+  "regle": "Or seulement. La moyenne de 20 bougies croise celle de 50 sur le graphique 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:mm20-50-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-donch20f-h4": {
+  "fichier": "etat-or-p-donch20f-h4.json",
+  "nom": "Or · Cassure 20 + moyenne 200 4 h (prudent)",
+  "regle": "Or seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 4 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch20f-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-donch20f-h4": {
+  "fichier": "etat-or-donch20f-h4.json",
+  "nom": "Or · Cassure 20 + moyenne 200 4 h (normal)",
+  "regle": "Or seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 4 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch20f-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-donch20f-h4": {
+  "fichier": "etat-or-f-donch20f-h4.json",
+  "nom": "Or · Cassure 20 + moyenne 200 4 h (risque fort)",
+  "regle": "Or seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 4 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch20f-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-donch20f-h4": {
+  "fichier": "etat-or-max-donch20f-h4.json",
+  "nom": "Or · Cassure 20 + moyenne 200 4 h (risque max)",
+  "regle": "Or seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 4 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:donch20f-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-adx-h1": {
+  "fichier": "etat-or-p-adx-h1.json",
+  "nom": "Or · ADX + croisement DI 1 h (prudent)",
+  "regle": "Or seulement. Les lignes DI se croisent avec une tendance forte (ADX > 25) sur 1 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:adx-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-adx-h1": {
+  "fichier": "etat-or-adx-h1.json",
+  "nom": "Or · ADX + croisement DI 1 h (normal)",
+  "regle": "Or seulement. Les lignes DI se croisent avec une tendance forte (ADX > 25) sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:adx-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-adx-h1": {
+  "fichier": "etat-or-f-adx-h1.json",
+  "nom": "Or · ADX + croisement DI 1 h (risque fort)",
+  "regle": "Or seulement. Les lignes DI se croisent avec une tendance forte (ADX > 25) sur 1 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:adx-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-adx-h1": {
+  "fichier": "etat-or-max-adx-h1.json",
+  "nom": "Or · ADX + croisement DI 1 h (risque max)",
+  "regle": "Or seulement. Les lignes DI se croisent avec une tendance forte (ADX > 25) sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:adx-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-macd5-35-h4": {
+  "fichier": "etat-or-p-macd5-35-h4.json",
+  "nom": "Or · MACD 5/35/5 4 h (prudent)",
+  "regle": "Or seulement. Croisement du MACD 5/35/5 sur 4 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:macd5-35-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-macd5-35-h4": {
+  "fichier": "etat-or-macd5-35-h4.json",
+  "nom": "Or · MACD 5/35/5 4 h (normal)",
+  "regle": "Or seulement. Croisement du MACD 5/35/5 sur 4 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:macd5-35-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-macd5-35-h4": {
+  "fichier": "etat-or-f-macd5-35-h4.json",
+  "nom": "Or · MACD 5/35/5 4 h (risque fort)",
+  "regle": "Or seulement. Croisement du MACD 5/35/5 sur 4 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:macd5-35-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-macd5-35-h4": {
+  "fichier": "etat-or-max-macd5-35-h4.json",
+  "nom": "Or · MACD 5/35/5 4 h (risque max)",
+  "regle": "Or seulement. Croisement du MACD 5/35/5 sur 4 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:macd5-35-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-macd12-26-h1": {
+  "fichier": "etat-or-p-macd12-26-h1.json",
+  "nom": "Or · MACD 12/26/9 1 h (prudent)",
+  "regle": "Or seulement. Croisement du MACD 12/26/9 sur 1 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:macd12-26-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-macd12-26-h1": {
+  "fichier": "etat-or-macd12-26-h1.json",
+  "nom": "Or · MACD 12/26/9 1 h (normal)",
+  "regle": "Or seulement. Croisement du MACD 12/26/9 sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:macd12-26-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-macd12-26-h1": {
+  "fichier": "etat-or-f-macd12-26-h1.json",
+  "nom": "Or · MACD 12/26/9 1 h (risque fort)",
+  "regle": "Or seulement. Croisement du MACD 12/26/9 sur 1 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:macd12-26-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-macd12-26-h1": {
+  "fichier": "etat-or-max-macd12-26-h1.json",
+  "nom": "Or · MACD 12/26/9 1 h (risque max)",
+  "regle": "Or seulement. Croisement du MACD 12/26/9 sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:macd12-26-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-kelt20-h4": {
+  "fichier": "etat-or-p-kelt20-h4.json",
+  "nom": "Or · Canal de Keltner 2 4 h (prudent)",
+  "regle": "Or seulement. Le prix sort du canal de Keltner (2 fois la taille moyenne) sur 4 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:kelt20-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-kelt20-h4": {
+  "fichier": "etat-or-kelt20-h4.json",
+  "nom": "Or · Canal de Keltner 2 4 h (normal)",
+  "regle": "Or seulement. Le prix sort du canal de Keltner (2 fois la taille moyenne) sur 4 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:kelt20-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-kelt20-h4": {
+  "fichier": "etat-or-f-kelt20-h4.json",
+  "nom": "Or · Canal de Keltner 2 4 h (risque fort)",
+  "regle": "Or seulement. Le prix sort du canal de Keltner (2 fois la taille moyenne) sur 4 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:kelt20-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-kelt20-h4": {
+  "fichier": "etat-or-max-kelt20-h4.json",
+  "nom": "Or · Canal de Keltner 2 4 h (risque max)",
+  "regle": "Or seulement. Le prix sort du canal de Keltner (2 fois la taille moyenne) sur 4 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:kelt20-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-roc20-h1": {
+  "fichier": "etat-or-p-roc20-h1.json",
+  "nom": "Or · Élan 20 bougies 1 h (prudent)",
+  "regle": "Or seulement. Le prix repasse au-dessus ou en dessous de son niveau d'il y a 20 bougies sur 1 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:roc20-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-roc20-h1": {
+  "fichier": "etat-or-roc20-h1.json",
+  "nom": "Or · Élan 20 bougies 1 h (normal)",
+  "regle": "Or seulement. Le prix repasse au-dessus ou en dessous de son niveau d'il y a 20 bougies sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:roc20-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-roc20-h1": {
+  "fichier": "etat-or-f-roc20-h1.json",
+  "nom": "Or · Élan 20 bougies 1 h (risque fort)",
+  "regle": "Or seulement. Le prix repasse au-dessus ou en dessous de son niveau d'il y a 20 bougies sur 1 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:roc20-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-roc20-h1": {
+  "fichier": "etat-or-max-roc20-h1.json",
+  "nom": "Or · Élan 20 bougies 1 h (risque max)",
+  "regle": "Or seulement. Le prix repasse au-dessus ou en dessous de son niveau d'il y a 20 bougies sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:roc20-h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-super3-h4": {
+  "fichier": "etat-or-p-super3-h4.json",
+  "nom": "Or · Stop suiveur 3x 4 h (prudent)",
+  "regle": "Or seulement. Le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 4 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:super3-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-super3-h4": {
+  "fichier": "etat-or-super3-h4.json",
+  "nom": "Or · Stop suiveur 3x 4 h (normal)",
+  "regle": "Or seulement. Le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 4 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:super3-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-super3-h4": {
+  "fichier": "etat-or-f-super3-h4.json",
+  "nom": "Or · Stop suiveur 3x 4 h (risque fort)",
+  "regle": "Or seulement. Le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 4 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:super3-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-super3-h4": {
+  "fichier": "etat-or-max-super3-h4.json",
+  "nom": "Or · Stop suiveur 3x 4 h (risque max)",
+  "regle": "Or seulement. Le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 4 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:super3-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-ema9-21-h4": {
+  "fichier": "etat-or-p-ema9-21-h4.json",
+  "nom": "Or · Moyennes rapides 9/21 4 h (prudent)",
+  "regle": "Or seulement. Croisement des moyennes rapides 9 et 21 sur 4 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:ema9-21-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-ema9-21-h4": {
+  "fichier": "etat-or-ema9-21-h4.json",
+  "nom": "Or · Moyennes rapides 9/21 4 h (normal)",
+  "regle": "Or seulement. Croisement des moyennes rapides 9 et 21 sur 4 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:ema9-21-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-ema9-21-h4": {
+  "fichier": "etat-or-f-ema9-21-h4.json",
+  "nom": "Or · Moyennes rapides 9/21 4 h (risque fort)",
+  "regle": "Or seulement. Croisement des moyennes rapides 9 et 21 sur 4 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:ema9-21-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-ema9-21-h4": {
+  "fichier": "etat-or-max-ema9-21-h4.json",
+  "nom": "Or · Moyennes rapides 9/21 4 h (risque max)",
+  "regle": "Or seulement. Croisement des moyennes rapides 9 et 21 sur 4 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "c:ema9-21-h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-actif": {
+  "fichier": "etat-or-p-actif.json",
+  "nom": "Or · Tendance 4 h + 1 h (prudent)",
+  "regle": "Or seulement. Les graphiques 4 h et 1 h vont dans le même sens, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "actif",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-actif": {
+  "fichier": "etat-or-actif.json",
+  "nom": "Or · Tendance 4 h + 1 h (normal)",
+  "regle": "Or seulement. Les graphiques 4 h et 1 h vont dans le même sens, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "actif",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-actif": {
+  "fichier": "etat-or-f-actif.json",
+  "nom": "Or · Tendance 4 h + 1 h (risque fort)",
+  "regle": "Or seulement. Les graphiques 4 h et 1 h vont dans le même sens, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "actif",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-actif": {
+  "fichier": "etat-or-max-actif.json",
+  "nom": "Or · Tendance 4 h + 1 h (risque max)",
+  "regle": "Or seulement. Les graphiques 4 h et 1 h vont dans le même sens, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "actif",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-repli": {
+  "fichier": "etat-or-p-repli.json",
+  "nom": "Or · Repli dans la tendance (prudent)",
+  "regle": "Or seulement. Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "repli",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-repli": {
+  "fichier": "etat-or-repli.json",
+  "nom": "Or · Repli dans la tendance (normal)",
+  "regle": "Or seulement. Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "repli",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-repli": {
+  "fichier": "etat-or-f-repli.json",
+  "nom": "Or · Repli dans la tendance (risque fort)",
+  "regle": "Or seulement. Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "repli",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-repli": {
+  "fichier": "etat-or-max-repli.json",
+  "nom": "Or · Repli dans la tendance (risque max)",
+  "regle": "Or seulement. Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "repli",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-h4": {
+  "fichier": "etat-or-p-h4.json",
+  "nom": "Or · Tendance 4 h (prudent)",
+  "regle": "Or seulement. Tendance du graphique de 4 h seul, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-h4": {
+  "fichier": "etat-or-h4.json",
+  "nom": "Or · Tendance 4 h (normal)",
+  "regle": "Or seulement. Tendance du graphique de 4 h seul, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-h4": {
+  "fichier": "etat-or-f-h4.json",
+  "nom": "Or · Tendance 4 h (risque fort)",
+  "regle": "Or seulement. Tendance du graphique de 4 h seul, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-h4": {
+  "fichier": "etat-or-max-h4.json",
+  "nom": "Or · Tendance 4 h (risque max)",
+  "regle": "Or seulement. Tendance du graphique de 4 h seul, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-h4-atr": {
+  "fichier": "etat-or-p-h4-atr.json",
+  "nom": "Or · Tendance 4 h, stop serré (prudent)",
+  "regle": "Or seulement. Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "h4_atr",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-h4-atr": {
+  "fichier": "etat-or-h4-atr.json",
+  "nom": "Or · Tendance 4 h, stop serré (normal)",
+  "regle": "Or seulement. Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "h4_atr",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-h4-atr": {
+  "fichier": "etat-or-f-h4-atr.json",
+  "nom": "Or · Tendance 4 h, stop serré (risque fort)",
+  "regle": "Or seulement. Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "h4_atr",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-h4-atr": {
+  "fichier": "etat-or-max-h4-atr.json",
+  "nom": "Or · Tendance 4 h, stop serré (risque max)",
+  "regle": "Or seulement. Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "h4_atr",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-mm-h1": {
+  "fichier": "etat-or-p-mm-h1.json",
+  "nom": "Or · Moyennes 1 h (risque fort) (prudent)",
+  "regle": "Or seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "mm_h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-mm-h1": {
+  "fichier": "etat-or-mm-h1.json",
+  "nom": "Or · Moyennes 1 h (risque fort) (normal)",
+  "regle": "Or seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "mm_h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-mm-h1": {
+  "fichier": "etat-or-f-mm-h1.json",
+  "nom": "Or · Moyennes 1 h (risque fort) (risque fort)",
+  "regle": "Or seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "mm_h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-mm-h1": {
+  "fichier": "etat-or-max-mm-h1.json",
+  "nom": "Or · Moyennes 1 h (risque fort) (risque max)",
+  "regle": "Or seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "mm_h1",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-cassure-h4": {
+  "fichier": "etat-or-p-cassure-h4.json",
+  "nom": "Or · Cassure 4 h (prudent)",
+  "regle": "Or seulement. Le prix dépasse son plus haut ou plus bas des 20 dernières bougies de 4 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "cassure_h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-cassure-h4": {
+  "fichier": "etat-or-cassure-h4.json",
+  "nom": "Or · Cassure 4 h (normal)",
+  "regle": "Or seulement. Le prix dépasse son plus haut ou plus bas des 20 dernières bougies de 4 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "cassure_h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-cassure-h4": {
+  "fichier": "etat-or-f-cassure-h4.json",
+  "nom": "Or · Cassure 4 h (risque fort)",
+  "regle": "Or seulement. Le prix dépasse son plus haut ou plus bas des 20 dernières bougies de 4 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "cassure_h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-cassure-h4": {
+  "fichier": "etat-or-max-cassure-h4.json",
+  "nom": "Or · Cassure 4 h (risque max)",
+  "regle": "Or seulement. Le prix dépasse son plus haut ou plus bas des 20 dernières bougies de 4 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "cassure_h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-large": {
+  "fichier": "etat-or-p-large.json",
+  "nom": "Or · Cassure 4 h + grande tendance (prudent)",
+  "regle": "Or seulement. Cassure sur 4 h dans le sens de la moyenne de 50 jours, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "large",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-large": {
+  "fichier": "etat-or-large.json",
+  "nom": "Or · Cassure 4 h + grande tendance (normal)",
+  "regle": "Or seulement. Cassure sur 4 h dans le sens de la moyenne de 50 jours, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "large",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-large": {
+  "fichier": "etat-or-f-large.json",
+  "nom": "Or · Cassure 4 h + grande tendance (risque fort)",
+  "regle": "Or seulement. Cassure sur 4 h dans le sens de la moyenne de 50 jours, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "large",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-large": {
+  "fichier": "etat-or-max-large.json",
+  "nom": "Or · Cassure 4 h + grande tendance (risque max)",
+  "regle": "Or seulement. Cassure sur 4 h dans le sens de la moyenne de 50 jours, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "large",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-elan": {
+  "fichier": "etat-or-p-elan.json",
+  "nom": "Or · Élan 24 h (risque fort) (prudent)",
+  "regle": "Or seulement. Le prix a bougé de plus de 0,3 % en 24 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "elan",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-elan": {
+  "fichier": "etat-or-elan.json",
+  "nom": "Or · Élan 24 h (risque fort) (normal)",
+  "regle": "Or seulement. Le prix a bougé de plus de 0,3 % en 24 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "elan",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-elan": {
+  "fichier": "etat-or-f-elan.json",
+  "nom": "Or · Élan 24 h (risque fort) (risque fort)",
+  "regle": "Or seulement. Le prix a bougé de plus de 0,3 % en 24 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "elan",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-elan": {
+  "fichier": "etat-or-max-elan.json",
+  "nom": "Or · Élan 24 h (risque fort) (risque max)",
+  "regle": "Or seulement. Le prix a bougé de plus de 0,3 % en 24 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "elan",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-macd-h4": {
+  "fichier": "etat-or-p-macd-h4.json",
+  "nom": "Or · MACD 4 h (prudent)",
+  "regle": "Or seulement. Croisement de l'élan (MACD) sur 4 h dans le sens de la moyenne de 50 jours, objectif 3 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "macd_h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-macd-h4": {
+  "fichier": "etat-or-macd-h4.json",
+  "nom": "Or · MACD 4 h (normal)",
+  "regle": "Or seulement. Croisement de l'élan (MACD) sur 4 h dans le sens de la moyenne de 50 jours, objectif 3 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "macd_h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-macd-h4": {
+  "fichier": "etat-or-f-macd-h4.json",
+  "nom": "Or · MACD 4 h (risque fort)",
+  "regle": "Or seulement. Croisement de l'élan (MACD) sur 4 h dans le sens de la moyenne de 50 jours, objectif 3 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "macd_h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-macd-h4": {
+  "fichier": "etat-or-max-macd-h4.json",
+  "nom": "Or · MACD 4 h (risque max)",
+  "regle": "Or seulement. Croisement de l'élan (MACD) sur 4 h dans le sens de la moyenne de 50 jours, objectif 3 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "macd_h4",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
+ },
+ "or-p-compression": {
+  "fichier": "etat-or-p-compression.json",
+  "nom": "Or · Sortie de calme 4 h (prudent)",
+  "regle": "Or seulement. Après une période très calme sur 4 h, on suit la sortie des bandes, objectif 3 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "compression",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "1",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-compression": {
+  "fichier": "etat-or-compression.json",
+  "nom": "Or · Sortie de calme 4 h (normal)",
+  "regle": "Or seulement. Après une période très calme sur 4 h, on suit la sortie des bandes, objectif 3 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "compression",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "2",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1"
+  ]
+ },
+ "or-f-compression": {
+  "fichier": "etat-or-f-compression.json",
+  "nom": "Or · Sortie de calme 4 h (risque fort)",
+  "regle": "Or seulement. Après une période très calme sur 4 h, on suit la sortie des bandes, objectif 3 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "compression",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "5",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--pause50"
+  ]
+ },
+ "or-max-compression": {
+  "fichier": "etat-or-max-compression.json",
+  "nom": "Or · Sortie de calme 4 h (risque max)",
+  "regle": "Or seulement. Après une période très calme sur 4 h, on suit la sortie des bandes, objectif 3 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus",
+  "args": [
+   "--mode",
+   "compression",
+   "--marche",
+   "OR",
+   "--risque-trade",
+   "10",
+   "--max-ouverts",
+   "4",
+   "--ecart",
+   "1",
+   "--max"
+  ]
  }
 }

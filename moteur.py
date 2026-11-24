@@ -29,6 +29,9 @@ MARGE_TRADE = 30.0   # garantie visée par trade, en € (Tony, 19/11)
 RISQUE_MAX_TRADE = 0.15  # sécurité : refus si un trade risque plus de 15 % du compte
 ECART_H = 4          # heures minimum entre deux ouvertures sur le même marché
 RISQUE_TOTAL = 0.20  # risque total de tous les trades ouverts : 20 % du compte au plus
+# Comptes « or » (Tony, 24/11) : ils ne tradent que l'or, par tailles de 0,01 once (courtier à micro-lots d'or),
+# taille calculée pour risquer un % précis du compte, 4 trades ouverts au plus, 1 h entre deux ouvertures.
+PAS_OR = 0.01
 MAJEURES = ("FOMC", "Federal Funds Rate", "Non-Farm", "CPI")
 
 
@@ -279,6 +282,7 @@ def main():
     vetos, news, mode, ratio = {}, "", "strict", RATIO
     risque, risque_max, fort = RISQUE, RISQUE_MAX, False
     maxi = False
+    seul, risque_trade, limite, ecart_h, pause = None, None, None, ECART_H, False
     args = sys.argv[2:]
     for i, a in enumerate(args):
         if a == "--veto":
@@ -292,6 +296,16 @@ def main():
             ratio = float(args[i + 1])
         if a == "--max":   # compte « risque max » (Tony, 19/11) : presque tout le compte en garantie, 1 trade à la fois
             maxi = True
+        if a == "--marche":   # le compte ne trade que ce marché (ex. OR)
+            seul = args[i + 1].upper()
+        if a == "--risque-trade":   # taille calculée pour risquer ce % du compte sur le stop
+            risque_trade = float(args[i + 1]) / 100
+        if a == "--max-ouverts":
+            limite = int(args[i + 1])
+        if a == "--ecart":
+            ecart_h = float(args[i + 1])
+        if a == "--pause50":   # pause quand le compte tombe sous 50 €
+            pause = True
         if a == "--risque":   # compte « risque fort » : vise ce % du compte par trade, plafond 25 % au-dessus
             risque = float(args[i + 1]) / 100
             risque_max, fort = risque * 1.25, True
@@ -308,6 +322,10 @@ def main():
         donnees[code] = {"j": bougies(m["yahoo"], "1d", "1y"), "h1": bougies(m["yahoo"], "60m", "60d")}
         donnees[code]["h4"] = en_h4(donnees[code]["h1"])
     eurusd = donnees["EURUSD"]["h1"][-1]["c"]
+    if limite is None:
+        limite = 1 if maxi else MAX_OUVERTS
+    if risque_trade is not None:
+        etat["risque_trade"] = round(risque_trade * 100, 1)
 
     # 1. Suivre les positions ouvertes : stop ou objectif touché ?
     for pos in [p for p in etat["positions"]]:
@@ -338,6 +356,8 @@ def main():
 
     # 2. Analyse de chaque marché
     for code, m in MARCHES.items():
+        if seul and code != seul:
+            continue
         d = donnees[code]
         tj, _, _ = tendance(d["j"])
         t4, h4_hauts, h4_bas = tendance(d["h4"])
@@ -365,16 +385,16 @@ def main():
         # Plusieurs trades en même temps (Tony, 18/11) : au plus MAX_PAR_MARCHE par marché,
         # au moins ECART_H heures entre deux ouvertures sur le même marché, et risque total ouvert limité.
         sur_marche = [p for p in etat["positions"] if p["marche"] == code]
-        if len(etat["positions"]) >= (1 if maxi else MAX_OUVERTS):
-            raisons.append(f"Déjà {1 if maxi else MAX_OUVERTS} trade(s) ouvert(s) sur ce compte.")
+        if len(etat["positions"]) >= limite:
+            raisons.append(f"Déjà {limite} trade(s) ouvert(s) sur ce compte.")
         elif len(sur_marche) >= MAX_PAR_MARCHE:
             raisons.append(f"Déjà {MAX_PAR_MARCHE} trades ouverts sur ce marché.")
-        elif sur_marche and d["h1"][-1]["t"] - max(p["t_entree"] for p in sur_marche) < ECART_H * 3600:
-            raisons.append(f"Un trade a été ouvert sur ce marché il y a moins de {ECART_H} h.")
+        elif sur_marche and d["h1"][-1]["t"] - max(p["t_entree"] for p in sur_marche) < ecart_h * 3600:
+            raisons.append(f"Un trade a été ouvert sur ce marché il y a moins de {ecart_h:g} h.")
         etat.pop("mort", None)   # Tony, 19/11 : aucun compte ne « meurt », on garde tout visible
         if etat["capital"] <= 0 and not maxi:
             raisons.append("Compte vide : il a perdu ses 100 €. Il sera supprimé (avec l'accord de Tony).")
-        if fort and etat["capital"] < 0.5 * etat.get("capital_depart", 100.0):
+        if (fort or pause) and etat["capital"] < 0.5 * etat.get("capital_depart", 100.0):
             raisons.append("Compte en pause : il a perdu la moitié de sa mise de départ.")
         plan = None
         if sens and not raisons:
@@ -389,7 +409,11 @@ def main():
             else:
                 objectif = entree + ratio * dist if sens == "ACHAT" else entree - ratio * dist
                 # Taille (Tony, 19/11) : environ MARGE_TRADE € de garantie par trade, levier légal européen (30 EUR/USD, 20 or).
-                if maxi:   # taille fixe : 90 % de 100 € en garantie (2 000 unités d'EUR/USD), même si le compte baisse ou passe sous 0 (Tony, 19/11)
+                if risque_trade is not None:   # comptes or : risquer risque_trade du compte (compte de départ pour les « risque max »)
+                    pas = PAS_OR if code == "OR" else f["pas"]
+                    base = etat.get("capital_depart", 100.0) if maxi else max(etat["capital"], 0)
+                    unites = max(pas, round(int(base * risque_trade * eurusd / dist / pas + 1e-9) * pas, 2))
+                elif maxi:   # taille fixe : 90 % de 100 € en garantie (2 000 unités d'EUR/USD), même si le compte baisse ou passe sous 0 (Tony, 19/11)
                     ideal = 0.9 * etat.get("capital_depart", 100.0) * eurusd * f["levier"] / prix
                     unites = max(f["pas"], int(ideal // f["pas"]) * f["pas"])
                 else:
@@ -400,7 +424,7 @@ def main():
                 marge = round(unites * prix / f["levier"] / eurusd, 2)
                 risque_ouvert = sum(p.get("risque", 0) for p in etat["positions"])
                 plafond = 0.25 if maxi else RISQUE_MAX_TRADE
-                sans_limite = maxi and code == "EURUSD"   # risque max : aucun blocage, il trade jusqu'au bout, solde négatif compris
+                sans_limite = maxi and (code == "EURUSD" or seul == code)   # risque max : aucun blocage, il trade jusqu'au bout, solde négatif compris
                 if not sans_limite and risque_eur > etat["capital"] * plafond:
                     raisons.append(f"Stop trop loin : ce trade risquerait {risque_eur} € (plus de {round(plafond * 100)} % du compte).")
                 elif not sans_limite and risque_ouvert + risque_eur > etat["capital"] * max(RISQUE_TOTAL, plafond):
@@ -439,7 +463,7 @@ def main():
     etat["mis_a_jour"] = iso
     etat["erreur_calendrier"] = err_cal
     json.dump(etat, open(chemin, "w"), ensure_ascii=False, indent=1)
-    for a in etat["analyses"][-len(MARCHES):]:
+    for a in etat["analyses"][-(1 if seul else len(MARCHES)):]:
         print(a["nom"], a["prix"], a["jour"], a["h4"], a["h1"], "->", a["verdict"], a["sens"] or "", "|", " ".join(a["raisons"]))
     print("Valeur du compte :", etat["valeur"], "€")
 

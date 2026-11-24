@@ -10,3 +10,16 @@
 - Un compte qui perd ses 100 € est supprimé (18/11). Rien n'est supprimé sans l'accord de Tony : la liste est donnée au bilan du vendredi 18h15 (Paris).
 - Les comptes « risque fort » se mettent en pause à 50 € (moitié de la mise).
 - Règle des 150 € en fin de semaine : annulée par Tony le 18/11.
+
+## Comptes or (Tony, 24/11)
+
+- 100 comptes qui ne tradent que l'or : 25 méthodes x 4 niveaux de risque. Chacun a ses propres 100 € fictifs (rien de partagé).
+- 4 trades ouverts au plus en même temps par compte, 1 h minimum entre deux ouvertures.
+- Taille : par pas de 0,01 once (il faut un courtier qui accepte les micro-lots d'or), levier 20, calculée pour risquer :
+  - « prudent » (or-p-...) : 1 % du compte par trade ;
+  - « normal » (or-...) : 2 % du compte par trade ;
+  - « risque fort » (or-f-...) : 5 % du compte par trade, pause sous 50 € ;
+  - « risque max » (or-max-...) : 10 € par trade (10 % des 100 € de départ), sans blocage de risque ni de garantie, continue même sous 0 € (comme les comptes risque max EUR/USD). Un vrai courtier refuserait certains de ces trades faute de garantie.
+- Prudent/normal/fort : refus si le risque total ouvert dépasse 20 % du compte, si un trade risque plus de 15 % du compte, ou si la garantie manque.
+- Méthodes : les 15 meilleures des 100 méthodes sur 2 ans d'or (test du 24/11, frais compris ; l'or a beaucoup monté sur cette période, donc les méthodes qui suivent la tendance en profitent) + 10 méthodes maison de l'EUR/USD pour comparer. Liste et réglages dans or/activer.py.
+- Les comptes EUR/USD ne changent pas.
