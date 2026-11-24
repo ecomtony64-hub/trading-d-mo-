@@ -48,36 +48,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-23T23:30+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09099,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-23T23:30+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3630.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 75.62 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-23T23:35+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -959,6 +929,37 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3668.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'est pas trop éloigné de sa moyenne de 20 jours."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T02:10+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09182,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'est pas trop éloigné de sa moyenne de 20 jours.",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T02:10+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3654.5,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2566,15 +2567,19 @@
   {
    "quand": "2026-11-24T02:05+00:00",
    "valeur": 102.45
+  },
+  {
+   "quand": "2026-11-24T02:10+00:00",
+   "valeur": 102.78
   }
  ],
- "valeur": 102.45,
+ "valeur": 102.78,
  "news": "",
  "methode": "elastique",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T02:05+00:00",
+ "mis_a_jour": "2026-11-24T02:10+00:00",
  "erreur_calendrier": null,
  "nom": "Élastique jour",
  "regle": "Contre-pied quand le prix est très loin de sa moyenne de 20 jours, objectif 2 fois le risque"
