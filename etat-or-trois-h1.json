@@ -331,6 +331,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 1 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-24T12:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3624.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 1 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -417,16 +432,20 @@
   {
    "quand": "2026-11-24T12:30+00:00",
    "valeur": 99.32
+  },
+  {
+   "quand": "2026-11-24T12:35+00:00",
+   "valeur": 99.52
   }
  ],
  "risque_trade": 2.0,
- "valeur": 99.32,
+ "valeur": 99.52,
  "news": "",
  "methode": "c:trois-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T12:30+00:00",
+ "mis_a_jour": "2026-11-24T12:35+00:00",
  "erreur_calendrier": null,
  "nom": "Or · 3 bougies, on suit 1 h (normal)",
  "regle": "Or seulement. Après 3 bougies de même couleur, on suit le mouvement sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus"
