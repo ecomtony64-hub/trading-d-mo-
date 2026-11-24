@@ -1,7 +1,8 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
- "positions": [
+ "capital": 96.22,
+ "positions": [],
+ "historique": [
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -14,41 +15,15 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-23T16:00+00:00",
-   "t_entree": 1795449585
+   "t_entree": 1795449585,
+   "sortie": 1.09393,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-24T09:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -3.78
   }
  ],
- "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-24T06:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09087,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T06:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3617.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-24T06:45+00:00",
    "marche": "EURUSD",
@@ -909,6 +884,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3618.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T10:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09385,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T10:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3619.9,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -2812,15 +2817,19 @@
   {
    "quand": "2026-11-24T09:55+00:00",
    "valeur": 97.08
+  },
+  {
+   "quand": "2026-11-24T10:00+00:00",
+   "valeur": 96.22
   }
  ],
- "valeur": 97.08,
+ "valeur": 96.22,
  "news": "",
  "methode": "c:donch20f-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T09:55+00:00",
+ "mis_a_jour": "2026-11-24T10:00+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 + moyenne 200 4 h",
  "regle": "Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 4 h, objectif 2 fois le risque"
