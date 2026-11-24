@@ -168,36 +168,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T09:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.0929,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T09:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3618.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 61.37 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T10:00+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1054,6 +1024,36 @@
   },
   {
    "quand": "2026-11-24T12:25+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3621.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 60.62 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T12:30+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09589,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T12:30+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3621.7,
@@ -3392,6 +3392,10 @@
   {
    "quand": "2026-11-24T12:25+00:00",
    "valeur": 103.72
+  },
+  {
+   "quand": "2026-11-24T12:30+00:00",
+   "valeur": 103.72
   }
  ],
  "valeur": 103.72,
@@ -3399,7 +3403,7 @@
  "methode": "h4_atr",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T12:25+00:00",
+ "mis_a_jour": "2026-11-24T12:30+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h, stop serré",
  "regle": "Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque",
