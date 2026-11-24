@@ -63,36 +63,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T16:46+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09697,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T16:46+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3566.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 63.22 € (plus de 25 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T16:50+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -949,6 +919,36 @@
   },
   {
    "quand": "2026-11-24T19:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3556.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 64.06 € (plus de 25 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T19:20+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09709,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T19:20+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3556.6,
@@ -3191,6 +3191,10 @@
   {
    "quand": "2026-11-24T19:15+00:00",
    "valeur": 101.4
+  },
+  {
+   "quand": "2026-11-24T19:20+00:00",
+   "valeur": 101.4
   }
  ],
  "valeur": 101.4,
@@ -3199,7 +3203,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T19:15+00:00",
+ "mis_a_jour": "2026-11-24T19:20+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h, stop serré (risque max)",
  "regle": "Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque, mise maximale : presque tout le compte en garantie, 1 trade à la fois"

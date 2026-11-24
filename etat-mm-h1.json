@@ -424,36 +424,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T16:46+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09697,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T16:46+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3566.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T16:50+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1310,6 +1280,36 @@
   },
   {
    "quand": "2026-11-24T19:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3556.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 25.04 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T19:20+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09709,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T19:20+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3556.6,
@@ -3928,6 +3928,10 @@
   {
    "quand": "2026-11-24T19:15+00:00",
    "valeur": 95.14
+  },
+  {
+   "quand": "2026-11-24T19:20+00:00",
+   "valeur": 95.14
   }
  ],
  "valeur": 95.14,
@@ -3935,7 +3939,7 @@
  "methode": "mm_h1",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T19:15+00:00",
+ "mis_a_jour": "2026-11-24T19:20+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h (risque fort)",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
