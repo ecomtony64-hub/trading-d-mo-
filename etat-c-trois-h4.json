@@ -59,37 +59,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T06:35+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09111,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : après 3 bougies de même couleur (attendu).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T06:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3626.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : après 3 bougies de même couleur (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T06:40+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -958,6 +927,36 @@
   },
   {
    "quand": "2026-11-24T09:50+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3618.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : après 3 bougies de même couleur (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T09:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.0929,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : après 3 bougies de même couleur (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T09:55+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3618.2,
@@ -2860,6 +2859,10 @@
   {
    "quand": "2026-11-24T09:50+00:00",
    "valeur": 95.38
+  },
+  {
+   "quand": "2026-11-24T09:55+00:00",
+   "valeur": 95.38
   }
  ],
  "valeur": 95.38,
@@ -2868,7 +2871,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T09:50+00:00",
+ "mis_a_jour": "2026-11-24T09:55+00:00",
  "erreur_calendrier": null,
  "nom": "3 bougies, on suit 4 h",
  "regle": "Après 3 bougies de même couleur, on suit le mouvement sur 4 h, objectif 2 fois le risque"
