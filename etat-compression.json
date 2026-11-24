@@ -54,36 +54,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T05:30+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09123,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de sortie après une période calme sur 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T05:30+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3633.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de sortie après une période calme sur 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T05:35+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -940,6 +910,36 @@
   },
   {
    "quand": "2026-11-24T08:38+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3610.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de sortie après une période calme sur 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T08:40+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09194,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de sortie après une période calme sur 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T08:40+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3610.0,
@@ -2830,6 +2830,10 @@
   {
    "quand": "2026-11-24T08:38+00:00",
    "valeur": 95.73
+  },
+  {
+   "quand": "2026-11-24T08:40+00:00",
+   "valeur": 95.73
   }
  ],
  "valeur": 95.73,
@@ -2838,7 +2842,7 @@
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T08:38+00:00",
+ "mis_a_jour": "2026-11-24T08:40+00:00",
  "erreur_calendrier": null,
  "nom": "Sortie de calme 4 h",
  "regle": "Après une période très calme sur 4 h, on suit la sortie des bandes, objectif 3 fois le risque"
