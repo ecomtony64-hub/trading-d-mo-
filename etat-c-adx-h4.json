@@ -59,36 +59,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T17:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09673,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : les lignes DI se croisent avec une tendance forte (ADX > 25) sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T17:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3569.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 63.54 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T17:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -945,6 +915,36 @@
   },
   {
    "quand": "2026-11-24T19:57+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3557.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : les lignes DI se croisent avec une tendance forte (ADX > 25) sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T20:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09685,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : les lignes DI se croisent avec une tendance forte (ADX > 25) sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T20:00+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3557.3,
@@ -3275,6 +3275,10 @@
   {
    "quand": "2026-11-24T19:57+00:00",
    "valeur": 94.29
+  },
+  {
+   "quand": "2026-11-24T20:00+00:00",
+   "valeur": 94.29
   }
  ],
  "valeur": 94.29,
@@ -3283,7 +3287,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T19:57+00:00",
+ "mis_a_jour": "2026-11-24T20:00+00:00",
  "erreur_calendrier": null,
  "nom": "ADX + croisement DI 4 h",
  "regle": "Les lignes DI se croisent avec une tendance forte (ADX > 25) sur 4 h, objectif 2 fois le risque"
