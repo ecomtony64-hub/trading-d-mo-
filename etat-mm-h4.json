@@ -163,36 +163,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T02:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09182,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T02:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3650.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique de 4 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T02:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1049,6 +1019,36 @@
   },
   {
    "quand": "2026-11-24T04:40+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3627.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique de 4 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T04:45+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09123,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T04:45+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3627.9,
@@ -3063,6 +3063,10 @@
   {
    "quand": "2026-11-24T04:40+00:00",
    "valeur": 108.02
+  },
+  {
+   "quand": "2026-11-24T04:45+00:00",
+   "valeur": 108.02
   }
  ],
  "valeur": 108.02,
@@ -3070,7 +3074,7 @@
  "methode": "mm_h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T04:40+00:00",
+ "mis_a_jour": "2026-11-24T04:45+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 4 h",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 4 h, objectif 2 fois le risque",
