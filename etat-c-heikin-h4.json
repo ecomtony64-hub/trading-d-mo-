@@ -82,36 +82,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T02:50+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09158,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : les bougies lissées (Heikin-Ashi) changent de couleur sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T02:50+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3647.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : les bougies lissées (Heikin-Ashi) changent de couleur sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T02:54+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -978,6 +948,36 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 63.05 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T05:20+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09075,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : les bougies lissées (Heikin-Ashi) changent de couleur sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T05:20+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3637.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 63.81 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -2690,6 +2690,10 @@
   {
    "quand": "2026-11-24T05:15+00:00",
    "valeur": 96.95
+  },
+  {
+   "quand": "2026-11-24T05:20+00:00",
+   "valeur": 96.95
   }
  ],
  "valeur": 96.95,
@@ -2698,7 +2702,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T05:15+00:00",
+ "mis_a_jour": "2026-11-24T05:20+00:00",
  "erreur_calendrier": null,
  "nom": "Changement de couleur lissé 4 h",
  "regle": "Les bougies lissées (Heikin-Ashi) changent de couleur sur 4 h, objectif 2 fois le risque"
