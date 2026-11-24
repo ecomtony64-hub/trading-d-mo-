@@ -158,36 +158,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T11:35+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09529,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T11:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3624.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 48.12 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T11:40+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1054,6 +1024,36 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 52.75 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T14:40+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.0983,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T14:40+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3616.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 54.9 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -3458,6 +3458,10 @@
   {
    "quand": "2026-11-24T14:35+00:00",
    "valeur": 114.63
+  },
+  {
+   "quand": "2026-11-24T14:40+00:00",
+   "valeur": 114.63
   }
  ],
  "valeur": 114.63,
@@ -3465,7 +3469,7 @@
  "methode": "h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T14:35+00:00",
+ "mis_a_jour": "2026-11-24T14:40+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h",
  "regle": "Tendance du graphique de 4 h seul, objectif 2 fois le risque",

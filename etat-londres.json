@@ -1,6 +1,6 @@
 {
  "capital_depart": 100.0,
- "capital": 98.31,
+ "capital": 103.46,
  "positions": [
   {
    "marche": "EURUSD",
@@ -15,20 +15,6 @@
    "reel": true,
    "ouvert_le": "2026-11-23T10:15+00:00",
    "t_entree": 1795428887
-  },
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "ACHAT",
-   "entree": 1.0924,
-   "stop": 1.09051,
-   "objectif": 1.09806,
-   "unites": 1000,
-   "risque": 1.73,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-24T09:30+00:00",
-   "t_entree": 1795512587
   }
  ],
  "historique": [
@@ -50,40 +36,28 @@
    "ferme_le": "2026-11-24T08:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -1.69
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.0924,
+   "stop": 1.09051,
+   "objectif": 1.09806,
+   "unites": 1000,
+   "risque": 1.73,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-24T09:30+00:00",
+   "t_entree": 1795512587,
+   "sortie": 1.09806,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-24T14:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 5.15
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-24T11:35+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09517,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Ce n'est pas la matinée de Londres.",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T11:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3628.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Ce n'est pas la matinée de Londres."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-24T11:40+00:00",
    "marche": "EURUSD",
@@ -965,6 +939,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3618.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Ce n'est pas la matinée de Londres."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T14:40+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.0983,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Ce n'est pas la matinée de Londres."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T14:40+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3616.4,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3100,15 +3104,19 @@
   {
    "quand": "2026-11-24T14:35+00:00",
    "valeur": 102.82
+  },
+  {
+   "quand": "2026-11-24T14:40+00:00",
+   "valeur": 102.6
   }
  ],
- "valeur": 102.82,
+ "valeur": 102.6,
  "news": "",
  "methode": "ouverture_londres",
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T14:35+00:00",
+ "mis_a_jour": "2026-11-24T14:40+00:00",
  "erreur_calendrier": null,
  "nom": "Ouverture de Londres",
  "regle": "Cassure du couloir de la nuit à l'ouverture de Londres, objectif 3 fois le risque"
