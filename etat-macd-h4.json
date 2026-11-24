@@ -20,36 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-24T05:25+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09075,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T05:25+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3637.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T05:30+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -912,6 +882,36 @@
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T08:38+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09194,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T08:38+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3610.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -2792,15 +2792,19 @@
   {
    "quand": "2026-11-24T08:05+00:00",
    "valeur": 100.12
+  },
+  {
+   "quand": "2026-11-24T08:38+00:00",
+   "valeur": 99.47
   }
  ],
- "valeur": 100.12,
+ "valeur": 99.47,
  "news": "",
  "methode": "macd_h4",
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T08:05+00:00",
+ "mis_a_jour": "2026-11-24T08:38+00:00",
  "erreur_calendrier": null,
  "nom": "MACD 4 h",
  "regle": "Croisement de l'élan (MACD) sur 4 h dans le sens de la moyenne de 50 jours, objectif 3 fois le risque"

@@ -25,36 +25,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T05:25+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09075,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Hier n'était pas une journée « intérieure »."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T05:25+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3637.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Hier n'était pas une journée « intérieure »."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T05:30+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -917,6 +887,36 @@
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Hier n'était pas une journée « intérieure »."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T08:38+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09194,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Hier n'était pas une journée « intérieure »."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T08:38+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3610.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -2797,6 +2797,10 @@
   {
    "quand": "2026-11-24T08:05+00:00",
    "valeur": 99.03
+  },
+  {
+   "quand": "2026-11-24T08:38+00:00",
+   "valeur": 99.03
   }
  ],
  "valeur": 99.03,
@@ -2805,7 +2809,7 @@
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T08:05+00:00",
+ "mis_a_jour": "2026-11-24T08:38+00:00",
  "erreur_calendrier": null,
  "nom": "Journée intérieure",
  "regle": "Sortie d'une journée restée à l'intérieur de la précédente, objectif 3 fois le risque"
