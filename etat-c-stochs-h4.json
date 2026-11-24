@@ -20,36 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-24T04:10+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09146,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : suivi : la stochastique dépasse 80 ou passe sous 20 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T04:10+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3631.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : suivi : la stochastique dépasse 80 ou passe sous 20 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T04:15+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -906,6 +876,36 @@
   },
   {
    "quand": "2026-11-24T06:40+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3617.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : suivi : la stochastique dépasse 80 ou passe sous 20 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T06:45+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09087,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : suivi : la stochastique dépasse 80 ou passe sous 20 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T06:45+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3617.6,
@@ -2696,6 +2696,10 @@
   {
    "quand": "2026-11-24T06:40+00:00",
    "valeur": 99.58
+  },
+  {
+   "quand": "2026-11-24T06:45+00:00",
+   "valeur": 99.58
   }
  ],
  "valeur": 99.58,
@@ -2704,7 +2708,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T06:40+00:00",
+ "mis_a_jour": "2026-11-24T06:45+00:00",
  "erreur_calendrier": null,
  "nom": "Stochastique suivi 4 h",
  "regle": "Suivi : la stochastique dépasse 80 ou passe sous 20 sur 4 h, objectif 2 fois le risque"
