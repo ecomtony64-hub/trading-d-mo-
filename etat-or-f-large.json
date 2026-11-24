@@ -843,6 +843,21 @@
     "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-24T16:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3568.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1069,6 +1084,10 @@
   {
    "quand": "2026-11-24T16:10+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-24T16:15+00:00",
+   "valeur": 100.0
   }
  ],
  "risque_trade": 5.0,
@@ -1078,7 +1097,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T16:10+00:00",
+ "mis_a_jour": "2026-11-24T16:15+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Cassure 4 h + grande tendance (risque fort)",
  "regle": "Or seulement. Cassure sur 4 h dans le sens de la moyenne de 50 jours, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus"
