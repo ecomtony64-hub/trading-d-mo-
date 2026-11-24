@@ -393,6 +393,21 @@
     "Pas de petit retour en arrière dans une tendance de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-24T13:10+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3642.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -499,6 +514,10 @@
   {
    "quand": "2026-11-24T13:05+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-24T13:10+00:00",
+   "valeur": 100.0
   }
  ],
  "risque_trade": 1.0,
@@ -508,7 +527,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T13:05+00:00",
+ "mis_a_jour": "2026-11-24T13:10+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Repli dans la tendance (prudent)",
  "regle": "Or seulement. Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus"
