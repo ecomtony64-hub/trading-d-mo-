@@ -63,36 +63,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T17:15+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09721,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le RSI 14 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T17:15+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3562.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le RSI 14 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T17:20+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -952,6 +922,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3559.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le RSI 14 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T19:57+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09685,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le RSI 14 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T19:57+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3557.3,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3275,6 +3275,10 @@
   {
    "quand": "2026-11-24T19:45+00:00",
    "valeur": 98.93
+  },
+  {
+   "quand": "2026-11-24T19:57+00:00",
+   "valeur": 98.93
   }
  ],
  "valeur": 98.93,
@@ -3283,7 +3287,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T19:45+00:00",
+ "mis_a_jour": "2026-11-24T19:57+00:00",
  "erreur_calendrier": null,
  "nom": "RSI 14 passe 50 1 h",
  "regle": "Le RSI 14 passe 50 dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque"
