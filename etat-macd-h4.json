@@ -1,7 +1,8 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
- "positions": [
+ "capital": 96.37,
+ "positions": [],
+ "historique": [
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -14,41 +15,15 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-23T15:15+00:00",
-   "t_entree": 1795446884
+   "t_entree": 1795446884,
+   "sortie": 1.0954403032302857,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-24T11:24+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -3.63
   }
  ],
- "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-24T08:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09194,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T08:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3610.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-24T08:45+00:00",
    "marche": "EURUSD",
@@ -909,6 +884,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3627.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T11:25+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09529,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T11:25+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3624.0,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -2916,15 +2921,19 @@
   {
    "quand": "2026-11-24T11:20+00:00",
    "valeur": 96.63
+  },
+  {
+   "quand": "2026-11-24T11:25+00:00",
+   "valeur": 96.37
   }
  ],
- "valeur": 96.63,
+ "valeur": 96.37,
  "news": "",
  "methode": "macd_h4",
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T11:20+00:00",
+ "mis_a_jour": "2026-11-24T11:25+00:00",
  "erreur_calendrier": null,
  "nom": "MACD 4 h",
  "regle": "Croisement de l'élan (MACD) sur 4 h dans le sens de la moyenne de 50 jours, objectif 3 fois le risque"

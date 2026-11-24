@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 99.3,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09409,
-   "stop": 1.09538,
-   "objectif": 1.09151,
-   "unites": 1000,
-   "risque": 1.18,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-24T11:00+00:00",
-   "t_entree": 1795517504
-  }
- ],
+ "capital": 98.07,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -93,39 +78,28 @@
    "ferme_le": "2026-11-24T09:00+00:00",
    "frais_nuit": 0.0,
    "resultat": 4.3
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09409,
+   "stop": 1.09538,
+   "objectif": 1.09151,
+   "unites": 1000,
+   "risque": 1.18,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-24T11:00+00:00",
+   "t_entree": 1795517504,
+   "sortie": 1.0954403032302857,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-24T11:24+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.23
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-24T08:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09194,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T08:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3610.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-24T08:45+00:00",
    "marche": "EURUSD",
@@ -988,6 +962,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3627.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T11:25+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09529,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T11:25+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3624.0,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -2955,15 +2959,19 @@
   {
    "quand": "2026-11-24T11:20+00:00",
    "valeur": 98.33
+  },
+  {
+   "quand": "2026-11-24T11:25+00:00",
+   "valeur": 98.07
   }
  ],
- "valeur": 98.33,
+ "valeur": 98.07,
  "news": "",
  "methode": "c:boll25r-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T11:20+00:00",
+ "mis_a_jour": "2026-11-24T11:25+00:00",
  "erreur_calendrier": null,
  "nom": "Rebond bandes 2.5 1 h",
  "regle": "Contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 1 h, objectif 2 fois le risque"
