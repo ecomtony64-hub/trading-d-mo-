@@ -173,36 +173,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T21:05+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09673,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T21:05+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3551.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 91.18 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T21:10+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1071,6 +1041,37 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 82.53 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T23:35+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09661,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "La tendance d'1 h et la moyenne longue (200 heures) ne sont pas d'accord.",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T23:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3559.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 84.17 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -3883,6 +3884,10 @@
   {
    "quand": "2026-11-24T23:30+00:00",
    "valeur": 97.64
+  },
+  {
+   "quand": "2026-11-24T23:35+00:00",
+   "valeur": 97.64
   }
  ],
  "valeur": 97.64,
@@ -3890,7 +3895,7 @@
  "methode": "mm200",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T23:30+00:00",
+ "mis_a_jour": "2026-11-24T23:35+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h + moyenne longue",
  "regle": "Tendance d'1 h confirmée par la moyenne des 200 dernières heures, objectif 2 fois le risque",
