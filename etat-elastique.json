@@ -54,36 +54,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T11:25+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09529,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'est pas trop éloigné de sa moyenne de 20 jours."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T11:25+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3624.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 61.34 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T11:30+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -940,6 +910,36 @@
   },
   {
    "quand": "2026-11-24T14:28+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3618.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 62.96 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T14:30+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09757,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'est pas trop éloigné de sa moyenne de 20 jours."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-24T14:30+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3618.8,
@@ -3070,6 +3070,10 @@
   {
    "quand": "2026-11-24T14:28+00:00",
    "valeur": 118.71
+  },
+  {
+   "quand": "2026-11-24T14:30+00:00",
+   "valeur": 118.71
   }
  ],
  "valeur": 118.71,
@@ -3078,7 +3082,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T14:28+00:00",
+ "mis_a_jour": "2026-11-24T14:30+00:00",
  "erreur_calendrier": null,
  "nom": "Élastique jour",
  "regle": "Contre-pied quand le prix est très loin de sa moyenne de 20 jours, objectif 2 fois le risque"
