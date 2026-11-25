@@ -462,36 +462,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T02:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09637,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T02:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3549.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 24.57 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T02:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1369,6 +1339,36 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 24.54 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T05:10+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09469,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T05:10+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3550.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 26.74 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -4425,6 +4425,10 @@
   {
    "quand": "2026-11-25T05:05+00:00",
    "valeur": 92.69
+  },
+  {
+   "quand": "2026-11-25T05:10+00:00",
+   "valeur": 92.69
   }
  ],
  "valeur": 92.69,
@@ -4432,7 +4436,7 @@
  "methode": "mm_h1",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T05:05+00:00",
+ "mis_a_jour": "2026-11-25T05:10+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h (risque fort)",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
