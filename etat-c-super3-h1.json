@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 101.14,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09433,
+   "stop": 1.0951,
+   "objectif": 1.09279,
+   "unites": 1000,
+   "risque": 0.71,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T06:05+00:00",
+   "t_entree": 1795586687
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -81,36 +96,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-25T03:15+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09577,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T03:15+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3549.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T03:20+00:00",
    "marche": "EURUSD",
@@ -971,6 +956,34 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3529.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T06:05+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09433,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T06:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3526.9,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -3754,15 +3767,19 @@
   {
    "quand": "2026-11-25T06:00+00:00",
    "valeur": 101.14
+  },
+  {
+   "quand": "2026-11-25T06:05+00:00",
+   "valeur": 101.05
   }
  ],
- "valeur": 101.14,
+ "valeur": 101.05,
  "news": "",
  "methode": "c:super3-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T06:00+00:00",
+ "mis_a_jour": "2026-11-25T06:05+00:00",
  "erreur_calendrier": null,
  "nom": "Stop suiveur 3x 1 h",
  "regle": "Le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 1 h, objectif 2 fois le risque"

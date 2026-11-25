@@ -1,21 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
+ "capital": 119.85,
  "positions": [
-  {
-   "marche": "OR",
-   "nom": "Or",
-   "sens": "VENTE",
-   "entree": 3581.0,
-   "stop": 3608.2,
-   "objectif": 3526.7,
-   "unites": 0.4,
-   "risque": 9.9,
-   "marge": 65.26,
-   "reel": true,
-   "ouvert_le": "2026-11-24T16:00+00:00",
-   "t_entree": 1795535401
-  },
   {
    "marche": "OR",
    "nom": "Or",
@@ -57,26 +43,44 @@
    "reel": true,
    "ouvert_le": "2026-11-24T21:00+00:00",
    "t_entree": 1795552849
-  }
- ],
- "historique": [],
- "analyses": [
+  },
   {
-   "quand": "2026-11-25T00:20+00:00",
    "marche": "OR",
    "nom": "Or",
-   "prix": 3549.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu).",
-    "Déjà 4 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
+   "sens": "VENTE",
+   "entree": 3526.9,
+   "stop": 3550.5,
+   "objectif": 3479.7,
+   "unites": 0.46,
+   "risque": 9.91,
+   "marge": 74.13,
+   "reel": true,
+   "ouvert_le": "2026-11-25T06:05+00:00",
+   "t_entree": 1795586067
+  }
+ ],
+ "historique": [
+  {
+   "marche": "OR",
+   "nom": "Or",
+   "sens": "VENTE",
+   "entree": 3581.0,
+   "stop": 3608.2,
+   "objectif": 3526.7,
+   "unites": 0.4,
+   "risque": 9.9,
+   "marge": 65.26,
+   "reel": true,
+   "ouvert_le": "2026-11-24T16:00+00:00",
+   "t_entree": 1795535401,
+   "sortie": 3526.7,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-25T05:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 19.85
+  }
+ ],
+ "analyses": [
   {
    "quand": "2026-11-25T00:25+00:00",
    "marche": "OR",
@@ -1018,6 +1022,19 @@
     "Déjà 4 trade(s) ouvert(s) sur ce compte."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-25T06:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3526.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1864,16 +1881,20 @@
   {
    "quand": "2026-11-25T06:00+00:00",
    "valeur": 145.57
+  },
+  {
+   "quand": "2026-11-25T06:05+00:00",
+   "valeur": 149.29
   }
  ],
  "risque_trade": 10.0,
- "valeur": 145.57,
+ "valeur": 149.29,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T06:00+00:00",
+ "mis_a_jour": "2026-11-25T06:05+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Cassure 20 + moyenne 200 1 h (risque max)",
  "regle": "Or seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus"

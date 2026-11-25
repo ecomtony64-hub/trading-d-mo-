@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 90.12,
- "positions": [
-  {
-   "marche": "OR",
-   "nom": "Or",
-   "sens": "VENTE",
-   "entree": 3581.0,
-   "stop": 3608.2,
-   "objectif": 3526.7,
-   "unites": 0.4,
-   "risque": 9.9,
-   "marge": 65.26,
-   "reel": true,
-   "ouvert_le": "2026-11-24T16:00+00:00",
-   "t_entree": 1795535401
-  }
- ],
+ "capital": 109.97,
+ "positions": [],
  "historique": [
   {
    "marche": "OR",
@@ -36,24 +21,28 @@
    "ferme_le": "2026-11-25T02:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -9.88
+  },
+  {
+   "marche": "OR",
+   "nom": "Or",
+   "sens": "VENTE",
+   "entree": 3581.0,
+   "stop": 3608.2,
+   "objectif": 3526.7,
+   "unites": 0.4,
+   "risque": 9.9,
+   "marge": 65.26,
+   "reel": true,
+   "ouvert_le": "2026-11-24T16:00+00:00",
+   "t_entree": 1795535401,
+   "sortie": 3526.7,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-25T05:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 19.85
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-25T00:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3549.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : suivi : le CCI dépasse +100 ou passe sous -100 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T00:25+00:00",
    "marche": "OR",
@@ -943,6 +932,21 @@
     "Pas de signal : suivi : le CCI dépasse +100 ou passe sous -100 sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-25T06:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3526.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : suivi : le CCI dépasse +100 ou passe sous -100 sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1789,16 +1793,20 @@
   {
    "quand": "2026-11-25T06:00+00:00",
    "valeur": 108.81
+  },
+  {
+   "quand": "2026-11-25T06:05+00:00",
+   "valeur": 109.97
   }
  ],
  "risque_trade": 10.0,
- "valeur": 108.81,
+ "valeur": 109.97,
  "news": "",
  "methode": "c:ccis-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T06:00+00:00",
+ "mis_a_jour": "2026-11-25T06:05+00:00",
  "erreur_calendrier": null,
  "nom": "Or · CCI suivi 1 h (risque max)",
  "regle": "Or seulement. Suivi : le CCI dépasse +100 ou passe sous -100 sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus"

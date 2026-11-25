@@ -5,36 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-25T03:15+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09577,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur jour (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T03:15+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3549.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur jour (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T03:20+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -894,6 +864,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3529.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur jour (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T06:05+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09433,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur jour (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T06:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3526.9,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -3677,6 +3677,10 @@
   {
    "quand": "2026-11-25T06:00+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-25T06:05+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -3685,7 +3689,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T06:00+00:00",
+ "mis_a_jour": "2026-11-25T06:05+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 10 bougies jour",
  "regle": "Le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur jour, objectif 2 fois le risque"
