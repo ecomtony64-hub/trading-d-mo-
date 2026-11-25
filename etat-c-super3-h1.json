@@ -97,36 +97,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T06:10+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09433,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T06:10+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3526.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T06:15+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1008,6 +978,37 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3554.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T09:50+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09421,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 1 h (attendu).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T09:50+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3554.8,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3915,6 +3916,10 @@
   {
    "quand": "2026-11-25T09:45+00:00",
    "valeur": 101.16
+  },
+  {
+   "quand": "2026-11-25T09:50+00:00",
+   "valeur": 101.16
   }
  ],
  "valeur": 101.16,
@@ -3923,7 +3928,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T09:45+00:00",
+ "mis_a_jour": "2026-11-25T09:50+00:00",
  "erreur_calendrier": null,
  "nom": "Stop suiveur 3x 1 h",
  "regle": "Le prix traverse une ligne suiveuse à 3 fois la taille moyenne des bougies sur 1 h, objectif 2 fois le risque"
