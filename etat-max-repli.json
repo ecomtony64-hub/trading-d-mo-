@@ -59,37 +59,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T00:10+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09673,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 1 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T00:10+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3548.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de petit retour en arrière dans une tendance de 4 h.",
-    "Déjà 1 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T00:15+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -998,6 +967,38 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3568.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h.",
+    "Déjà 1 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T02:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09601,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h.",
+    "Déjà 1 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T02:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3556.6,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3594,15 +3595,19 @@
   {
    "quand": "2026-11-25T02:50+00:00",
    "valeur": 108.39
+  },
+  {
+   "quand": "2026-11-25T02:55+00:00",
+   "valeur": 108.61
   }
  ],
- "valeur": 108.39,
+ "valeur": 108.61,
  "news": "",
  "methode": "repli",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T02:50+00:00",
+ "mis_a_jour": "2026-11-25T02:55+00:00",
  "erreur_calendrier": null,
  "nom": "Repli dans la tendance (risque max)",
  "regle": "Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque, mise maximale : presque tout le compte en garantie, 1 trade à la fois"
