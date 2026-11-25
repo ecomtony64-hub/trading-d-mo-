@@ -1,21 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 94.42,
+ "capital": 97.28,
  "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.0983,
-   "stop": 1.09986,
-   "objectif": 1.09517,
-   "unites": 1000,
-   "risque": 1.42,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-24T14:40+00:00",
-   "t_entree": 1795531183
-  },
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -29,6 +15,20 @@
    "reel": true,
    "ouvert_le": "2026-11-24T18:51+00:00",
    "t_entree": 1795546304
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09503,
+   "stop": 1.094,
+   "objectif": 1.09709,
+   "unites": 1000,
+   "risque": 0.94,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T03:55+00:00",
+   "t_entree": 1795578584
   }
  ],
  "historique": [
@@ -354,40 +354,29 @@
    "ferme_le": "2026-11-24T14:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -1.37
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.0983,
+   "stop": 1.09986,
+   "objectif": 1.09517,
+   "unites": 1000,
+   "risque": 1.42,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-24T14:40+00:00",
+   "t_entree": 1795531183,
+   "sortie": 1.09517,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-25T03:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 2.86
   }
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T00:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09637,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'est ni très bas ni très haut sur le graphique d'1 h (indicateur RSI entre 30 et 70)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T00:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3542.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 25.78 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T01:00+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1254,6 +1243,34 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 25.0 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T03:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09493,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T03:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3549.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 25.14 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -4258,14 +4275,18 @@
   {
    "quand": "2026-11-25T03:50+00:00",
    "valeur": 98.63
+  },
+  {
+   "quand": "2026-11-25T03:55+00:00",
+   "valeur": 99.07
   }
  ],
- "valeur": 98.63,
+ "valeur": 99.07,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "rsi_h1",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T03:50+00:00",
+ "mis_a_jour": "2026-11-25T03:55+00:00",
  "erreur_calendrier": null,
  "nom": "Contre-pied 1 h (risque fort)",
  "regle": "Achat quand le prix est tombé très bas, vente quand il est monté très haut, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
