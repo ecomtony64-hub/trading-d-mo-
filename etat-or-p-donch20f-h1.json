@@ -62,21 +62,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-24T19:57+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3557.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 1 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T20:00+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -994,6 +979,22 @@
     "Déjà 4 trade(s) ouvert(s) sur ce compte."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-25T00:40+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3543.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu).",
+    "Déjà 4 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1620,10 +1621,14 @@
   {
    "quand": "2026-11-25T00:40+00:00",
    "valeur": 102.41
+  },
+  {
+   "quand": "2026-11-25T00:40+00:00",
+   "valeur": 102.37
   }
  ],
  "risque_trade": 1.0,
- "valeur": 102.41,
+ "valeur": 102.37,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,

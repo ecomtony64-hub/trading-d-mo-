@@ -40,36 +40,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T22:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09661,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : la stochastique ressort de 20/80 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T22:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3555.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : la stochastique ressort de 20/80 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T22:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -929,6 +899,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3542.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : la stochastique ressort de 20/80 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T00:40+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09649,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : la stochastique ressort de 20/80 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T00:40+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3543.1,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3488,6 +3488,10 @@
   {
    "quand": "2026-11-25T00:35+00:00",
    "valeur": 100.41
+  },
+  {
+   "quand": "2026-11-25T00:40+00:00",
+   "valeur": 100.63
   },
   {
    "quand": "2026-11-25T00:40+00:00",

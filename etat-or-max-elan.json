@@ -101,21 +101,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T19:57+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3557.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 4 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T20:00+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -999,6 +984,21 @@
     "Déjà 4 trade(s) ouvert(s) sur ce compte."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-25T00:40+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3543.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 4 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1625,10 +1625,14 @@
   {
    "quand": "2026-11-25T00:40+00:00",
    "valeur": 178.2
+  },
+  {
+   "quand": "2026-11-25T00:40+00:00",
+   "valeur": 177.64
   }
  ],
  "risque_trade": 10.0,
- "valeur": 178.2,
+ "valeur": 177.64,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,

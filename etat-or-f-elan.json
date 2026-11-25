@@ -87,21 +87,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T19:57+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3557.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 37.3 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T20:00+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -985,6 +970,21 @@
     "Compte trop petit : le courtier demanderait 37.16 € de garantie pour cette position."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-25T00:40+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3543.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 37.16 € de garantie pour cette position."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1611,10 +1611,14 @@
   {
    "quand": "2026-11-25T00:40+00:00",
    "valeur": 137.86
+  },
+  {
+   "quand": "2026-11-25T00:40+00:00",
+   "valeur": 137.62
   }
  ],
  "risque_trade": 5.0,
- "valeur": 137.86,
+ "valeur": 137.62,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,

@@ -34,21 +34,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-24T19:57+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3557.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement du MACD 5/35/5 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T20:00+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -932,6 +917,21 @@
     "Pas de signal : croisement du MACD 5/35/5 sur 4 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-25T00:40+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3543.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement du MACD 5/35/5 sur 4 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1558,10 +1558,14 @@
   {
    "quand": "2026-11-25T00:40+00:00",
    "valeur": 101.24
+  },
+  {
+   "quand": "2026-11-25T00:40+00:00",
+   "valeur": 101.22
   }
  ],
  "risque_trade": 2.0,
- "valeur": 101.24,
+ "valeur": 101.22,
  "news": "",
  "methode": "c:macd5-35-h4",
  "ratio": 2.0,
