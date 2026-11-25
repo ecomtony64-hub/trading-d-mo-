@@ -396,36 +396,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T10:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09409,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique d'1 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T10:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3555.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Trop de risque en jeu : 19.5 € avec ce trade (maximum 20 % du compte au total)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T10:05+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1280,6 +1250,36 @@
   },
   {
    "quand": "2026-11-25T21:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3599.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Impossible de placer un stop logique."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T21:05+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09794,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T21:05+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3599.3,
@@ -4634,6 +4634,10 @@
   {
    "quand": "2026-11-25T21:00+00:00",
    "valeur": 89.63
+  },
+  {
+   "quand": "2026-11-25T21:05+00:00",
+   "valeur": 89.63
   }
  ],
  "valeur": 89.63,
@@ -4641,7 +4645,7 @@
  "methode": "rapide",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T21:00+00:00",
+ "mis_a_jour": "2026-11-25T21:05+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h (risque fort)",
  "regle": "Tendance du graphique d'1 h seul, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
