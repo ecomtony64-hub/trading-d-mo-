@@ -234,36 +234,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T01:10+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09625,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T01:10+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3554.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 25.84 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T01:15+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1130,6 +1100,36 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 25.01 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T04:21+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09493,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T04:21+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3543.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 23.69 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -4146,6 +4146,10 @@
   {
    "quand": "2026-11-25T04:05+00:00",
    "valeur": 92.25
+  },
+  {
+   "quand": "2026-11-25T04:21+00:00",
+   "valeur": 92.25
   }
  ],
  "valeur": 92.25,
@@ -4153,7 +4157,7 @@
  "methode": "elan",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T04:05+00:00",
+ "mis_a_jour": "2026-11-25T04:21+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h (risque fort)",
  "regle": "Le prix a bougé de plus de 0,3 % en 24 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
