@@ -63,36 +63,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T07:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09409,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de sortie après une période calme sur 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T07:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3519.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de sortie après une période calme sur 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T07:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -952,6 +922,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3559.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de sortie après une période calme sur 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T10:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09469,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de sortie après une période calme sur 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T10:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3557.7,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3947,6 +3947,10 @@
   {
    "quand": "2026-11-25T10:50+00:00",
    "valeur": 89.7
+  },
+  {
+   "quand": "2026-11-25T10:55+00:00",
+   "valeur": 89.7
   }
  ],
  "valeur": 89.7,
@@ -3955,7 +3959,7 @@
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T10:50+00:00",
+ "mis_a_jour": "2026-11-25T10:55+00:00",
  "erreur_calendrier": null,
  "nom": "Sortie de calme 4 h",
  "regle": "Après une période très calme sur 4 h, on suit la sortie des bandes, objectif 3 fois le risque"
