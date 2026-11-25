@@ -34,21 +34,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-25T03:30+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3555.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : la moyenne de 20 bougies croise celle de 50 sur le graphique 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T03:35+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -923,6 +908,21 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3554.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : la moyenne de 20 bougies croise celle de 50 sur le graphique 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T10:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3555.6,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -1910,16 +1910,20 @@
   {
    "quand": "2026-11-25T09:55+00:00",
    "valeur": 95.94
+  },
+  {
+   "quand": "2026-11-25T10:00+00:00",
+   "valeur": 95.36
   }
  ],
  "risque_trade": 10.0,
- "valeur": 95.94,
+ "valeur": 95.36,
  "news": "",
  "methode": "c:mm20-50-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T09:55+00:00",
+ "mis_a_jour": "2026-11-25T10:00+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Moyennes 20/50 1 h (risque max)",
  "regle": "Or seulement. La moyenne de 20 bougies croise celle de 50 sur le graphique 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus"

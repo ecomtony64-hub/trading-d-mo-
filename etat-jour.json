@@ -87,36 +87,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T06:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09385,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Trop de risque en jeu : 25.98 € avec ce trade (maximum 20 % du compte au total)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T06:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3519.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique journalier."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T06:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -976,6 +946,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3554.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique journalier."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T10:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09409,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Trop de risque en jeu : 25.76 € avec ce trade (maximum 20 % du compte au total)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T10:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3555.6,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -4207,14 +4207,18 @@
   {
    "quand": "2026-11-25T09:55+00:00",
    "valeur": 108.16
+  },
+  {
+   "quand": "2026-11-25T10:00+00:00",
+   "valeur": 108.49
   }
  ],
- "valeur": 108.16,
+ "valeur": 108.49,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "jour",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T09:55+00:00",
+ "mis_a_jour": "2026-11-25T10:00+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance jour",
  "regle": "Tendance du graphique journalier seul, objectif 2 fois le risque",

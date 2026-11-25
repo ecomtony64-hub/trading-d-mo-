@@ -59,36 +59,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T06:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09385,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Ce n'est pas la matinée de Londres."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T06:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3519.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Ce n'est pas la matinée de Londres."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T06:25+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -948,6 +918,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3554.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix reste dans le couloir de la nuit."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T10:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09409,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix reste dans le couloir de la nuit."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T10:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3555.6,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3903,15 +3903,19 @@
   {
    "quand": "2026-11-25T09:55+00:00",
    "valeur": 106.33
+  },
+  {
+   "quand": "2026-11-25T10:00+00:00",
+   "valeur": 106.44
   }
  ],
- "valeur": 106.33,
+ "valeur": 106.44,
  "news": "",
  "methode": "ouverture_londres",
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T09:55+00:00",
+ "mis_a_jour": "2026-11-25T10:00+00:00",
  "erreur_calendrier": null,
  "nom": "Ouverture de Londres",
  "regle": "Cassure du couloir de la nuit à l'ouverture de Londres, objectif 3 fois le risque"
