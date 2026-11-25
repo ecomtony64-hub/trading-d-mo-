@@ -8,21 +8,6 @@
    "quand": "2026-11-24T23:45+00:00",
    "marche": "OR",
    "nom": "Or",
-   "prix": 3562.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T23:45+00:00",
-   "marche": "OR",
-   "nom": "Or",
    "prix": 3561.9,
    "jour": "RANGE",
    "h4": "BAISSIER",
@@ -903,6 +888,21 @@
     "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 4 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-25T05:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3546.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 4 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1717,6 +1717,10 @@
   {
    "quand": "2026-11-25T05:10+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-25T05:15+00:00",
+   "valeur": 100.0
   }
  ],
  "risque_trade": 5.0,
@@ -1726,7 +1730,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T05:10+00:00",
+ "mis_a_jour": "2026-11-25T05:15+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Cassure 20 + moyenne 200 4 h (risque fort)",
  "regle": "Or seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 4 h, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus"

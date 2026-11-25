@@ -78,36 +78,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T02:25+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09697,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 1 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T02:25+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3558.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 1 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T02:30+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -967,6 +937,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3550.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 1 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T05:15+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09481,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 1 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T05:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3546.4,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3658,15 +3658,19 @@
   {
    "quand": "2026-11-25T05:10+00:00",
    "valeur": 108.78
+  },
+  {
+   "quand": "2026-11-25T05:15+00:00",
+   "valeur": 108.56
   }
  ],
- "valeur": 108.78,
+ "valeur": 108.56,
  "news": "",
  "methode": "h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T05:10+00:00",
+ "mis_a_jour": "2026-11-25T05:15+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h (risque max)",
  "regle": "Tendance du graphique de 4 h seul, objectif 2 fois le risque, mise maximale : presque tout le compte en garantie, 1 trade à la fois"

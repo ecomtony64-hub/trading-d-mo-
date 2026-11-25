@@ -97,36 +97,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T02:25+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09697,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : dans la tendance (moyenne 100) (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T02:25+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3558.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : dans la tendance (moyenne 100) (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T02:30+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -987,6 +957,37 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3550.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : dans la tendance (moyenne 100) (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T05:15+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09481,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : dans la tendance (moyenne 100) (attendu).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T05:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3546.4,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3738,15 +3739,19 @@
   {
    "quand": "2026-11-25T05:10+00:00",
    "valeur": 95.06
+  },
+  {
+   "quand": "2026-11-25T05:15+00:00",
+   "valeur": 94.95
   }
  ],
- "valeur": 95.06,
+ "valeur": 94.95,
  "news": "",
  "methode": "c:repli20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T05:10+00:00",
+ "mis_a_jour": "2026-11-25T05:15+00:00",
  "erreur_calendrier": null,
  "nom": "Retour sur la moyenne 20 1 h",
  "regle": "Dans la tendance (moyenne 100), le prix touche la moyenne 20 et repart sur 1 h, objectif 2 fois le risque"
