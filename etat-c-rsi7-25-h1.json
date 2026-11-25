@@ -120,36 +120,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T09:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09421,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T09:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3554.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 25.87 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T09:45+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1028,6 +998,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3604.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:45+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09794,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3597.3,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -4047,6 +4047,10 @@
   {
    "quand": "2026-11-25T20:40+00:00",
    "valeur": 104.34
+  },
+  {
+   "quand": "2026-11-25T20:45+00:00",
+   "valeur": 104.34
   }
  ],
  "valeur": 104.34,
@@ -4055,7 +4059,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T20:40+00:00",
+ "mis_a_jour": "2026-11-25T20:45+00:00",
  "erreur_calendrier": null,
  "nom": "RSI 7 (25/75) 1 h",
  "regle": "Contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h, objectif 2 fois le risque"
