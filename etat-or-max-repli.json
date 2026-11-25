@@ -1,24 +1,24 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
- "historique": [],
- "analyses": [
+ "positions": [
   {
-   "quand": "2026-11-25T05:40+00:00",
    "marche": "OR",
    "nom": "Or",
-   "prix": 3545.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de petit retour en arrière dans une tendance de 4 h."
-   ],
-   "alerte": null
-  },
+   "sens": "VENTE",
+   "entree": 3595.3,
+   "stop": 3651.4,
+   "objectif": 3483.1,
+   "unites": 0.19,
+   "risque": 9.71,
+   "marge": 31.1,
+   "reel": true,
+   "ouvert_le": "2026-11-25T20:25+00:00",
+   "t_entree": 1795637701
+  }
+ ],
+ "historique": [],
+ "analyses": [
   {
    "quand": "2026-11-25T05:45+00:00",
    "marche": "OR",
@@ -902,6 +902,19 @@
    "raisons": [
     "Pas de petit retour en arrière dans une tendance de 4 h."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:25+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3595.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -1969,16 +1982,20 @@
   {
    "quand": "2026-11-25T20:20+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-25T20:25+00:00",
+   "valeur": 99.94
   }
  ],
  "risque_trade": 10.0,
- "valeur": 100.0,
+ "valeur": 99.94,
  "news": "",
  "methode": "repli",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T20:20+00:00",
+ "mis_a_jour": "2026-11-25T20:25+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Repli dans la tendance (risque max)",
  "regle": "Or seulement. Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus"
