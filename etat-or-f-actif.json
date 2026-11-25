@@ -120,22 +120,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T04:05+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3547.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens.",
-    "Déjà 4 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T04:21+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -1021,6 +1005,21 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3561.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 4 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T10:41+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3559.5,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -2036,16 +2035,20 @@
   {
    "quand": "2026-11-25T10:30+00:00",
    "valeur": 132.07
+  },
+  {
+   "quand": "2026-11-25T10:41+00:00",
+   "valeur": 132.52
   }
  ],
  "risque_trade": 5.0,
- "valeur": 132.07,
+ "valeur": 132.52,
  "news": "",
  "methode": "actif",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T10:30+00:00",
+ "mis_a_jour": "2026-11-25T10:41+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Tendance 4 h + 1 h (risque fort)",
  "regle": "Or seulement. Les graphiques 4 h et 1 h vont dans le même sens, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus"
