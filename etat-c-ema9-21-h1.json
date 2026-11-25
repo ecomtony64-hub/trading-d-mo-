@@ -192,36 +192,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T01:30+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09601,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement des moyennes rapides 9 et 21 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T01:30+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3539.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement des moyennes rapides 9 et 21 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T01:35+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1078,6 +1048,36 @@
   },
   {
    "quand": "2026-11-25T04:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3552.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement des moyennes rapides 9 et 21 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T04:40+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09505,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement des moyennes rapides 9 et 21 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T04:40+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3552.0,
@@ -3804,6 +3804,10 @@
   {
    "quand": "2026-11-25T04:35+00:00",
    "valeur": 94.77
+  },
+  {
+   "quand": "2026-11-25T04:40+00:00",
+   "valeur": 94.77
   }
  ],
  "valeur": 94.77,
@@ -3812,7 +3816,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T04:35+00:00",
+ "mis_a_jour": "2026-11-25T04:40+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes rapides 9/21 1 h",
  "regle": "Croisement des moyennes rapides 9 et 21 sur 1 h, objectif 2 fois le risque"

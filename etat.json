@@ -125,36 +125,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T01:30+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09601,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T01:30+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3539.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques jour et 4 h ne vont pas dans le même sens."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T01:35+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1009,6 +979,36 @@
   },
   {
    "quand": "2026-11-25T04:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3552.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques jour et 4 h ne vont pas dans le même sens."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T04:40+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09505,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T04:40+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3552.0,
@@ -4051,6 +4051,10 @@
   {
    "quand": "2026-11-25T04:35+00:00",
    "valeur": 117.68
+  },
+  {
+   "quand": "2026-11-25T04:40+00:00",
+   "valeur": 117.68
   }
  ],
  "valeur": 117.68,
@@ -4058,7 +4062,7 @@
  "methode": "strict",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T04:35+00:00",
+ "mis_a_jour": "2026-11-25T04:40+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance jour + 4 h",
  "regle": "Les graphiques jour et 4 h vont dans le même sens, objectif 2 fois le risque",
