@@ -92,36 +92,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T22:30+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09673,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le Williams %R ressort de sa zone extrême sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T22:30+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3555.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le Williams %R ressort de sa zone extrême sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T22:35+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -978,6 +948,36 @@
   },
   {
    "quand": "2026-11-25T00:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3543.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le Williams %R ressort de sa zone extrême sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T00:50+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09649,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le Williams %R ressort de sa zone extrême sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T00:50+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3543.1,
@@ -3552,6 +3552,10 @@
   {
    "quand": "2026-11-25T00:45+00:00",
    "valeur": 99.49
+  },
+  {
+   "quand": "2026-11-25T00:50+00:00",
+   "valeur": 99.49
   }
  ],
  "valeur": 99.49,
@@ -3560,7 +3564,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T00:45+00:00",
+ "mis_a_jour": "2026-11-25T00:50+00:00",
  "erreur_calendrier": null,
  "nom": "Williams %R 4 h",
  "regle": "Contre-pied : le Williams %R ressort de sa zone extrême sur 4 h, objectif 2 fois le risque"
