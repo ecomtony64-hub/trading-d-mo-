@@ -44,36 +44,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T09:50+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09421,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : la stochastique ressort de 20/80 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T09:50+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3554.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : la stochastique ressort de 20/80 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T09:55+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -933,6 +903,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3597.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 69.43 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09794,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : la stochastique ressort de 20/80 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3599.3,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3960,6 +3960,10 @@
   {
    "quand": "2026-11-25T20:50+00:00",
    "valeur": 103.05
+  },
+  {
+   "quand": "2026-11-25T20:55+00:00",
+   "valeur": 103.05
   }
  ],
  "valeur": 103.05,
@@ -3968,7 +3972,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T20:50+00:00",
+ "mis_a_jour": "2026-11-25T20:55+00:00",
  "erreur_calendrier": null,
  "nom": "Stochastique contre-pied 4 h",
  "regle": "Contre-pied : la stochastique ressort de 20/80 sur 4 h, objectif 2 fois le risque"
