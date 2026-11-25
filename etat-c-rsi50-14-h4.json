@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 106.66,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09649,
+   "stop": 1.10025,
+   "objectif": 1.08897,
+   "unites": 1000,
+   "risque": 3.43,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T00:00+00:00",
+   "t_entree": 1795564784
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -24,36 +39,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-24T21:35+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09685,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le RSI 14 passe 50 dans le sens de la moyenne 200 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T21:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3553.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le RSI 14 passe 50 dans le sens de la moyenne 200 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-24T21:40+00:00",
    "marche": "EURUSD",
@@ -914,6 +899,34 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3561.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le RSI 14 passe 50 dans le sens de la moyenne 200 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T00:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09649,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T00:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3548.5,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3441,15 +3454,19 @@
   {
    "quand": "2026-11-24T23:55+00:00",
    "valeur": 106.66
+  },
+  {
+   "quand": "2026-11-25T00:00+00:00",
+   "valeur": 106.57
   }
  ],
- "valeur": 106.66,
+ "valeur": 106.57,
  "news": "",
  "methode": "c:rsi50-14-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-24T23:55+00:00",
+ "mis_a_jour": "2026-11-25T00:00+00:00",
  "erreur_calendrier": null,
  "nom": "RSI 14 passe 50 4 h",
  "regle": "Le RSI 14 passe 50 dans le sens de la moyenne 200 sur 4 h, objectif 2 fois le risque"
