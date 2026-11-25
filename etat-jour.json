@@ -87,36 +87,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T08:45+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09421,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Trop de risque en jeu : 25.65 € avec ce trade (maximum 20 % du compte au total)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T08:45+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3527.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique journalier."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T08:50+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -973,6 +943,36 @@
   },
   {
    "quand": "2026-11-25T20:13+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3578.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique journalier."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:15+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09818,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:15+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3578.5,
@@ -4287,6 +4287,10 @@
   {
    "quand": "2026-11-25T20:13+00:00",
    "valeur": 97.34
+  },
+  {
+   "quand": "2026-11-25T20:15+00:00",
+   "valeur": 97.34
   }
  ],
  "valeur": 97.34,
@@ -4294,7 +4298,7 @@
  "methode": "jour",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T20:13+00:00",
+ "mis_a_jour": "2026-11-25T20:15+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance jour",
  "regle": "Tendance du graphique journalier seul, objectif 2 fois le risque",
