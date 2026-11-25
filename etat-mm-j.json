@@ -239,36 +239,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T09:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09469,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T09:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3563.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 57.37 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T09:05+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1123,6 +1093,36 @@
   },
   {
    "quand": "2026-11-25T20:25+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3595.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 67.89 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:30+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09818,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:30+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3595.3,
@@ -4449,6 +4449,10 @@
   {
    "quand": "2026-11-25T20:25+00:00",
    "valeur": 99.05
+  },
+  {
+   "quand": "2026-11-25T20:30+00:00",
+   "valeur": 99.05
   }
  ],
  "valeur": 99.05,
@@ -4456,7 +4460,7 @@
  "methode": "mm_j",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T20:25+00:00",
+ "mis_a_jour": "2026-11-25T20:30+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes jour",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur le journalier, objectif 2 fois le risque",
