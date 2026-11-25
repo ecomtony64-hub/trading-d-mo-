@@ -85,22 +85,6 @@
    "quand": "2026-11-25T00:40+00:00",
    "marche": "OR",
    "nom": "Or",
-   "prix": 3542.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu).",
-    "Déjà 4 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T00:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
    "prix": 3543.1,
    "jour": "RANGE",
    "h4": "BAISSIER",
@@ -1032,6 +1016,21 @@
     "Déjà 4 trade(s) ouvert(s) sur ce compte."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-25T06:25+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3524.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 4 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1894,16 +1893,20 @@
   {
    "quand": "2026-11-25T06:20+00:00",
    "valeur": 111.3
+  },
+  {
+   "quand": "2026-11-25T06:25+00:00",
+   "valeur": 110.18
   }
  ],
  "risque_trade": 2.0,
- "valeur": 111.3,
+ "valeur": 110.18,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T06:20+00:00",
+ "mis_a_jour": "2026-11-25T06:25+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Cassure 20 + moyenne 200 1 h (normal)",
  "regle": "Or seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus"
