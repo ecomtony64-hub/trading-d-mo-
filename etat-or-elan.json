@@ -1,6 +1,6 @@
 {
  "capital_depart": 100.0,
- "capital": 111.69,
+ "capital": 109.57,
  "positions": [
   {
    "marche": "OR",
@@ -48,15 +48,15 @@
    "marche": "OR",
    "nom": "Or",
    "sens": "VENTE",
-   "entree": 3539.3,
-   "stop": 3568.1,
-   "objectif": 3481.8,
+   "entree": 3568.2,
+   "stop": 3597.7,
+   "objectif": 3509.3,
    "unites": 0.08,
-   "risque": 2.1,
-   "marge": 12.92,
+   "risque": 2.15,
+   "marge": 13.02,
    "reel": true,
-   "ouvert_le": "2026-11-25T01:25+00:00",
-   "t_entree": 1795569296
+   "ouvert_le": "2026-11-25T02:45+00:00",
+   "t_entree": 1795574101
   }
  ],
  "historique": [
@@ -116,24 +116,28 @@
    "ferme_le": "2026-11-25T01:00+00:00",
    "frais_nuit": 0.0,
    "resultat": 3.93
+  },
+  {
+   "marche": "OR",
+   "nom": "Or",
+   "sens": "VENTE",
+   "entree": 3539.3,
+   "stop": 3568.1,
+   "objectif": 3481.8,
+   "unites": 0.08,
+   "risque": 2.1,
+   "marge": 12.92,
+   "reel": true,
+   "ouvert_le": "2026-11-25T01:25+00:00",
+   "t_entree": 1795569296,
+   "sortie": 3568.2999999999997,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-25T02:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -2.12
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-24T21:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3553.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 4 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-24T21:40+00:00",
    "marche": "OR",
@@ -1016,6 +1020,19 @@
     "Déjà 4 trade(s) ouvert(s) sur ce compte."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-25T02:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3568.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1726,16 +1743,20 @@
   {
    "quand": "2026-11-25T02:40+00:00",
    "valeur": 110.0
+  },
+  {
+   "quand": "2026-11-25T02:45+00:00",
+   "valeur": 108.41
   }
  ],
  "risque_trade": 2.0,
- "valeur": 110.0,
+ "valeur": 108.41,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T02:40+00:00",
+ "mis_a_jour": "2026-11-25T02:45+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Élan 24 h (risque fort) (normal)",
  "regle": "Or seulement. Le prix a bougé de plus de 0,3 % en 24 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; risque 2 % du compte par trade ; 4 trades ouverts au plus"
