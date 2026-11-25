@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 112.86,
- "positions": [],
+ "positions": [
+  {
+   "marche": "OR",
+   "nom": "Or",
+   "sens": "ACHAT",
+   "entree": 3599.7,
+   "stop": 3545.5,
+   "objectif": 3708.0,
+   "unites": 0.04,
+   "risque": 1.97,
+   "marge": 6.56,
+   "reel": true,
+   "ouvert_le": "2026-11-25T21:00+00:00",
+   "t_entree": 1795639500
+  }
+ ],
  "historique": [
   {
    "marche": "OR",
@@ -100,21 +115,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-25T06:15+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3519.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 4 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T06:20+00:00",
    "marche": "OR",
@@ -1005,6 +1005,19 @@
    "raisons": [
     "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T21:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3599.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2100,16 +2113,20 @@
   {
    "quand": "2026-11-25T20:55+00:00",
    "valeur": 112.86
+  },
+  {
+   "quand": "2026-11-25T21:00+00:00",
+   "valeur": 112.85
   }
  ],
  "risque_trade": 2.0,
- "valeur": 112.86,
+ "valeur": 112.85,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T20:55+00:00",
+ "mis_a_jour": "2026-11-25T21:00+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Cassure 20 bougies 1 h (normal)",
  "regle": "Or seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus"

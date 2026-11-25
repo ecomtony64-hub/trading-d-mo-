@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 104.34,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09794,
+   "stop": 1.09975,
+   "objectif": 1.09431,
+   "unites": 1000,
+   "risque": 1.65,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T21:00+00:00",
+   "t_entree": 1795640087
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -119,36 +134,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-25T09:55+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09421,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T09:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3554.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 26.08 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T10:00+00:00",
    "marche": "EURUSD",
@@ -1025,6 +1010,34 @@
   },
   {
    "quand": "2026-11-25T20:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3599.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T21:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09794,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T21:00+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3599.3,
@@ -4059,15 +4072,19 @@
   {
    "quand": "2026-11-25T20:55+00:00",
    "valeur": 104.34
+  },
+  {
+   "quand": "2026-11-25T21:00+00:00",
+   "valeur": 104.25
   }
  ],
- "valeur": 104.34,
+ "valeur": 104.25,
  "news": "",
  "methode": "c:rsi7-25-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T20:55+00:00",
+ "mis_a_jour": "2026-11-25T21:00+00:00",
  "erreur_calendrier": null,
  "nom": "RSI 7 (25/75) 1 h",
  "regle": "Contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h, objectif 2 fois le risque"
