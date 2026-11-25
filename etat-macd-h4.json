@@ -25,36 +25,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T00:50+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09649,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T00:50+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3543.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T00:55+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -911,6 +881,36 @@
   },
   {
    "quand": "2026-11-25T03:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3550.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T03:50+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09529,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T03:50+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3550.3,
@@ -3645,6 +3645,10 @@
   {
    "quand": "2026-11-25T03:45+00:00",
    "valeur": 96.37
+  },
+  {
+   "quand": "2026-11-25T03:50+00:00",
+   "valeur": 96.37
   }
  ],
  "valeur": 96.37,
@@ -3653,7 +3657,7 @@
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T03:45+00:00",
+ "mis_a_jour": "2026-11-25T03:50+00:00",
  "erreur_calendrier": null,
  "nom": "MACD 4 h",
  "regle": "Croisement de l'élan (MACD) sur 4 h dans le sens de la moyenne de 50 jours, objectif 3 fois le risque"
