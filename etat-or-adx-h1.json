@@ -20,21 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-25T04:25+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3543.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : les lignes DI se croisent avec une tendance forte (ADX > 25) sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T04:30+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -904,6 +889,21 @@
   },
   {
    "quand": "2026-11-25T10:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3559.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : les lignes DI se croisent avec une tendance forte (ADX > 25) sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T10:50+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3559.5,
@@ -1930,6 +1930,10 @@
   {
    "quand": "2026-11-25T10:45+00:00",
    "valeur": 99.73
+  },
+  {
+   "quand": "2026-11-25T10:50+00:00",
+   "valeur": 99.73
   }
  ],
  "risque_trade": 2.0,
@@ -1939,7 +1943,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T10:45+00:00",
+ "mis_a_jour": "2026-11-25T10:50+00:00",
  "erreur_calendrier": null,
  "nom": "Or · ADX + croisement DI 1 h (normal)",
  "regle": "Or seulement. Les lignes DI se croisent avec une tendance forte (ADX > 25) sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus"
