@@ -139,21 +139,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-24T21:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3551.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 4 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T22:00+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -1033,6 +1018,21 @@
     "Déjà 4 trade(s) ouvert(s) sur ce compte."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-25T03:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3549.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 4 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1759,6 +1759,10 @@
   {
    "quand": "2026-11-25T03:10+00:00",
    "valeur": 113.93
+  },
+  {
+   "quand": "2026-11-25T03:15+00:00",
+   "valeur": 113.93
   }
  ],
  "risque_trade": 2.0,
@@ -1768,7 +1772,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T03:10+00:00",
+ "mis_a_jour": "2026-11-25T03:15+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Élan 24 h (risque fort) (normal)",
  "regle": "Or seulement. Le prix a bougé de plus de 0,3 % en 24 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; risque 2 % du compte par trade ; 4 trades ouverts au plus"
