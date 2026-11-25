@@ -87,22 +87,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T04:21+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3543.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu).",
-    "Déjà 4 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T04:25+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -996,6 +980,21 @@
   },
   {
    "quand": "2026-11-25T10:41+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3559.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T10:45+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3559.5,
@@ -2018,6 +2017,10 @@
   {
    "quand": "2026-11-25T10:41+00:00",
    "valeur": 105.48
+  },
+  {
+   "quand": "2026-11-25T10:45+00:00",
+   "valeur": 105.48
   }
  ],
  "risque_trade": 10.0,
@@ -2027,7 +2030,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T10:41+00:00",
+ "mis_a_jour": "2026-11-25T10:45+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Cassure 10 bougies 1 h (risque max)",
  "regle": "Or seulement. Le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus"
