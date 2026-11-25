@@ -120,36 +120,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T08:35+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09421,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (1 h)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T08:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3527.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (1 h)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T08:40+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1009,6 +979,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3555.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (1 h)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T11:35+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09421,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (1 h)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T11:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3551.7,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -4312,6 +4312,10 @@
   {
    "quand": "2026-11-25T11:30+00:00",
    "valeur": 99.35
+  },
+  {
+   "quand": "2026-11-25T11:35+00:00",
+   "valeur": 99.35
   }
  ],
  "valeur": 99.35,
@@ -4319,7 +4323,7 @@
  "methode": "cassure_h1",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T11:30+00:00",
+ "mis_a_jour": "2026-11-25T11:35+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 1 h (risque fort)",
  "regle": "Le prix dépasse son plus haut ou plus bas des 20 dernières heures, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",

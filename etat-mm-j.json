@@ -220,36 +220,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T08:35+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09421,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T08:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3527.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 53.64 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T08:40+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1109,6 +1079,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3555.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 57.4 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T11:35+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09421,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T11:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3551.7,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -4412,6 +4412,10 @@
   {
    "quand": "2026-11-25T11:30+00:00",
    "valeur": 110.45
+  },
+  {
+   "quand": "2026-11-25T11:35+00:00",
+   "valeur": 110.45
   }
  ],
  "valeur": 110.45,
@@ -4419,7 +4423,7 @@
  "methode": "mm_j",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T11:30+00:00",
+ "mis_a_jour": "2026-11-25T11:35+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes jour",
  "regle": "Moyenne courte au-dessus ou en dessous de la moyenne longue, sur le journalier, objectif 2 fois le risque",
