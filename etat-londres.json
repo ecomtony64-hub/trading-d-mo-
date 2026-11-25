@@ -59,36 +59,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T06:05+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09433,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Ce n'est pas la matinée de Londres."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T06:05+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3526.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Ce n'est pas la matinée de Londres."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T06:10+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -945,6 +915,36 @@
   },
   {
    "quand": "2026-11-25T09:40+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3554.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix reste dans le couloir de la nuit."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T09:45+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09421,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix reste dans le couloir de la nuit."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T09:45+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3554.1,
@@ -3891,6 +3891,10 @@
   {
    "quand": "2026-11-25T09:40+00:00",
    "valeur": 106.33
+  },
+  {
+   "quand": "2026-11-25T09:45+00:00",
+   "valeur": 106.33
   }
  ],
  "valeur": 106.33,
@@ -3899,7 +3903,7 @@
  "ratio": 3.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T09:40+00:00",
+ "mis_a_jour": "2026-11-25T09:45+00:00",
  "erreur_calendrier": null,
  "nom": "Ouverture de Londres",
  "regle": "Cassure du couloir de la nuit à l'ouverture de Londres, objectif 3 fois le risque"
