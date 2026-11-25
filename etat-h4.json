@@ -187,36 +187,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T00:35+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09625,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T00:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3540.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin du prix (plus de 3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T00:40+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1073,6 +1043,36 @@
   },
   {
    "quand": "2026-11-25T03:25+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3557.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 86.16 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T03:30+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09565,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T03:30+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3557.0,
@@ -4067,6 +4067,10 @@
   {
    "quand": "2026-11-25T03:25+00:00",
    "valeur": 116.31
+  },
+  {
+   "quand": "2026-11-25T03:30+00:00",
+   "valeur": 116.31
   }
  ],
  "valeur": 116.31,
@@ -4074,7 +4078,7 @@
  "methode": "h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T03:25+00:00",
+ "mis_a_jour": "2026-11-25T03:30+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h",
  "regle": "Tendance du graphique de 4 h seul, objectif 2 fois le risque",
