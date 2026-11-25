@@ -20,38 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-25T03:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09565,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens.",
-    "Déjà 1 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T03:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3555.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens.",
-    "Déjà 1 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T03:45+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -958,6 +926,38 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3524.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens.",
+    "Déjà 1 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T06:42+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09385,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens.",
+    "Déjà 1 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T06:42+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3525.8,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -3702,15 +3702,19 @@
   {
    "quand": "2026-11-25T06:25+00:00",
    "valeur": 105.3
+  },
+  {
+   "quand": "2026-11-25T06:42+00:00",
+   "valeur": 104.86
   }
  ],
- "valeur": 105.3,
+ "valeur": 104.86,
  "news": "",
  "methode": "actif",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T06:25+00:00",
+ "mis_a_jour": "2026-11-25T06:42+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h + 1 h (risque max)",
  "regle": "Les graphiques 4 h et 1 h vont dans le même sens, objectif 2 fois le risque, mise maximale : presque tout le compte en garantie, 1 trade à la fois"
