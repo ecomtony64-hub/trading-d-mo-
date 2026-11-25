@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-24T22:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3551.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de sortie après une période calme sur 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T22:05+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -903,6 +888,21 @@
     "Pas de sortie après une période calme sur 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-25T03:20+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3557.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de sortie après une période calme sur 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1633,6 +1633,10 @@
   {
    "quand": "2026-11-25T03:15+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-25T03:20+00:00",
+   "valeur": 100.0
   }
  ],
  "risque_trade": 2.0,
@@ -1642,7 +1646,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T03:15+00:00",
+ "mis_a_jour": "2026-11-25T03:20+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Sortie de calme 4 h (normal)",
  "regle": "Or seulement. Après une période très calme sur 4 h, on suit la sortie des bandes, objectif 3 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus"
