@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 98.06,
- "positions": [],
+ "positions": [
+  {
+   "marche": "OR",
+   "nom": "Or",
+   "sens": "VENTE",
+   "entree": 3549.2,
+   "stop": 3576.1,
+   "objectif": 3495.3,
+   "unites": 0.07,
+   "risque": 1.72,
+   "marge": 11.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T02:15+00:00",
+   "t_entree": 1795572300
+  }
+ ],
  "historique": [
   {
    "marche": "OR",
@@ -24,21 +39,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-24T21:05+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3551.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : après 3 bougies de même couleur (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-24T21:10+00:00",
    "marche": "OR",
@@ -923,6 +923,19 @@
     "Pas de signal : après 3 bougies de même couleur (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-25T02:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3549.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1609,16 +1622,20 @@
   {
    "quand": "2026-11-25T02:10+00:00",
    "valeur": 98.06
+  },
+  {
+   "quand": "2026-11-25T02:15+00:00",
+   "valeur": 98.04
   }
  ],
  "risque_trade": 2.0,
- "valeur": 98.06,
+ "valeur": 98.04,
  "news": "",
  "methode": "c:trois-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T02:10+00:00",
+ "mis_a_jour": "2026-11-25T02:15+00:00",
  "erreur_calendrier": null,
  "nom": "Or · 3 bougies, on suit 1 h (normal)",
  "regle": "Or seulement. Après 3 bougies de même couleur, on suit le mouvement sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus"
