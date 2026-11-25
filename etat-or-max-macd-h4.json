@@ -20,21 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-25T01:10+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3554.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T01:15+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -910,6 +895,21 @@
   },
   {
    "quand": "2026-11-25T07:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3517.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 1 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T07:10+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3517.9,
@@ -1812,6 +1812,10 @@
   {
    "quand": "2026-11-25T07:05+00:00",
    "valeur": 100.26
+  },
+  {
+   "quand": "2026-11-25T07:10+00:00",
+   "valeur": 100.26
   }
  ],
  "risque_trade": 10.0,
@@ -1821,7 +1825,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T07:05+00:00",
+ "mis_a_jour": "2026-11-25T07:10+00:00",
  "erreur_calendrier": null,
  "nom": "Or · MACD 4 h (risque max)",
  "regle": "Or seulement. Croisement de l'élan (MACD) sur 4 h dans le sens de la moyenne de 50 jours, objectif 3 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus"
