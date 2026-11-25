@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-25T03:25+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3557.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement des moyennes rapides 9 et 21 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T03:30+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -891,6 +876,21 @@
   },
   {
    "quand": "2026-11-25T09:50+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3554.8,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement des moyennes rapides 9 et 21 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T09:55+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3554.8,
@@ -1877,6 +1877,10 @@
   {
    "quand": "2026-11-25T09:50+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-25T09:55+00:00",
+   "valeur": 100.0
   }
  ],
  "risque_trade": 1.0,
@@ -1886,7 +1890,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T09:50+00:00",
+ "mis_a_jour": "2026-11-25T09:55+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Moyennes rapides 9/21 4 h (prudent)",
  "regle": "Or seulement. Croisement des moyennes rapides 9 et 21 sur 4 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus"
