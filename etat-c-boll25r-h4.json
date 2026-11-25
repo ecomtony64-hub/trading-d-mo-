@@ -20,36 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-24T23:15+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09637,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T23:15+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3557.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T23:20+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -909,6 +879,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3539.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T01:35+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09613,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T01:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3534.1,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3516,15 +3516,19 @@
   {
    "quand": "2026-11-25T01:30+00:00",
    "valeur": 104.49
+  },
+  {
+   "quand": "2026-11-25T01:35+00:00",
+   "valeur": 104.6
   }
  ],
- "valeur": 104.49,
+ "valeur": 104.6,
  "news": "",
  "methode": "c:boll25r-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T01:30+00:00",
+ "mis_a_jour": "2026-11-25T01:35+00:00",
  "erreur_calendrier": null,
  "nom": "Rebond bandes 2.5 4 h",
  "regle": "Contre-pied : le prix rentre dans les bandes de Bollinger (2.5) sur 4 h, objectif 2 fois le risque"
