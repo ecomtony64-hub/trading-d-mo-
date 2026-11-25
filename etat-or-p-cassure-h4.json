@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-24T20:15+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3555.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-24T20:20+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -903,6 +888,21 @@
     "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-25T01:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3542.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1545,6 +1545,10 @@
   {
    "quand": "2026-11-25T00:55+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-25T01:00+00:00",
+   "valeur": 100.0
   }
  ],
  "risque_trade": 1.0,
@@ -1554,7 +1558,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T00:55+00:00",
+ "mis_a_jour": "2026-11-25T01:00+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Cassure 4 h (prudent)",
  "regle": "Or seulement. Le prix dépasse son plus haut ou plus bas des 20 dernières bougies de 4 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus"
