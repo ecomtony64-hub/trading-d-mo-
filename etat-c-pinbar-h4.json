@@ -20,36 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-25T04:45+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09493,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : bougie à longue mèche sur un extrême des 20 dernières sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T04:45+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3548.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : bougie à longue mèche sur un extrême des 20 dernières sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T04:50+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -909,6 +879,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3518.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : bougie à longue mèche sur un extrême des 20 dernières sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T07:35+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09421,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : bougie à longue mèche sur un extrême des 20 dernières sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T07:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3516.5,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -3756,6 +3756,10 @@
   {
    "quand": "2026-11-25T07:30+00:00",
    "valeur": 103.29
+  },
+  {
+   "quand": "2026-11-25T07:35+00:00",
+   "valeur": 103.29
   }
  ],
  "valeur": 103.29,
@@ -3764,7 +3768,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T07:30+00:00",
+ "mis_a_jour": "2026-11-25T07:35+00:00",
  "erreur_calendrier": null,
  "nom": "Bougie à longue mèche 4 h",
  "regle": "Bougie à longue mèche sur un extrême des 20 dernières sur 4 h, objectif 2 fois le risque"
