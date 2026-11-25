@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 97.93,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09649,
+   "stop": 1.09764,
+   "objectif": 1.0942,
+   "unites": 1000,
+   "risque": 1.05,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T00:40+00:00",
+   "t_entree": 1795567185
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -214,36 +229,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-24T22:15+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09661,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T22:15+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3555.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-24T22:20+00:00",
    "marche": "EURUSD",
@@ -1104,6 +1089,34 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3540.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T00:40+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09649,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T00:40+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3542.7,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3663,15 +3676,19 @@
   {
    "quand": "2026-11-25T00:35+00:00",
    "valeur": 97.93
+  },
+  {
+   "quand": "2026-11-25T00:40+00:00",
+   "valeur": 97.84
   }
  ],
- "valeur": 97.93,
+ "valeur": 97.84,
  "news": "",
  "methode": "c:roc10-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T00:35+00:00",
+ "mis_a_jour": "2026-11-25T00:40+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 10 bougies 1 h",
  "regle": "Le prix repasse au-dessus ou en dessous de son niveau d'il y a 10 bougies sur 1 h, objectif 2 fois le risque"
