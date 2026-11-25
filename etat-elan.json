@@ -234,36 +234,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T07:25+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09421,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T07:25+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3519.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 21.05 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T07:30+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1120,6 +1090,36 @@
   },
   {
    "quand": "2026-11-25T10:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3557.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 25.87 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T11:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09469,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T11:00+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3557.7,
@@ -4398,6 +4398,10 @@
   {
    "quand": "2026-11-25T10:55+00:00",
    "valeur": 92.25
+  },
+  {
+   "quand": "2026-11-25T11:00+00:00",
+   "valeur": 92.25
   }
  ],
  "valeur": 92.25,
@@ -4405,7 +4409,7 @@
  "methode": "elan",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T10:55+00:00",
+ "mis_a_jour": "2026-11-25T11:00+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h (risque fort)",
  "regle": "Le prix a bougé de plus de 0,3 % en 24 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
