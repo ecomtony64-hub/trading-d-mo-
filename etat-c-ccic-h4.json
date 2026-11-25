@@ -59,36 +59,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T06:25+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09361,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le CCI ressort de -100/+100 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T06:25+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3524.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le CCI ressort de -100/+100 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T06:42+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -945,6 +915,36 @@
   },
   {
    "quand": "2026-11-25T10:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3555.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le CCI ressort de -100/+100 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T10:05+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09409,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le CCI ressort de -100/+100 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T10:05+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3555.6,
@@ -3867,6 +3867,10 @@
   {
    "quand": "2026-11-25T10:00+00:00",
    "valeur": 101.38
+  },
+  {
+   "quand": "2026-11-25T10:05+00:00",
+   "valeur": 101.38
   }
  ],
  "valeur": 101.38,
@@ -3875,7 +3879,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T10:00+00:00",
+ "mis_a_jour": "2026-11-25T10:05+00:00",
  "erreur_calendrier": null,
  "nom": "CCI contre-pied 4 h",
  "regle": "Contre-pied : le CCI ressort de -100/+100 sur 4 h, objectif 2 fois le risque"
