@@ -15,6 +15,20 @@
    "reel": true,
    "ouvert_le": "2026-11-24T13:04+00:00",
    "t_entree": 1795525426
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09625,
+   "stop": 1.09724,
+   "objectif": 1.09427,
+   "unites": 1000,
+   "risque": 0.91,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T02:04+00:00",
+   "t_entree": 1795572227
   }
  ],
  "historique": [
@@ -210,36 +224,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-24T23:20+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09637,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T23:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3557.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-24T23:25+00:00",
    "marche": "EURUSD",
@@ -1100,6 +1084,34 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3534.1,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T02:04+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09625,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T02:04+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3553.1,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3711,15 +3723,19 @@
   {
    "quand": "2026-11-25T01:35+00:00",
    "valeur": 97.02
+  },
+  {
+   "quand": "2026-11-25T02:04+00:00",
+   "valeur": 97.04
   }
  ],
- "valeur": 97.02,
+ "valeur": 97.04,
  "news": "",
  "methode": "c:donch10-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T01:35+00:00",
+ "mis_a_jour": "2026-11-25T02:04+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 10 bougies 1 h",
  "regle": "Le prix casse le plus haut ou le plus bas des 10 dernières bougies sur 1 h, objectif 2 fois le risque"
