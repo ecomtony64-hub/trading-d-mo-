@@ -105,36 +105,6 @@
    "quand": "2026-11-24T23:45+00:00",
    "marche": "OR",
    "nom": "Or",
-   "prix": 3562.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique journalier."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T23:45+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09637,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Trop de risque en jeu : 23.68 € avec ce trade (maximum 20 % du compte au total)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T23:45+00:00",
-   "marche": "OR",
-   "nom": "Or",
    "prix": 3561.9,
    "jour": "RANGE",
    "h4": "BAISSIER",
@@ -973,6 +943,36 @@
   },
   {
    "quand": "2026-11-25T02:20+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3549.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique journalier."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T02:25+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09637,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Trop de risque en jeu : 23.68 € avec ce trade (maximum 20 % du compte au total)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T02:25+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3549.2,
@@ -3923,6 +3923,10 @@
   {
    "quand": "2026-11-25T02:20+00:00",
    "valeur": 102.26
+  },
+  {
+   "quand": "2026-11-25T02:25+00:00",
+   "valeur": 102.26
   }
  ],
  "valeur": 102.26,
@@ -3930,7 +3934,7 @@
  "methode": "jour",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T02:20+00:00",
+ "mis_a_jour": "2026-11-25T02:25+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance jour",
  "regle": "Tendance du graphique journalier seul, objectif 2 fois le risque",

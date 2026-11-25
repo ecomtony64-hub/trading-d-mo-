@@ -58,36 +58,6 @@
    "quand": "2026-11-24T23:45+00:00",
    "marche": "OR",
    "nom": "Or",
-   "prix": 3562.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le RSI 14 passe 50 dans le sens de la moyenne 200 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T23:45+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09637,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le RSI 14 passe 50 dans le sens de la moyenne 200 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T23:45+00:00",
-   "marche": "OR",
-   "nom": "Or",
    "prix": 3561.9,
    "jour": "RANGE",
    "h4": "BAISSIER",
@@ -941,6 +911,37 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3549.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le RSI 14 passe 50 dans le sens de la moyenne 200 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T02:25+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09697,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le RSI 14 passe 50 dans le sens de la moyenne 200 sur 4 h (attendu).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T02:25+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3558.5,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -3572,15 +3573,19 @@
   {
    "quand": "2026-11-25T02:20+00:00",
    "valeur": 106.68
+  },
+  {
+   "quand": "2026-11-25T02:25+00:00",
+   "valeur": 106.13
   }
  ],
- "valeur": 106.68,
+ "valeur": 106.13,
  "news": "",
  "methode": "c:rsi50-14-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T02:20+00:00",
+ "mis_a_jour": "2026-11-25T02:25+00:00",
  "erreur_calendrier": null,
  "nom": "RSI 14 passe 50 4 h",
  "regle": "Le RSI 14 passe 50 dans le sens de la moyenne 200 sur 4 h, objectif 2 fois le risque"

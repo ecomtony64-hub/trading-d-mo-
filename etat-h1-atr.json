@@ -548,37 +548,6 @@
    "quand": "2026-11-24T23:45+00:00",
    "marche": "OR",
    "nom": "Or",
-   "prix": 3562.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 24.52 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T23:45+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09637,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique d'1 h.",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T23:45+00:00",
-   "marche": "OR",
-   "nom": "Or",
    "prix": 3561.9,
    "jour": "RANGE",
    "h4": "BAISSIER",
@@ -1438,6 +1407,36 @@
   },
   {
    "quand": "2026-11-25T02:20+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3549.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 24.57 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T02:25+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09637,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T02:25+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3549.2,
@@ -4388,6 +4387,10 @@
   {
    "quand": "2026-11-25T02:20+00:00",
    "valeur": 83.36
+  },
+  {
+   "quand": "2026-11-25T02:25+00:00",
+   "valeur": 83.36
   }
  ],
  "valeur": 83.36,
@@ -4395,7 +4398,7 @@
  "methode": "h1_atr",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T02:20+00:00",
+ "mis_a_jour": "2026-11-25T02:25+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h, stop serré",
  "regle": "Tendance d'1 h, stop réglé sur la taille des bougies, objectif 2 fois le risque",

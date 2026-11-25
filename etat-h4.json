@@ -205,36 +205,6 @@
    "quand": "2026-11-24T23:45+00:00",
    "marche": "OR",
    "nom": "Or",
-   "prix": 3562.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 81.27 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T23:45+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09637,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-24T23:45+00:00",
-   "marche": "OR",
-   "nom": "Or",
    "prix": 3561.9,
    "jour": "RANGE",
    "h4": "BAISSIER",
@@ -1071,6 +1041,36 @@
   },
   {
    "quand": "2026-11-25T02:20+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3549.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 93.22 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T02:25+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09637,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T02:25+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3549.2,
@@ -4021,6 +4021,10 @@
   {
    "quand": "2026-11-25T02:20+00:00",
    "valeur": 114.99
+  },
+  {
+   "quand": "2026-11-25T02:25+00:00",
+   "valeur": 114.99
   }
  ],
  "valeur": 114.99,
@@ -4028,7 +4032,7 @@
  "methode": "h4",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T02:20+00:00",
+ "mis_a_jour": "2026-11-25T02:25+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h",
  "regle": "Tendance du graphique de 4 h seul, objectif 2 fois le risque",
