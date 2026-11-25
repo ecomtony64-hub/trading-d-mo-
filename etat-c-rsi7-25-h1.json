@@ -1,36 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 104.13,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09697,
-   "stop": 1.0987,
-   "objectif": 1.09351,
-   "unites": 1000,
-   "risque": 1.58,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-24T17:00+00:00",
-   "t_entree": 1795539586
-  },
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "ACHAT",
-   "entree": 1.09431,
-   "stop": 1.09328,
-   "objectif": 1.09637,
-   "unites": 1000,
-   "risque": 0.94,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-25T09:37+00:00",
-   "t_entree": 1795599467
-  }
- ],
+ "capital": 104.34,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -107,39 +78,47 @@
    "ferme_le": "2026-11-25T09:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -0.91
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09697,
+   "stop": 1.0987,
+   "objectif": 1.09351,
+   "unites": 1000,
+   "risque": 1.58,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-24T17:00+00:00",
+   "t_entree": 1795539586,
+   "sortie": 1.0987500000000001,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-25T17:00+00:00",
+   "frais_nuit": 0.05,
+   "resultat": -1.67
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09431,
+   "stop": 1.09328,
+   "objectif": 1.09637,
+   "unites": 1000,
+   "risque": 0.94,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T09:37+00:00",
+   "t_entree": 1795599467,
+   "sortie": 1.09637,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-25T16:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 1.88
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-25T08:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09421,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T08:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3527.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T08:45+00:00",
    "marche": "EURUSD",
@@ -1018,6 +997,36 @@
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:14+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09818,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:14+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3578.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -4006,15 +4015,19 @@
   {
    "quand": "2026-11-25T11:35+00:00",
    "valeur": 106.47
+  },
+  {
+   "quand": "2026-11-25T20:14+00:00",
+   "valeur": 104.34
   }
  ],
- "valeur": 106.47,
+ "valeur": 104.34,
  "news": "",
  "methode": "c:rsi7-25-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T11:35+00:00",
+ "mis_a_jour": "2026-11-25T20:14+00:00",
  "erreur_calendrier": null,
  "nom": "RSI 7 (25/75) 1 h",
  "regle": "Contre-pied : le RSI 7 ressort de sa zone 25/75 sur 1 h, objectif 2 fois le risque"

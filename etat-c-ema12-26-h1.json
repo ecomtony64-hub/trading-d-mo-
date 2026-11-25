@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 96.44,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09457,
-   "stop": 1.09551,
-   "objectif": 1.09269,
-   "unites": 1000,
-   "risque": 0.86,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-25T08:45+00:00",
-   "t_entree": 1795596285
-  }
- ],
+ "capital": 95.54,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -169,39 +154,28 @@
    "ferme_le": "2026-11-25T08:44+00:00",
    "frais_nuit": 0.0,
    "resultat": -0.91
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09457,
+   "stop": 1.09551,
+   "objectif": 1.09269,
+   "unites": 1000,
+   "risque": 0.86,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T08:45+00:00",
+   "t_entree": 1795596285,
+   "sortie": 1.09556,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-25T12:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.9
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-25T08:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09421,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T08:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3527.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement des moyennes rapides 12 et 26 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T08:45+00:00",
    "marche": "EURUSD",
@@ -1089,6 +1063,36 @@
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement des moyennes rapides 12 et 26 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:14+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09818,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement des moyennes rapides 12 et 26 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:14+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3578.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -4077,15 +4081,19 @@
   {
    "quand": "2026-11-25T11:35+00:00",
    "valeur": 96.68
+  },
+  {
+   "quand": "2026-11-25T20:14+00:00",
+   "valeur": 95.54
   }
  ],
- "valeur": 96.68,
+ "valeur": 95.54,
  "news": "",
  "methode": "c:ema12-26-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T11:35+00:00",
+ "mis_a_jour": "2026-11-25T20:14+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes rapides 12/26 1 h",
  "regle": "Croisement des moyennes rapides 12 et 26 sur 1 h, objectif 2 fois le risque"

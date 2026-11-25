@@ -1,34 +1,20 @@
 {
  "capital_depart": 100.0,
- "capital": 94.16,
+ "capital": 97.57,
  "positions": [
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
    "sens": "ACHAT",
-   "entree": 1.09156,
-   "stop": 1.08774,
-   "objectif": 1.09921,
+   "entree": 1.09828,
+   "stop": 1.09512,
+   "objectif": 1.10459,
    "unites": 1000,
-   "risque": 3.5,
+   "risque": 2.87,
    "marge": 33.33,
    "reel": true,
-   "ouvert_le": "2026-11-24T04:00+00:00",
-   "t_entree": 1795492365
-  },
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09493,
-   "stop": 1.09873,
-   "objectif": 1.08733,
-   "unites": 1000,
-   "risque": 3.47,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-25T04:00+00:00",
-   "t_entree": 1795578584
+   "ouvert_le": "2026-11-25T20:14+00:00",
+   "t_entree": 1795637626
   }
  ],
  "historique": [
@@ -69,39 +55,47 @@
    "ferme_le": "2026-11-23T11:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -3.05
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09156,
+   "stop": 1.08774,
+   "objectif": 1.09921,
+   "unites": 1000,
+   "risque": 3.5,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-24T04:00+00:00",
+   "t_entree": 1795492365,
+   "sortie": 1.09921,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-25T18:00+00:00",
+   "frais_nuit": 0.05,
+   "resultat": 6.92
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09493,
+   "stop": 1.09873,
+   "objectif": 1.08733,
+   "unites": 1000,
+   "risque": 3.47,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T04:00+00:00",
+   "t_entree": 1795578584,
+   "sortie": 1.09878,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-25T17:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -3.51
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-25T08:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09421,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : après 3 bougies de même couleur (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T08:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3527.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : après 3 bougies de même couleur (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T08:45+00:00",
    "marche": "EURUSD",
@@ -965,6 +959,34 @@
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : après 3 bougies de même couleur (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:14+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09818,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:14+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3578.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -3953,15 +3975,19 @@
   {
    "quand": "2026-11-25T11:35+00:00",
    "valeur": 97.15
+  },
+  {
+   "quand": "2026-11-25T20:14+00:00",
+   "valeur": 97.48
   }
  ],
- "valeur": 97.15,
+ "valeur": 97.48,
  "news": "",
  "methode": "c:trois-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T11:35+00:00",
+ "mis_a_jour": "2026-11-25T20:14+00:00",
  "erreur_calendrier": null,
  "nom": "3 bougies, on suit 4 h",
  "regle": "Après 3 bougies de même couleur, on suit le mouvement sur 4 h, objectif 2 fois le risque"

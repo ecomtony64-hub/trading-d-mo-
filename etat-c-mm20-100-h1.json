@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 99.1,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09469,
-   "stop": 1.09564,
-   "objectif": 1.09279,
-   "unites": 1000,
-   "risque": 0.87,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-25T09:00+00:00",
-   "t_entree": 1795596886
-  }
- ],
+ "capital": 98.19,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -36,39 +21,28 @@
    "ferme_le": "2026-11-25T06:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -0.9
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09469,
+   "stop": 1.09564,
+   "objectif": 1.09279,
+   "unites": 1000,
+   "risque": 0.87,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T09:00+00:00",
+   "t_entree": 1795596886,
+   "sortie": 1.09569,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-25T12:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.91
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-25T08:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09421,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : la moyenne de 20 bougies croise celle de 100 sur le graphique 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T08:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3527.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : la moyenne de 20 bougies croise celle de 100 sur le graphique 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T08:45+00:00",
    "marche": "EURUSD",
@@ -949,6 +923,36 @@
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : la moyenne de 20 bougies croise celle de 100 sur le graphique 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:13+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09818,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : la moyenne de 20 bougies croise celle de 100 sur le graphique 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:13+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3578.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -3937,15 +3941,19 @@
   {
    "quand": "2026-11-25T11:35+00:00",
    "valeur": 99.45
+  },
+  {
+   "quand": "2026-11-25T20:13+00:00",
+   "valeur": 98.19
   }
  ],
- "valeur": 99.45,
+ "valeur": 98.19,
  "news": "",
  "methode": "c:mm20-100-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T11:35+00:00",
+ "mis_a_jour": "2026-11-25T20:13+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 20/100 1 h",
  "regle": "La moyenne de 20 bougies croise celle de 100 sur le graphique 1 h, objectif 2 fois le risque"

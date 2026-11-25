@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 100.69,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09493,
-   "stop": 1.09596,
-   "objectif": 1.09287,
-   "unites": 1000,
-   "risque": 0.94,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-25T04:00+00:00",
-   "t_entree": 1795578584
-  }
- ],
+ "capital": 99.71,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -93,39 +78,28 @@
    "ferme_le": "2026-11-23T12:00+00:00",
    "frais_nuit": 0.0,
    "resultat": 1.99
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09493,
+   "stop": 1.09596,
+   "objectif": 1.09287,
+   "unites": 1000,
+   "risque": 0.94,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T04:00+00:00",
+   "t_entree": 1795578584,
+   "sortie": 1.0960100000000002,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-25T16:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.98
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-25T08:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09421,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T08:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3527.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T08:45+00:00",
    "marche": "EURUSD",
@@ -989,6 +963,36 @@
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:14+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09818,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:14+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3578.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -3977,15 +3981,19 @@
   {
    "quand": "2026-11-25T11:35+00:00",
    "valeur": 101.26
+  },
+  {
+   "quand": "2026-11-25T20:14+00:00",
+   "valeur": 99.71
   }
  ],
- "valeur": 101.26,
+ "valeur": 99.71,
  "news": "",
  "methode": "c:rsi50-21-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T11:35+00:00",
+ "mis_a_jour": "2026-11-25T20:14+00:00",
  "erreur_calendrier": null,
  "nom": "RSI 21 passe 50 1 h",
  "regle": "Le RSI 21 passe 50 dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque"

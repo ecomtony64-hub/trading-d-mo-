@@ -1,36 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 104.95,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09661,
-   "stop": 1.0983,
-   "objectif": 1.09324,
-   "unites": 1000,
-   "risque": 1.54,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-24T23:05+00:00",
-   "t_entree": 1795561483
-  },
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09469,
-   "stop": 1.0983,
-   "objectif": 1.08748,
-   "unites": 1000,
-   "risque": 3.29,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-25T05:10+00:00",
-   "t_entree": 1795583086
-  }
- ],
+ "capital": 99.42,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -69,40 +40,48 @@
    "ferme_le": "2026-11-19T22:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -3.55
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09661,
+   "stop": 1.0983,
+   "objectif": 1.09324,
+   "unites": 1000,
+   "risque": 1.54,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-24T23:05+00:00",
+   "t_entree": 1795561483,
+   "sortie": 1.098688875579834,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-25T17:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.89
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09469,
+   "stop": 1.0983,
+   "objectif": 1.08748,
+   "unites": 1000,
+   "risque": 3.29,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T05:10+00:00",
+   "t_entree": 1795583086,
+   "sortie": 1.098688875579834,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-25T17:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -3.64
   }
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T08:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09421,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T08:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3527.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T08:45+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -969,6 +948,36 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 88.1 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:13+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09818,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:13+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3578.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens."
    ],
    "alerte": null
   }
@@ -4269,14 +4278,18 @@
   {
    "quand": "2026-11-25T11:35+00:00",
    "valeur": 107.4
+  },
+  {
+   "quand": "2026-11-25T20:13+00:00",
+   "valeur": 99.42
   }
  ],
- "valeur": 107.4,
+ "valeur": 99.42,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "actif",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T11:35+00:00",
+ "mis_a_jour": "2026-11-25T20:13+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h + 1 h",
  "regle": "Les graphiques 4 h et 1 h vont dans le même sens, objectif 2 fois le risque",

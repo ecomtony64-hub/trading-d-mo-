@@ -1,7 +1,8 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
- "positions": [
+ "capital": 98.31,
+ "positions": [],
+ "historique": [
   {
    "marche": "OR",
    "nom": "Or",
@@ -14,7 +15,12 @@
    "marge": 1.61,
    "reel": true,
    "ouvert_le": "2026-11-25T06:15+00:00",
-   "t_entree": 1795586688
+   "t_entree": 1795586688,
+   "sortie": 3583.5,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-25T19:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.58
   },
   {
    "marche": "OR",
@@ -28,7 +34,12 @@
    "marge": 1.61,
    "reel": true,
    "ouvert_le": "2026-11-25T07:15+00:00",
-   "t_entree": 1795590297
+   "t_entree": 1795590297,
+   "sortie": 3583.3999999999996,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-25T19:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.58
   },
   {
    "marche": "OR",
@@ -42,26 +53,15 @@
    "marge": 1.61,
    "reel": true,
    "ouvert_le": "2026-11-25T08:25+00:00",
-   "t_entree": 1795594483
+   "t_entree": 1795594483,
+   "sortie": 3579.3999999999996,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-25T19:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.53
   }
  ],
- "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-25T05:15+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3546.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T05:32+00:00",
    "marche": "OR",
@@ -945,6 +945,21 @@
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de croisement MACD 4 h dans le sens de la grande tendance."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:14+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3578.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -2005,16 +2020,20 @@
   {
    "quand": "2026-11-25T11:35+00:00",
    "valeur": 99.12
+  },
+  {
+   "quand": "2026-11-25T20:14+00:00",
+   "valeur": 98.31
   }
  ],
  "risque_trade": 1.0,
- "valeur": 99.12,
+ "valeur": 98.31,
  "news": "",
  "methode": "macd_h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T11:35+00:00",
+ "mis_a_jour": "2026-11-25T20:14+00:00",
  "erreur_calendrier": null,
  "nom": "Or · MACD 4 h (prudent)",
  "regle": "Or seulement. Croisement de l'élan (MACD) sur 4 h dans le sens de la moyenne de 50 jours, objectif 3 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus"

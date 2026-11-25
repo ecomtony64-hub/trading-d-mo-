@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 96.13,
- "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "ACHAT",
-   "entree": 1.09156,
-   "stop": 1.08774,
-   "objectif": 1.09921,
-   "unites": 1000,
-   "risque": 3.5,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-24T04:00+00:00",
-   "t_entree": 1795492365
-  }
- ],
+ "capital": 103.05,
+ "positions": [],
  "historique": [
   {
    "marche": "EURUSD",
@@ -36,39 +21,28 @@
    "ferme_le": "2026-11-19T22:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -3.87
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09156,
+   "stop": 1.08774,
+   "objectif": 1.09921,
+   "unites": 1000,
+   "risque": 3.5,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-24T04:00+00:00",
+   "t_entree": 1795492365,
+   "sortie": 1.09921,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-25T18:00+00:00",
+   "frais_nuit": 0.05,
+   "resultat": 6.92
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-25T08:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09421,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : la stochastique ressort de 20/80 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T08:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3527.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : contre-pied : la stochastique ressort de 20/80 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T08:45+00:00",
    "marche": "EURUSD",
@@ -936,6 +910,36 @@
    "sens": null,
    "raisons": [
     "Pas de signal : contre-pied : la stochastique ressort de 20/80 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:13+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09818,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : contre-pied : la stochastique ressort de 20/80 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T20:13+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3578.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 66.07 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -3920,15 +3924,19 @@
   {
    "quand": "2026-11-25T11:35+00:00",
    "valeur": 98.55
+  },
+  {
+   "quand": "2026-11-25T20:13+00:00",
+   "valeur": 103.05
   }
  ],
- "valeur": 98.55,
+ "valeur": 103.05,
  "news": "",
  "methode": "c:stochc-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T11:35+00:00",
+ "mis_a_jour": "2026-11-25T20:13+00:00",
  "erreur_calendrier": null,
  "nom": "Stochastique contre-pied 4 h",
  "regle": "Contre-pied : la stochastique ressort de 20/80 sur 4 h, objectif 2 fois le risque"
