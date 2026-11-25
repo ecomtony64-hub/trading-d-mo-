@@ -135,36 +135,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T00:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09649,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (jour)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T00:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3543.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (jour)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T00:45+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1021,6 +991,36 @@
   },
   {
    "quand": "2026-11-25T03:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3555.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (jour)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T03:40+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09565,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (jour)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T03:40+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3555.3,
@@ -4023,6 +4023,10 @@
   {
    "quand": "2026-11-25T03:35+00:00",
    "valeur": 96.89
+  },
+  {
+   "quand": "2026-11-25T03:40+00:00",
+   "valeur": 96.89
   }
  ],
  "valeur": 96.89,
@@ -4030,7 +4034,7 @@
  "methode": "cassure_j",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T03:35+00:00",
+ "mis_a_jour": "2026-11-25T03:40+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure jour",
  "regle": "Le prix dépasse son plus haut ou plus bas des 20 derniers jours, objectif 2 fois le risque",

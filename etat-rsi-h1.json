@@ -358,36 +358,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T00:40+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09649,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T00:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3543.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 25.84 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T00:45+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1244,6 +1214,36 @@
   },
   {
    "quand": "2026-11-25T03:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3555.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 24.99 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T03:40+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09565,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T03:40+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3555.3,
@@ -4246,6 +4246,10 @@
   {
    "quand": "2026-11-25T03:35+00:00",
    "valeur": 97.97
+  },
+  {
+   "quand": "2026-11-25T03:40+00:00",
+   "valeur": 97.97
   }
  ],
  "valeur": 97.97,
@@ -4253,7 +4257,7 @@
  "methode": "rsi_h1",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T03:35+00:00",
+ "mis_a_jour": "2026-11-25T03:40+00:00",
  "erreur_calendrier": null,
  "nom": "Contre-pied 1 h (risque fort)",
  "regle": "Achat quand le prix est tombé très bas, vente quand il est monté très haut, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
