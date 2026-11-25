@@ -20,37 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-25T01:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09637,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques jour, 4 h et 1 h ne vont pas dans le même sens.",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T01:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3542.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques jour, 4 h et 1 h ne vont pas dans le même sens."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T01:05+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -913,6 +882,36 @@
   },
   {
    "quand": "2026-11-25T03:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3549.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques jour, 4 h et 1 h ne vont pas dans le même sens."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T04:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09493,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques jour, 4 h et 1 h ne vont pas dans le même sens."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T04:00+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3549.6,
@@ -3931,6 +3930,10 @@
   {
    "quand": "2026-11-25T03:55+00:00",
    "valeur": 101.44
+  },
+  {
+   "quand": "2026-11-25T04:00+00:00",
+   "valeur": 101.44
   }
  ],
  "valeur": 101.44,
@@ -3938,7 +3941,7 @@
  "methode": "triple",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T03:55+00:00",
+ "mis_a_jour": "2026-11-25T04:00+00:00",
  "erreur_calendrier": null,
  "nom": "Triple accord",
  "regle": "Jour, 4 h et 1 h vont tous dans le même sens, objectif 2 fois le risque",

@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 93.17,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09503,
+   "stop": 1.09123,
+   "objectif": 1.10263,
+   "unites": 1000,
+   "risque": 3.47,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T04:00+00:00",
+   "t_entree": 1795578584
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -43,36 +58,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-25T01:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09637,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : la moyenne de 5 bougies croise celle de 20 sur le graphique 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T01:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3542.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 58.41 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T01:05+00:00",
    "marche": "EURUSD",
@@ -930,6 +915,34 @@
   },
   {
    "quand": "2026-11-25T03:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3549.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : la moyenne de 5 bougies croise celle de 20 sur le graphique 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T04:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09493,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T04:00+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3549.6,
@@ -3632,15 +3645,19 @@
   {
    "quand": "2026-11-25T03:55+00:00",
    "valeur": 93.17
+  },
+  {
+   "quand": "2026-11-25T04:00+00:00",
+   "valeur": 93.08
   }
  ],
- "valeur": 93.17,
+ "valeur": 93.08,
  "news": "",
  "methode": "c:mm5-20-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T03:55+00:00",
+ "mis_a_jour": "2026-11-25T04:00+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 5/20 4 h",
  "regle": "La moyenne de 5 bougies croise celle de 20 sur le graphique 4 h, objectif 2 fois le risque"

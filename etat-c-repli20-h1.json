@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 94.93,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09493,
+   "stop": 1.09596,
+   "objectif": 1.09287,
+   "unites": 1000,
+   "risque": 0.94,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-25T04:00+00:00",
+   "t_entree": 1795578584
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -81,36 +96,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-25T01:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09637,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : dans la tendance (moyenne 100) (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T01:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3542.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : dans la tendance (moyenne 100) (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T01:05+00:00",
    "marche": "EURUSD",
@@ -968,6 +953,34 @@
   },
   {
    "quand": "2026-11-25T03:55+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3549.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : dans la tendance (moyenne 100) (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T04:00+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09493,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T04:00+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3549.6,
@@ -3670,15 +3683,19 @@
   {
    "quand": "2026-11-25T03:55+00:00",
    "valeur": 94.93
+  },
+  {
+   "quand": "2026-11-25T04:00+00:00",
+   "valeur": 94.84
   }
  ],
- "valeur": 94.93,
+ "valeur": 94.84,
  "news": "",
  "methode": "c:repli20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T03:55+00:00",
+ "mis_a_jour": "2026-11-25T04:00+00:00",
  "erreur_calendrier": null,
  "nom": "Retour sur la moyenne 20 1 h",
  "regle": "Dans la tendance (moyenne 100), le prix touche la moyenne 20 et repart sur 1 h, objectif 2 fois le risque"
