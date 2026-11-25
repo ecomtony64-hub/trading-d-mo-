@@ -20,36 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-25T05:50+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09469,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix traverse une ligne suiveuse à 2 fois la taille moyenne des bougies sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T05:50+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3537.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix traverse une ligne suiveuse à 2 fois la taille moyenne des bougies sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T05:55+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -909,6 +879,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3563.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix traverse une ligne suiveuse à 2 fois la taille moyenne des bougies sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T09:05+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09445,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix traverse une ligne suiveuse à 2 fois la taille moyenne des bougies sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T09:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3560.7,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -3800,15 +3800,19 @@
   {
    "quand": "2026-11-25T09:00+00:00",
    "valeur": 99.14
+  },
+  {
+   "quand": "2026-11-25T09:05+00:00",
+   "valeur": 98.92
   }
  ],
- "valeur": 99.14,
+ "valeur": 98.92,
  "news": "",
  "methode": "c:super2-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T09:00+00:00",
+ "mis_a_jour": "2026-11-25T09:05+00:00",
  "erreur_calendrier": null,
  "nom": "Stop suiveur 2x 4 h",
  "regle": "Le prix traverse une ligne suiveuse à 2 fois la taille moyenne des bougies sur 4 h, objectif 2 fois le risque"
