@@ -1,24 +1,24 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
- "historique": [],
- "analyses": [
+ "positions": [
   {
-   "quand": "2026-11-25T02:45+00:00",
    "marche": "OR",
    "nom": "Or",
-   "prix": 3568.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement du MACD 12/26/9 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
+   "sens": "ACHAT",
+   "entree": 3563.8,
+   "stop": 3535.6,
+   "objectif": 3620.3,
+   "unites": 0.03,
+   "risque": 0.77,
+   "marge": 4.88,
+   "reel": true,
+   "ouvert_le": "2026-11-25T09:00+00:00",
+   "t_entree": 1795596295
+  }
+ ],
+ "historique": [],
+ "analyses": [
   {
    "quand": "2026-11-25T02:50+00:00",
    "marche": "OR",
@@ -902,6 +902,19 @@
    "raisons": [
     "Pas de signal : croisement du MACD 12/26/9 sur 1 h (attendu)."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T09:00+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3563.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -1853,16 +1866,20 @@
   {
    "quand": "2026-11-25T08:55+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-25T09:00+00:00",
+   "valeur": 99.99
   }
  ],
  "risque_trade": 1.0,
- "valeur": 100.0,
+ "valeur": 99.99,
  "news": "",
  "methode": "c:macd12-26-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T08:55+00:00",
+ "mis_a_jour": "2026-11-25T09:00+00:00",
  "erreur_calendrier": null,
  "nom": "Or · MACD 12/26/9 1 h (prudent)",
  "regle": "Or seulement. Croisement du MACD 12/26/9 sur 1 h, objectif 2 fois le risque ; risque 1 % du compte par trade ; 4 trades ouverts au plus"
