@@ -5,36 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-25T01:35+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09613,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : la moyenne de 10 bougies croise celle de 30 sur le graphique 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T01:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3534.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : la moyenne de 10 bougies croise celle de 30 sur le graphique 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T02:04+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -894,6 +864,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3552.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : la moyenne de 10 bougies croise celle de 30 sur le graphique 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T04:45+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09493,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : la moyenne de 10 bougies croise celle de 30 sur le graphique 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T04:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3548.2,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -3621,6 +3621,10 @@
   {
    "quand": "2026-11-25T04:40+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-25T04:45+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -3629,7 +3633,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T04:40+00:00",
+ "mis_a_jour": "2026-11-25T04:45+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 10/30 4 h",
  "regle": "La moyenne de 10 bougies croise celle de 30 sur le graphique 4 h, objectif 2 fois le risque"
