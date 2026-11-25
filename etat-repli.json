@@ -1,21 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 111.48,
+ "capital": 114.12,
  "positions": [
-  {
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "sens": "VENTE",
-   "entree": 1.09685,
-   "stop": 1.0983,
-   "objectif": 1.09396,
-   "unites": 1000,
-   "risque": 1.32,
-   "marge": 33.33,
-   "reel": true,
-   "ouvert_le": "2026-11-24T20:10+00:00",
-   "t_entree": 1795550985
-  },
   {
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -88,40 +74,28 @@
    "ferme_le": "2026-11-24T09:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -0.27
+  },
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "VENTE",
+   "entree": 1.09685,
+   "stop": 1.0983,
+   "objectif": 1.09396,
+   "unites": 1000,
+   "risque": 1.32,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-24T20:10+00:00",
+   "t_entree": 1795550985,
+   "sortie": 1.09396,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-25T06:00+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 2.64
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-25T03:25+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09565,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de petit retour en arrière dans une tendance de 4 h.",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T03:25+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3557.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de petit retour en arrière dans une tendance de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T03:30+00:00",
    "marche": "EURUSD",
@@ -990,6 +964,36 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3526.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T06:15+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09385,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de petit retour en arrière dans une tendance de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-25T06:15+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3519.9,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -4097,14 +4101,18 @@
   {
    "quand": "2026-11-25T06:10+00:00",
    "valeur": 115.57
+  },
+  {
+   "quand": "2026-11-25T06:15+00:00",
+   "valeur": 116.44
   }
  ],
- "valeur": 115.57,
+ "valeur": 116.44,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "repli",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T06:10+00:00",
+ "mis_a_jour": "2026-11-25T06:15+00:00",
  "erreur_calendrier": null,
  "nom": "Repli dans la tendance",
  "regle": "Tendance de 4 h, entrée après un petit retour en arrière sur 1 h, objectif 2 fois le risque",
