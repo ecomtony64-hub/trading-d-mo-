@@ -1,6 +1,6 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
+ "capital": 98.08,
  "positions": [
   {
    "marche": "OR",
@@ -19,20 +19,6 @@
   {
    "marche": "OR",
    "nom": "Or",
-   "sens": "VENTE",
-   "entree": 3562.9,
-   "stop": 3632.6,
-   "objectif": 3423.5,
-   "unites": 0.03,
-   "risque": 1.91,
-   "marge": 4.87,
-   "reel": true,
-   "ouvert_le": "2026-11-24T17:10+00:00",
-   "t_entree": 1795539601
-  },
-  {
-   "marche": "OR",
-   "nom": "Or",
    "sens": "ACHAT",
    "entree": 3578.8,
    "stop": 3506.3,
@@ -45,23 +31,28 @@
    "t_entree": 1795637030
   }
  ],
- "historique": [],
- "analyses": [
+ "historique": [
   {
-   "quand": "2026-11-25T06:25+00:00",
    "marche": "OR",
    "nom": "Or",
-   "prix": 3524.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement du MACD 5/35/5 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
+   "sens": "VENTE",
+   "entree": 3562.9,
+   "stop": 3632.6,
+   "objectif": 3423.5,
+   "unites": 0.03,
+   "risque": 1.91,
+   "marge": 4.87,
+   "reel": true,
+   "ouvert_le": "2026-11-24T17:10+00:00",
+   "t_entree": 1795539601,
+   "sortie": 3632.7999999999997,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-26T02:00+00:00",
+   "frais_nuit": 0.01,
+   "resultat": -1.92
+  }
+ ],
+ "analyses": [
   {
    "quand": "2026-11-25T06:42+00:00",
    "marche": "OR",
@@ -942,6 +933,21 @@
    "sens": null,
    "raisons": [
     "Un trade a été ouvert sur ce marché il y a moins de 1 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T02:53+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3631.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement du MACD 5/35/5 sur 4 h (attendu)."
    ],
    "alerte": null
   }
@@ -2046,16 +2052,20 @@
   {
    "quand": "2026-11-25T21:05+00:00",
    "valeur": 98.66
+  },
+  {
+   "quand": "2026-11-26T02:53+00:00",
+   "valeur": 97.79
   }
  ],
  "risque_trade": 2.0,
- "valeur": 98.66,
+ "valeur": 97.79,
  "news": "",
  "methode": "c:macd5-35-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T21:05+00:00",
+ "mis_a_jour": "2026-11-26T02:53+00:00",
  "erreur_calendrier": null,
  "nom": "Or · MACD 5/35/5 4 h (normal)",
  "regle": "Or seulement. Croisement du MACD 5/35/5 sur 4 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus"

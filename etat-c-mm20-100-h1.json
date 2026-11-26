@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 98.19,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.09719,
+   "stop": 1.0956,
+   "objectif": 1.10039,
+   "unites": 1000,
+   "risque": 1.46,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-26T02:53+00:00",
+   "t_entree": 1795661563
+  }
+ ],
  "historique": [
   {
    "marche": "EURUSD",
@@ -43,37 +58,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-25T10:05+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09409,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : la moyenne de 20 bougies croise celle de 100 sur le graphique 1 h (attendu).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T10:05+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3555.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : la moyenne de 20 bougies croise celle de 100 sur le graphique 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-25T10:10+00:00",
    "marche": "EURUSD",
@@ -954,6 +938,34 @@
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : la moyenne de 20 bougies croise celle de 100 sur le graphique 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T02:53+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09709,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T02:53+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3631.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -3990,15 +4002,19 @@
   {
    "quand": "2026-11-25T21:05+00:00",
    "valeur": 98.19
+  },
+  {
+   "quand": "2026-11-26T02:53+00:00",
+   "valeur": 98.1
   }
  ],
- "valeur": 98.19,
+ "valeur": 98.1,
  "news": "",
  "methode": "c:mm20-100-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-25T21:05+00:00",
+ "mis_a_jour": "2026-11-26T02:53+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 20/100 1 h",
  "regle": "La moyenne de 20 bougies croise celle de 100 sur le graphique 1 h, objectif 2 fois le risque"
