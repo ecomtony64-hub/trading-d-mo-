@@ -396,36 +396,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T10:41+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09481,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique d'1 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T10:41+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3559.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 162.56 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T10:45+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1290,6 +1260,36 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 31.86 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T03:20+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09673,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T03:20+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3611.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 29.68 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -4662,14 +4662,18 @@
   {
    "quand": "2026-11-26T03:15+00:00",
    "valeur": 87.65
+  },
+  {
+   "quand": "2026-11-26T03:20+00:00",
+   "valeur": 87.43
   }
  ],
- "valeur": 87.65,
+ "valeur": 87.43,
  "news": "Lundi matin : pas d'alerte bloquante. Chine et Japon publient des chiffres faibles. Le patron de la banque centrale américaine (Warsh) parle à 18 h, heure de Paris : prudence autour de ce moment. L'or recule vers 3 876 dollars.",
  "methode": "rapide",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T03:15+00:00",
+ "mis_a_jour": "2026-11-26T03:20+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h (risque fort)",
  "regle": "Tendance du graphique d'1 h seul, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
