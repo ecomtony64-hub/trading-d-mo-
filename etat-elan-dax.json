@@ -453,6 +453,21 @@
     "Stop trop loin : ce trade risquerait 18.25 € (plus de 15 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T13:20+00:00",
+   "marche": "DAX",
+   "nom": "DAX (Allemagne)",
+   "prix": 25142.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 16.85 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -575,6 +590,10 @@
   {
    "quand": "2026-11-26T13:15+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-26T13:20+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -583,7 +602,7 @@
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T13:15+00:00",
+ "mis_a_jour": "2026-11-26T13:20+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · DAX (Allemagne) (risque fort)",
  "regle": "DAX (Allemagne) seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
