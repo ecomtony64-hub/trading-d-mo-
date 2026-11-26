@@ -87,36 +87,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T10:10+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09457,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Trop de risque en jeu : 25.32 € avec ce trade (maximum 20 % du compte au total)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T10:10+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3555.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique journalier."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T10:15+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -973,6 +943,36 @@
   },
   {
    "quand": "2026-11-26T02:53+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3631.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique journalier."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T02:55+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09709,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Trop de risque en jeu : 24.12 € avec ce trade (maximum 20 % du compte au total)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T02:55+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3631.3,
@@ -4335,6 +4335,10 @@
   {
    "quand": "2026-11-26T02:53+00:00",
    "valeur": 100.29
+  },
+  {
+   "quand": "2026-11-26T02:55+00:00",
+   "valeur": 100.29
   }
  ],
  "valeur": 100.29,
@@ -4342,7 +4346,7 @@
  "methode": "jour",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T02:53+00:00",
+ "mis_a_jour": "2026-11-26T02:55+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance jour",
  "regle": "Tendance du graphique journalier seul, objectif 2 fois le risque",
