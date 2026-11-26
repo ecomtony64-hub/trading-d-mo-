@@ -40,36 +40,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T10:45+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09481,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement du MACD 12/26/9 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T10:45+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3559.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : croisement du MACD 12/26/9 sur 4 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T10:50+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -926,6 +896,36 @@
   },
   {
    "quand": "2026-11-26T03:20+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3611.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement du MACD 12/26/9 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T03:25+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09649,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : croisement du MACD 12/26/9 sur 4 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T03:25+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3611.0,
@@ -3996,15 +3996,19 @@
   {
    "quand": "2026-11-26T03:20+00:00",
    "valeur": 95.47
+  },
+  {
+   "quand": "2026-11-26T03:25+00:00",
+   "valeur": 95.25
   }
  ],
- "valeur": 95.47,
+ "valeur": 95.25,
  "news": "",
  "methode": "c:macd12-26-h4",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T03:20+00:00",
+ "mis_a_jour": "2026-11-26T03:25+00:00",
  "erreur_calendrier": null,
  "nom": "MACD 12/26/9 4 h",
  "regle": "Croisement du MACD 12/26/9 sur 4 h, objectif 2 fois le risque"
