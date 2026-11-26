@@ -1,7 +1,23 @@
 {
  "capital_depart": 100.0,
  "capital": 99.31,
- "positions": [],
+ "positions": [
+  {
+   "marche": "ETHEREUM",
+   "nom": "Ethereum",
+   "sens": "VENTE",
+   "entree": 1686.2,
+   "stop": 1701.1,
+   "objectif": 1656.5,
+   "unites": 0.04,
+   "risque": 0.54,
+   "marge": 30.75,
+   "reel": true,
+   "ouvert_le": "2026-11-26T23:10+00:00",
+   "t_entree": 1795734606,
+   "t_reel": 1795734610
+  }
+ ],
  "historique": [
   {
    "marche": "ETHEREUM",
@@ -24,21 +40,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-26T18:15+00:00",
-   "marche": "ETHEREUM",
-   "nom": "Ethereum",
-   "prix": 1692.4,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-26T18:20+00:00",
    "marche": "ETHEREUM",
@@ -926,6 +927,19 @@
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T23:10+00:00",
+   "marche": "ETHEREUM",
+   "nom": "Ethereum",
+   "prix": 1687.0,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1528,15 +1542,19 @@
   {
    "quand": "2026-11-26T23:05+00:00",
    "valeur": 99.31
+  },
+  {
+   "quand": "2026-11-26T23:10+00:00",
+   "valeur": 99.17
   }
  ],
- "valeur": 99.31,
+ "valeur": 99.17,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T23:05+00:00",
+ "mis_a_jour": "2026-11-26T23:10+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Ethereum (risque fort)",
  "regle": "Ethereum seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"

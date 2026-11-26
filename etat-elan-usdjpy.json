@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T18:15+00:00",
-   "marche": "USDJPY",
-   "nom": "Dollar / Yen",
-   "prix": 159.29,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T18:20+00:00",
    "marche": "USDJPY",
    "nom": "Dollar / Yen",
@@ -907,6 +892,22 @@
     "Tokyo CPI (Japon) a 00h30 Paris, BoJ peut monter ses taux en decembre"
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T23:10+00:00",
+   "marche": "USDJPY",
+   "nom": "Dollar / Yen",
+   "prix": 159.285,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
+    "Tokyo CPI (Japon) a 00h30 Paris, BoJ peut monter ses taux en decembre"
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1509,6 +1510,10 @@
   {
    "quand": "2026-11-26T23:05+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-26T23:10+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -1517,7 +1522,7 @@
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T23:05+00:00",
+ "mis_a_jour": "2026-11-26T23:10+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Dollar / Yen (risque fort)",
  "regle": "Dollar / Yen seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
