@@ -101,21 +101,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T06:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3521.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Déjà 4 trade(s) ouvert(s) sur ce compte."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T07:00+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -994,6 +979,21 @@
   },
   {
    "quand": "2026-11-26T03:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3613.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T03:10+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3613.4,
@@ -2124,6 +2124,10 @@
   {
    "quand": "2026-11-26T03:05+00:00",
    "valeur": 112.86
+  },
+  {
+   "quand": "2026-11-26T03:10+00:00",
+   "valeur": 112.86
   }
  ],
  "risque_trade": 2.0,
@@ -2133,7 +2137,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T03:05+00:00",
+ "mis_a_jour": "2026-11-26T03:10+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Cassure 20 + moyenne 200 1 h (normal)",
  "regle": "Or seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; risque 2 % du compte par trade ; 4 trades ouverts au plus"
