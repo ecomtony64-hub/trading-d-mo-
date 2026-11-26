@@ -393,6 +393,21 @@
     "Stop trop loin : ce trade risquerait 49.29 € (plus de 15 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T13:00+00:00",
+   "marche": "DOW",
+   "nom": "Dow Jones (États-Unis)",
+   "prix": 50182.9,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 49.28 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -499,6 +514,10 @@
   {
    "quand": "2026-11-26T12:55+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-26T13:00+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -507,7 +526,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T12:55+00:00",
+ "mis_a_jour": "2026-11-26T13:00+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Dow Jones (États-Unis)",
  "regle": "Dow Jones (États-Unis) seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
