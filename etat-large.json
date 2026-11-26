@@ -82,36 +82,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T11:15+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09457,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T11:15+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3556.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T11:20+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -968,6 +938,36 @@
   },
   {
    "quand": "2026-11-26T10:39+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3620.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T10:40+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09794,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas cassé son plus haut ni son plus bas des 20 dernières bougies (4 h)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T10:40+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3620.4,
@@ -4378,6 +4378,10 @@
   {
    "quand": "2026-11-26T10:39+00:00",
    "valeur": 96.18
+  },
+  {
+   "quand": "2026-11-26T10:40+00:00",
+   "valeur": 96.18
   }
  ],
  "valeur": 96.18,
@@ -4385,7 +4389,7 @@
  "methode": "large",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T10:39+00:00",
+ "mis_a_jour": "2026-11-26T10:40+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 4 h + grande tendance",
  "regle": "Cassure sur 4 h dans le sens de la moyenne de 50 jours, objectif 2 fois le risque",
