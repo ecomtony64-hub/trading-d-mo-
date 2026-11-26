@@ -44,21 +44,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T07:35+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3516.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : après 3 bougies de même couleur (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T08:15+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -933,6 +918,21 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3603.9,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : après 3 bougies de même couleur (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T10:39+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3620.4,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2092,6 +2092,10 @@
   {
    "quand": "2026-11-26T03:45+00:00",
    "valeur": 109.69
+  },
+  {
+   "quand": "2026-11-26T10:39+00:00",
+   "valeur": 109.69
   }
  ],
  "risque_trade": 10.0,
@@ -2101,7 +2105,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T03:45+00:00",
+ "mis_a_jour": "2026-11-26T10:39+00:00",
  "erreur_calendrier": null,
  "nom": "Or · 3 bougies, on suit 1 h (risque max)",
  "regle": "Or seulement. Après 3 bougies de même couleur, on suit le mouvement sur 1 h, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus"
