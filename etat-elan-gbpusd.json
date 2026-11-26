@@ -43,21 +43,6 @@
    "quand": "2026-11-26T16:15+00:00",
    "marche": "GBPUSD",
    "nom": "Livre / Dollar",
-   "prix": 1.31091,
-   "jour": "RANGE",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-26T16:15+00:00",
-   "marche": "GBPUSD",
-   "nom": "Livre / Dollar",
    "prix": 1.31099,
    "jour": "RANGE",
    "h4": "HAUSSIER",
@@ -932,6 +917,21 @@
    "jour": "RANGE",
    "h4": "RANGE",
    "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T21:10+00:00",
+   "marche": "GBPUSD",
+   "nom": "Livre / Dollar",
+   "prix": 1.31082,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -1440,15 +1440,19 @@
   {
    "quand": "2026-11-26T21:05+00:00",
    "valeur": 99.01
+  },
+  {
+   "quand": "2026-11-26T21:10+00:00",
+   "valeur": 99.09
   }
  ],
- "valeur": 99.01,
+ "valeur": 99.09,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T21:05+00:00",
+ "mis_a_jour": "2026-11-26T21:10+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Livre / Dollar (risque fort)",
  "regle": "Livre / Dollar seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
