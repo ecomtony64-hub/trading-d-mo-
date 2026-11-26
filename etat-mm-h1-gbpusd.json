@@ -15,6 +15,20 @@
    "reel": true,
    "ouvert_le": "2026-11-26T13:40+00:00",
    "t_entree": 1795700387
+  },
+  {
+   "marche": "GBPUSD",
+   "nom": "Livre / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.31106,
+   "stop": 1.30955,
+   "objectif": 1.31408,
+   "unites": 1000,
+   "risque": 1.38,
+   "marge": 39.83,
+   "reel": true,
+   "ouvert_le": "2026-11-26T18:25+00:00",
+   "t_entree": 1795717487
   }
  ],
  "historique": [
@@ -39,21 +53,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-26T13:30+00:00",
-   "marche": "GBPUSD",
-   "nom": "Livre / Dollar",
-   "prix": 1.31055,
-   "jour": "RANGE",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-26T13:35+00:00",
    "marche": "GBPUSD",
@@ -960,6 +959,19 @@
     "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T18:25+00:00",
+   "marche": "GBPUSD",
+   "nom": "Livre / Dollar",
+   "prix": 1.31091,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1330,15 +1342,19 @@
   {
    "quand": "2026-11-26T18:20+00:00",
    "valeur": 98.35
+  },
+  {
+   "quand": "2026-11-26T18:25+00:00",
+   "valeur": 98.4
   }
  ],
- "valeur": 98.35,
+ "valeur": 98.4,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T18:20+00:00",
+ "mis_a_jour": "2026-11-26T18:25+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Livre / Dollar",
  "regle": "Livre / Dollar seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
