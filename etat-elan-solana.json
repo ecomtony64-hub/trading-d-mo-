@@ -1,24 +1,24 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
- "historique": [],
- "analyses": [
+ "positions": [
   {
-   "quand": "2026-11-26T15:10+00:00",
    "marche": "SOLANA",
    "nom": "Solana",
-   "prix": 70.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
+   "sens": "ACHAT",
+   "entree": 71.44,
+   "stop": 70.67,
+   "objectif": 72.99,
+   "unites": 0.9,
+   "risque": 0.63,
+   "marge": 29.17,
+   "reel": true,
+   "ouvert_le": "2026-11-26T20:05+00:00",
+   "t_entree": 1795723214
+  }
+ ],
+ "historique": [],
+ "analyses": [
   {
    "quand": "2026-11-26T15:15+00:00",
    "marche": "SOLANA",
@@ -902,6 +902,19 @@
    "raisons": [
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T20:05+00:00",
+   "marche": "SOLANA",
+   "nom": "Solana",
+   "prix": 71.14,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -1353,15 +1366,19 @@
   {
    "quand": "2026-11-26T20:00+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-26T20:05+00:00",
+   "valeur": 99.75
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.75,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T20:00+00:00",
+ "mis_a_jour": "2026-11-26T20:05+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Solana (risque fort)",
  "regle": "Solana seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
