@@ -34,21 +34,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T14:15+00:00",
-   "marche": "EUROSTOXX",
-   "nom": "Euro Stoxx 50 (Europe)",
-   "prix": 6012.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T14:20+00:00",
    "marche": "EUROSTOXX",
    "nom": "Euro Stoxx 50 (Europe)",
@@ -948,6 +933,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T19:10+00:00",
+   "marche": "EUROSTOXX",
+   "nom": "Euro Stoxx 50 (Europe)",
+   "prix": 6014.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1354,6 +1354,10 @@
   {
    "quand": "2026-11-26T19:05+00:00",
    "valeur": 100.02
+  },
+  {
+   "quand": "2026-11-26T19:10+00:00",
+   "valeur": 100.02
   }
  ],
  "valeur": 100.02,
@@ -1362,7 +1366,7 @@
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T19:05+00:00",
+ "mis_a_jour": "2026-11-26T19:10+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Euro Stoxx 50 (Europe) (risque fort)",
  "regle": "Euro Stoxx 50 (Europe) seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
