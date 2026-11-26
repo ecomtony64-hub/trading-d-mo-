@@ -32,3 +32,11 @@
   8 indices (S&P 500, Nasdaq 100, Dow Jones, DAX, CAC 40, Euro Stoxx 50, FTSE 100, Nikkei), 5 matières premières (argent, pétrole WTI et Brent, gaz, cuivre), 4 cryptos (Bitcoin, Ethereum, Solana, XRP).
 - Chaque copie : 100 € fictifs à elle, un seul marché, environ 30 € de garantie par trade avec le levier légal européen (30 grandes paires, 20 autres paires et indices, 10 matières premières, 2 crypto), pause sous 50 €, mêmes limites que les comptes EUR/USD (stop ≤ 15 % du compte, risque total ≤ 20 %, 4 h entre deux ouvertures).
 - Les gains et pertes sont convertis en euros. Frais réalistes (écart, glissement, nuits) réglés dans AUTRES de moteur.py.
+
+## Conditions proches du réel (26/11)
+- Prix relus toutes les 4-5 min ; stops et objectifs suivis sur des bougies de 5 minutes, à partir de l'heure exacte d'ouverture.
+- Entrée au marché : spread payé + petit glissement contre nous.
+- Spread multiplié par 3 entre 21 h et 23 h UTC (heure creuse), sauf crypto.
+- Stop : si le prix saute par-dessus, sortie au prix réel du saut, plus un glissement.
+- Frais de nuit : à chaque passage à 22 h UTC ; triple le mercredi (forex, or, matières premières), le vendredi (indices) ; crypto tous les jours. Ils sont déduits aussi de la valeur des trades encore ouverts.
+- Limites : prix Yahoo gratuits (l'or et le pétrole peuvent avoir ~10 min de retard), pas de vrai carnet d'ordres. 100 % réel = seulement chez un vrai courtier (compte démo).

@@ -81,8 +81,8 @@ def get_json(url):
 def bougies(symbole, intervalle, periode):
     import os, time
     cache = os.path.join(os.path.dirname(os.path.abspath(__file__)), f"prix-cache-{symbole}-{intervalle}-{periode}.json")
-    # 20 comptes tournent à la suite : on garde les prix 10 minutes pour ne pas être bloqué par Yahoo
-    if os.path.exists(cache) and time.time() - os.path.getmtime(cache) < 600:
+    # Tous les comptes tournent à la suite : on garde les prix 4 minutes (un seul appel Yahoo par passage de 5 min)
+    if os.path.exists(cache) and time.time() - os.path.getmtime(cache) < 240:
         return json.load(open(cache))
     res = get_json(f"https://query1.finance.yahoo.com/v8/finance/chart/{symbole}?interval={intervalle}&range={periode}")["chart"]["result"][0]
     q = res["indicators"]["quote"][0]
@@ -93,6 +93,43 @@ def bougies(symbole, intervalle, periode):
         out.append({"t": t, "o": q["open"][i], "h": q["high"][i], "l": q["low"][i], "c": q["close"][i]})
     json.dump(out, open(cache, "w"))
     return out
+
+
+# Réalisme (Tony, 26/11 : « 100 % réel ») -------------------------------------------------
+CRYPTO = {"BITCOIN", "ETHEREUM", "SOLANA", "XRP"}
+INDICES = {"SP500", "NASDAQ", "DOW", "DAX", "CAC40", "EUROSTOXX", "FTSE", "NIKKEI"}
+
+
+def facteur_spread(t, code):
+    """Le spread s'élargit vers 21 h-23 h UTC (changement de jour chez le courtier, peu d'acheteurs/vendeurs)."""
+    if code in CRYPTO:
+        return 1.0
+    h = dt.datetime.fromtimestamp(t, dt.timezone.utc).hour
+    return 3.0 if h in (21, 22) else 1.0
+
+
+def nuits_payees(t0, t1, code):
+    """Nombre de frais de nuit dus entre t0 et t1 : un par passage à 22 h UTC (17 h New York).
+    Forex, or, matières premières : rien le week-end mais triple le mercredi. Indices : triple le vendredi.
+    Crypto : tous les jours."""
+    n = 0
+    j = dt.datetime.fromtimestamp(t0, dt.timezone.utc).replace(hour=22, minute=0, second=0, microsecond=0)
+    while j.timestamp() <= t1:
+        if j.timestamp() > t0:
+            wd = j.weekday()   # 0 = lundi
+            if code in CRYPTO:
+                n += 1
+            elif wd < 5:
+                n += 3 if (wd == 4 if code in INDICES else wd == 2) else 1
+        j += dt.timedelta(days=1)
+    return n
+
+
+def chemin_prix(h1, m5, depuis):
+    """Bougies après l'ouverture du trade : 5 minutes quand on les a (5 derniers jours), sinon 1 heure."""
+    debut5 = m5[0]["t"] if m5 else float("inf")
+    out = [b for b in h1 if b["t"] >= depuis and b["t"] + 3600 <= debut5]
+    return out + [b for b in m5 if b["t"] >= depuis]
 
 
 def en_h4(h1):
@@ -374,20 +411,33 @@ def main():
         conv[seul] = {"USD": eurusd, "EUR": 1.0}.get(cot) or bougies(f"EUR{cot}=X", "60m", "60d")[-1]["c"]
     else:
         marches = MARCHES
+    marches_yahoo = {c: v["yahoo"] for c, v in MARCHES.items()}
+    marches_yahoo.update({c: v[1] for c, v in AUTRES.items()})
     if limite is None:
         limite = 1 if maxi else MAX_OUVERTS
     if risque_trade is not None:
         etat["risque_trade"] = round(risque_trade * 100, 1)
 
     # 1. Suivre les positions ouvertes : stop ou objectif touché ?
+    m5 = {}
+    def bougies5(code):
+        if code not in m5:
+            try:
+                m5[code] = bougies(marches_yahoo[code], "5m", "5d")
+            except Exception:
+                m5[code] = []
+        return m5[code]
     for pos in [p for p in etat["positions"]]:
-        for b in donnees[pos["marche"]]["h1"]:
-            if b["t"] <= pos["t_entree"]:
-                continue
+        reel = pos.get("reel")
+        if reel:   # suivi précis toutes les 5 min, à partir de l'heure exacte d'ouverture
+            depuis = pos.get("t_reel") or pos["t_entree"] + 3600
+            suite = chemin_prix(donnees[pos["marche"]]["h1"], bougies5(pos["marche"]), depuis)
+        else:
+            suite = [b for b in donnees[pos["marche"]]["h1"] if b["t"] > pos["t_entree"]]
+        for b in suite:
             achat = pos["sens"] == "ACHAT"
             f = FRAIS[pos["marche"]]
-            reel = pos.get("reel")
-            sp = f["spread"] if reel else 0.0   # une vente se referme au prix d'achat (prix + spread)
+            sp = f["spread"] * facteur_spread(b["t"], pos["marche"]) if reel else 0.0   # une vente se referme au prix d'achat (prix + spread)
             bas, haut, ouv = (b["l"], b["h"], b["o"]) if achat else (b["l"] + sp, b["h"] + sp, b["o"] + sp)
             stop = bas <= pos["stop"] if achat else haut >= pos["stop"]
             cible = haut >= pos["objectif"] if achat else bas <= pos["objectif"]
@@ -399,7 +449,7 @@ def main():
                         prix = min(prix, ouv) - f["glissement"] if achat else max(prix, ouv) + f["glissement"]
                 else:
                     prix = pos["objectif"]
-                nuits = int((b["t"] - pos["t_entree"]) // 86400) if reel else 0
+                nuits = nuits_payees(pos.get("t_reel") or pos["t_entree"], b["t"] + (300 if pos.get("t_reel") else 3600), pos["marche"]) if reel else 0
                 frais = pos["unites"] * f["nuit"] * nuits
                 etat["capital"] = round(etat["capital"] + fermer(pos, prix, "Stop touché" if stop else "Objectif atteint", quand, conv[pos["marche"]], frais), 2)
                 etat["positions"].remove(pos)
@@ -452,7 +502,10 @@ def main():
         plan = None
         if sens and not raisons:
             f = FRAIS[code]
-            entree = prix + f["spread"] if sens == "ACHAT" else prix   # un achat se paie au prix d'achat (prix + spread)
+            # Ordre au marché : un achat se paie au prix d'achat (prix + spread), et l'exécution glisse un peu contre nous
+            sp_now = f["spread"] * facteur_spread(maintenant.timestamp(), code)
+            g_in = f["glissement"] / 2
+            entree = prix + sp_now + g_in if sens == "ACHAT" else prix - g_in
             stop = calcul_stop(type_stop, sens, entree, d, h4_hauts, h4_bas, h1_hauts, h1_bas)
             dist = abs(entree - stop) if stop else 0
             if not stop or dist <= 0 or (sens == "ACHAT" and stop >= entree) or (sens == "VENTE" and stop <= entree):
@@ -488,7 +541,7 @@ def main():
                     r = m["decimales"]
                     plan = {"marche": code, "nom": m["nom"], "sens": sens, "entree": round(entree, r), "stop": round(stop, r),
                             "objectif": round(objectif, r), "unites": unites, "risque": risque_eur, "marge": marge, "reel": True,
-                            "ouvert_le": iso, "t_entree": d["h1"][-1]["t"]}
+                            "ouvert_le": iso, "t_entree": d["h1"][-1]["t"], "t_reel": int(maintenant.timestamp())}
                     etat["positions"].append(plan)
         verdict = "TRADE" if plan else "PAS DE TRADE"
         etat["analyses"].append({"quand": iso, "marche": code, "nom": m["nom"], "prix": round(prix, m["decimales"]),
@@ -500,9 +553,12 @@ def main():
     for p in etat["positions"]:
         s = 1 if p["sens"] == "ACHAT" else -1
         c = donnees[p["marche"]]["h1"][-1]["c"]
-        if s == -1 and p.get("reel"):
-            c += FRAIS[p["marche"]]["spread"]
-        latent += p["unites"] * (c - p["entree"]) * s / conv[p["marche"]]
+        nuit_due = 0.0
+        if p.get("reel"):
+            if s == -1:
+                c += FRAIS[p["marche"]]["spread"]
+            nuit_due = p["unites"] * FRAIS[p["marche"]]["nuit"] * nuits_payees(p.get("t_reel") or p["t_entree"], maintenant.timestamp(), p["marche"])
+        latent += (p["unites"] * (c - p["entree"]) * s - nuit_due) / conv[p["marche"]]
     etat["valeur"] = round(etat["capital"] + latent, 2)
     etat["courbe"].append({"quand": iso, "valeur": etat["valeur"]})
     etat["analyses"] = etat["analyses"][-60:]
