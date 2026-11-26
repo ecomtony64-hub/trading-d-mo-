@@ -48,21 +48,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T17:00+00:00",
-   "marche": "EURGBP",
-   "nom": "Euro / Livre",
-   "prix": 0.83696,
-   "jour": "RANGE",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T17:05+00:00",
    "marche": "EURGBP",
    "nom": "Euro / Livre",
@@ -967,6 +952,22 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T21:55+00:00",
+   "marche": "EURGBP",
+   "nom": "Euro / Livre",
+   "prix": 0.8368,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique de 4 h.",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1509,9 +1510,13 @@
   {
    "quand": "2026-11-26T21:55+00:00",
    "valeur": 98.45
+  },
+  {
+   "quand": "2026-11-26T21:55+00:00",
+   "valeur": 98.16
   }
  ],
- "valeur": 98.45,
+ "valeur": 98.16,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,

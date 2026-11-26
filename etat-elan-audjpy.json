@@ -20,21 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T17:00+00:00",
-   "marche": "AUDJPY",
-   "nom": "Dollar australien / Yen",
-   "prix": 105.619,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T17:05+00:00",
    "marche": "AUDJPY",
    "nom": "Dollar australien / Yen",
@@ -918,6 +903,21 @@
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T21:55+00:00",
+   "marche": "AUDJPY",
+   "nom": "Dollar australien / Yen",
+   "prix": 105.681,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1460,9 +1460,13 @@
   {
    "quand": "2026-11-26T21:55+00:00",
    "valeur": 100.45
+  },
+  {
+   "quand": "2026-11-26T21:55+00:00",
+   "valeur": 100.49
   }
  ],
- "valeur": 100.45,
+ "valeur": 100.49,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,

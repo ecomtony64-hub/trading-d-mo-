@@ -20,21 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T17:00+00:00",
-   "marche": "SOLANA",
-   "nom": "Solana",
-   "prix": 70.93,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T17:05+00:00",
    "marche": "SOLANA",
    "nom": "Solana",
@@ -916,6 +901,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T21:55+00:00",
+   "marche": "SOLANA",
+   "nom": "Solana",
+   "prix": 71.58,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1454,6 +1454,10 @@
   {
    "quand": "2026-11-26T21:50+00:00",
    "valeur": 100.22
+  },
+  {
+   "quand": "2026-11-26T21:55+00:00",
+   "valeur": 100.11
   },
   {
    "quand": "2026-11-26T21:55+00:00",
