@@ -559,6 +559,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T13:45+00:00",
+   "marche": "GBPJPY",
+   "nom": "Livre / Yen",
+   "prix": 208.772,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -701,6 +716,10 @@
   {
    "quand": "2026-11-26T13:40+00:00",
    "valeur": 98.59
+  },
+  {
+   "quand": "2026-11-26T13:45+00:00",
+   "valeur": 98.59
   }
  ],
  "valeur": 98.59,
@@ -709,7 +728,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T13:40+00:00",
+ "mis_a_jour": "2026-11-26T13:45+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Livre / Yen",
  "regle": "Livre / Yen seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
