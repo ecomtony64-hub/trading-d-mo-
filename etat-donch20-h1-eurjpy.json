@@ -25,21 +25,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-26T14:55+00:00",
-   "marche": "EURJPY",
-   "nom": "Euro / Yen",
-   "prix": 174.771,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T15:00+00:00",
    "marche": "EURJPY",
    "nom": "Euro / Yen",
@@ -963,6 +948,21 @@
     "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T19:50+00:00",
+   "marche": "EURJPY",
+   "nom": "Euro / Yen",
+   "prix": 174.713,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1401,6 +1401,10 @@
   {
    "quand": "2026-11-26T19:45+00:00",
    "valeur": 98.68
+  },
+  {
+   "quand": "2026-11-26T19:50+00:00",
+   "valeur": 98.68
   }
  ],
  "valeur": 98.68,
@@ -1409,7 +1413,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T19:45+00:00",
+ "mis_a_jour": "2026-11-26T19:50+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Euro / Yen",
  "regle": "Euro / Yen seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
