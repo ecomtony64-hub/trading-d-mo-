@@ -828,6 +828,21 @@
     "Stop trop loin : ce trade risquerait 49.26 € (plus de 15 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T15:25+00:00",
+   "marche": "DOW",
+   "nom": "Dow Jones (États-Unis)",
+   "prix": 50182.9,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 49.28 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1050,6 +1065,10 @@
   {
    "quand": "2026-11-26T15:20+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-26T15:25+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -1058,7 +1077,7 @@
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T15:20+00:00",
+ "mis_a_jour": "2026-11-26T15:25+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Dow Jones (États-Unis) (risque fort)",
  "regle": "Dow Jones (États-Unis) seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
