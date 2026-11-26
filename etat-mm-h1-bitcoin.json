@@ -1,0 +1,52 @@
+{
+ "capital_depart": 100.0,
+ "capital": 100.0,
+ "positions": [
+  {
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "sens": "ACHAT",
+   "entree": 60487.0,
+   "stop": 59852.0,
+   "objectif": 61757.0,
+   "unites": 0.001,
+   "risque": 0.58,
+   "marge": 27.52,
+   "reel": true,
+   "ouvert_le": "2026-11-26T10:50+00:00",
+   "t_entree": 1795690210
+  }
+ ],
+ "historique": [],
+ "analyses": [
+  {
+   "quand": "2026-11-26T10:50+00:00",
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "prix": 60437.0,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  }
+ ],
+ "courbe": [
+  {
+   "quand": "2026-11-26T10:50+00:00",
+   "valeur": 99.95
+  }
+ ],
+ "valeur": 99.95,
+ "news": "",
+ "methode": "mm_h1",
+ "ratio": 2.0,
+ "risque_vise": 1.0,
+ "conditions": "réelles",
+ "mis_a_jour": "2026-11-26T10:50+00:00",
+ "erreur_calendrier": null,
+ "nom": "Moyennes 1 h · Bitcoin",
+ "regle": "Bitcoin seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
+}

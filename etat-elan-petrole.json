@@ -1,0 +1,52 @@
+{
+ "capital_depart": 100.0,
+ "capital": 100.0,
+ "positions": [
+  {
+   "marche": "PETROLE",
+   "nom": "Pétrole WTI",
+   "sens": "ACHAT",
+   "entree": 84.45,
+   "stop": 83.67,
+   "objectif": 86.01,
+   "unites": 4,
+   "risque": 2.85,
+   "marge": 30.76,
+   "reel": true,
+   "ouvert_le": "2026-11-26T10:50+00:00",
+   "t_entree": 1795665600
+  }
+ ],
+ "historique": [],
+ "analyses": [
+  {
+   "quand": "2026-11-26T10:50+00:00",
+   "marche": "PETROLE",
+   "nom": "Pétrole WTI",
+   "prix": 84.42,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  }
+ ],
+ "courbe": [
+  {
+   "quand": "2026-11-26T10:50+00:00",
+   "valeur": 99.89
+  }
+ ],
+ "valeur": 99.89,
+ "news": "",
+ "methode": "elan",
+ "ratio": 2.0,
+ "risque_vise": 8.0,
+ "conditions": "réelles",
+ "mis_a_jour": "2026-11-26T10:50+00:00",
+ "erreur_calendrier": null,
+ "nom": "Élan 24 h · Pétrole WTI (risque fort)",
+ "regle": "Pétrole WTI seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
+}

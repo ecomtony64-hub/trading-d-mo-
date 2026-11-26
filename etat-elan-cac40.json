@@ -1,0 +1,52 @@
+{
+ "capital_depart": 100.0,
+ "capital": 100.0,
+ "positions": [
+  {
+   "marche": "CAC40",
+   "nom": "CAC 40 (France)",
+   "sens": "ACHAT",
+   "entree": 8134.8,
+   "stop": 8072.7,
+   "objectif": 8259.0,
+   "unites": 0.1,
+   "risque": 6.21,
+   "marge": 40.67,
+   "reel": true,
+   "ouvert_le": "2026-11-26T10:50+00:00",
+   "t_entree": 1795689300
+  }
+ ],
+ "historique": [],
+ "analyses": [
+  {
+   "quand": "2026-11-26T10:50+00:00",
+   "marche": "CAC40",
+   "nom": "CAC 40 (France)",
+   "prix": 8133.3,
+   "jour": "HAUSSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  }
+ ],
+ "courbe": [
+  {
+   "quand": "2026-11-26T10:50+00:00",
+   "valeur": 99.85
+  }
+ ],
+ "valeur": 99.85,
+ "news": "",
+ "methode": "elan",
+ "ratio": 2.0,
+ "risque_vise": 8.0,
+ "conditions": "réelles",
+ "mis_a_jour": "2026-11-26T10:50+00:00",
+ "erreur_calendrier": null,
+ "nom": "Élan 24 h · CAC 40 (France) (risque fort)",
+ "regle": "CAC 40 (France) seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
+}

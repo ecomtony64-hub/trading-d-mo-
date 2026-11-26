@@ -1,0 +1,52 @@
+{
+ "capital_depart": 100.0,
+ "capital": 100.0,
+ "positions": [
+  {
+   "marche": "EUROSTOXX",
+   "nom": "Euro Stoxx 50 (Europe)",
+   "sens": "VENTE",
+   "entree": 6016.6,
+   "stop": 6064.4,
+   "objectif": 5921.1,
+   "unites": 0.1,
+   "risque": 4.77,
+   "marge": 30.08,
+   "reel": true,
+   "ouvert_le": "2026-11-26T10:50+00:00",
+   "t_entree": 1795689300
+  }
+ ],
+ "historique": [],
+ "analyses": [
+  {
+   "quand": "2026-11-26T10:50+00:00",
+   "marche": "EUROSTOXX",
+   "nom": "Euro Stoxx 50 (Europe)",
+   "prix": 6016.6,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
+  }
+ ],
+ "courbe": [
+  {
+   "quand": "2026-11-26T10:50+00:00",
+   "valeur": 99.8
+  }
+ ],
+ "valeur": 99.8,
+ "news": "",
+ "methode": "elan",
+ "ratio": 2.0,
+ "risque_vise": 8.0,
+ "conditions": "réelles",
+ "mis_a_jour": "2026-11-26T10:50+00:00",
+ "erreur_calendrier": null,
+ "nom": "Élan 24 h · Euro Stoxx 50 (Europe) (risque fort)",
+ "regle": "Euro Stoxx 50 (Europe) seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
+}

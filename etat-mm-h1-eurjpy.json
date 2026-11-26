@@ -1,0 +1,52 @@
+{
+ "capital_depart": 100.0,
+ "capital": 100.0,
+ "positions": [
+  {
+   "marche": "EURJPY",
+   "nom": "Euro / Yen",
+   "sens": "ACHAT",
+   "entree": 174.855,
+   "stop": 174.586,
+   "objectif": 175.392,
+   "unites": 1000,
+   "risque": 1.54,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-26T10:50+00:00",
+   "t_entree": 1795690202
+  }
+ ],
+ "historique": [],
+ "analyses": [
+  {
+   "quand": "2026-11-26T10:50+00:00",
+   "marche": "EURJPY",
+   "nom": "Euro / Yen",
+   "prix": 174.835,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  }
+ ],
+ "courbe": [
+  {
+   "quand": "2026-11-26T10:50+00:00",
+   "valeur": 99.89
+  }
+ ],
+ "valeur": 99.89,
+ "news": "",
+ "methode": "mm_h1",
+ "ratio": 2.0,
+ "risque_vise": 1.0,
+ "conditions": "réelles",
+ "mis_a_jour": "2026-11-26T10:50+00:00",
+ "erreur_calendrier": null,
+ "nom": "Moyennes 1 h · Euro / Yen",
+ "regle": "Euro / Yen seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
+}

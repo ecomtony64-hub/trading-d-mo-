@@ -1,0 +1,52 @@
+{
+ "capital_depart": 100.0,
+ "capital": 100.0,
+ "positions": [
+  {
+   "marche": "USDCHF",
+   "nom": "Dollar / Franc suisse",
+   "sens": "ACHAT",
+   "entree": 0.83347,
+   "stop": 0.83207,
+   "objectif": 0.83628,
+   "unites": 1000,
+   "risque": 1.54,
+   "marge": 30.37,
+   "reel": true,
+   "ouvert_le": "2026-11-26T10:50+00:00",
+   "t_entree": 1795690205
+  }
+ ],
+ "historique": [],
+ "analyses": [
+  {
+   "quand": "2026-11-26T10:50+00:00",
+   "marche": "USDCHF",
+   "nom": "Dollar / Franc suisse",
+   "prix": 0.83327,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
+  }
+ ],
+ "courbe": [
+  {
+   "quand": "2026-11-26T10:50+00:00",
+   "valeur": 99.78
+  }
+ ],
+ "valeur": 99.78,
+ "news": "",
+ "methode": "c:donch20-h1",
+ "ratio": 2.0,
+ "risque_vise": 1.0,
+ "conditions": "réelles",
+ "mis_a_jour": "2026-11-26T10:50+00:00",
+ "erreur_calendrier": null,
+ "nom": "Cassure 20 bougies 1 h · Dollar / Franc suisse",
+ "regle": "Dollar / Franc suisse seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
+}
