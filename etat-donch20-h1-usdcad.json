@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
+ "positions": [
+  {
+   "marche": "USDCAD",
+   "nom": "Dollar / Dollar canadien",
+   "sens": "ACHAT",
+   "entree": 1.42412,
+   "stop": 1.42228,
+   "objectif": 1.4278,
+   "unites": 1000,
+   "risque": 1.18,
+   "marge": 30.36,
+   "reel": true,
+   "ouvert_le": "2026-11-26T15:05+00:00",
+   "t_entree": 1795705504
+  }
+ ],
  "historique": [],
  "analyses": [
   {
@@ -768,6 +783,19 @@
     "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T15:05+00:00",
+   "marche": "USDCAD",
+   "nom": "Dollar / Dollar canadien",
+   "prix": 1.42392,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -974,15 +1002,19 @@
   {
    "quand": "2026-11-26T15:00+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-26T15:05+00:00",
+   "valeur": 99.87
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.87,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T15:00+00:00",
+ "mis_a_jour": "2026-11-26T15:05+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Dollar / Dollar canadien",
  "regle": "Dollar / Dollar canadien seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
