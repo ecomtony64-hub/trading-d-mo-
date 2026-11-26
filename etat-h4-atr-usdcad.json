@@ -48,21 +48,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T14:20+00:00",
-   "marche": "USDCAD",
-   "nom": "Dollar / Dollar canadien",
-   "prix": 1.42296,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T14:25+00:00",
    "marche": "USDCAD",
    "nom": "Dollar / Dollar canadien",
@@ -942,6 +927,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T19:15+00:00",
+   "marche": "USDCAD",
+   "nom": "Dollar / Dollar canadien",
+   "prix": 1.42472,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1352,6 +1352,10 @@
   {
    "quand": "2026-11-26T19:10+00:00",
    "valeur": 97.52
+  },
+  {
+   "quand": "2026-11-26T19:15+00:00",
+   "valeur": 97.52
   }
  ],
  "valeur": 97.52,
@@ -1360,7 +1364,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T19:10+00:00",
+ "mis_a_jour": "2026-11-26T19:15+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h, stop serré · Dollar / Dollar canadien",
  "regle": "Dollar / Dollar canadien seulement. Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
