@@ -76,6 +76,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T11:10+00:00",
+   "marche": "GBPJPY",
+   "nom": "Livre / Yen",
+   "prix": 208.833,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -94,6 +109,10 @@
   {
    "quand": "2026-11-26T11:05+00:00",
    "valeur": 99.65
+  },
+  {
+   "quand": "2026-11-26T11:10+00:00",
+   "valeur": 99.65
   }
  ],
  "valeur": 99.65,
@@ -102,7 +121,7 @@
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T11:05+00:00",
+ "mis_a_jour": "2026-11-26T11:10+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Livre / Yen (risque fort)",
  "regle": "Livre / Yen seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
