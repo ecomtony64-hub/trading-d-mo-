@@ -1,23 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 98.37,
- "positions": [
-  {
-   "marche": "USDCHF",
-   "nom": "Dollar / Franc suisse",
-   "sens": "ACHAT",
-   "entree": 0.83425,
-   "stop": 0.83301,
-   "objectif": 0.83672,
-   "unites": 1000,
-   "risque": 1.35,
-   "marge": 30.38,
-   "reel": true,
-   "ouvert_le": "2026-11-26T22:05+00:00",
-   "t_entree": 1795730694,
-   "t_reel": 1795730718
-  }
- ],
+ "capital": 96.9,
+ "positions": [],
  "historique": [
   {
    "marche": "USDCHF",
@@ -37,24 +21,29 @@
    "ferme_le": "2026-11-26T22:00+00:00",
    "frais_nuit": 0.05,
    "resultat": -1.63
+  },
+  {
+   "marche": "USDCHF",
+   "nom": "Dollar / Franc suisse",
+   "sens": "ACHAT",
+   "entree": 0.83425,
+   "stop": 0.83301,
+   "objectif": 0.83672,
+   "unites": 1000,
+   "risque": 1.35,
+   "marge": 30.38,
+   "reel": true,
+   "ouvert_le": "2026-11-26T22:05+00:00",
+   "t_entree": 1795730694,
+   "t_reel": 1795730718,
+   "sortie": 0.83291,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-26T22:20+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.47
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-26T17:30+00:00",
-   "marche": "USDCHF",
-   "nom": "Dollar / Franc suisse",
-   "prix": 0.83428,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-26T17:35+00:00",
    "marche": "USDCHF",
@@ -936,6 +925,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T22:25+00:00",
+   "marche": "USDCHF",
+   "nom": "Dollar / Franc suisse",
+   "prix": 0.83348,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1502,15 +1506,19 @@
   {
    "quand": "2026-11-26T22:20+00:00",
    "valeur": 97.59
+  },
+  {
+   "quand": "2026-11-26T22:25+00:00",
+   "valeur": 96.9
   }
  ],
- "valeur": 97.59,
+ "valeur": 96.9,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T22:20+00:00",
+ "mis_a_jour": "2026-11-26T22:25+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Dollar / Franc suisse",
  "regle": "Dollar / Franc suisse seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
