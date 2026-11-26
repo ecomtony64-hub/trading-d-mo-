@@ -213,6 +213,21 @@
     "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T12:00+00:00",
+   "marche": "EURCHF",
+   "nom": "Euro / Franc suisse",
+   "prix": 0.91559,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -271,6 +286,10 @@
   {
    "quand": "2026-11-26T11:55+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-26T12:00+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -279,7 +298,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T11:55+00:00",
+ "mis_a_jour": "2026-11-26T12:00+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Euro / Franc suisse",
  "regle": "Euro / Franc suisse seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
