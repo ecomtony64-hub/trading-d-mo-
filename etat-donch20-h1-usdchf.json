@@ -20,21 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T16:20+00:00",
-   "marche": "USDCHF",
-   "nom": "Dollar / Franc suisse",
-   "prix": 0.83385,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T16:25+00:00",
    "marche": "USDCHF",
    "nom": "Dollar / Franc suisse",
@@ -909,6 +894,21 @@
    "marche": "USDCHF",
    "nom": "Dollar / Franc suisse",
    "prix": 0.8343,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T21:20+00:00",
+   "marche": "USDCHF",
+   "nom": "Dollar / Franc suisse",
+   "prix": 0.83437,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -1428,15 +1428,19 @@
   {
    "quand": "2026-11-26T21:15+00:00",
    "valeur": 100.91
+  },
+  {
+   "quand": "2026-11-26T21:20+00:00",
+   "valeur": 100.98
   }
  ],
- "valeur": 100.91,
+ "valeur": 100.98,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T21:15+00:00",
+ "mis_a_jour": "2026-11-26T21:20+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Dollar / Franc suisse",
  "regle": "Dollar / Franc suisse seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
