@@ -20,22 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T11:20+00:00",
-   "marche": "EURCHF",
-   "nom": "Euro / Franc suisse",
-   "prix": 0.91497,
-   "jour": "HAUSSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T11:25+00:00",
    "marche": "EURCHF",
    "nom": "Euro / Franc suisse",
@@ -952,6 +936,21 @@
    "marche": "EURCHF",
    "nom": "Euro / Franc suisse",
    "prix": 0.91506,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T16:15+00:00",
+   "marche": "EURCHF",
+   "nom": "Euro / Franc suisse",
+   "prix": 0.91502,
    "jour": "HAUSSIER",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -1227,9 +1226,13 @@
   {
    "quand": "2026-11-26T16:15+00:00",
    "valeur": 100.39
+  },
+  {
+   "quand": "2026-11-26T16:15+00:00",
+   "valeur": 100.35
   }
  ],
- "valeur": 100.39,
+ "valeur": 100.35,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,

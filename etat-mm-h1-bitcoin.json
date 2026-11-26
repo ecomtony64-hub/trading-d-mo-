@@ -44,21 +44,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-26T11:20+00:00",
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "prix": 60585.0,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T11:25+00:00",
    "marche": "BITCOIN",
    "nom": "Bitcoin",
@@ -940,6 +925,21 @@
     "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T16:15+00:00",
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "prix": 60531.0,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1201,6 +1201,10 @@
   },
   {
    "quand": "2026-11-26T16:10+00:00",
+   "valeur": 98.94
+  },
+  {
+   "quand": "2026-11-26T16:15+00:00",
    "valeur": 98.94
   },
   {

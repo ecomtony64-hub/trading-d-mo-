@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T11:20+00:00",
-   "marche": "SP500",
-   "nom": "S&P 500 (États-Unis)",
-   "prix": 7182.8,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 16.76 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T11:25+00:00",
    "marche": "SP500",
    "nom": "S&P 500 (États-Unis)",
@@ -903,6 +888,21 @@
     "Stop trop loin : ce trade risquerait 16.76 € (plus de 15 % du compte)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T16:15+00:00",
+   "marche": "SP500",
+   "nom": "S&P 500 (États-Unis)",
+   "prix": 7182.8,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 16.76 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1164,6 +1164,10 @@
   },
   {
    "quand": "2026-11-26T16:10+00:00",
+   "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-26T16:15+00:00",
    "valeur": 100.0
   },
   {

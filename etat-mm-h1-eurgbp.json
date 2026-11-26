@@ -15,6 +15,20 @@
    "reel": true,
    "ouvert_le": "2026-11-26T10:50+00:00",
    "t_entree": 1795690205
+  },
+  {
+   "marche": "EURGBP",
+   "nom": "Euro / Livre",
+   "sens": "ACHAT",
+   "entree": 0.83716,
+   "stop": 0.83638,
+   "objectif": 0.83872,
+   "unites": 1000,
+   "risque": 0.93,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-26T16:15+00:00",
+   "t_entree": 1795709728
   }
  ],
  "historique": [
@@ -39,21 +53,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-26T11:20+00:00",
-   "marche": "EURGBP",
-   "nom": "Euro / Livre",
-   "prix": 0.8372,
-   "jour": "RANGE",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-26T11:25+00:00",
    "marche": "EURGBP",
@@ -936,6 +935,19 @@
     "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T16:15+00:00",
+   "marche": "EURGBP",
+   "nom": "Euro / Livre",
+   "prix": 0.83701,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1202,9 +1214,13 @@
   {
    "quand": "2026-11-26T16:15+00:00",
    "valeur": 98.66
+  },
+  {
+   "quand": "2026-11-26T16:15+00:00",
+   "valeur": 98.62
   }
  ],
- "valeur": 98.66,
+ "valeur": 98.62,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,

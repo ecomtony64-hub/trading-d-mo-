@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 98.51,
- "positions": [],
+ "positions": [
+  {
+   "marche": "XRP",
+   "nom": "XRP (Ripple)",
+   "sens": "ACHAT",
+   "entree": 0.9528,
+   "stop": 0.9431,
+   "objectif": 0.9722,
+   "unites": 70,
+   "risque": 0.62,
+   "marge": 30.29,
+   "reel": true,
+   "ouvert_le": "2026-11-26T16:15+00:00",
+   "t_entree": 1795709733
+  }
+ ],
  "historique": [
   {
    "marche": "XRP",
@@ -43,21 +58,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-26T11:20+00:00",
-   "marche": "XRP",
-   "nom": "XRP (Ripple)",
-   "prix": 0.9521,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-26T11:25+00:00",
    "marche": "XRP",
@@ -940,6 +940,19 @@
     "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T16:15+00:00",
+   "marche": "XRP",
+   "nom": "XRP (Ripple)",
+   "prix": 0.9498,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1206,9 +1219,13 @@
   {
    "quand": "2026-11-26T16:15+00:00",
    "valeur": 98.51
+  },
+  {
+   "quand": "2026-11-26T16:15+00:00",
+   "valeur": 98.32
   }
  ],
- "valeur": 98.51,
+ "valeur": 98.32,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,

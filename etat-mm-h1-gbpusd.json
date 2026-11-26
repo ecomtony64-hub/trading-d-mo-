@@ -40,22 +40,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-26T11:20+00:00",
-   "marche": "GBPUSD",
-   "nom": "Livre / Dollar",
-   "prix": 1.31032,
-   "jour": "RANGE",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette.",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T11:25+00:00",
    "marche": "GBPUSD",
    "nom": "Livre / Dollar",
@@ -950,6 +934,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T16:15+00:00",
+   "marche": "GBPUSD",
+   "nom": "Livre / Dollar",
+   "prix": 1.31099,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1216,9 +1215,13 @@
   {
    "quand": "2026-11-26T16:15+00:00",
    "valeur": 98.54
+  },
+  {
+   "quand": "2026-11-26T16:15+00:00",
+   "valeur": 98.62
   }
  ],
- "valeur": 98.54,
+ "valeur": 98.62,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,

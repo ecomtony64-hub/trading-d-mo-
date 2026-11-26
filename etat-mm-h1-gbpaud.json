@@ -20,19 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T11:20+00:00",
-   "marche": "GBPAUD",
-   "nom": "Livre / Dollar australien",
-   "prix": 1.97619,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "TRADE",
-   "sens": "VENTE",
-   "raisons": [],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T11:25+00:00",
    "marche": "GBPAUD",
    "nom": "Livre / Dollar australien",
@@ -915,6 +902,21 @@
    "marche": "GBPAUD",
    "nom": "Livre / Dollar australien",
    "prix": 1.97708,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T16:15+00:00",
+   "marche": "GBPAUD",
+   "nom": "Livre / Dollar australien",
+   "prix": 1.97683,
    "jour": "HAUSSIER",
    "h4": "HAUSSIER",
    "h1": "RANGE",
@@ -1190,9 +1192,13 @@
   {
    "quand": "2026-11-26T16:15+00:00",
    "valeur": 99.22
+  },
+  {
+   "quand": "2026-11-26T16:15+00:00",
+   "valeur": 99.37
   }
  ],
- "valeur": 99.22,
+ "valeur": 99.37,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
