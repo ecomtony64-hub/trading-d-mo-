@@ -32,6 +32,44 @@ RISQUE_TOTAL = 0.20  # risque total de tous les trades ouverts : 20 % du compte 
 # Comptes « or » (Tony, 24/11) : ils ne tradent que l'or, par tailles de 0,01 once (courtier à micro-lots d'or),
 # taille calculée pour risquer un % précis du compte, 4 trades ouverts au plus, 1 h entre deux ouvertures.
 PAS_OR = 0.01
+# Autres marchés (Tony, 26/11 : « Élan 24 h » sur tous les marchés possibles). Ils ne sont lus que par les comptes
+# qui ont --marche CODE : les comptes EUR/USD et or ne changent pas.
+# code : (nom, symbole Yahoo, devises surveillées dans le calendrier, devise de cotation, décimales,
+#         spread, levier légal européen, plus petite taille, frais par nuit en % du prix)
+AUTRES = {
+    "GBPUSD": ("Livre / Dollar", "GBPUSD=X", ["GBP", "USD"], "USD", 5, 0.00015, 30, 1000, 0.00005),
+    "USDJPY": ("Dollar / Yen", "USDJPY=X", ["USD", "JPY"], "JPY", 3, 0.015, 30, 1000, 0.00005),
+    "AUDUSD": ("Dollar australien / Dollar", "AUDUSD=X", ["AUD", "USD"], "USD", 5, 0.00015, 20, 1000, 0.00005),
+    "NZDUSD": ("Dollar néo-zélandais / Dollar", "NZDUSD=X", ["NZD", "USD"], "USD", 5, 0.0002, 20, 1000, 0.00005),
+    "USDCAD": ("Dollar / Dollar canadien", "USDCAD=X", ["USD", "CAD"], "CAD", 5, 0.0002, 30, 1000, 0.00005),
+    "USDCHF": ("Dollar / Franc suisse", "USDCHF=X", ["USD", "CHF"], "CHF", 5, 0.0002, 30, 1000, 0.00005),
+    "EURGBP": ("Euro / Livre", "EURGBP=X", ["EUR", "GBP"], "GBP", 5, 0.00015, 30, 1000, 0.00005),
+    "EURJPY": ("Euro / Yen", "EURJPY=X", ["EUR", "JPY"], "JPY", 3, 0.02, 30, 1000, 0.00005),
+    "EURCHF": ("Euro / Franc suisse", "EURCHF=X", ["EUR", "CHF"], "CHF", 5, 0.0002, 30, 1000, 0.00005),
+    "EURAUD": ("Euro / Dollar australien", "EURAUD=X", ["EUR", "AUD"], "AUD", 5, 0.0003, 20, 1000, 0.00005),
+    "GBPJPY": ("Livre / Yen", "GBPJPY=X", ["GBP", "JPY"], "JPY", 3, 0.03, 20, 1000, 0.00005),
+    "AUDJPY": ("Dollar australien / Yen", "AUDJPY=X", ["AUD", "JPY"], "JPY", 3, 0.02, 20, 1000, 0.00005),
+    "GBPAUD": ("Livre / Dollar australien", "GBPAUD=X", ["GBP", "AUD"], "AUD", 5, 0.0004, 20, 1000, 0.00005),
+    "CHFJPY": ("Franc suisse / Yen", "CHFJPY=X", ["CHF", "JPY"], "JPY", 3, 0.03, 20, 1000, 0.00005),
+    "SP500": ("S&P 500 (États-Unis)", "^GSPC", ["USD"], "USD", 1, 0.5, 20, 0.1, 0.0002),
+    "NASDAQ": ("Nasdaq 100 (États-Unis)", "^NDX", ["USD"], "USD", 1, 1.5, 20, 0.1, 0.0002),
+    "DOW": ("Dow Jones (États-Unis)", "^DJI", ["USD"], "USD", 1, 3.0, 20, 0.1, 0.0002),
+    "DAX": ("DAX (Allemagne)", "^GDAXI", ["EUR"], "EUR", 1, 1.5, 20, 0.1, 0.0002),
+    "CAC40": ("CAC 40 (France)", "^FCHI", ["EUR"], "EUR", 1, 1.5, 20, 0.1, 0.0002),
+    "EUROSTOXX": ("Euro Stoxx 50 (Europe)", "^STOXX50E", ["EUR"], "EUR", 1, 2.0, 20, 0.1, 0.0002),
+    "FTSE": ("FTSE 100 (Londres)", "^FTSE", ["GBP"], "GBP", 1, 1.5, 20, 0.1, 0.0002),
+    "NIKKEI": ("Nikkei 225 (Japon)", "^N225", ["JPY"], "JPY", 0, 10.0, 20, 0.1, 0.0002),
+    "ARGENT": ("Argent (métal)", "SI=F", ["USD"], "USD", 3, 0.03, 10, 1, 0.0002),
+    "PETROLE": ("Pétrole WTI", "CL=F", ["USD"], "USD", 2, 0.03, 10, 1, 0.0002),
+    "BRENT": ("Pétrole Brent", "BZ=F", ["USD"], "USD", 2, 0.03, 10, 1, 0.0002),
+    "GAZ": ("Gaz naturel", "NG=F", ["USD"], "USD", 3, 0.005, 10, 10, 0.0002),
+    "CUIVRE": ("Cuivre", "HG=F", ["USD"], "USD", 4, 0.005, 10, 10, 0.0002),
+    "BITCOIN": ("Bitcoin", "BTC-USD", ["USD"], "USD", 0, 50.0, 2, 0.001, 0.0006),
+    "ETHEREUM": ("Ethereum", "ETH-USD", ["USD"], "USD", 1, 3.0, 2, 0.01, 0.0006),
+    "SOLANA": ("Solana", "SOL-USD", ["USD"], "USD", 2, 0.3, 2, 0.1, 0.0006),
+    "XRP": ("XRP (Ripple)", "XRP-USD", ["USD"], "USD", 4, 0.003, 2, 10, 0.0006),
+}
+COTATION = {"EURUSD": "USD", "OR": "USD"}
 MAJEURES = ("FOMC", "Federal Funds Rate", "Non-Farm", "CPI")
 
 
@@ -319,9 +357,23 @@ def main():
     rouges, err_cal = calendrier(maintenant)
     donnees = {}
     for code, m in MARCHES.items():
+        if seul in AUTRES and code != "EURUSD":   # comptes « autres marchés » : seul l'EUR/USD (taux de change) est utile
+            continue
         donnees[code] = {"j": bougies(m["yahoo"], "1d", "1y"), "h1": bougies(m["yahoo"], "60m", "60d")}
         donnees[code]["h4"] = en_h4(donnees[code]["h1"])
     eurusd = donnees["EURUSD"]["h1"][-1]["c"]
+    # conv[code] = combien d'unités de la devise de cotation vaut 1 € (pour tout ramener en euros)
+    conv = {"EURUSD": eurusd, "OR": eurusd}
+    if seul in AUTRES:
+        nom_m, yahoo, devises, cot, dec, spread, levier, pas_m, nuit = AUTRES[seul]
+        marches = {seul: {"nom": nom_m, "yahoo": yahoo, "devises": devises, "decimales": dec}}
+        donnees[seul] = {"j": bougies(yahoo, "1d", "1y"), "h1": bougies(yahoo, "60m", "60d")}
+        donnees[seul]["h4"] = en_h4(donnees[seul]["h1"])
+        prix_m = donnees[seul]["h1"][-1]["c"]
+        FRAIS[seul] = {"spread": spread, "glissement": spread / 2, "nuit": prix_m * nuit, "pas": pas_m, "levier": levier}
+        conv[seul] = {"USD": eurusd, "EUR": 1.0}.get(cot) or bougies(f"EUR{cot}=X", "60m", "60d")[-1]["c"]
+    else:
+        marches = MARCHES
     if limite is None:
         limite = 1 if maxi else MAX_OUVERTS
     if risque_trade is not None:
@@ -349,16 +401,17 @@ def main():
                     prix = pos["objectif"]
                 nuits = int((b["t"] - pos["t_entree"]) // 86400) if reel else 0
                 frais = pos["unites"] * f["nuit"] * nuits
-                etat["capital"] = round(etat["capital"] + fermer(pos, prix, "Stop touché" if stop else "Objectif atteint", quand, eurusd, frais), 2)
+                etat["capital"] = round(etat["capital"] + fermer(pos, prix, "Stop touché" if stop else "Objectif atteint", quand, conv[pos["marche"]], frais), 2)
                 etat["positions"].remove(pos)
                 etat["historique"].append(pos)
                 break
 
     # 2. Analyse de chaque marché
-    for code, m in MARCHES.items():
+    for code, m in marches.items():
         if seul and code != seul:
             continue
         d = donnees[code]
+        cv = conv[code]
         tj, _, _ = tendance(d["j"])
         t4, h4_hauts, h4_bas = tendance(d["h4"])
         t1, h1_hauts, h1_bas = tendance(d["h1"])
@@ -412,16 +465,16 @@ def main():
                 if risque_trade is not None:   # comptes or : risquer risque_trade du compte (compte de départ pour les « risque max »)
                     pas = PAS_OR if code == "OR" else f["pas"]
                     base = etat.get("capital_depart", 100.0) if maxi else max(etat["capital"], 0)
-                    unites = max(pas, round(int(base * risque_trade * eurusd / dist / pas + 1e-9) * pas, 2))
+                    unites = max(pas, round(int(base * risque_trade * cv / dist / pas + 1e-9) * pas, 2))
                 elif maxi:   # taille fixe : 90 % de 100 € en garantie (2 000 unités d'EUR/USD), même si le compte baisse ou passe sous 0 (Tony, 19/11)
-                    ideal = 0.9 * etat.get("capital_depart", 100.0) * eurusd * f["levier"] / prix
+                    ideal = 0.9 * etat.get("capital_depart", 100.0) * cv * f["levier"] / prix
                     unites = max(f["pas"], int(ideal // f["pas"]) * f["pas"])
                 else:
-                    ideal = MARGE_TRADE * eurusd * f["levier"] / prix
-                    unites = max(f["pas"], int(round(ideal / f["pas"])) * f["pas"])   # arrondi à la taille du courtier
+                    ideal = MARGE_TRADE * cv * f["levier"] / prix
+                    unites = round(max(f["pas"], int(round(ideal / f["pas"])) * f["pas"]), 6)   # arrondi à la taille du courtier
                 marge_prise = sum(p.get("marge", 0) for p in etat["positions"])
-                risque_eur = round(unites * dist / eurusd, 2)
-                marge = round(unites * prix / f["levier"] / eurusd, 2)
+                risque_eur = round(unites * dist / cv, 2)
+                marge = round(unites * prix / f["levier"] / cv, 2)
                 risque_ouvert = sum(p.get("risque", 0) for p in etat["positions"])
                 plafond = 0.25 if maxi else RISQUE_MAX_TRADE
                 sans_limite = maxi and (code == "EURUSD" or seul == code)   # risque max : aucun blocage, il trade jusqu'au bout, solde négatif compris
@@ -449,7 +502,7 @@ def main():
         c = donnees[p["marche"]]["h1"][-1]["c"]
         if s == -1 and p.get("reel"):
             c += FRAIS[p["marche"]]["spread"]
-        latent += p["unites"] * (c - p["entree"]) * s / eurusd
+        latent += p["unites"] * (c - p["entree"]) * s / conv[p["marche"]]
     etat["valeur"] = round(etat["capital"] + latent, 2)
     etat["courbe"].append({"quand": iso, "valeur": etat["valeur"]})
     etat["analyses"] = etat["analyses"][-60:]
@@ -463,7 +516,7 @@ def main():
     etat["mis_a_jour"] = iso
     etat["erreur_calendrier"] = err_cal
     json.dump(etat, open(chemin, "w"), ensure_ascii=False, indent=1)
-    for a in etat["analyses"][-(1 if seul else len(MARCHES)):]:
+    for a in etat["analyses"][-(1 if seul else len(marches)):]:
         print(a["nom"], a["prix"], a["jour"], a["h4"], a["h1"], "->", a["verdict"], a["sens"] or "", "|", " ".join(a["raisons"]))
     print("Valeur du compte :", etat["valeur"], "€")
 

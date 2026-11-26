@@ -17,7 +17,8 @@ for doc, c in comptes.items():
     out[doc] = d
 # Prix pour la Salle de trading : les 80 dernières bougies d'1 h téléchargées par le moteur (t en millisecondes).
 prix = {}
-for code, sym in (("EURUSD", "EURUSD=X"), ("OR", "GC=F")):
+from moteur import AUTRES   # autres marchés (26/11) : codes et symboles Yahoo
+for code, sym in [("EURUSD", "EURUSD=X"), ("OR", "GC=F")] + [(k, v[1]) for k, v in AUTRES.items()]:
     f = os.path.join(ici, f"prix-cache-{sym}-60m-60d.json")
     if os.path.exists(f):
         b = json.load(open(f))[-80:]

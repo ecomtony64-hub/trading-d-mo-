@@ -23,3 +23,12 @@
 - Prudent/normal/fort : refus si le risque total ouvert dépasse 20 % du compte, si un trade risque plus de 15 % du compte, ou si la garantie manque.
 - Méthodes : les 15 meilleures des 100 méthodes sur 2 ans d'or (test du 24/11, frais compris ; l'or a beaucoup monté sur cette période, donc les méthodes qui suivent la tendance en profitent) + 10 méthodes maison de l'EUR/USD pour comparer. Liste et réglages dans or/activer.py.
 - Les comptes EUR/USD ne changent pas.
+
+## Tri et autres marchés (Tony, 26/11)
+
+- Tony a gardé seulement les comptes à 120 € ou plus (19 comptes, presque tous sur l'or). Les 188 autres sont rangés dans supprimes-26-11/ (rien n'est perdu).
+- Les 5 meilleures méthodes sont copiées sur 31 autres marchés : Élan 24 h, Tendance 4 h stop serré, Cassure 20 bougies 1 h, Cassure 20 + moyenne 200 1 h, Moyennes 1 h.
+  Marchés : 14 paires de devises (GBP/USD, USD/JPY, AUD/USD, NZD/USD, USD/CAD, USD/CHF, EUR/GBP, EUR/JPY, EUR/CHF, EUR/AUD, GBP/JPY, AUD/JPY, GBP/AUD, CHF/JPY),
+  8 indices (S&P 500, Nasdaq 100, Dow Jones, DAX, CAC 40, Euro Stoxx 50, FTSE 100, Nikkei), 5 matières premières (argent, pétrole WTI et Brent, gaz, cuivre), 4 cryptos (Bitcoin, Ethereum, Solana, XRP).
+- Chaque copie : 100 € fictifs à elle, un seul marché, environ 30 € de garantie par trade avec le levier légal européen (30 grandes paires, 20 autres paires et indices, 10 matières premières, 2 crypto), pause sous 50 €, mêmes limites que les comptes EUR/USD (stop ≤ 15 % du compte, risque total ≤ 20 %, 4 h entre deux ouvertures).
+- Les gains et pertes sont convertis en euros. Frais réalistes (écart, glissement, nuits) réglés dans AUTRES de moteur.py.

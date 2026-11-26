@@ -200,7 +200,7 @@ header{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;
       const r1=el("div","row"), nm=el("span","nm",nom(x.k)); r1.appendChild(nm);
       const l=latent(p); r1.appendChild(el("span","pnl "+cls(l),sg(l))); li.appendChild(r1);
       const r2=el("div","row"); const pl=el("span");
-      pl.appendChild(el("span","pill "+(p.sens==="ACHAT"?"p-up":"p-down"),(p.sens==="ACHAT"?"▲ Achat ":"▼ Vente ")+(p.marche==="OR"?"Or":"EUR/USD")));
+      pl.appendChild(el("span","pill "+(p.sens==="ACHAT"?"p-up":"p-down"),(p.sens==="ACHAT"?"▲ Achat ":"▼ Vente ")+(p.nom||(p.marche==="OR"?"Or":"EUR/USD"))));
       if(estMax(x.k)){ pl.append(" "); pl.appendChild(el("span","pill p-max","mise max")); }
       r2.appendChild(pl); r2.appendChild(el("span","small muted mono","depuis "+jh(p.ouvert_le))); li.appendChild(r2);
       // jauge stop → objectif
@@ -294,7 +294,7 @@ header{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;
     E.slice(0,30).forEach(e=>{ const li=el("li","ev"); li.tabIndex=0; const p=e.p, a=p.sens==="ACHAT";
       const ic=el("span","ic",e.ty==="o"?(a?"▲":"▼"):(p.resultat>=0?"✓":"✕")); ic.style.background=e.ty==="o"?"var(--accent-soft)":p.resultat>=0?"var(--up-soft)":"var(--down-soft)"; ic.style.color=e.ty==="o"?"var(--accent)":p.resultat>=0?"var(--up)":"var(--down)"; li.appendChild(ic);
       const tx=el("span","tx"); tx.appendChild(el("b",null,nom(e.k)));
-      tx.appendChild(el("span",null,(e.ty==="o"?(a?"Achète ":"Vend ")+(p.marche==="OR"?"de l'or":"l'euro")+" à "+px(p.marche,p.entree):(p.motif||"Sortie")+" à "+px(p.marche,p.sortie))+" · "+jh(e.t))); li.appendChild(tx);
+      tx.appendChild(el("span",null,(e.ty==="o"?(a?"Achète ":"Vend ")+(p.marche==="OR"?"de l'or":p.marche==="EURUSD"?"l'euro":(p.nom||p.marche))+" à "+px(p.marche,p.entree):(p.motif||"Sortie")+" à "+px(p.marche,p.sortie))+" · "+jh(e.t))); li.appendChild(tx);
       li.appendChild(e.ty==="o"?el("span","small mono muted","mise "+eur(p.marge)):el("span","num mono "+cls(p.resultat),sg(Number(p.resultat)||0)));
       if(e.ty==="o"){ const id=e.k+"#"+(docs[e.k].positions||[]).indexOf(p); li.addEventListener("click",()=>{ selT=id; if(p.marche!==marche) setM(p.marche); else tout(); $("box").scrollIntoView({behavior:"smooth",block:"center"}); }); }
       ul.appendChild(li); });
