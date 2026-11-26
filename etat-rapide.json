@@ -396,36 +396,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-25T11:00+00:00",
-   "marche": "EURUSD",
-   "nom": "Euro / Dollar",
-   "prix": 1.09469,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique d'1 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-25T11:00+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3557.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 162.5 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-25T11:05+00:00",
    "marche": "EURUSD",
    "nom": "Euro / Dollar",
@@ -1290,6 +1260,36 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 29.69 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T03:40+00:00",
+   "marche": "EURUSD",
+   "nom": "Euro / Dollar",
+   "prix": 1.09649,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-26T03:40+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3604.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 23.48 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -4678,6 +4678,10 @@
   {
    "quand": "2026-11-26T03:35+00:00",
    "valeur": 86.99
+  },
+  {
+   "quand": "2026-11-26T03:40+00:00",
+   "valeur": 86.99
   }
  ],
  "valeur": 86.99,
@@ -4685,7 +4689,7 @@
  "methode": "rapide",
  "ratio": 2.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T03:35+00:00",
+ "mis_a_jour": "2026-11-26T03:40+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 1 h (risque fort)",
  "regle": "Tendance du graphique d'1 h seul, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade",
