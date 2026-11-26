@@ -15,6 +15,20 @@
    "reel": true,
    "ouvert_le": "2026-11-26T10:50+00:00",
    "t_entree": 1795689300
+  },
+  {
+   "marche": "CAC40",
+   "nom": "CAC 40 (France)",
+   "sens": "ACHAT",
+   "entree": 8125.1,
+   "stop": 8074.1,
+   "objectif": 8227.1,
+   "unites": 0.1,
+   "risque": 5.1,
+   "marge": 40.62,
+   "reel": true,
+   "ouvert_le": "2026-11-26T14:55+00:00",
+   "t_entree": 1795704000
   }
  ],
  "historique": [],
@@ -751,6 +765,19 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T14:55+00:00",
+   "marche": "CAC40",
+   "nom": "CAC 40 (France)",
+   "prix": 8123.6,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -949,15 +976,19 @@
   {
    "quand": "2026-11-26T14:50+00:00",
    "valeur": 98.0
+  },
+  {
+   "quand": "2026-11-26T14:55+00:00",
+   "valeur": 98.73
   }
  ],
- "valeur": 98.0,
+ "valeur": 98.73,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T14:50+00:00",
+ "mis_a_jour": "2026-11-26T14:55+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · CAC 40 (France)",
  "regle": "CAC 40 (France) seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"

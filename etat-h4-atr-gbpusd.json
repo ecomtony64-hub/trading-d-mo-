@@ -15,6 +15,20 @@
    "reel": true,
    "ouvert_le": "2026-11-26T10:50+00:00",
    "t_entree": 1795690183
+  },
+  {
+   "marche": "GBPUSD",
+   "nom": "Livre / Dollar",
+   "sens": "ACHAT",
+   "entree": 1.31071,
+   "stop": 1.30643,
+   "objectif": 1.31928,
+   "unites": 1000,
+   "risque": 3.9,
+   "marge": 39.78,
+   "reel": true,
+   "ouvert_le": "2026-11-26T14:55+00:00",
+   "t_entree": 1795704883
   }
  ],
  "historique": [],
@@ -751,6 +765,19 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T14:55+00:00",
+   "marche": "GBPUSD",
+   "nom": "Livre / Dollar",
+   "prix": 1.31056,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -949,15 +976,19 @@
   {
    "quand": "2026-11-26T14:50+00:00",
    "valeur": 99.38
+  },
+  {
+   "quand": "2026-11-26T14:55+00:00",
+   "valeur": 99.04
   }
  ],
- "valeur": 99.38,
+ "valeur": 99.04,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T14:50+00:00",
+ "mis_a_jour": "2026-11-26T14:55+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h, stop serré · Livre / Dollar",
  "regle": "Livre / Dollar seulement. Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"

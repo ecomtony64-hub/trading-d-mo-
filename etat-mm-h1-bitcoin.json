@@ -15,6 +15,20 @@
    "reel": true,
    "ouvert_le": "2026-11-26T10:50+00:00",
    "t_entree": 1795690210
+  },
+  {
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "sens": "ACHAT",
+   "entree": 60788.0,
+   "stop": 60303.0,
+   "objectif": 61758.0,
+   "unites": 0.001,
+   "risque": 0.44,
+   "marge": 27.65,
+   "reel": true,
+   "ouvert_le": "2026-11-26T14:55+00:00",
+   "t_entree": 1795704911
   }
  ],
  "historique": [],
@@ -751,6 +765,19 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T14:55+00:00",
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "prix": 60738.0,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -949,6 +976,10 @@
   {
    "quand": "2026-11-26T14:50+00:00",
    "valeur": 100.18
+  },
+  {
+   "quand": "2026-11-26T14:55+00:00",
+   "valeur": 100.18
   }
  ],
  "valeur": 100.18,
@@ -957,7 +988,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T14:50+00:00",
+ "mis_a_jour": "2026-11-26T14:55+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Bitcoin",
  "regle": "Bitcoin seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
