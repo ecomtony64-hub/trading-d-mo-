@@ -1,7 +1,22 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
+ "positions": [
+  {
+   "marche": "USDCAD",
+   "nom": "Dollar / Dollar canadien",
+   "sens": "VENTE",
+   "entree": 1.42248,
+   "stop": 1.42419,
+   "objectif": 1.41906,
+   "unites": 1000,
+   "risque": 1.1,
+   "marge": 30.38,
+   "reel": true,
+   "ouvert_le": "2026-11-26T11:05+00:00",
+   "t_entree": 1795690805
+  }
+ ],
  "historique": [],
  "analyses": [
   {
@@ -48,6 +63,19 @@
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T11:05+00:00",
+   "marche": "USDCAD",
+   "nom": "Dollar / Dollar canadien",
+   "prix": 1.42248,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -62,15 +90,19 @@
   {
    "quand": "2026-11-26T11:00+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-26T11:05+00:00",
+   "valeur": 99.87
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.87,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T11:00+00:00",
+ "mis_a_jour": "2026-11-26T11:05+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Dollar / Dollar canadien (risque fort)",
  "regle": "Dollar / Dollar canadien seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
