@@ -18,11 +18,30 @@
     "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T10:55+00:00",
+   "marche": "XRP",
+   "nom": "XRP (Ripple)",
+   "prix": 0.9476,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
   {
    "quand": "2026-11-26T10:50+00:00",
+   "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-26T10:55+00:00",
    "valeur": 100.0
   }
  ],
@@ -32,7 +51,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T10:50+00:00",
+ "mis_a_jour": "2026-11-26T10:55+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · XRP (Ripple)",
  "regle": "XRP (Ripple) seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
