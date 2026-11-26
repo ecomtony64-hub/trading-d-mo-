@@ -20,21 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T18:40+00:00",
-   "marche": "FTSE",
-   "nom": "FTSE 100 (Londres)",
-   "prix": 10609.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 63.39 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T18:45+00:00",
    "marche": "FTSE",
    "nom": "FTSE 100 (Londres)",
@@ -918,6 +903,21 @@
     "Compte trop petit : le courtier demanderait 63.38 € de garantie pour cette position."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T23:35+00:00",
+   "marche": "FTSE",
+   "nom": "FTSE 100 (Londres)",
+   "prix": 10609.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 63.38 € de garantie pour cette position."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1540,6 +1540,10 @@
   {
    "quand": "2026-11-26T23:30+00:00",
    "valeur": 102.65
+  },
+  {
+   "quand": "2026-11-26T23:35+00:00",
+   "valeur": 102.65
   }
  ],
  "valeur": 102.65,
@@ -1548,7 +1552,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T23:30+00:00",
+ "mis_a_jour": "2026-11-26T23:35+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · FTSE 100 (Londres)",
  "regle": "FTSE 100 (Londres) seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
