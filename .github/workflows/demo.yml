@@ -1,29 +1,31 @@
 name: Démo trading (toutes les 5 min)
 # GitHub ne lance en réalité les tâches « toutes les 5 min » qu'environ une fois par heure.
-# Donc chaque lancement reste allumé ~55 min et fait lui-même un passage toutes les 5 min.
+# Donc chaque lancement reste allumé ~5 h 40 et fait lui-même un passage toutes les 5 min,
+# puis relance le suivant tout seul (le planning ci-dessous ne sert que de filet de sécurité).
 on:
   schedule:
     - cron: "*/15 * * * 1-5"   # filet de sécurité : relance si aucun passage n'est en cours (lun-ven, UTC)
   workflow_dispatch: {}
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: demo
   cancel-in-progress: false
 jobs:
   tourner:
     runs-on: ubuntu-latest
-    timeout-minutes: 65
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Passages toutes les 5 min pendant ~55 min
+      - name: Passages toutes les 5 min pendant ~5 h 40
         run: |
           git config user.name "demo-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          fin=$(( $(date +%s) + 55*60 ))
+          fin=$(( $(date +%s) + 340*60 ))
           while [ "$(date +%s)" -lt "$fin" ]; do
             jour=$(date -u +%u); heure=$(date -u +%H)
             if [ "$jour" -ge 6 ] || { [ "$jour" -eq 5 ] && [ "$heure" -ge 22 ]; }; then echo "Marché fermé"; break; fi
@@ -38,3 +40,11 @@ jobs:
             [ $(( $(date +%s) + reste )) -lt "$fin" ] || break
             sleep "$reste"
           done
+      - name: Relancer le suivant (sauf week-end)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          jour=$(date -u +%u); heure=$(date -u +%H)
+          if [ "$jour" -ge 6 ] || { [ "$jour" -eq 5 ] && [ "$heure" -ge 22 ]; }; then echo "Week-end : pas de relance"; exit 0; fi
+          gh workflow run demo.yml --ref main -R "$GITHUB_REPOSITORY"
