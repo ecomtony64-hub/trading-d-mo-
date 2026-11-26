@@ -1,7 +1,8 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
- "positions": [
+ "capital": 96.9,
+ "positions": [],
+ "historique": [
   {
    "marche": "EURJPY",
    "nom": "Euro / Yen",
@@ -14,7 +15,12 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-26T10:50+00:00",
-   "t_entree": 1795690202
+   "t_entree": 1795690202,
+   "sortie": 174.57600000000002,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-26T22:00+00:00",
+   "frais_nuit": 0.05,
+   "resultat": -1.65
   },
   {
    "marche": "EURJPY",
@@ -28,27 +34,15 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-26T15:00+00:00",
-   "t_entree": 1795704906
+   "t_entree": 1795704906,
+   "sortie": 174.54600000000002,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-26T22:00+00:00",
+   "frais_nuit": 0.05,
+   "resultat": -1.45
   }
  ],
- "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-26T17:10+00:00",
-   "marche": "EURJPY",
-   "nom": "Euro / Yen",
-   "prix": 174.758,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-26T17:15+00:00",
    "marche": "EURJPY",
@@ -955,6 +949,21 @@
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T22:05+00:00",
+   "marche": "EURJPY",
+   "nom": "Euro / Yen",
+   "prix": 174.63,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1505,15 +1514,19 @@
   {
    "quand": "2026-11-26T22:00+00:00",
    "valeur": 97.45
+  },
+  {
+   "quand": "2026-11-26T22:05+00:00",
+   "valeur": 96.9
   }
  ],
- "valeur": 97.45,
+ "valeur": 96.9,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T22:00+00:00",
+ "mis_a_jour": "2026-11-26T22:05+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Euro / Yen (risque fort)",
  "regle": "Euro / Yen seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"

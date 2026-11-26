@@ -1,7 +1,8 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
- "positions": [
+ "capital": 95.55,
+ "positions": [],
+ "historique": [
   {
    "marche": "EURJPY",
    "nom": "Euro / Yen",
@@ -14,7 +15,12 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-26T10:50+00:00",
-   "t_entree": 1795690202
+   "t_entree": 1795690202,
+   "sortie": 174.57600000000002,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-26T22:00+00:00",
+   "frais_nuit": 0.05,
+   "resultat": -1.65
   },
   {
    "marche": "EURJPY",
@@ -28,7 +34,12 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-26T14:55+00:00",
-   "t_entree": 1795704906
+   "t_entree": 1795704906,
+   "sortie": 174.54600000000002,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-26T22:00+00:00",
+   "frais_nuit": 0.05,
+   "resultat": -1.45
   },
   {
    "marche": "EURJPY",
@@ -42,26 +53,15 @@
    "marge": 33.33,
    "reel": true,
    "ouvert_le": "2026-11-26T19:00+00:00",
-   "t_entree": 1795719606
+   "t_entree": 1795719606,
+   "sortie": 174.523,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-26T22:00+00:00",
+   "frais_nuit": 0.05,
+   "resultat": -1.35
   }
  ],
- "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-26T17:10+00:00",
-   "marche": "EURJPY",
-   "nom": "Euro / Yen",
-   "prix": 174.738,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-26T17:15+00:00",
    "marche": "EURJPY",
@@ -945,6 +945,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-26T22:05+00:00",
+   "marche": "EURJPY",
+   "nom": "Euro / Yen",
+   "prix": 174.63,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1495,15 +1510,19 @@
   {
    "quand": "2026-11-26T22:00+00:00",
    "valeur": 96.59
+  },
+  {
+   "quand": "2026-11-26T22:05+00:00",
+   "valeur": 95.55
   }
  ],
- "valeur": 96.59,
+ "valeur": 95.55,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-26T22:00+00:00",
+ "mis_a_jour": "2026-11-26T22:05+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Euro / Yen",
  "regle": "Euro / Yen seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
