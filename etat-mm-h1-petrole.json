@@ -15,25 +15,25 @@
    "reel": true,
    "ouvert_le": "2026-11-26T10:50+00:00",
    "t_entree": 1795665600
+  },
+  {
+   "marche": "PETROLE",
+   "nom": "Pétrole WTI",
+   "sens": "ACHAT",
+   "entree": 84.16,
+   "stop": 83.55,
+   "objectif": 85.37,
+   "unites": 4,
+   "risque": 2.22,
+   "marge": 30.72,
+   "reel": true,
+   "ouvert_le": "2026-11-27T14:40+00:00",
+   "t_entree": 1795789811,
+   "t_reel": 1795790426
   }
  ],
  "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-27T09:40+00:00",
-   "marche": "PETROLE",
-   "nom": "Pétrole WTI",
-   "prix": 84.42,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T09:45+00:00",
    "marche": "PETROLE",
@@ -917,6 +917,19 @@
    "raisons": [
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:40+00:00",
+   "marche": "PETROLE",
+   "nom": "Pétrole WTI",
+   "prix": 84.12,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2272,15 +2285,19 @@
   {
    "quand": "2026-11-27T14:35+00:00",
    "valeur": 99.83
+  },
+  {
+   "quand": "2026-11-27T14:40+00:00",
+   "valeur": 98.59
   }
  ],
- "valeur": 99.83,
+ "valeur": 98.59,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T14:35+00:00",
+ "mis_a_jour": "2026-11-27T14:40+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Pétrole WTI",
  "regle": "Pétrole WTI seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
