@@ -20,22 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T00:40+00:00",
-   "marche": "CHFJPY",
-   "nom": "Franc suisse / Yen",
-   "prix": 190.87,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h.",
-    "Tokyo CPI (Japon) a 00h30 Paris, BoJ peut monter ses taux en decembre"
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T00:45+00:00",
    "marche": "CHFJPY",
    "nom": "Franc suisse / Yen",
@@ -914,6 +898,21 @@
    "jour": "BAISSIER",
    "h4": "RANGE",
    "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T05:35+00:00",
+   "marche": "CHFJPY",
+   "nom": "Franc suisse / Yen",
+   "prix": 190.99,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -1834,15 +1833,19 @@
   {
    "quand": "2026-11-27T05:30+00:00",
    "valeur": 98.95
+  },
+  {
+   "quand": "2026-11-27T05:35+00:00",
+   "valeur": 98.93
   }
  ],
- "valeur": 98.95,
+ "valeur": 98.93,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T05:30+00:00",
+ "mis_a_jour": "2026-11-27T05:35+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h, stop serré · Franc suisse / Yen",
  "regle": "Franc suisse / Yen seulement. Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
