@@ -20,21 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T12:05+00:00",
-   "marche": "CHFJPY",
-   "nom": "Franc suisse / Yen",
-   "prix": 191.029,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T12:10+00:00",
    "marche": "CHFJPY",
    "nom": "Franc suisse / Yen",
@@ -909,6 +894,21 @@
    "marche": "CHFJPY",
    "nom": "Franc suisse / Yen",
    "prix": 190.926,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T17:00+00:00",
+   "marche": "CHFJPY",
+   "nom": "Franc suisse / Yen",
+   "prix": 190.933,
    "jour": "BAISSIER",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -2388,15 +2388,19 @@
   {
    "quand": "2026-11-27T16:55+00:00",
    "valeur": 99.66
+  },
+  {
+   "quand": "2026-11-27T17:00+00:00",
+   "valeur": 99.62
   }
  ],
- "valeur": 99.66,
+ "valeur": 99.62,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T16:55+00:00",
+ "mis_a_jour": "2026-11-27T17:00+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Franc suisse / Yen",
  "regle": "Franc suisse / Yen seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"

@@ -83,21 +83,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T12:05+00:00",
-   "marche": "ETHEREUM",
-   "nom": "Ethereum",
-   "prix": 1721.8,
-   "jour": "RANGE",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T12:10+00:00",
    "marche": "ETHEREUM",
    "nom": "Ethereum",
@@ -972,6 +957,21 @@
    "marche": "ETHEREUM",
    "nom": "Ethereum",
    "prix": 1676.0,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin du prix (plus de 3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T17:00+00:00",
+   "marche": "ETHEREUM",
+   "nom": "Ethereum",
+   "prix": 1667.1,
    "jour": "RANGE",
    "h4": "HAUSSIER",
    "h1": "BAISSIER",
@@ -2451,6 +2451,10 @@
   {
    "quand": "2026-11-27T16:55+00:00",
    "valeur": 92.68
+  },
+  {
+   "quand": "2026-11-27T17:00+00:00",
+   "valeur": 92.68
   }
  ],
  "valeur": 92.68,
@@ -2459,7 +2463,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T16:55+00:00",
+ "mis_a_jour": "2026-11-27T17:00+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h, stop serré · Ethereum",
  "regle": "Ethereum seulement. Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
