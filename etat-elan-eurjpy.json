@@ -44,21 +44,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T07:30+00:00",
-   "marche": "EURJPY",
-   "nom": "Euro / Yen",
-   "prix": 174.856,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T07:35+00:00",
    "marche": "EURJPY",
    "nom": "Euro / Yen",
@@ -933,6 +918,21 @@
    "marche": "EURJPY",
    "nom": "Euro / Yen",
    "prix": 174.809,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T12:25+00:00",
+   "marche": "EURJPY",
+   "nom": "Euro / Yen",
+   "prix": 174.838,
    "jour": "BAISSIER",
    "h4": "HAUSSIER",
    "h1": "RANGE",
@@ -2188,6 +2188,10 @@
   {
    "quand": "2026-11-27T12:20+00:00",
    "valeur": 96.9
+  },
+  {
+   "quand": "2026-11-27T12:25+00:00",
+   "valeur": 96.9
   }
  ],
  "valeur": 96.9,
@@ -2196,7 +2200,7 @@
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T12:20+00:00",
+ "mis_a_jour": "2026-11-27T12:25+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Euro / Yen (risque fort)",
  "regle": "Euro / Yen seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
