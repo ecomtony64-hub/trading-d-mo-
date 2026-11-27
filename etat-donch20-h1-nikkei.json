@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T19:30+00:00",
-   "marche": "NIKKEI",
-   "nom": "Nikkei 225 (Japon)",
-   "prix": 57499.0,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T19:35+00:00",
    "marche": "NIKKEI",
    "nom": "Nikkei 225 (Japon)",
@@ -903,6 +888,21 @@
     "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T00:25+00:00",
+   "marche": "NIKKEI",
+   "nom": "Nikkei 225 (Japon)",
+   "prix": 57748.0,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1565,6 +1565,10 @@
   {
    "quand": "2026-11-27T00:20+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T00:25+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -1573,7 +1577,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T00:20+00:00",
+ "mis_a_jour": "2026-11-27T00:25+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Nikkei 225 (Japon)",
  "regle": "Nikkei 225 (Japon) seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
