@@ -20,21 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T07:20+00:00",
-   "marche": "BRENT",
-   "nom": "Pétrole Brent",
-   "prix": 91.17,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T07:25+00:00",
    "marche": "BRENT",
    "nom": "Pétrole Brent",
@@ -906,6 +891,21 @@
   },
   {
    "quand": "2026-11-27T12:10+00:00",
+   "marche": "BRENT",
+   "nom": "Pétrole Brent",
+   "prix": 91.17,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T12:15+00:00",
    "marche": "BRENT",
    "nom": "Pétrole Brent",
    "prix": 91.17,
@@ -2156,6 +2156,10 @@
   {
    "quand": "2026-11-27T12:10+00:00",
    "valeur": 99.82
+  },
+  {
+   "quand": "2026-11-27T12:15+00:00",
+   "valeur": 99.82
   }
  ],
  "valeur": 99.82,
@@ -2164,7 +2168,7 @@
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T12:10+00:00",
+ "mis_a_jour": "2026-11-27T12:15+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Pétrole Brent (risque fort)",
  "regle": "Pétrole Brent seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
