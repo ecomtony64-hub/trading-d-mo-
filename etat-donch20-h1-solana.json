@@ -16,6 +16,21 @@
    "ouvert_le": "2026-11-26T22:10+00:00",
    "t_entree": 1795731000,
    "t_reel": 1795731016
+  },
+  {
+   "marche": "SOLANA",
+   "nom": "Solana",
+   "sens": "ACHAT",
+   "entree": 72.68,
+   "stop": 71.84,
+   "objectif": 74.38,
+   "unites": 0.9,
+   "risque": 0.69,
+   "marge": 29.63,
+   "reel": true,
+   "ouvert_le": "2026-11-27T03:00+00:00",
+   "t_entree": 1795748407,
+   "t_reel": 1795748417
   }
  ],
  "historique": [
@@ -41,19 +56,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-26T22:00+00:00",
-   "marche": "SOLANA",
-   "nom": "Solana",
-   "prix": 71.56,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "TRADE",
-   "sens": "ACHAT",
-   "raisons": [],
-   "alerte": null
-  },
   {
    "quand": "2026-11-26T22:05+00:00",
    "marche": "SOLANA",
@@ -974,6 +976,19 @@
     "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T03:00+00:00",
+   "marche": "SOLANA",
+   "nom": "Solana",
+   "prix": 72.31,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1760,15 +1775,19 @@
   {
    "quand": "2026-11-27T02:55+00:00",
    "valeur": 99.96
+  },
+  {
+   "quand": "2026-11-27T03:00+00:00",
+   "valeur": 99.62
   }
  ],
- "valeur": 99.96,
+ "valeur": 99.62,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T02:55+00:00",
+ "mis_a_jour": "2026-11-27T03:00+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Solana",
  "regle": "Solana seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"

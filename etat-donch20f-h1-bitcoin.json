@@ -1,24 +1,25 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
- "historique": [],
- "analyses": [
+ "positions": [
   {
-   "quand": "2026-11-26T22:00+00:00",
    "marche": "BITCOIN",
    "nom": "Bitcoin",
-   "prix": 60729.0,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
+   "sens": "ACHAT",
+   "entree": 61319.0,
+   "stop": 60799.0,
+   "objectif": 62361.0,
+   "unites": 0.001,
+   "risque": 0.47,
+   "marge": 27.89,
+   "reel": true,
+   "ouvert_le": "2026-11-27T03:00+00:00",
+   "t_entree": 1795748407,
+   "t_reel": 1795748418
+  }
+ ],
+ "historique": [],
+ "analyses": [
   {
    "quand": "2026-11-26T22:05+00:00",
    "marche": "BITCOIN",
@@ -903,6 +904,19 @@
     "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T03:00+00:00",
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "prix": 61257.0,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1689,15 +1703,19 @@
   {
    "quand": "2026-11-27T02:55+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T03:00+00:00",
+   "valeur": 99.94
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.94,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T02:55+00:00",
+ "mis_a_jour": "2026-11-27T03:00+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 + moyenne 200 1 h · Bitcoin",
  "regle": "Bitcoin seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
