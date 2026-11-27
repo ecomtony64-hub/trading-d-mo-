@@ -116,21 +116,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T08:15+00:00",
-   "marche": "NZDUSD",
-   "nom": "Dollar néo-zélandais / Dollar",
-   "prix": 0.54885,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T08:20+00:00",
    "marche": "NZDUSD",
    "nom": "Dollar néo-zélandais / Dollar",
@@ -1009,6 +994,22 @@
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T13:10+00:00",
+   "marche": "NZDUSD",
+   "nom": "Dollar néo-zélandais / Dollar",
+   "prix": 0.54825,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette.",
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
@@ -2294,15 +2295,19 @@
   {
    "quand": "2026-11-27T13:05+00:00",
    "valeur": 98.35
+  },
+  {
+   "quand": "2026-11-27T13:10+00:00",
+   "valeur": 97.64
   }
  ],
- "valeur": 98.35,
+ "valeur": 97.64,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T13:05+00:00",
+ "mis_a_jour": "2026-11-27T13:10+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Dollar néo-zélandais / Dollar",
  "regle": "Dollar néo-zélandais / Dollar seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
