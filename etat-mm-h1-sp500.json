@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T02:45+00:00",
-   "marche": "SP500",
-   "nom": "S&P 500 (États-Unis)",
-   "prix": 7182.8,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T02:50+00:00",
    "marche": "SP500",
    "nom": "S&P 500 (États-Unis)",
@@ -891,6 +876,21 @@
   },
   {
    "quand": "2026-11-27T07:35+00:00",
+   "marche": "SP500",
+   "nom": "S&P 500 (États-Unis)",
+   "prix": 7182.8,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T07:40+00:00",
    "marche": "SP500",
    "nom": "S&P 500 (États-Unis)",
    "prix": 7182.8,
@@ -1917,6 +1917,10 @@
   {
    "quand": "2026-11-27T07:35+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T07:40+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -1925,7 +1929,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T07:35+00:00",
+ "mis_a_jour": "2026-11-27T07:40+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · S&P 500 (États-Unis)",
  "regle": "S&P 500 (États-Unis) seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
