@@ -1,7 +1,8 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
- "positions": [
+ "capital": 98.1,
+ "positions": [],
+ "historique": [
   {
    "marche": "GBPAUD",
    "nom": "Livre / Dollar australien",
@@ -15,27 +16,15 @@
    "reel": true,
    "ouvert_le": "2026-11-27T06:00+00:00",
    "t_entree": 1795759205,
-   "t_reel": 1795759218
+   "t_reel": 1795759218,
+   "sortie": 1.96998,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T13:20+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.9
   }
  ],
- "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-27T08:30+00:00",
-   "marche": "GBPAUD",
-   "nom": "Livre / Dollar australien",
-   "prix": 1.96678,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T08:35+00:00",
    "marche": "GBPAUD",
@@ -916,6 +905,21 @@
    "marche": "GBPAUD",
    "nom": "Livre / Dollar australien",
    "prix": 1.96909,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T13:25+00:00",
+   "marche": "GBPAUD",
+   "nom": "Livre / Dollar australien",
+   "prix": 1.96938,
    "jour": "HAUSSIER",
    "h4": "HAUSSIER",
    "h1": "BAISSIER",
@@ -2219,15 +2223,19 @@
   {
    "quand": "2026-11-27T13:20+00:00",
    "valeur": 98.4
+  },
+  {
+   "quand": "2026-11-27T13:25+00:00",
+   "valeur": 98.1
   }
  ],
- "valeur": 98.4,
+ "valeur": 98.1,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T13:20+00:00",
+ "mis_a_jour": "2026-11-27T13:25+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 + moyenne 200 1 h · Livre / Dollar australien",
  "regle": "Livre / Dollar australien seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
