@@ -1,7 +1,23 @@
 {
  "capital_depart": 100.0,
  "capital": 122.85,
- "positions": [],
+ "positions": [
+  {
+   "marche": "OR",
+   "nom": "Or",
+   "sens": "ACHAT",
+   "entree": 3653.8,
+   "stop": 3614.7,
+   "objectif": 3731.8,
+   "unites": 0.17,
+   "risque": 6.06,
+   "marge": 28.38,
+   "reel": true,
+   "ouvert_le": "2026-11-27T16:45+00:00",
+   "t_entree": 1795797299,
+   "t_reel": 1795797902
+  }
+ ],
  "historique": [
   {
    "marche": "OR",
@@ -81,21 +97,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T11:50+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3620.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T11:55+00:00",
    "marche": "OR",
@@ -979,6 +980,19 @@
    "raisons": [
     "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T16:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3653.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -3598,16 +3612,20 @@
   {
    "quand": "2026-11-27T16:40+00:00",
    "valeur": 122.85
+  },
+  {
+   "quand": "2026-11-27T16:45+00:00",
+   "valeur": 122.77
   }
  ],
  "risque_trade": 5.0,
- "valeur": 122.85,
+ "valeur": 122.77,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T16:40+00:00",
+ "mis_a_jour": "2026-11-27T16:45+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Moyennes 1 h (risque fort) (risque fort)",
  "regle": "Or seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus"
