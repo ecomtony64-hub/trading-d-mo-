@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T04:05+00:00",
-   "marche": "EUROSTOXX",
-   "nom": "Euro Stoxx 50 (Europe)",
-   "prix": 6014.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T04:10+00:00",
    "marche": "EUROSTOXX",
    "nom": "Euro Stoxx 50 (Europe)",
@@ -894,6 +879,21 @@
    "marche": "EUROSTOXX",
    "nom": "Euro Stoxx 50 (Europe)",
    "prix": 6084.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:05+00:00",
+   "marche": "EUROSTOXX",
+   "nom": "Euro Stoxx 50 (Europe)",
+   "prix": 6091.1,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -1985,6 +1985,10 @@
   {
    "quand": "2026-11-27T09:00+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T09:05+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -1993,7 +1997,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T09:00+00:00",
+ "mis_a_jour": "2026-11-27T09:05+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Euro Stoxx 50 (Europe)",
  "regle": "Euro Stoxx 50 (Europe) seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
