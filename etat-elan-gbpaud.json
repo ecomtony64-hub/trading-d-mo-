@@ -1,24 +1,25 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
- "historique": [],
- "analyses": [
+ "positions": [
   {
-   "quand": "2026-11-27T13:35+00:00",
    "marche": "GBPAUD",
    "nom": "Livre / Dollar australien",
-   "prix": 1.9699,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
+   "sens": "VENTE",
+   "entree": 1.96977,
+   "stop": 1.97304,
+   "objectif": 1.96323,
+   "unites": 1000,
+   "risque": 1.99,
+   "marge": 59.87,
+   "reel": true,
+   "ouvert_le": "2026-11-27T18:30+00:00",
+   "t_entree": 1795804205,
+   "t_reel": 1795804206
+  }
+ ],
+ "historique": [],
+ "analyses": [
   {
    "quand": "2026-11-27T13:40+00:00",
    "marche": "GBPAUD",
@@ -902,6 +903,19 @@
    "raisons": [
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T18:30+00:00",
+   "marche": "GBPAUD",
+   "nom": "Livre / Dollar australien",
+   "prix": 1.96987,
+   "jour": "HAUSSIER",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2445,15 +2459,19 @@
   {
    "quand": "2026-11-27T18:25+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T18:30+00:00",
+   "valeur": 99.7
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.7,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T18:25+00:00",
+ "mis_a_jour": "2026-11-27T18:30+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Livre / Dollar australien (risque fort)",
  "regle": "Livre / Dollar australien seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
