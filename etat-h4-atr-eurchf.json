@@ -48,21 +48,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T05:40+00:00",
-   "marche": "EURCHF",
-   "nom": "Euro / Franc suisse",
-   "prix": 0.91581,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T05:45+00:00",
    "marche": "EURCHF",
    "nom": "Euro / Franc suisse",
@@ -937,6 +922,21 @@
    "marche": "EURCHF",
    "nom": "Euro / Franc suisse",
    "prix": 0.91626,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T10:35+00:00",
+   "marche": "EURCHF",
+   "nom": "Euro / Franc suisse",
+   "prix": 0.91597,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2104,15 +2104,19 @@
   {
    "quand": "2026-11-27T10:30+00:00",
    "valeur": 94.67
+  },
+  {
+   "quand": "2026-11-27T10:35+00:00",
+   "valeur": 95.61
   }
  ],
- "valeur": 94.67,
+ "valeur": 95.61,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T10:30+00:00",
+ "mis_a_jour": "2026-11-27T10:35+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h, stop serré · Euro / Franc suisse",
  "regle": "Euro / Franc suisse seulement. Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
