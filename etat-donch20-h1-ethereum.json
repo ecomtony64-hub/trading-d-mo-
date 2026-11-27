@@ -21,21 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T06:40+00:00",
-   "marche": "ETHEREUM",
-   "nom": "Ethereum",
-   "prix": 1731.8,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T06:45+00:00",
    "marche": "ETHEREUM",
    "nom": "Ethereum",
@@ -910,6 +895,21 @@
    "marche": "ETHEREUM",
    "nom": "Ethereum",
    "prix": 1725.2,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T11:35+00:00",
+   "marche": "ETHEREUM",
+   "nom": "Ethereum",
+   "prix": 1727.5,
    "jour": "RANGE",
    "h4": "RANGE",
    "h1": "RANGE",
@@ -2125,15 +2125,19 @@
   {
    "quand": "2026-11-27T11:30+00:00",
    "valeur": 100.04
+  },
+  {
+   "quand": "2026-11-27T11:35+00:00",
+   "valeur": 100.12
   }
  ],
- "valeur": 100.04,
+ "valeur": 100.12,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T11:30+00:00",
+ "mis_a_jour": "2026-11-27T11:35+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Ethereum",
  "regle": "Ethereum seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
