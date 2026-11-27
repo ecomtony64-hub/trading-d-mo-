@@ -1,7 +1,23 @@
 {
  "capital_depart": 100.0,
  "capital": 90.6,
- "positions": [],
+ "positions": [
+  {
+   "marche": "EUROSTOXX",
+   "nom": "Euro Stoxx 50 (Europe)",
+   "sens": "ACHAT",
+   "entree": 6096.0,
+   "stop": 6066.6,
+   "objectif": 6154.8,
+   "unites": 0.1,
+   "risque": 2.94,
+   "marge": 30.47,
+   "reel": true,
+   "ouvert_le": "2026-11-27T16:15+00:00",
+   "t_entree": 1795795200,
+   "t_reel": 1795796109
+  }
+ ],
  "historique": [
   {
    "marche": "EUROSTOXX",
@@ -43,21 +59,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T11:20+00:00",
-   "marche": "EUROSTOXX",
-   "nom": "Euro Stoxx 50 (Europe)",
-   "prix": 6090.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T11:25+00:00",
    "marche": "EUROSTOXX",
@@ -941,6 +942,19 @@
    "raisons": [
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T16:15+00:00",
+   "marche": "EUROSTOXX",
+   "nom": "Euro Stoxx 50 (Europe)",
+   "prix": 6093.5,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2376,15 +2390,19 @@
   {
    "quand": "2026-11-27T16:10+00:00",
    "valeur": 90.6
+  },
+  {
+   "quand": "2026-11-27T16:15+00:00",
+   "valeur": 90.35
   }
  ],
- "valeur": 90.6,
+ "valeur": 90.35,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T16:10+00:00",
+ "mis_a_jour": "2026-11-27T16:15+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Euro Stoxx 50 (Europe) (risque fort)",
  "regle": "Euro Stoxx 50 (Europe) seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"

@@ -20,21 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T11:20+00:00",
-   "marche": "FTSE",
-   "nom": "FTSE 100 (Londres)",
-   "prix": 10692.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T11:25+00:00",
    "marche": "FTSE",
    "nom": "FTSE 100 (Londres)",
@@ -916,6 +901,21 @@
    "sens": null,
    "raisons": [
     "Compte trop petit : le courtier demanderait 64.09 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T16:15+00:00",
+   "marche": "FTSE",
+   "nom": "FTSE 100 (Londres)",
+   "prix": 10707.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 64.11 € de garantie pour cette position."
    ],
    "alerte": null
   }
@@ -2352,15 +2352,19 @@
   {
    "quand": "2026-11-27T16:10+00:00",
    "valeur": 111.23
+  },
+  {
+   "quand": "2026-11-27T16:15+00:00",
+   "valeur": 111.61
   }
  ],
- "valeur": 111.23,
+ "valeur": 111.61,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T16:10+00:00",
+ "mis_a_jour": "2026-11-27T16:15+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · FTSE 100 (Londres)",
  "regle": "FTSE 100 (Londres) seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
