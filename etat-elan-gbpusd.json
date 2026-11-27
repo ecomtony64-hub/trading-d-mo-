@@ -44,21 +44,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T06:25+00:00",
-   "marche": "GBPUSD",
-   "nom": "Livre / Dollar",
-   "prix": 1.31253,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T06:30+00:00",
    "marche": "GBPUSD",
    "nom": "Livre / Dollar",
@@ -933,6 +918,21 @@
    "marche": "GBPUSD",
    "nom": "Livre / Dollar",
    "prix": 1.31335,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T11:20+00:00",
+   "marche": "GBPUSD",
+   "nom": "Livre / Dollar",
+   "prix": 1.31323,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -2136,6 +2136,10 @@
   {
    "quand": "2026-11-27T11:15+00:00",
    "valeur": 101.12
+  },
+  {
+   "quand": "2026-11-27T11:20+00:00",
+   "valeur": 101.12
   }
  ],
  "valeur": 101.12,
@@ -2144,7 +2148,7 @@
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T11:15+00:00",
+ "mis_a_jour": "2026-11-27T11:20+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Livre / Dollar (risque fort)",
  "regle": "Livre / Dollar seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
