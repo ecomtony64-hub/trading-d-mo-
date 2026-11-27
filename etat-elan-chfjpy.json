@@ -20,22 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T23:30+00:00",
-   "marche": "CHFJPY",
-   "nom": "Franc suisse / Yen",
-   "prix": 190.805,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
-    "Tokyo CPI (Japon) a 00h30 Paris, BoJ peut monter ses taux en decembre"
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T23:35+00:00",
    "marche": "CHFJPY",
    "nom": "Franc suisse / Yen",
@@ -934,6 +918,21 @@
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T04:25+00:00",
+   "marche": "CHFJPY",
+   "nom": "Franc suisse / Yen",
+   "prix": 190.902,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1792,15 +1791,19 @@
   {
    "quand": "2026-11-27T04:20+00:00",
    "valeur": 100.05
+  },
+  {
+   "quand": "2026-11-27T04:25+00:00",
+   "valeur": 100.01
   }
  ],
- "valeur": 100.05,
+ "valeur": 100.01,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T04:20+00:00",
+ "mis_a_jour": "2026-11-27T04:25+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Franc suisse / Yen (risque fort)",
  "regle": "Franc suisse / Yen seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
