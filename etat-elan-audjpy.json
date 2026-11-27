@@ -41,22 +41,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-26T23:55+00:00",
-   "marche": "AUDJPY",
-   "nom": "Dollar australien / Yen",
-   "prix": 105.678,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
-    "Tokyo CPI (Japon) a 00h30 Paris, BoJ peut monter ses taux en decembre"
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T00:00+00:00",
    "marche": "AUDJPY",
    "nom": "Dollar australien / Yen",
@@ -948,6 +932,21 @@
    "sens": "ACHAT",
    "raisons": [],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T04:50+00:00",
+   "marche": "AUDJPY",
+   "nom": "Dollar australien / Yen",
+   "prix": 106.08,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1826,15 +1825,19 @@
   {
    "quand": "2026-11-27T04:45+00:00",
    "valeur": 102.54
+  },
+  {
+   "quand": "2026-11-27T04:50+00:00",
+   "valeur": 102.61
   }
  ],
- "valeur": 102.54,
+ "valeur": 102.61,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T04:45+00:00",
+ "mis_a_jour": "2026-11-27T04:50+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Dollar australien / Yen (risque fort)",
  "regle": "Dollar australien / Yen seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
