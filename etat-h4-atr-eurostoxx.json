@@ -34,21 +34,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "EUROSTOXX",
-   "nom": "Euro Stoxx 50 (Europe)",
-   "prix": 6090.0,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Trop de risque en jeu : 25.67 € avec ce trade (maximum 20 % du compte au total)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "EUROSTOXX",
    "nom": "Euro Stoxx 50 (Europe)",
@@ -930,6 +915,21 @@
    "sens": null,
    "raisons": [
     "Trop de risque en jeu : 25.73 € avec ce trade (maximum 20 % du compte au total)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "EUROSTOXX",
+   "nom": "Euro Stoxx 50 (Europe)",
+   "prix": 6061.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Trop de risque en jeu : 25.74 € avec ce trade (maximum 20 % du compte au total)."
    ],
    "alerte": null
   }
@@ -2302,9 +2302,13 @@
   {
    "quand": "2026-11-27T14:55+00:00",
    "valeur": 90.44
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "valeur": 90.48
   }
  ],
- "valeur": 90.44,
+ "valeur": 90.48,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,

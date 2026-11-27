@@ -63,21 +63,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "EURGBP",
-   "nom": "Euro / Livre",
-   "prix": 0.83502,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "EURGBP",
    "nom": "Euro / Livre",
@@ -952,6 +937,21 @@
    "marche": "EURGBP",
    "nom": "Euro / Livre",
    "prix": 0.83499,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "EURGBP",
+   "nom": "Euro / Livre",
+   "prix": 0.835,
    "jour": "RANGE",
    "h4": "RANGE",
    "h1": "RANGE",
@@ -2326,6 +2326,10 @@
   },
   {
    "quand": "2026-11-27T14:50+00:00",
+   "valeur": 93.34
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
    "valeur": 93.34
   },
   {

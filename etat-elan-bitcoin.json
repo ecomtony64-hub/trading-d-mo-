@@ -161,21 +161,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "prix": 61549.0,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "BITCOIN",
    "nom": "Bitcoin",
@@ -1042,6 +1027,21 @@
    "marche": "BITCOIN",
    "nom": "Bitcoin",
    "prix": 59329.0,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "prix": 59262.0,
    "jour": "RANGE",
    "h4": "RANGE",
    "h1": "HAUSSIER",
@@ -2421,9 +2421,13 @@
   {
    "quand": "2026-11-27T14:55+00:00",
    "valeur": 98.65
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "valeur": 98.71
   }
  ],
- "valeur": 98.65,
+ "valeur": 98.71,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,

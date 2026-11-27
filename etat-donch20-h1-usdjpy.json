@@ -21,21 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "USDJPY",
-   "nom": "Dollar / Yen",
-   "prix": 159.514,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "USDJPY",
    "nom": "Dollar / Yen",
@@ -934,6 +919,21 @@
    "marche": "USDJPY",
    "nom": "Dollar / Yen",
    "prix": 159.499,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "USDJPY",
+   "nom": "Dollar / Yen",
+   "prix": 159.501,
    "jour": "RANGE",
    "h4": "RANGE",
    "h1": "HAUSSIER",
@@ -2313,9 +2313,13 @@
   {
    "quand": "2026-11-27T14:55+00:00",
    "valeur": 100.24
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "valeur": 100.25
   }
  ],
- "valeur": 100.24,
+ "valeur": 100.25,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,

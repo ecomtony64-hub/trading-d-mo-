@@ -62,21 +62,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "GBPJPY",
-   "nom": "Livre / Yen",
-   "prix": 209.373,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 59.88 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "GBPJPY",
    "nom": "Livre / Yen",
@@ -982,6 +967,22 @@
    "marche": "GBPJPY",
    "nom": "Livre / Yen",
    "prix": 209.199,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "GBPJPY",
+   "nom": "Livre / Yen",
+   "prix": 209.217,
    "jour": "BAISSIER",
    "h4": "RANGE",
    "h1": "RANGE",
@@ -2362,9 +2363,13 @@
   {
    "quand": "2026-11-27T14:55+00:00",
    "valeur": 100.69
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "valeur": 100.79
   }
  ],
- "valeur": 100.69,
+ "valeur": 100.79,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,

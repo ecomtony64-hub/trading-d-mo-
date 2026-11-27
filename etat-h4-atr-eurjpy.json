@@ -48,21 +48,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "EURJPY",
-   "nom": "Euro / Yen",
-   "prix": 174.834,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "EURJPY",
    "nom": "Euro / Yen",
@@ -937,6 +922,21 @@
    "marche": "EURJPY",
    "nom": "Euro / Yen",
    "prix": 174.686,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "EURJPY",
+   "nom": "Euro / Yen",
+   "prix": 174.708,
    "jour": "BAISSIER",
    "h4": "HAUSSIER",
    "h1": "RANGE",
@@ -2316,9 +2316,13 @@
   {
    "quand": "2026-11-27T14:55+00:00",
    "valeur": 97.92
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "valeur": 98.29
   }
  ],
- "valeur": 97.92,
+ "valeur": 98.29,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,

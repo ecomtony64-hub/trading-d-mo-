@@ -20,21 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "CAC40",
-   "nom": "CAC 40 (France)",
-   "prix": 8131.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "CAC40",
    "nom": "CAC 40 (France)",
@@ -909,6 +894,21 @@
    "marche": "CAC40",
    "nom": "CAC 40 (France)",
    "prix": 8123.1,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "CAC40",
+   "nom": "CAC 40 (France)",
+   "prix": 8125.9,
    "jour": "HAUSSIER",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2288,9 +2288,13 @@
   {
    "quand": "2026-11-27T14:55+00:00",
    "valeur": 98.66
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "valeur": 98.95
   }
  ],
- "valeur": 98.66,
+ "valeur": 98.95,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,

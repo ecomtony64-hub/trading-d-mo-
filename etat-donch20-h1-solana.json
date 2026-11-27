@@ -66,21 +66,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "SOLANA",
-   "nom": "Solana",
-   "prix": 73.51,
-   "jour": "HAUSSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "SOLANA",
    "nom": "Solana",
@@ -955,6 +940,21 @@
    "marche": "SOLANA",
    "nom": "Solana",
    "prix": 70.96,
+   "jour": "HAUSSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "SOLANA",
+   "nom": "Solana",
+   "prix": 70.82,
    "jour": "HAUSSIER",
    "h4": "RANGE",
    "h1": "RANGE",
@@ -2329,6 +2329,10 @@
   },
   {
    "quand": "2026-11-27T14:50+00:00",
+   "valeur": 99.7
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
    "valeur": 99.7
   },
   {

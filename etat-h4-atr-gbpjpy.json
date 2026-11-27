@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "GBPJPY",
-   "nom": "Livre / Yen",
-   "prix": 209.373,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "GBPJPY",
    "nom": "Livre / Yen",
@@ -894,6 +879,21 @@
    "marche": "GBPJPY",
    "nom": "Livre / Yen",
    "prix": 209.199,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "GBPJPY",
+   "nom": "Livre / Yen",
+   "prix": 209.217,
    "jour": "BAISSIER",
    "h4": "RANGE",
    "h1": "RANGE",
@@ -2268,6 +2268,10 @@
   },
   {
    "quand": "2026-11-27T14:50+00:00",
+   "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
    "valeur": 100.0
   },
   {

@@ -46,21 +46,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "AUDUSD",
-   "nom": "Dollar australien / Dollar",
-   "prix": 0.66769,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "AUDUSD",
    "nom": "Dollar australien / Dollar",
@@ -920,6 +905,21 @@
    "marche": "AUDUSD",
    "nom": "Dollar australien / Dollar",
    "prix": 0.66516,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "AUDUSD",
+   "nom": "Dollar australien / Dollar",
+   "prix": 0.66534,
    "jour": "BAISSIER",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2309,6 +2309,10 @@
   },
   {
    "quand": "2026-11-27T14:50+00:00",
+   "valeur": 100.33
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
    "valeur": 100.33
   },
   {

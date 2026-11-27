@@ -35,21 +35,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "BRENT",
-   "nom": "Pétrole Brent",
-   "prix": 91.17,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "BRENT",
    "nom": "Pétrole Brent",
@@ -922,6 +907,21 @@
    "marche": "BRENT",
    "nom": "Pétrole Brent",
    "prix": 91.24,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "BRENT",
+   "nom": "Pétrole Brent",
+   "prix": 91.22,
    "jour": "BAISSIER",
    "h4": "RANGE",
    "h1": "HAUSSIER",
@@ -2301,9 +2301,13 @@
   {
    "quand": "2026-11-27T14:55+00:00",
    "valeur": 99.71
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "valeur": 99.57
   }
  ],
- "valeur": 99.71,
+ "valeur": 99.57,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,

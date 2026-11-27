@@ -34,21 +34,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "GBPUSD",
-   "nom": "Livre / Dollar",
-   "prix": 1.31265,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "GBPUSD",
    "nom": "Livre / Dollar",
@@ -908,6 +893,21 @@
    "marche": "GBPUSD",
    "nom": "Livre / Dollar",
    "prix": 1.31168,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 39.91 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "GBPUSD",
+   "nom": "Livre / Dollar",
+   "prix": 1.31177,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -2298,6 +2298,10 @@
   {
    "quand": "2026-11-27T14:50+00:00",
    "valeur": 100.96
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "valeur": 101.12
   },
   {
    "quand": "2026-11-27T14:55+00:00",

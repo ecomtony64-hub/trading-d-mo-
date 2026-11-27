@@ -34,21 +34,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "CAC40",
-   "nom": "CAC 40 (France)",
-   "prix": 8131.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Trop de risque en jeu : 25.48 € avec ce trade (maximum 20 % du compte au total)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "CAC40",
    "nom": "CAC 40 (France)",
@@ -923,6 +908,21 @@
    "marche": "CAC40",
    "nom": "CAC 40 (France)",
    "prix": 8123.1,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Trop de risque en jeu : 25.45 € avec ce trade (maximum 20 % du compte au total)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "CAC40",
+   "nom": "CAC 40 (France)",
+   "prix": 8125.9,
    "jour": "HAUSSIER",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2302,9 +2302,13 @@
   {
    "quand": "2026-11-27T14:55+00:00",
    "valeur": 98.89
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "valeur": 98.32
   }
  ],
- "valeur": 98.89,
+ "valeur": 98.32,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,

@@ -41,21 +41,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "GBPAUD",
-   "nom": "Livre / Dollar australien",
-   "prix": 1.96657,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 59.88 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "GBPAUD",
    "nom": "Livre / Dollar australien",
@@ -930,6 +915,21 @@
    "marche": "GBPAUD",
    "nom": "Livre / Dollar australien",
    "prix": 1.97202,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 59.88 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "GBPAUD",
+   "nom": "Livre / Dollar australien",
+   "prix": 1.97204,
    "jour": "HAUSSIER",
    "h4": "HAUSSIER",
    "h1": "BAISSIER",
@@ -2309,9 +2309,13 @@
   {
    "quand": "2026-11-27T14:55+00:00",
    "valeur": 96.04
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "valeur": 96.05
   }
  ],
- "valeur": 96.04,
+ "valeur": 96.05,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,

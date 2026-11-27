@@ -20,21 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "FTSE",
-   "nom": "FTSE 100 (Londres)",
-   "prix": 10681.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "FTSE",
    "nom": "FTSE 100 (Londres)",
@@ -909,6 +894,21 @@
    "marche": "FTSE",
    "nom": "FTSE 100 (Londres)",
    "prix": 10678.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "FTSE",
+   "nom": "FTSE 100 (Londres)",
+   "prix": 10679.5,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2288,9 +2288,13 @@
   {
    "quand": "2026-11-27T14:55+00:00",
    "valeur": 108.2
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "valeur": 108.33
   }
  ],
- "valeur": 108.2,
+ "valeur": 108.33,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,

@@ -21,21 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T10:00+00:00",
-   "marche": "PETROLE",
-   "nom": "Pétrole WTI",
-   "prix": 84.42,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:05+00:00",
    "marche": "PETROLE",
    "nom": "Pétrole WTI",
@@ -908,6 +893,21 @@
    "marche": "PETROLE",
    "nom": "Pétrole WTI",
    "prix": 84.05,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "marche": "PETROLE",
+   "nom": "Pétrole WTI",
+   "prix": 84.02,
    "jour": "BAISSIER",
    "h4": "HAUSSIER",
    "h1": "RANGE",
@@ -2287,9 +2287,13 @@
   {
    "quand": "2026-11-27T14:55+00:00",
    "valeur": 99.6
+  },
+  {
+   "quand": "2026-11-27T14:55+00:00",
+   "valeur": 99.49
   }
  ],
- "valeur": 99.6,
+ "valeur": 99.49,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,
