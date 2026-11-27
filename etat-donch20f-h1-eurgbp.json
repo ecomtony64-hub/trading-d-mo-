@@ -1,6 +1,6 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
+ "capital": 99.0,
  "positions": [
   {
    "marche": "EURGBP",
@@ -21,6 +21,23 @@
    "marche": "EURGBP",
    "nom": "Euro / Livre",
    "sens": "VENTE",
+   "entree": 0.83508,
+   "stop": 0.83584,
+   "objectif": 0.83356,
+   "unites": 1000,
+   "risque": 0.91,
+   "marge": 33.33,
+   "reel": true,
+   "ouvert_le": "2026-11-27T14:45+00:00",
+   "t_entree": 1795790704,
+   "t_reel": 1795790722
+  }
+ ],
+ "historique": [
+  {
+   "marche": "EURGBP",
+   "nom": "Euro / Livre",
+   "sens": "VENTE",
    "entree": 0.83452,
    "stop": 0.83528,
    "objectif": 0.83302,
@@ -30,26 +47,15 @@
    "reel": true,
    "ouvert_le": "2026-11-27T14:00+00:00",
    "t_entree": 1795788005,
-   "t_reel": 1795788023
+   "t_reel": 1795788023,
+   "sortie": 0.8353550000000001,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T14:40+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.0
   }
  ],
- "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-27T09:45+00:00",
-   "marche": "EURGBP",
-   "nom": "Euro / Livre",
-   "prix": 0.83505,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T09:50+00:00",
    "marche": "EURGBP",
@@ -955,6 +961,19 @@
    "raisons": [
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:45+00:00",
+   "marche": "EURGBP",
+   "nom": "Euro / Livre",
+   "prix": 0.83512,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2314,15 +2333,19 @@
   {
    "quand": "2026-11-27T14:40+00:00",
    "valeur": 99.68
+  },
+  {
+   "quand": "2026-11-27T14:45+00:00",
+   "valeur": 98.84
   }
  ],
- "valeur": 99.68,
+ "valeur": 98.84,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T14:40+00:00",
+ "mis_a_jour": "2026-11-27T14:45+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 + moyenne 200 1 h · Euro / Livre",
  "regle": "Euro / Livre seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
