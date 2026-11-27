@@ -42,21 +42,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T07:35+00:00",
-   "marche": "GBPUSD",
-   "nom": "Livre / Dollar",
-   "prix": 1.31194,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T07:40+00:00",
    "marche": "GBPUSD",
    "nom": "Livre / Dollar",
@@ -931,6 +916,21 @@
    "marche": "GBPUSD",
    "nom": "Livre / Dollar",
    "prix": 1.31339,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T12:30+00:00",
+   "marche": "GBPUSD",
+   "nom": "Livre / Dollar",
+   "prix": 1.31342,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -2190,15 +2190,19 @@
   {
    "quand": "2026-11-27T12:25+00:00",
    "valeur": 99.42
+  },
+  {
+   "quand": "2026-11-27T12:30+00:00",
+   "valeur": 99.45
   }
  ],
- "valeur": 99.42,
+ "valeur": 99.45,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T12:25+00:00",
+ "mis_a_jour": "2026-11-27T12:30+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Livre / Dollar",
  "regle": "Livre / Dollar seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
