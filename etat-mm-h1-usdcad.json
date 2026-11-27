@@ -61,22 +61,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T06:00+00:00",
-   "marche": "USDCAD",
-   "nom": "Dollar / Dollar canadien",
-   "prix": 1.42359,
-   "jour": "HAUSSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette.",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T06:05+00:00",
    "marche": "USDCAD",
    "nom": "Dollar / Dollar canadien",
@@ -965,6 +949,22 @@
    "marche": "USDCAD",
    "nom": "Dollar / Dollar canadien",
    "prix": 1.42419,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette.",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T10:55+00:00",
+   "marche": "USDCAD",
+   "nom": "Dollar / Dollar canadien",
+   "prix": 1.42405,
    "jour": "HAUSSIER",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -2149,15 +2149,19 @@
   {
    "quand": "2026-11-27T10:50+00:00",
    "valeur": 97.3
+  },
+  {
+   "quand": "2026-11-27T10:55+00:00",
+   "valeur": 97.21
   }
  ],
- "valeur": 97.3,
+ "valeur": 97.21,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T10:50+00:00",
+ "mis_a_jour": "2026-11-27T10:55+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Dollar / Dollar canadien",
  "regle": "Dollar / Dollar canadien seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
