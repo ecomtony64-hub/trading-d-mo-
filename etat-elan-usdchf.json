@@ -1,24 +1,25 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
- "historique": [],
- "analyses": [
+ "positions": [
   {
-   "quand": "2026-11-27T16:10+00:00",
    "marche": "USDCHF",
    "nom": "Dollar / Franc suisse",
-   "prix": 0.8364,
-   "jour": "HAUSSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
+   "sens": "ACHAT",
+   "entree": 0.8369,
+   "stop": 0.8353,
+   "objectif": 0.8401,
+   "unites": 1000,
+   "risque": 1.75,
+   "marge": 30.49,
+   "reel": true,
+   "ouvert_le": "2026-11-27T21:05+00:00",
+   "t_entree": 1795813502,
+   "t_reel": 1795813504
+  }
+ ],
+ "historique": [],
+ "analyses": [
   {
    "quand": "2026-11-27T16:15+00:00",
    "marche": "USDCHF",
@@ -902,6 +903,19 @@
    "raisons": [
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T21:05+00:00",
+   "marche": "USDCHF",
+   "nom": "Dollar / Franc suisse",
+   "prix": 0.83625,
+   "jour": "HAUSSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2573,15 +2587,19 @@
   {
    "quand": "2026-11-27T21:00+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T21:05+00:00",
+   "valeur": 99.29
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.29,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T21:00+00:00",
+ "mis_a_jour": "2026-11-27T21:05+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Dollar / Franc suisse (risque fort)",
  "regle": "Dollar / Franc suisse seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
