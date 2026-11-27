@@ -1,7 +1,23 @@
 {
  "capital_depart": 100.0,
  "capital": 101.18,
- "positions": [],
+ "positions": [
+  {
+   "marche": "GBPJPY",
+   "nom": "Livre / Yen",
+   "sens": "ACHAT",
+   "entree": 209.353,
+   "stop": 209.074,
+   "objectif": 209.912,
+   "unites": 1000,
+   "risque": 1.6,
+   "marge": 59.87,
+   "reel": true,
+   "ouvert_le": "2026-11-27T10:05+00:00",
+   "t_entree": 1795773904,
+   "t_reel": 1795773905
+  }
+ ],
  "historique": [
   {
    "marche": "GBPJPY",
@@ -43,21 +59,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T05:10+00:00",
-   "marche": "GBPJPY",
-   "nom": "Livre / Yen",
-   "prix": 209.0,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T05:15+00:00",
    "marche": "GBPJPY",
@@ -941,6 +942,19 @@
    "raisons": [
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T10:05+00:00",
+   "marche": "GBPJPY",
+   "nom": "Livre / Yen",
+   "prix": 209.316,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2076,15 +2090,19 @@
   {
    "quand": "2026-11-27T10:00+00:00",
    "valeur": 101.18
+  },
+  {
+   "quand": "2026-11-27T10:05+00:00",
+   "valeur": 100.97
   }
  ],
- "valeur": 101.18,
+ "valeur": 100.97,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T10:00+00:00",
+ "mis_a_jour": "2026-11-27T10:05+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Livre / Yen (risque fort)",
  "regle": "Livre / Yen seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
