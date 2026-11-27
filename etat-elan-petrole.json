@@ -35,21 +35,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T10:10+00:00",
-   "marche": "PETROLE",
-   "nom": "Pétrole WTI",
-   "prix": 84.42,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:15+00:00",
    "marche": "PETROLE",
    "nom": "Pétrole WTI",
@@ -922,6 +907,21 @@
    "marche": "PETROLE",
    "nom": "Pétrole WTI",
    "prix": 83.96,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T15:05+00:00",
+   "marche": "PETROLE",
+   "nom": "Pétrole WTI",
+   "prix": 83.99,
    "jour": "BAISSIER",
    "h4": "HAUSSIER",
    "h1": "RANGE",
@@ -2309,15 +2309,19 @@
   {
    "quand": "2026-11-27T15:00+00:00",
    "valeur": 97.42
+  },
+  {
+   "quand": "2026-11-27T15:05+00:00",
+   "valeur": 97.64
   }
  ],
- "valeur": 97.42,
+ "valeur": 97.64,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T15:00+00:00",
+ "mis_a_jour": "2026-11-27T15:05+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Pétrole WTI (risque fort)",
  "regle": "Pétrole WTI seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
