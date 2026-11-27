@@ -1,23 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 100.97,
- "positions": [
-  {
-   "marche": "GBPJPY",
-   "nom": "Livre / Yen",
-   "sens": "ACHAT",
-   "entree": 209.248,
-   "stop": 208.95,
-   "objectif": 209.842,
-   "unites": 1000,
-   "risque": 1.7,
-   "marge": 59.87,
-   "reel": true,
-   "ouvert_le": "2026-11-27T11:50+00:00",
-   "t_entree": 1795780205,
-   "t_reel": 1795780218
-  }
- ],
+ "capital": 99.18,
+ "positions": [],
  "historique": [
   {
    "marche": "GBPJPY",
@@ -58,24 +42,29 @@
    "ferme_le": "2026-11-27T11:45+00:00",
    "frais_nuit": 0.0,
    "resultat": -1.72
+  },
+  {
+   "marche": "GBPJPY",
+   "nom": "Livre / Yen",
+   "sens": "ACHAT",
+   "entree": 209.248,
+   "stop": 208.95,
+   "objectif": 209.842,
+   "unites": 1000,
+   "risque": 1.7,
+   "marge": 59.87,
+   "reel": true,
+   "ouvert_le": "2026-11-27T11:50+00:00",
+   "t_entree": 1795780205,
+   "t_reel": 1795780218,
+   "sortie": 208.935,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T16:15+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.79
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T11:25+00:00",
-   "marche": "GBPJPY",
-   "nom": "Livre / Yen",
-   "prix": 209.397,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T11:30+00:00",
    "marche": "GBPJPY",
@@ -996,6 +985,21 @@
    "marche": "GBPJPY",
    "nom": "Livre / Yen",
    "prix": 208.999,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T16:20+00:00",
+   "marche": "GBPJPY",
+   "nom": "Livre / Yen",
+   "prix": 208.942,
    "jour": "BAISSIER",
    "h4": "HAUSSIER",
    "h1": "RANGE",
@@ -2443,15 +2447,19 @@
   {
    "quand": "2026-11-27T16:15+00:00",
    "valeur": 99.54
+  },
+  {
+   "quand": "2026-11-27T16:20+00:00",
+   "valeur": 99.18
   }
  ],
- "valeur": 99.54,
+ "valeur": 99.18,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T16:15+00:00",
+ "mis_a_jour": "2026-11-27T16:20+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Livre / Yen",
  "regle": "Livre / Yen seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"

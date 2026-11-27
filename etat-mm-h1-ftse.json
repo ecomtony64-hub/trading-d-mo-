@@ -1,7 +1,24 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
+ "capital": 114.7,
  "positions": [
+  {
+   "marche": "FTSE",
+   "nom": "FTSE 100 (Londres)",
+   "sens": "ACHAT",
+   "entree": 10713.3,
+   "stop": 10676.5,
+   "objectif": 10787.1,
+   "unites": 0.1,
+   "risque": 4.42,
+   "marge": 64.14,
+   "reel": true,
+   "ouvert_le": "2026-11-27T16:20+00:00",
+   "t_entree": 1795795507,
+   "t_reel": 1795796422
+  }
+ ],
+ "historique": [
   {
    "marche": "FTSE",
    "nom": "FTSE 100 (Londres)",
@@ -14,26 +31,15 @@
    "marge": 63.22,
    "reel": true,
    "ouvert_le": "2026-11-26T10:50+00:00",
-   "t_entree": 1795689310
+   "t_entree": 1795689310,
+   "sortie": 10709.9,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-27T16:00+00:00",
+   "frais_nuit": 0.26,
+   "resultat": 14.7
   }
  ],
- "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-27T11:25+00:00",
-   "marche": "FTSE",
-   "nom": "FTSE 100 (Londres)",
-   "prix": 10693.2,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 64.06 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T11:30+00:00",
    "marche": "FTSE",
@@ -917,6 +923,19 @@
    "raisons": [
     "Compte trop petit : le courtier demanderait 64.11 € de garantie pour cette position."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T16:20+00:00",
+   "marche": "FTSE",
+   "nom": "FTSE 100 (Londres)",
+   "prix": 10711.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2356,15 +2375,19 @@
   {
    "quand": "2026-11-27T16:15+00:00",
    "valeur": 114.35
+  },
+  {
+   "quand": "2026-11-27T16:20+00:00",
+   "valeur": 114.48
   }
  ],
- "valeur": 114.35,
+ "valeur": 114.48,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T16:15+00:00",
+ "mis_a_jour": "2026-11-27T16:20+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · FTSE 100 (Londres)",
  "regle": "FTSE 100 (Londres) seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
