@@ -21,21 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T13:30+00:00",
-   "marche": "EUROSTOXX",
-   "nom": "Euro Stoxx 50 (Europe)",
-   "prix": 6089.9,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T13:35+00:00",
    "marche": "EUROSTOXX",
    "nom": "Euro Stoxx 50 (Europe)",
@@ -907,6 +892,21 @@
   },
   {
    "quand": "2026-11-27T18:20+00:00",
+   "marche": "EUROSTOXX",
+   "nom": "Euro Stoxx 50 (Europe)",
+   "prix": 6089.2,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T18:25+00:00",
    "marche": "EUROSTOXX",
    "nom": "Euro Stoxx 50 (Europe)",
    "prix": 6089.2,
@@ -2457,6 +2457,10 @@
   {
    "quand": "2026-11-27T18:20+00:00",
    "valeur": 100.23
+  },
+  {
+   "quand": "2026-11-27T18:25+00:00",
+   "valeur": 100.23
   }
  ],
  "valeur": 100.23,
@@ -2465,7 +2469,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T18:20+00:00",
+ "mis_a_jour": "2026-11-27T18:25+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Euro Stoxx 50 (Europe)",
  "regle": "Euro Stoxx 50 (Europe) seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
