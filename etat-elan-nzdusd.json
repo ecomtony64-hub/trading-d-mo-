@@ -1,7 +1,23 @@
 {
  "capital_depart": 100.0,
  "capital": 98.46,
- "positions": [],
+ "positions": [
+  {
+   "marche": "NZDUSD",
+   "nom": "Dollar néo-zélandais / Dollar",
+   "sens": "ACHAT",
+   "entree": 0.55061,
+   "stop": 0.54976,
+   "objectif": 0.55231,
+   "unites": 1000,
+   "risque": 0.77,
+   "marge": 25.07,
+   "reel": true,
+   "ouvert_le": "2026-11-27T02:05+00:00",
+   "t_entree": 1795745026,
+   "t_reel": 1795745103
+  }
+ ],
  "historique": [
   {
    "marche": "NZDUSD",
@@ -43,21 +59,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-26T21:10+00:00",
-   "marche": "NZDUSD",
-   "nom": "Dollar néo-zélandais / Dollar",
-   "prix": 0.54732,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-26T21:15+00:00",
    "marche": "NZDUSD",
@@ -942,6 +943,19 @@
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T02:05+00:00",
+   "marche": "NZDUSD",
+   "nom": "Dollar néo-zélandais / Dollar",
+   "prix": 0.55036,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1684,15 +1698,19 @@
   {
    "quand": "2026-11-27T02:00+00:00",
    "valeur": 98.46
+  },
+  {
+   "quand": "2026-11-27T02:05+00:00",
+   "valeur": 98.23
   }
  ],
- "valeur": 98.46,
+ "valeur": 98.23,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T02:00+00:00",
+ "mis_a_jour": "2026-11-27T02:05+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Dollar néo-zélandais / Dollar (risque fort)",
  "regle": "Dollar néo-zélandais / Dollar seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"

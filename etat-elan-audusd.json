@@ -1,7 +1,8 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
- "positions": [
+ "capital": 102.08,
+ "positions": [],
+ "historique": [
   {
    "marche": "AUDUSD",
    "nom": "Dollar australien / Dollar",
@@ -14,26 +15,15 @@
    "marge": 30.19,
    "reel": true,
    "ouvert_le": "2026-11-26T10:50+00:00",
-   "t_entree": 1795690183
+   "t_entree": 1795690183,
+   "sortie": 0.66551,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-27T02:00+00:00",
+   "frais_nuit": 0.03,
+   "resultat": 2.08
   }
  ],
- "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-26T21:10+00:00",
-   "marche": "AUDUSD",
-   "nom": "Dollar australien / Dollar",
-   "prix": 0.66366,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-26T21:15+00:00",
    "marche": "AUDUSD",
@@ -918,6 +908,21 @@
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T02:05+00:00",
+   "marche": "AUDUSD",
+   "nom": "Dollar australien / Dollar",
+   "prix": 0.66591,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1660,15 +1665,19 @@
   {
    "quand": "2026-11-27T02:00+00:00",
    "valeur": 102.05
+  },
+  {
+   "quand": "2026-11-27T02:05+00:00",
+   "valeur": 102.08
   }
  ],
- "valeur": 102.05,
+ "valeur": 102.08,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T02:00+00:00",
+ "mis_a_jour": "2026-11-27T02:05+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Dollar australien / Dollar (risque fort)",
  "regle": "Dollar australien / Dollar seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
