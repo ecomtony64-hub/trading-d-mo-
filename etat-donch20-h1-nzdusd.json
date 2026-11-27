@@ -165,21 +165,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T11:55+00:00",
-   "marche": "NZDUSD",
-   "nom": "Dollar néo-zélandais / Dollar",
-   "prix": 0.54873,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T12:00+00:00",
    "marche": "NZDUSD",
    "nom": "Dollar néo-zélandais / Dollar",
@@ -1054,6 +1039,21 @@
    "marche": "NZDUSD",
    "nom": "Dollar néo-zélandais / Dollar",
    "prix": 0.54651,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T16:50+00:00",
+   "marche": "NZDUSD",
+   "nom": "Dollar néo-zélandais / Dollar",
+   "prix": 0.54672,
    "jour": "BAISSIER",
    "h4": "HAUSSIER",
    "h1": "BAISSIER",
@@ -2525,6 +2525,10 @@
   {
    "quand": "2026-11-27T16:45+00:00",
    "valeur": 93.2
+  },
+  {
+   "quand": "2026-11-27T16:50+00:00",
+   "valeur": 93.2
   }
  ],
  "valeur": 93.2,
@@ -2533,7 +2537,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T16:45+00:00",
+ "mis_a_jour": "2026-11-27T16:50+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Dollar néo-zélandais / Dollar",
  "regle": "Dollar néo-zélandais / Dollar seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
