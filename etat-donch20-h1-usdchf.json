@@ -1,7 +1,8 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
- "positions": [
+ "capital": 103.02,
+ "positions": [],
+ "historique": [
   {
    "marche": "USDCHF",
    "nom": "Dollar / Franc suisse",
@@ -14,26 +15,15 @@
    "marge": 30.37,
    "reel": true,
    "ouvert_le": "2026-11-26T10:50+00:00",
-   "t_entree": 1795690205
+   "t_entree": 1795690205,
+   "sortie": 0.83628,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-27T08:50+00:00",
+   "frais_nuit": 0.05,
+   "resultat": 3.02
   }
  ],
- "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-27T03:55+00:00",
-   "marche": "USDCHF",
-   "nom": "Dollar / Franc suisse",
-   "prix": 0.8337,
-   "jour": "HAUSSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T04:00+00:00",
    "marche": "USDCHF",
@@ -909,6 +899,21 @@
    "marche": "USDCHF",
    "nom": "Dollar / Franc suisse",
    "prix": 0.83611,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T08:55+00:00",
+   "marche": "USDCHF",
+   "nom": "Dollar / Franc suisse",
+   "prix": 0.83635,
    "jour": "HAUSSIER",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -1992,15 +1997,19 @@
   {
    "quand": "2026-11-27T08:50+00:00",
    "valeur": 102.83
+  },
+  {
+   "quand": "2026-11-27T08:55+00:00",
+   "valeur": 103.02
   }
  ],
- "valeur": 102.83,
+ "valeur": 103.02,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T08:50+00:00",
+ "mis_a_jour": "2026-11-27T08:55+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Dollar / Franc suisse",
  "regle": "Dollar / Franc suisse seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
