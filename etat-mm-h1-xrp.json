@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 96.55,
+ "capital": 95.85,
  "positions": [
-  {
-   "marche": "XRP",
-   "nom": "XRP (Ripple)",
-   "sens": "ACHAT",
-   "entree": 0.9719,
-   "stop": 0.9628,
-   "objectif": 0.9899,
-   "unites": 70,
-   "risque": 0.58,
-   "marge": 30.85,
-   "reel": true,
-   "ouvert_le": "2026-11-27T06:10+00:00",
-   "t_entree": 1795759807,
-   "t_reel": 1795759822
-  },
   {
    "marche": "XRP",
    "nom": "XRP (Ripple)",
@@ -169,24 +154,29 @@
    "ferme_le": "2026-11-27T14:15+00:00",
    "frais_nuit": 0.0,
    "resultat": -0.8
+  },
+  {
+   "marche": "XRP",
+   "nom": "XRP (Ripple)",
+   "sens": "ACHAT",
+   "entree": 0.9719,
+   "stop": 0.9628,
+   "objectif": 0.9899,
+   "unites": 70,
+   "risque": 0.58,
+   "marge": 30.85,
+   "reel": true,
+   "ouvert_le": "2026-11-27T06:10+00:00",
+   "t_entree": 1795759807,
+   "t_reel": 1795759822,
+   "sortie": 0.9609999761581421,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T14:25+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.7
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T09:30+00:00",
-   "marche": "XRP",
-   "nom": "XRP (Ripple)",
-   "prix": 0.9766,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T09:35+00:00",
    "marche": "XRP",
@@ -1056,6 +1046,22 @@
    "marche": "XRP",
    "nom": "XRP (Ripple)",
    "prix": 0.9628,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette.",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:30+00:00",
+   "marche": "XRP",
+   "nom": "XRP (Ripple)",
+   "prix": 0.9616,
    "jour": "HAUSSIER",
    "h4": "HAUSSIER",
    "h1": "HAUSSIER",
@@ -2412,15 +2418,19 @@
   {
    "quand": "2026-11-27T14:25+00:00",
    "valeur": 95.62
+  },
+  {
+   "quand": "2026-11-27T14:30+00:00",
+   "valeur": 95.42
   }
  ],
- "valeur": 95.62,
+ "valeur": 95.42,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T14:25+00:00",
+ "mis_a_jour": "2026-11-27T14:30+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · XRP (Ripple)",
  "regle": "XRP (Ripple) seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"

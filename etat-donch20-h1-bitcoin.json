@@ -21,21 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T09:30+00:00",
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "prix": 61648.0,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T09:35+00:00",
    "marche": "BITCOIN",
    "nom": "Bitcoin",
@@ -910,6 +895,21 @@
    "marche": "BITCOIN",
    "nom": "Bitcoin",
    "prix": 61287.0,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:30+00:00",
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "prix": 61278.0,
    "jour": "RANGE",
    "h4": "RANGE",
    "h1": "HAUSSIER",
@@ -2265,15 +2265,19 @@
   {
    "quand": "2026-11-27T14:25+00:00",
    "valeur": 99.97
+  },
+  {
+   "quand": "2026-11-27T14:30+00:00",
+   "valeur": 99.96
   }
  ],
- "valeur": 99.97,
+ "valeur": 99.96,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T14:25+00:00",
+ "mis_a_jour": "2026-11-27T14:30+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Bitcoin",
  "regle": "Bitcoin seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
