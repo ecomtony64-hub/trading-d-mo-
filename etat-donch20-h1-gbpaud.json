@@ -21,21 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T23:25+00:00",
-   "marche": "GBPAUD",
-   "nom": "Livre / Dollar australien",
-   "prix": 1.97571,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T23:30+00:00",
    "marche": "GBPAUD",
    "nom": "Livre / Dollar australien",
@@ -921,6 +906,22 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T04:20+00:00",
+   "marche": "GBPAUD",
+   "nom": "Livre / Dollar australien",
+   "prix": 1.97005,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1771,15 +1772,19 @@
   {
    "quand": "2026-11-27T04:15+00:00",
    "valeur": 100.62
+  },
+  {
+   "quand": "2026-11-27T04:20+00:00",
+   "valeur": 100.32
   }
  ],
- "valeur": 100.62,
+ "valeur": 100.32,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T04:15+00:00",
+ "mis_a_jour": "2026-11-27T04:20+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Livre / Dollar australien",
  "regle": "Livre / Dollar australien seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"

@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T23:25+00:00",
-   "marche": "EURCHF",
-   "nom": "Euro / Franc suisse",
-   "prix": 0.91534,
-   "jour": "HAUSSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T23:30+00:00",
    "marche": "EURCHF",
    "nom": "Euro / Franc suisse",
@@ -903,6 +888,21 @@
     "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T04:20+00:00",
+   "marche": "EURCHF",
+   "nom": "Euro / Franc suisse",
+   "prix": 0.91509,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1757,6 +1757,10 @@
   {
    "quand": "2026-11-27T04:15+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T04:20+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -1765,7 +1769,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T04:15+00:00",
+ "mis_a_jour": "2026-11-27T04:20+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 + moyenne 200 1 h · Euro / Franc suisse",
  "regle": "Euro / Franc suisse seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
