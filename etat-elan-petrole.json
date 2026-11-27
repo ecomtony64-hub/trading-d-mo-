@@ -1,21 +1,21 @@
 {
  "capital_depart": 100.0,
- "capital": 92.31,
+ "capital": 89.77,
  "positions": [
   {
    "marche": "PETROLE",
    "nom": "Pétrole WTI",
    "sens": "ACHAT",
-   "entree": 83.4,
-   "stop": 82.72,
-   "objectif": 84.76,
+   "entree": 82.78,
+   "stop": 82.1,
+   "objectif": 84.14,
    "unites": 4,
-   "risque": 2.5,
-   "marge": 30.48,
+   "risque": 2.49,
+   "marge": 30.25,
    "reel": true,
-   "ouvert_le": "2026-11-27T16:35+00:00",
-   "t_entree": 1795796707,
-   "t_reel": 1795797309
+   "ouvert_le": "2026-11-27T17:35+00:00",
+   "t_entree": 1795800309,
+   "t_reel": 1795800910
   }
  ],
  "historique": [
@@ -77,24 +77,29 @@
    "ferme_le": "2026-11-27T16:20+00:00",
    "frais_nuit": 0.0,
    "resultat": -2.43
+  },
+  {
+   "marche": "PETROLE",
+   "nom": "Pétrole WTI",
+   "sens": "ACHAT",
+   "entree": 83.4,
+   "stop": 82.72,
+   "objectif": 84.76,
+   "unites": 4,
+   "risque": 2.5,
+   "marge": 30.48,
+   "reel": true,
+   "ouvert_le": "2026-11-27T16:35+00:00",
+   "t_entree": 1795796707,
+   "t_reel": 1795797309,
+   "sortie": 82.705,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T17:20+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -2.54
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T12:40+00:00",
-   "marche": "PETROLE",
-   "nom": "Pétrole WTI",
-   "prix": 84.42,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T12:45+00:00",
    "marche": "PETROLE",
@@ -972,6 +977,19 @@
    "raisons": [
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T17:35+00:00",
+   "marche": "PETROLE",
+   "nom": "Pétrole WTI",
+   "prix": 82.74,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2471,15 +2489,19 @@
   {
    "quand": "2026-11-27T17:30+00:00",
    "valeur": 90.26
+  },
+  {
+   "quand": "2026-11-27T17:35+00:00",
+   "valeur": 89.62
   }
  ],
- "valeur": 90.26,
+ "valeur": 89.62,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T17:30+00:00",
+ "mis_a_jour": "2026-11-27T17:35+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Pétrole WTI (risque fort)",
  "regle": "Pétrole WTI seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
