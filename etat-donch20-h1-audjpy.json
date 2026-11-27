@@ -21,22 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T23:15+00:00",
-   "marche": "AUDJPY",
-   "nom": "Dollar australien / Yen",
-   "prix": 105.649,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu).",
-    "Tokyo CPI (Japon) a 00h30 Paris, BoJ peut monter ses taux en decembre"
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T23:20+00:00",
    "marche": "AUDJPY",
    "nom": "Dollar australien / Yen",
@@ -938,6 +922,22 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T04:10+00:00",
+   "marche": "AUDJPY",
+   "nom": "Dollar australien / Yen",
+   "prix": 105.981,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1784,15 +1784,19 @@
   {
    "quand": "2026-11-27T04:05+00:00",
    "valeur": 100.24
+  },
+  {
+   "quand": "2026-11-27T04:10+00:00",
+   "valeur": 100.09
   }
  ],
- "valeur": 100.24,
+ "valeur": 100.09,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T04:05+00:00",
+ "mis_a_jour": "2026-11-27T04:10+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Dollar australien / Yen",
  "regle": "Dollar australien / Yen seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
