@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T10:35+00:00",
-   "marche": "DOW",
-   "nom": "Dow Jones (États-Unis)",
-   "prix": 50182.9,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:40+00:00",
    "marche": "DOW",
    "nom": "Dow Jones (États-Unis)",
@@ -901,6 +886,21 @@
    "sens": null,
    "raisons": [
     "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T15:30+00:00",
+   "marche": "DOW",
+   "nom": "Dow Jones (États-Unis)",
+   "prix": 50561.8,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 51.79 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -2301,6 +2301,10 @@
   {
    "quand": "2026-11-27T15:25+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T15:30+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -2309,7 +2313,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T15:25+00:00",
+ "mis_a_jour": "2026-11-27T15:30+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Dow Jones (États-Unis)",
  "regle": "Dow Jones (États-Unis) seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
