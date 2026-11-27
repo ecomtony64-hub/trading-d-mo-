@@ -21,21 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T04:15+00:00",
-   "marche": "USDJPY",
-   "nom": "Dollar / Yen",
-   "prix": 159.228,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T04:20+00:00",
    "marche": "USDJPY",
    "nom": "Dollar / Yen",
@@ -908,6 +893,21 @@
    "marche": "USDJPY",
    "nom": "Dollar / Yen",
    "prix": 159.462,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "marche": "USDJPY",
+   "nom": "Dollar / Yen",
+   "prix": 159.468,
    "jour": "RANGE",
    "h4": "RANGE",
    "h1": "RANGE",
@@ -2007,15 +2007,19 @@
   {
    "quand": "2026-11-27T09:10+00:00",
    "valeur": 100.03
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "valeur": 100.06
   }
  ],
- "valeur": 100.03,
+ "valeur": 100.06,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T09:10+00:00",
+ "mis_a_jour": "2026-11-27T09:15+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Dollar / Yen",
  "regle": "Dollar / Yen seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
