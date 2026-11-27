@@ -1,21 +1,21 @@
 {
  "capital_depart": 100.0,
- "capital": 96.06,
+ "capital": 95.05,
  "positions": [
   {
    "marche": "NZDUSD",
    "nom": "Dollar néo-zélandais / Dollar",
-   "sens": "VENTE",
-   "entree": 0.54901,
-   "stop": 0.54978,
-   "objectif": 0.54746,
+   "sens": "ACHAT",
+   "entree": 0.55006,
+   "stop": 0.54921,
+   "objectif": 0.55177,
    "unites": 1000,
-   "risque": 0.71,
-   "marge": 25.02,
+   "risque": 0.78,
+   "marge": 25.05,
    "reel": true,
-   "ouvert_le": "2026-11-27T01:50+00:00",
-   "t_entree": 1795744185,
-   "t_reel": 1795744214
+   "ouvert_le": "2026-11-27T02:00+00:00",
+   "t_entree": 1795744786,
+   "t_reel": 1795744815
   }
  ],
  "historique": [
@@ -117,24 +117,29 @@
    "ferme_le": "2026-11-27T01:49+00:00",
    "frais_nuit": 0.0,
    "resultat": -0.84
+  },
+  {
+   "marche": "NZDUSD",
+   "nom": "Dollar néo-zélandais / Dollar",
+   "sens": "VENTE",
+   "entree": 0.54901,
+   "stop": 0.54978,
+   "objectif": 0.54746,
+   "unites": 1000,
+   "risque": 0.71,
+   "marge": 25.02,
+   "reel": true,
+   "ouvert_le": "2026-11-27T01:50+00:00",
+   "t_entree": 1795744185,
+   "t_reel": 1795744214,
+   "sortie": 0.5501130917549133,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T01:59+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.01
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-26T21:05+00:00",
-   "marche": "NZDUSD",
-   "nom": "Dollar néo-zélandais / Dollar",
-   "prix": 0.54735,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-26T21:10+00:00",
    "marche": "NZDUSD",
@@ -1021,6 +1026,19 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T02:00+00:00",
+   "marche": "NZDUSD",
+   "nom": "Dollar néo-zélandais / Dollar",
+   "prix": 0.54981,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1759,15 +1777,19 @@
   {
    "quand": "2026-11-27T01:55+00:00",
    "valeur": 95.78
+  },
+  {
+   "quand": "2026-11-27T02:00+00:00",
+   "valeur": 94.83
   }
  ],
- "valeur": 95.78,
+ "valeur": 94.83,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T01:55+00:00",
+ "mis_a_jour": "2026-11-27T02:00+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Dollar néo-zélandais / Dollar",
  "regle": "Dollar néo-zélandais / Dollar seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
