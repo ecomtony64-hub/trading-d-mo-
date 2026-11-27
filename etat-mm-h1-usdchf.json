@@ -61,21 +61,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-26T22:40+00:00",
-   "marche": "USDCHF",
-   "nom": "Dollar / Franc suisse",
-   "prix": 0.83376,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T22:45+00:00",
    "marche": "USDCHF",
    "nom": "Dollar / Franc suisse",
@@ -966,6 +951,21 @@
     "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "marche": "USDCHF",
+   "nom": "Dollar / Franc suisse",
+   "prix": 0.83356,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1784,9 +1784,13 @@
   {
    "quand": "2026-11-27T03:35+00:00",
    "valeur": 96.06
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "valeur": 96.08
   }
  ],
- "valeur": 96.06,
+ "valeur": 96.08,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,

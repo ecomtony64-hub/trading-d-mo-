@@ -35,21 +35,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T22:40+00:00",
-   "marche": "XRP",
-   "nom": "XRP (Ripple)",
-   "prix": 0.9473,
-   "jour": "RANGE",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T22:45+00:00",
    "marche": "XRP",
    "nom": "XRP (Ripple)",
@@ -931,6 +916,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "marche": "XRP",
+   "nom": "XRP (Ripple)",
+   "prix": 0.9632,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1749,9 +1749,13 @@
   {
    "quand": "2026-11-27T03:35+00:00",
    "valeur": 101.54
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "valeur": 101.48
   }
  ],
- "valeur": 101.54,
+ "valeur": 101.48,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,

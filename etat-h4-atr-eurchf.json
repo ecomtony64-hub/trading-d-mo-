@@ -48,21 +48,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T22:40+00:00",
-   "marche": "EURCHF",
-   "nom": "Euro / Franc suisse",
-   "prix": 0.91478,
-   "jour": "HAUSSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T22:45+00:00",
    "marche": "EURCHF",
    "nom": "Euro / Franc suisse",
@@ -946,6 +931,21 @@
     "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "marche": "EURCHF",
+   "nom": "Euro / Franc suisse",
+   "prix": 0.91524,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1764,9 +1764,13 @@
   {
    "quand": "2026-11-27T03:35+00:00",
    "valeur": 97.97
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "valeur": 98.0
   }
  ],
- "valeur": 97.97,
+ "valeur": 98.0,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,

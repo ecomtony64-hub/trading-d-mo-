@@ -61,21 +61,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-26T22:40+00:00",
-   "marche": "NZDUSD",
-   "nom": "Dollar néo-zélandais / Dollar",
-   "prix": 0.54717,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T22:45+00:00",
    "marche": "NZDUSD",
    "nom": "Dollar néo-zélandais / Dollar",
@@ -955,6 +940,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "marche": "NZDUSD",
+   "nom": "Dollar néo-zélandais / Dollar",
+   "prix": 0.54963,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1769,6 +1769,10 @@
   {
    "quand": "2026-11-27T03:30+00:00",
    "valeur": 99.75
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "valeur": 100.0
   },
   {
    "quand": "2026-11-27T03:35+00:00",

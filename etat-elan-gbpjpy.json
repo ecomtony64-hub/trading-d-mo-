@@ -40,21 +40,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-26T22:40+00:00",
-   "marche": "GBPJPY",
-   "nom": "Livre / Yen",
-   "prix": 208.644,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T22:45+00:00",
    "marche": "GBPJPY",
    "nom": "Livre / Yen",
@@ -962,6 +947,21 @@
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "marche": "GBPJPY",
+   "nom": "Livre / Yen",
+   "prix": 208.923,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1780,9 +1780,13 @@
   {
    "quand": "2026-11-27T03:35+00:00",
    "valeur": 99.71
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "valeur": 99.75
   }
  ],
- "valeur": 99.71,
+ "valeur": 99.75,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,

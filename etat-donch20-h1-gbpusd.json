@@ -42,21 +42,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-26T22:40+00:00",
-   "marche": "GBPUSD",
-   "nom": "Livre / Dollar",
-   "prix": 1.31074,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T22:45+00:00",
    "marche": "GBPUSD",
    "nom": "Livre / Dollar",
@@ -943,6 +928,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "marche": "GBPUSD",
+   "nom": "Livre / Dollar",
+   "prix": 1.3124,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1757,6 +1757,10 @@
   {
    "quand": "2026-11-27T03:30+00:00",
    "valeur": 98.47
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "valeur": 98.53
   },
   {
    "quand": "2026-11-27T03:35+00:00",

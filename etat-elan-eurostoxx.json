@@ -34,21 +34,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T22:40+00:00",
-   "marche": "EUROSTOXX",
-   "nom": "Euro Stoxx 50 (Europe)",
-   "prix": 6014.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T22:45+00:00",
    "marche": "EUROSTOXX",
    "nom": "Euro Stoxx 50 (Europe)",
@@ -932,6 +917,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "marche": "EUROSTOXX",
+   "nom": "Euro Stoxx 50 (Europe)",
+   "prix": 6014.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1745,6 +1745,10 @@
   },
   {
    "quand": "2026-11-27T03:30+00:00",
+   "valeur": 99.78
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
    "valeur": 99.78
   },
   {

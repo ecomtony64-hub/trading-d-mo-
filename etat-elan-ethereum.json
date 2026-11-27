@@ -61,22 +61,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-26T22:40+00:00",
-   "marche": "ETHEREUM",
-   "nom": "Ethereum",
-   "prix": 1694.1,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T22:45+00:00",
    "marche": "ETHEREUM",
    "nom": "Ethereum",
@@ -958,6 +942,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "marche": "ETHEREUM",
+   "nom": "Ethereum",
+   "prix": 1727.2,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1776,9 +1775,13 @@
   {
    "quand": "2026-11-27T03:35+00:00",
    "valeur": 98.93
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "valeur": 98.91
   }
  ],
- "valeur": 98.93,
+ "valeur": 98.91,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,

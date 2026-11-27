@@ -41,21 +41,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-26T22:40+00:00",
-   "marche": "NIKKEI",
-   "nom": "Nikkei 225 (Japon)",
-   "prix": 57499.0,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T22:45+00:00",
    "marche": "NIKKEI",
    "nom": "Nikkei 225 (Japon)",
@@ -967,6 +952,22 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
+   "marche": "NIKKEI",
+   "nom": "Nikkei 225 (Japon)",
+   "prix": 58172.0,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette.",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1780,6 +1781,10 @@
   },
   {
    "quand": "2026-11-27T03:30+00:00",
+   "valeur": 88.82
+  },
+  {
+   "quand": "2026-11-27T03:35+00:00",
    "valeur": 88.82
   },
   {
