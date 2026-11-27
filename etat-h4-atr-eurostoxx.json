@@ -34,21 +34,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T02:00+00:00",
-   "marche": "EUROSTOXX",
-   "nom": "Euro Stoxx 50 (Europe)",
-   "prix": 6014.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T02:05+00:00",
    "marche": "EUROSTOXX",
    "nom": "Euro Stoxx 50 (Europe)",
@@ -920,6 +905,21 @@
   },
   {
    "quand": "2026-11-27T06:50+00:00",
+   "marche": "EUROSTOXX",
+   "nom": "Euro Stoxx 50 (Europe)",
+   "prix": 6014.7,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T06:55+00:00",
    "marche": "EUROSTOXX",
    "nom": "Euro Stoxx 50 (Europe)",
    "prix": 6014.7,
@@ -1910,6 +1910,10 @@
   {
    "quand": "2026-11-27T06:50+00:00",
    "valeur": 99.78
+  },
+  {
+   "quand": "2026-11-27T06:55+00:00",
+   "valeur": 99.78
   }
  ],
  "valeur": 99.78,
@@ -1918,7 +1922,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T06:50+00:00",
+ "mis_a_jour": "2026-11-27T06:55+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h, stop serré · Euro Stoxx 50 (Europe)",
  "regle": "Euro Stoxx 50 (Europe) seulement. Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
