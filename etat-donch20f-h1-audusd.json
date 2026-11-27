@@ -1,6 +1,6 @@
 {
  "capital_depart": 100.0,
- "capital": 99.19,
+ "capital": 97.81,
  "positions": [
   {
    "marche": "AUDUSD",
@@ -16,21 +16,6 @@
    "ouvert_le": "2026-11-27T03:40+00:00",
    "t_entree": 1795750788,
    "t_reel": 1795750818
-  },
-  {
-   "marche": "AUDUSD",
-   "nom": "Dollar australien / Dollar",
-   "sens": "ACHAT",
-   "entree": 0.6681,
-   "stop": 0.66692,
-   "objectif": 0.67047,
-   "unites": 1000,
-   "risque": 1.08,
-   "marge": 30.44,
-   "reel": true,
-   "ouvert_le": "2026-11-27T09:05+00:00",
-   "t_entree": 1795770224,
-   "t_reel": 1795770318
   }
  ],
  "historique": [
@@ -53,24 +38,29 @@
    "ferme_le": "2026-11-27T03:35+00:00",
    "frais_nuit": 0.0,
    "resultat": -0.81
+  },
+  {
+   "marche": "AUDUSD",
+   "nom": "Dollar australien / Dollar",
+   "sens": "ACHAT",
+   "entree": 0.6681,
+   "stop": 0.66692,
+   "objectif": 0.67047,
+   "unites": 1000,
+   "risque": 1.08,
+   "marge": 30.44,
+   "reel": true,
+   "ouvert_le": "2026-11-27T09:05+00:00",
+   "t_entree": 1795770224,
+   "t_reel": 1795770318,
+   "sortie": 0.6665916865348815,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T13:13+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.38
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T08:20+00:00",
-   "marche": "AUDUSD",
-   "nom": "Dollar australien / Dollar",
-   "prix": 0.66791,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T08:25+00:00",
    "marche": "AUDUSD",
@@ -981,6 +971,21 @@
    "marche": "AUDUSD",
    "nom": "Dollar australien / Dollar",
    "prix": 0.66698,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T13:15+00:00",
+   "marche": "AUDUSD",
+   "nom": "Dollar australien / Dollar",
+   "prix": 0.66667,
    "jour": "BAISSIER",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2276,15 +2281,19 @@
   {
    "quand": "2026-11-27T13:10+00:00",
    "valeur": 98.48
+  },
+  {
+   "quand": "2026-11-27T13:15+00:00",
+   "valeur": 97.84
   }
  ],
- "valeur": 98.48,
+ "valeur": 97.84,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T13:10+00:00",
+ "mis_a_jour": "2026-11-27T13:15+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 + moyenne 200 1 h · Dollar australien / Dollar",
  "regle": "Dollar australien / Dollar seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
