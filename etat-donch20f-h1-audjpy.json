@@ -26,21 +26,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T10:55+00:00",
-   "marche": "AUDJPY",
-   "nom": "Dollar australien / Yen",
-   "prix": 106.451,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T11:00+00:00",
    "marche": "AUDJPY",
    "nom": "Dollar australien / Yen",
@@ -915,6 +900,21 @@
    "marche": "AUDJPY",
    "nom": "Dollar australien / Yen",
    "prix": 105.994,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T15:50+00:00",
+   "marche": "AUDJPY",
+   "nom": "Dollar australien / Yen",
+   "prix": 105.968,
    "jour": "BAISSIER",
    "h4": "RANGE",
    "h1": "RANGE",
@@ -2338,6 +2338,10 @@
   {
    "quand": "2026-11-27T15:45+00:00",
    "valeur": 98.69
+  },
+  {
+   "quand": "2026-11-27T15:50+00:00",
+   "valeur": 98.69
   }
  ],
  "valeur": 98.69,
@@ -2346,7 +2350,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T15:45+00:00",
+ "mis_a_jour": "2026-11-27T15:50+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 + moyenne 200 1 h · Dollar australien / Yen",
  "regle": "Dollar australien / Yen seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
