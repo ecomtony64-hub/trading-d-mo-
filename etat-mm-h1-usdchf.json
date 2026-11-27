@@ -96,21 +96,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T05:00+00:00",
-   "marche": "USDCHF",
-   "nom": "Dollar / Franc suisse",
-   "prix": 0.83435,
-   "jour": "HAUSSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T05:05+00:00",
    "marche": "USDCHF",
    "nom": "Dollar / Franc suisse",
@@ -996,6 +981,21 @@
    "marche": "USDCHF",
    "nom": "Dollar / Franc suisse",
    "prix": 0.83546,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:55+00:00",
+   "marche": "USDCHF",
+   "nom": "Dollar / Franc suisse",
+   "prix": 0.83549,
    "jour": "HAUSSIER",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -2131,15 +2131,19 @@
   {
    "quand": "2026-11-27T09:50+00:00",
    "valeur": 98.13
+  },
+  {
+   "quand": "2026-11-27T09:55+00:00",
+   "valeur": 98.2
   }
  ],
- "valeur": 98.13,
+ "valeur": 98.2,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T09:50+00:00",
+ "mis_a_jour": "2026-11-27T09:55+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Dollar / Franc suisse",
  "regle": "Dollar / Franc suisse seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"

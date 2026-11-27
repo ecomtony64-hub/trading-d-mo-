@@ -49,21 +49,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T05:00+00:00",
-   "marche": "EURCHF",
-   "nom": "Euro / Franc suisse",
-   "prix": 0.91535,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T05:05+00:00",
    "marche": "EURCHF",
    "nom": "Euro / Franc suisse",
@@ -938,6 +923,21 @@
    "marche": "EURCHF",
    "nom": "Euro / Franc suisse",
    "prix": 0.916,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 33.33 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:55+00:00",
+   "marche": "EURCHF",
+   "nom": "Euro / Franc suisse",
+   "prix": 0.91588,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -2073,15 +2073,19 @@
   {
    "quand": "2026-11-27T09:50+00:00",
    "valeur": 102.09
+  },
+  {
+   "quand": "2026-11-27T09:55+00:00",
+   "valeur": 101.7
   }
  ],
- "valeur": 102.09,
+ "valeur": 101.7,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T09:50+00:00",
+ "mis_a_jour": "2026-11-27T09:55+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Euro / Franc suisse",
  "regle": "Euro / Franc suisse seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
