@@ -34,21 +34,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T15:35+00:00",
-   "marche": "CAC40",
-   "nom": "CAC 40 (France)",
-   "prix": 8154.0,
-   "jour": "HAUSSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 40.77 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:40+00:00",
    "marche": "CAC40",
    "nom": "CAC 40 (France)",
@@ -920,6 +905,21 @@
   },
   {
    "quand": "2026-11-27T20:30+00:00",
+   "marche": "CAC40",
+   "nom": "CAC 40 (France)",
+   "prix": 8156.1,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 40.78 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
    "marche": "CAC40",
    "nom": "CAC 40 (France)",
    "prix": 8156.1,
@@ -2574,6 +2574,10 @@
   {
    "quand": "2026-11-27T20:30+00:00",
    "valeur": 104.9
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "valeur": 104.9
   }
  ],
  "valeur": 104.9,
@@ -2582,7 +2586,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T20:30+00:00",
+ "mis_a_jour": "2026-11-27T20:35+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · CAC 40 (France)",
  "regle": "CAC 40 (France) seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
