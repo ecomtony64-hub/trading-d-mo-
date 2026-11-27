@@ -96,21 +96,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T08:25+00:00",
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "prix": 61884.0,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T08:30+00:00",
    "marche": "BITCOIN",
    "nom": "Bitcoin",
@@ -983,6 +968,21 @@
    "marche": "BITCOIN",
    "nom": "Bitcoin",
    "prix": 61425.0,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T13:20+00:00",
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "prix": 61293.0,
    "jour": "RANGE",
    "h4": "RANGE",
    "h1": "HAUSSIER",
@@ -2282,15 +2282,19 @@
   {
    "quand": "2026-11-27T13:15+00:00",
    "valeur": 99.88
+  },
+  {
+   "quand": "2026-11-27T13:20+00:00",
+   "valeur": 99.64
   }
  ],
- "valeur": 99.88,
+ "valeur": 99.64,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T13:15+00:00",
+ "mis_a_jour": "2026-11-27T13:20+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Bitcoin (risque fort)",
  "regle": "Bitcoin seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
