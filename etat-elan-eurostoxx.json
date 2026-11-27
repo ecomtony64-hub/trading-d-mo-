@@ -1,7 +1,8 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
- "positions": [
+ "capital": 90.6,
+ "positions": [],
+ "historique": [
   {
    "marche": "EUROSTOXX",
    "nom": "Euro Stoxx 50 (Europe)",
@@ -14,7 +15,12 @@
    "marge": 30.08,
    "reel": true,
    "ouvert_le": "2026-11-26T10:50+00:00",
-   "t_entree": 1795689300
+   "t_entree": 1795689300,
+   "sortie": 6065.4,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T08:00+00:00",
+   "frais_nuit": 0.12,
+   "resultat": -5.0
   },
   {
    "marche": "EUROSTOXX",
@@ -28,26 +34,15 @@
    "marge": 30.09,
    "reel": true,
    "ouvert_le": "2026-11-26T15:00+00:00",
-   "t_entree": 1795704000
+   "t_entree": 1795704000,
+   "sortie": 6059.9,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T08:00+00:00",
+   "frais_nuit": 0.12,
+   "resultat": -4.4
   }
  ],
- "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-27T03:25+00:00",
-   "marche": "EUROSTOXX",
-   "nom": "Euro Stoxx 50 (Europe)",
-   "prix": 6014.7,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T03:30+00:00",
    "marche": "EUROSTOXX",
@@ -930,6 +925,21 @@
    "sens": null,
    "raisons": [
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T08:20+00:00",
+   "marche": "EUROSTOXX",
+   "nom": "Euro Stoxx 50 (Europe)",
+   "prix": 6073.2,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
    "alerte": null
   }
@@ -1978,15 +1988,19 @@
   {
    "quand": "2026-11-27T08:15+00:00",
    "valeur": 99.78
+  },
+  {
+   "quand": "2026-11-27T08:20+00:00",
+   "valeur": 90.6
   }
  ],
- "valeur": 99.78,
+ "valeur": 90.6,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T08:15+00:00",
+ "mis_a_jour": "2026-11-27T08:20+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Euro Stoxx 50 (Europe) (risque fort)",
  "regle": "Euro Stoxx 50 (Europe) seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"

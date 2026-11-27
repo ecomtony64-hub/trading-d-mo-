@@ -1,21 +1,21 @@
 {
  "capital_depart": 100.0,
- "capital": 100.12,
+ "capital": 101.22,
  "positions": [
   {
    "marche": "XRP",
    "nom": "XRP (Ripple)",
    "sens": "ACHAT",
-   "entree": 0.9648,
-   "stop": 0.9563,
-   "objectif": 0.982,
+   "entree": 0.9867,
+   "stop": 0.9764,
+   "objectif": 1.0071,
    "unites": 70,
-   "risque": 0.55,
-   "marge": 30.65,
+   "risque": 0.65,
+   "marge": 31.35,
    "reel": true,
-   "ouvert_le": "2026-11-27T04:35+00:00",
-   "t_entree": 1795754108,
-   "t_reel": 1795754111
+   "ouvert_le": "2026-11-27T08:20+00:00",
+   "t_entree": 1795767605,
+   "t_reel": 1795767611
   }
  ],
  "historique": [
@@ -115,24 +115,29 @@
    "ferme_le": "2026-11-27T05:30+00:00",
    "frais_nuit": 0.0,
    "resultat": 1.13
+  },
+  {
+   "marche": "XRP",
+   "nom": "XRP (Ripple)",
+   "sens": "ACHAT",
+   "entree": 0.9648,
+   "stop": 0.9563,
+   "objectif": 0.982,
+   "unites": 70,
+   "risque": 0.55,
+   "marge": 30.65,
+   "reel": true,
+   "ouvert_le": "2026-11-27T04:35+00:00",
+   "t_entree": 1795754108,
+   "t_reel": 1795754111,
+   "sortie": 0.982,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-27T08:15+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 1.1
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T03:25+00:00",
-   "marche": "XRP",
-   "nom": "XRP (Ripple)",
-   "prix": 0.963,
-   "jour": "RANGE",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T03:30+00:00",
    "marche": "XRP",
@@ -1020,6 +1025,19 @@
    "raisons": [
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T08:20+00:00",
+   "marche": "XRP",
+   "nom": "XRP (Ripple)",
+   "prix": 0.9829,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2067,15 +2085,19 @@
   {
    "quand": "2026-11-27T08:15+00:00",
    "valeur": 100.97
+  },
+  {
+   "quand": "2026-11-27T08:20+00:00",
+   "valeur": 100.98
   }
  ],
- "valeur": 100.97,
+ "valeur": 100.98,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T08:15+00:00",
+ "mis_a_jour": "2026-11-27T08:20+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · XRP (Ripple) (risque fort)",
  "regle": "XRP (Ripple) seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
