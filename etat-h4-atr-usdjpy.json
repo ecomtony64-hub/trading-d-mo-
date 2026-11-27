@@ -48,21 +48,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "USDJPY",
-   "nom": "Dollar / Yen",
-   "prix": 159.554,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "USDJPY",
    "nom": "Dollar / Yen",
@@ -937,6 +922,21 @@
    "marche": "USDJPY",
    "nom": "Dollar / Yen",
    "prix": 159.556,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 30.48 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "marche": "USDJPY",
+   "nom": "Dollar / Yen",
+   "prix": 159.55,
    "jour": "RANGE",
    "h4": "HAUSSIER",
    "h1": "RANGE",
@@ -2592,9 +2592,13 @@
   {
    "quand": "2026-11-27T20:35+00:00",
    "valeur": 94.6
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "valeur": 94.7
   }
  ],
- "valeur": 94.6,
+ "valeur": 94.7,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,

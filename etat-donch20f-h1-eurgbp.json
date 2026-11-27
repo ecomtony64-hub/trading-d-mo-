@@ -57,22 +57,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "EURGBP",
-   "nom": "Euro / Livre",
-   "prix": 0.83475,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "EURGBP",
    "nom": "Euro / Livre",
@@ -983,6 +967,21 @@
    "marche": "EURGBP",
    "nom": "Euro / Livre",
    "prix": 0.83493,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "marche": "EURGBP",
+   "nom": "Euro / Livre",
+   "prix": 0.83495,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -2638,9 +2637,13 @@
   {
    "quand": "2026-11-27T20:35+00:00",
    "valeur": 99.3
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "valeur": 99.25
   }
  ],
- "valeur": 99.3,
+ "valeur": 99.25,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,

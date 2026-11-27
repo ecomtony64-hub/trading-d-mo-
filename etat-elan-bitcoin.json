@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 97.93,
+ "capital": 99.19,
  "positions": [
-  {
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "sens": "VENTE",
-   "entree": 60162.0,
-   "stop": 60851.0,
-   "objectif": 58784.0,
-   "unites": 0.001,
-   "risque": 0.63,
-   "marge": 27.47,
-   "reel": true,
-   "ouvert_le": "2026-11-27T14:40+00:00",
-   "t_entree": 1795790406,
-   "t_reel": 1795790413
-  },
   {
    "marche": "BITCOIN",
    "nom": "Bitcoin",
@@ -172,24 +157,29 @@
    "ferme_le": "2026-11-27T14:40+00:00",
    "frais_nuit": 0.0,
    "resultat": -0.6
+  },
+  {
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "sens": "VENTE",
+   "entree": 60162.0,
+   "stop": 60851.0,
+   "objectif": 58784.0,
+   "unites": 0.001,
+   "risque": 0.63,
+   "marge": 27.47,
+   "reel": true,
+   "ouvert_le": "2026-11-27T14:40+00:00",
+   "t_entree": 1795790406,
+   "t_reel": 1795790413,
+   "sortie": 58784.0,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-27T15:05+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 1.26
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "prix": 60013.0,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "BITCOIN",
@@ -1095,6 +1085,21 @@
    "marche": "BITCOIN",
    "nom": "Bitcoin",
    "prix": 59732.0,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "prix": 59706.0,
    "jour": "RANGE",
    "h4": "RANGE",
    "h1": "RANGE",
@@ -2750,9 +2755,13 @@
   {
    "quand": "2026-11-27T20:35+00:00",
    "valeur": 98.31
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "valeur": 99.25
   }
  ],
- "valeur": 98.31,
+ "valeur": 99.25,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,

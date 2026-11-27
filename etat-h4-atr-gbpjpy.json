@@ -21,21 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "GBPJPY",
-   "nom": "Livre / Yen",
-   "prix": 209.136,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "GBPJPY",
    "nom": "Livre / Yen",
@@ -908,6 +893,21 @@
    "marche": "GBPJPY",
    "nom": "Livre / Yen",
    "prix": 208.953,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 59.88 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "marche": "GBPJPY",
+   "nom": "Livre / Yen",
+   "prix": 208.945,
    "jour": "BAISSIER",
    "h4": "HAUSSIER",
    "h1": "HAUSSIER",
@@ -2563,9 +2563,13 @@
   {
    "quand": "2026-11-27T20:35+00:00",
    "valeur": 98.98
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "valeur": 98.93
   }
  ],
- "valeur": 98.98,
+ "valeur": 98.93,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,

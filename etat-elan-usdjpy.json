@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "USDJPY",
-   "nom": "Dollar / Yen",
-   "prix": 159.554,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "USDJPY",
    "nom": "Dollar / Yen",
@@ -894,6 +879,21 @@
    "marche": "USDJPY",
    "nom": "Dollar / Yen",
    "prix": 159.556,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "marche": "USDJPY",
+   "nom": "Dollar / Yen",
+   "prix": 159.55,
    "jour": "RANGE",
    "h4": "HAUSSIER",
    "h1": "RANGE",
@@ -2544,6 +2544,10 @@
   },
   {
    "quand": "2026-11-27T20:30+00:00",
+   "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
    "valeur": 100.0
   },
   {

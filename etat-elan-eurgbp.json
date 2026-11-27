@@ -21,21 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "EURGBP",
-   "nom": "Euro / Livre",
-   "prix": 0.83475,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "EURGBP",
    "nom": "Euro / Livre",
@@ -910,6 +895,21 @@
    "marche": "EURGBP",
    "nom": "Euro / Livre",
    "prix": 0.83493,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "marche": "EURGBP",
+   "nom": "Euro / Livre",
+   "prix": 0.83495,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -2565,9 +2565,13 @@
   {
    "quand": "2026-11-27T20:35+00:00",
    "valeur": 99.76
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "valeur": 99.74
   }
  ],
- "valeur": 99.76,
+ "valeur": 99.74,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,

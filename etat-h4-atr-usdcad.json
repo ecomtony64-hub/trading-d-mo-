@@ -48,21 +48,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "USDCAD",
-   "nom": "Dollar / Dollar canadien",
-   "prix": 1.4248,
-   "jour": "HAUSSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "USDCAD",
    "nom": "Dollar / Dollar canadien",
@@ -922,6 +907,21 @@
    "marche": "USDCAD",
    "nom": "Dollar / Dollar canadien",
    "prix": 1.42494,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 30.49 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "marche": "USDCAD",
+   "nom": "Dollar / Dollar canadien",
+   "prix": 1.42472,
    "jour": "HAUSSIER",
    "h4": "HAUSSIER",
    "h1": "RANGE",
@@ -2588,6 +2588,10 @@
   {
    "quand": "2026-11-27T20:30+00:00",
    "valeur": 96.96
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "valeur": 97.38
   },
   {
    "quand": "2026-11-27T20:35+00:00",

@@ -20,21 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "CHFJPY",
-   "nom": "Franc suisse / Yen",
-   "prix": 190.753,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "CHFJPY",
    "nom": "Franc suisse / Yen",
@@ -909,6 +894,21 @@
    "marche": "CHFJPY",
    "nom": "Franc suisse / Yen",
    "prix": 190.771,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "marche": "CHFJPY",
+   "nom": "Franc suisse / Yen",
+   "prix": 190.766,
    "jour": "BAISSIER",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -2564,9 +2564,13 @@
   {
    "quand": "2026-11-27T20:35+00:00",
    "valeur": 100.76
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "valeur": 100.79
   }
  ],
- "valeur": 100.76,
+ "valeur": 100.79,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,

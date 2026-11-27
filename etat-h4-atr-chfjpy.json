@@ -20,21 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "CHFJPY",
-   "nom": "Franc suisse / Yen",
-   "prix": 190.753,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 54.63 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "CHFJPY",
    "nom": "Franc suisse / Yen",
@@ -909,6 +894,21 @@
    "marche": "CHFJPY",
    "nom": "Franc suisse / Yen",
    "prix": 190.771,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 54.67 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "marche": "CHFJPY",
+   "nom": "Franc suisse / Yen",
+   "prix": 190.766,
    "jour": "BAISSIER",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -2564,9 +2564,13 @@
   {
    "quand": "2026-11-27T20:35+00:00",
    "valeur": 97.67
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "valeur": 97.64
   }
  ],
- "valeur": 97.67,
+ "valeur": 97.64,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,

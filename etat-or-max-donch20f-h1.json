@@ -101,21 +101,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3655.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -972,6 +957,21 @@
   },
   {
    "quand": "2026-11-27T20:30+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3668.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3668.5,
@@ -3800,6 +3800,10 @@
   },
   {
    "quand": "2026-11-27T20:30+00:00",
+   "valeur": 168.69
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
    "valeur": 168.69
   },
   {

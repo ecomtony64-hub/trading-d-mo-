@@ -81,21 +81,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "BRENT",
-   "nom": "Pétrole Brent",
-   "prix": 91.24,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "BRENT",
    "nom": "Pétrole Brent",
@@ -950,6 +935,21 @@
   },
   {
    "quand": "2026-11-27T20:30+00:00",
+   "marche": "BRENT",
+   "nom": "Pétrole Brent",
+   "prix": 90.44,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
    "marche": "BRENT",
    "nom": "Pétrole Brent",
    "prix": 90.44,
@@ -2618,6 +2618,10 @@
   },
   {
    "quand": "2026-11-27T20:30+00:00",
+   "valeur": 92.12
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
    "valeur": 92.12
   },
   {

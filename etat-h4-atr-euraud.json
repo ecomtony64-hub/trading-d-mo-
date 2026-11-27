@@ -60,21 +60,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "EURAUD",
-   "nom": "Euro / Dollar australien",
-   "prix": 1.64615,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 50.0 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "EURAUD",
    "nom": "Euro / Dollar australien",
@@ -949,6 +934,21 @@
    "marche": "EURAUD",
    "nom": "Euro / Dollar australien",
    "prix": 1.645,
+   "jour": "HAUSSIER",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "marche": "EURAUD",
+   "nom": "Euro / Dollar australien",
+   "prix": 1.64505,
    "jour": "HAUSSIER",
    "h4": "RANGE",
    "h1": "BAISSIER",
@@ -2604,9 +2604,13 @@
   {
    "quand": "2026-11-27T20:35+00:00",
    "valeur": 88.74
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "valeur": 88.77
   }
  ],
- "valeur": 88.74,
+ "valeur": 88.77,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,

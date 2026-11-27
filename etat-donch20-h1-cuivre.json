@@ -21,21 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "CUIVRE",
-   "nom": "Cuivre",
-   "prix": 5.596,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "CUIVRE",
    "nom": "Cuivre",
@@ -940,6 +925,22 @@
   },
   {
    "quand": "2026-11-27T20:30+00:00",
+   "marche": "CUIVRE",
+   "nom": "Cuivre",
+   "prix": 5.6005,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
    "marche": "CUIVRE",
    "nom": "Cuivre",
    "prix": 5.6005,
@@ -2610,6 +2611,10 @@
   },
   {
    "quand": "2026-11-27T20:30+00:00",
+   "valeur": 100.12
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
    "valeur": 100.12
   },
   {

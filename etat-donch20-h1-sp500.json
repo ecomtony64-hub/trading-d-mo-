@@ -21,21 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "SP500",
-   "nom": "S&P 500 (États-Unis)",
-   "prix": 7268.1,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "SP500",
    "nom": "S&P 500 (États-Unis)",
@@ -908,6 +893,22 @@
   },
   {
    "quand": "2026-11-27T20:30+00:00",
+   "marche": "SP500",
+   "nom": "S&P 500 (États-Unis)",
+   "prix": 7297.5,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
    "marche": "SP500",
    "nom": "S&P 500 (États-Unis)",
    "prix": 7297.5,
@@ -2578,6 +2579,10 @@
   },
   {
    "quand": "2026-11-27T20:30+00:00",
+   "valeur": 101.12
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
    "valeur": 101.12
   },
   {

@@ -74,21 +74,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "prix": 60013.0,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire sur le graphique de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "BITCOIN",
    "nom": "Bitcoin",
@@ -962,6 +947,21 @@
    "marche": "BITCOIN",
    "nom": "Bitcoin",
    "prix": 59732.0,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire sur le graphique de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "prix": 59706.0,
    "jour": "RANGE",
    "h4": "RANGE",
    "h1": "RANGE",
@@ -2612,6 +2612,10 @@
   },
   {
    "quand": "2026-11-27T20:30+00:00",
+   "valeur": 97.64
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
    "valeur": 97.64
   },
   {

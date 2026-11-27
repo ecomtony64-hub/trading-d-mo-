@@ -63,21 +63,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T15:40+00:00",
-   "marche": "NZDUSD",
-   "nom": "Dollar néo-zélandais / Dollar",
-   "prix": 0.5466,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 24.97 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:45+00:00",
    "marche": "NZDUSD",
    "nom": "Dollar néo-zélandais / Dollar",
@@ -937,6 +922,21 @@
    "marche": "NZDUSD",
    "nom": "Dollar néo-zélandais / Dollar",
    "prix": 0.54669,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 24.99 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "marche": "NZDUSD",
+   "nom": "Dollar néo-zélandais / Dollar",
+   "prix": 0.54663,
    "jour": "BAISSIER",
    "h4": "HAUSSIER",
    "h1": "BAISSIER",
@@ -2603,6 +2603,10 @@
   {
    "quand": "2026-11-27T20:30+00:00",
    "valeur": 95.85
+  },
+  {
+   "quand": "2026-11-27T20:35+00:00",
+   "valeur": 95.63
   },
   {
    "quand": "2026-11-27T20:35+00:00",
