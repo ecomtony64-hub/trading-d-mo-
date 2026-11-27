@@ -16,6 +16,21 @@
    "ouvert_le": "2026-11-27T08:50+00:00",
    "t_entree": 1795769403,
    "t_reel": 1795769421
+  },
+  {
+   "marche": "USDCAD",
+   "nom": "Dollar / Dollar canadien",
+   "sens": "ACHAT",
+   "entree": 1.42451,
+   "stop": 1.42218,
+   "objectif": 1.42918,
+   "unites": 1000,
+   "risque": 1.5,
+   "marge": 30.41,
+   "reel": true,
+   "ouvert_le": "2026-11-27T13:05+00:00",
+   "t_entree": 1795784702,
+   "t_reel": 1795784722
   }
  ],
  "historique": [
@@ -60,21 +75,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T08:10+00:00",
-   "marche": "USDCAD",
-   "nom": "Dollar / Dollar canadien",
-   "prix": 1.42374,
-   "jour": "HAUSSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T08:15+00:00",
    "marche": "USDCAD",
@@ -988,6 +988,19 @@
    "raisons": [
     "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T13:05+00:00",
+   "marche": "USDCAD",
+   "nom": "Dollar / Dollar canadien",
+   "prix": 1.42426,
+   "jour": "HAUSSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2267,15 +2280,19 @@
   {
    "quand": "2026-11-27T13:00+00:00",
    "valeur": 97.04
+  },
+  {
+   "quand": "2026-11-27T13:05+00:00",
+   "valeur": 97.18
   }
  ],
- "valeur": 97.04,
+ "valeur": 97.18,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T13:00+00:00",
+ "mis_a_jour": "2026-11-27T13:05+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Dollar / Dollar canadien",
  "regle": "Dollar / Dollar canadien seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
