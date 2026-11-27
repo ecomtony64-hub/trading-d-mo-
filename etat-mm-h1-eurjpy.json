@@ -79,21 +79,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-26T21:45+00:00",
-   "marche": "EURJPY",
-   "nom": "Euro / Yen",
-   "prix": 174.714,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T21:50+00:00",
    "marche": "EURJPY",
    "nom": "Euro / Yen",
@@ -989,6 +974,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T02:40+00:00",
+   "marche": "EURJPY",
+   "nom": "Euro / Yen",
+   "prix": 174.759,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1759,15 +1759,19 @@
   {
    "quand": "2026-11-27T02:35+00:00",
    "valeur": 95.66
+  },
+  {
+   "quand": "2026-11-27T02:40+00:00",
+   "valeur": 95.52
   }
  ],
- "valeur": 95.66,
+ "valeur": 95.52,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T02:35+00:00",
+ "mis_a_jour": "2026-11-27T02:40+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Euro / Yen",
  "regle": "Euro / Yen seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
