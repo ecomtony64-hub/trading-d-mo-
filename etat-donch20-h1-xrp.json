@@ -1,21 +1,21 @@
 {
  "capital_depart": 100.0,
- "capital": 99.32,
+ "capital": 98.3,
  "positions": [
   {
    "marche": "XRP",
    "nom": "XRP (Ripple)",
    "sens": "VENTE",
-   "entree": 0.9367,
-   "stop": 0.9512,
-   "objectif": 0.9079,
+   "entree": 0.947,
+   "stop": 0.9618,
+   "objectif": 0.9176,
    "unites": 70,
-   "risque": 0.92,
-   "marge": 29.96,
+   "risque": 0.94,
+   "marge": 30.31,
    "reel": true,
-   "ouvert_le": "2026-11-27T15:00+00:00",
-   "t_entree": 1795791608,
-   "t_reel": 1795791620
+   "ouvert_le": "2026-11-27T15:35+00:00",
+   "t_entree": 1795793707,
+   "t_reel": 1795793720
   }
  ],
  "historique": [
@@ -38,24 +38,29 @@
    "ferme_le": "2026-11-27T14:20+00:00",
    "frais_nuit": 0.0,
    "resultat": -0.68
+  },
+  {
+   "marche": "XRP",
+   "nom": "XRP (Ripple)",
+   "sens": "VENTE",
+   "entree": 0.9367,
+   "stop": 0.9512,
+   "objectif": 0.9079,
+   "unites": 70,
+   "risque": 0.92,
+   "marge": 29.96,
+   "reel": true,
+   "ouvert_le": "2026-11-27T15:00+00:00",
+   "t_entree": 1795791608,
+   "t_reel": 1795791620,
+   "sortie": 0.9527,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T15:30+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -1.02
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T10:40+00:00",
-   "marche": "XRP",
-   "nom": "XRP (Ripple)",
-   "prix": 0.9841,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T10:45+00:00",
    "marche": "XRP",
@@ -937,6 +942,19 @@
    "raisons": [
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T15:35+00:00",
+   "marche": "XRP",
+   "nom": "XRP (Ripple)",
+   "prix": 0.9478,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2340,15 +2358,19 @@
   {
    "quand": "2026-11-27T15:30+00:00",
    "valeur": 98.69
+  },
+  {
+   "quand": "2026-11-27T15:35+00:00",
+   "valeur": 98.06
   }
  ],
- "valeur": 98.69,
+ "valeur": 98.06,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T15:30+00:00",
+ "mis_a_jour": "2026-11-27T15:35+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · XRP (Ripple)",
  "regle": "XRP (Ripple) seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
