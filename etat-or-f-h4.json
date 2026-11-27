@@ -178,21 +178,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T15:45+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3654.6,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Impossible de placer un stop logique."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:50+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -1064,6 +1049,21 @@
   },
   {
    "quand": "2026-11-27T20:35+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3668.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Impossible de placer un stop logique."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:40+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3668.5,
@@ -3886,6 +3886,10 @@
   {
    "quand": "2026-11-27T20:35+00:00",
    "valeur": 103.99
+  },
+  {
+   "quand": "2026-11-27T20:40+00:00",
+   "valeur": 103.99
   }
  ],
  "risque_trade": 5.0,
@@ -3895,7 +3899,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T20:35+00:00",
+ "mis_a_jour": "2026-11-27T20:40+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Tendance 4 h (risque fort)",
  "regle": "Or seulement. Tendance du graphique de 4 h seul, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus"
