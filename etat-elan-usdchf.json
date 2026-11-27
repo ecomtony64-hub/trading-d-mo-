@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T22:45+00:00",
-   "marche": "USDCHF",
-   "nom": "Dollar / Franc suisse",
-   "prix": 0.83373,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T22:50+00:00",
    "marche": "USDCHF",
    "nom": "Dollar / Franc suisse",
@@ -903,6 +888,21 @@
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T03:40+00:00",
+   "marche": "USDCHF",
+   "nom": "Dollar / Franc suisse",
+   "prix": 0.83346,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1725,6 +1725,10 @@
   {
    "quand": "2026-11-27T03:35+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T03:40+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -1733,7 +1737,7 @@
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T03:35+00:00",
+ "mis_a_jour": "2026-11-27T03:40+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Dollar / Franc suisse (risque fort)",
  "regle": "Dollar / Franc suisse seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"

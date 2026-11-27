@@ -1,7 +1,24 @@
 {
  "capital_depart": 100.0,
- "capital": 100.0,
+ "capital": 99.19,
  "positions": [
+  {
+   "marche": "AUDUSD",
+   "nom": "Dollar australien / Dollar",
+   "sens": "ACHAT",
+   "entree": 0.66663,
+   "stop": 0.66573,
+   "objectif": 0.66843,
+   "unites": 1000,
+   "risque": 0.82,
+   "marge": 30.34,
+   "reel": true,
+   "ouvert_le": "2026-11-27T03:40+00:00",
+   "t_entree": 1795750788,
+   "t_reel": 1795750818
+  }
+ ],
+ "historique": [
   {
    "marche": "AUDUSD",
    "nom": "Dollar australien / Dollar",
@@ -15,26 +32,15 @@
    "reel": true,
    "ouvert_le": "2026-11-27T03:05+00:00",
    "t_entree": 1795748627,
-   "t_reel": 1795748716
+   "t_reel": 1795748716,
+   "sortie": 0.6662807291030883,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T03:35+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.81
   }
  ],
- "historique": [],
  "analyses": [
-  {
-   "quand": "2026-11-26T22:45+00:00",
-   "marche": "AUDUSD",
-   "nom": "Dollar australien / Dollar",
-   "prix": 0.66353,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-26T22:50+00:00",
    "marche": "AUDUSD",
@@ -917,6 +923,19 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T03:40+00:00",
+   "marche": "AUDUSD",
+   "nom": "Dollar australien / Dollar",
+   "prix": 0.66644,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1739,15 +1758,19 @@
   {
    "quand": "2026-11-27T03:35+00:00",
    "valeur": 99.5
+  },
+  {
+   "quand": "2026-11-27T03:40+00:00",
+   "valeur": 99.02
   }
  ],
- "valeur": 99.5,
+ "valeur": 99.02,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T03:35+00:00",
+ "mis_a_jour": "2026-11-27T03:40+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 + moyenne 200 1 h · Dollar australien / Dollar",
  "regle": "Dollar australien / Dollar seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
