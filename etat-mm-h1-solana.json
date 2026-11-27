@@ -31,6 +31,21 @@
    "ouvert_le": "2026-11-27T07:20+00:00",
    "t_entree": 1795764008,
    "t_reel": 1795764024
+  },
+  {
+   "marche": "SOLANA",
+   "nom": "Solana",
+   "sens": "ACHAT",
+   "entree": 73.53,
+   "stop": 72.73,
+   "objectif": 75.12,
+   "unites": 0.9,
+   "risque": 0.65,
+   "marge": 30.02,
+   "reel": true,
+   "ouvert_le": "2026-11-27T11:25+00:00",
+   "t_entree": 1795778705,
+   "t_reel": 1795778724
   }
  ],
  "historique": [
@@ -132,21 +147,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T06:30+00:00",
-   "marche": "SOLANA",
-   "nom": "Solana",
-   "prix": 72.9,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T06:35+00:00",
    "marche": "SOLANA",
@@ -1028,6 +1028,19 @@
    "raisons": [
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T11:25+00:00",
+   "marche": "SOLANA",
+   "nom": "Solana",
+   "prix": 73.15,
+   "jour": "HAUSSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2227,15 +2240,19 @@
   {
    "quand": "2026-11-27T11:20+00:00",
    "valeur": 102.08
+  },
+  {
+   "quand": "2026-11-27T11:25+00:00",
+   "valeur": 101.76
   }
  ],
- "valeur": 102.08,
+ "valeur": 101.76,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T11:20+00:00",
+ "mis_a_jour": "2026-11-27T11:25+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Solana",
  "regle": "Solana seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
