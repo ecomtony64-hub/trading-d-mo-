@@ -130,21 +130,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T04:20+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3620.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 1 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T04:25+00:00",
    "marche": "OR",
    "nom": "Or",
@@ -1001,6 +986,21 @@
   },
   {
    "quand": "2026-11-27T09:10+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3620.4,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 1 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3620.4,
@@ -3277,6 +3277,10 @@
   },
   {
    "quand": "2026-11-27T09:10+00:00",
+   "valeur": 166.64
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
    "valeur": 166.64
   },
   {

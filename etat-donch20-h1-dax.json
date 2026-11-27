@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T04:20+00:00",
-   "marche": "DAX",
-   "nom": "DAX (Allemagne)",
-   "prix": 25215.5,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T04:25+00:00",
    "marche": "DAX",
    "nom": "DAX (Allemagne)",
@@ -901,6 +886,21 @@
    "sens": null,
    "raisons": [
     "Stop trop loin : ce trade risquerait 18.19 € (plus de 15 % du compte)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "marche": "DAX",
+   "nom": "DAX (Allemagne)",
+   "prix": 25449.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Stop trop loin : ce trade risquerait 18.23 € (plus de 15 % du compte)."
    ],
    "alerte": null
   }
@@ -1992,6 +1992,10 @@
   },
   {
    "quand": "2026-11-27T09:10+00:00",
+   "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
    "valeur": 100.0
   },
   {

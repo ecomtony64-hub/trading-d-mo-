@@ -25,21 +25,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T04:20+00:00",
-   "marche": "USDCAD",
-   "nom": "Dollar / Dollar canadien",
-   "prix": 1.42458,
-   "jour": "HAUSSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T04:25+00:00",
    "marche": "USDCAD",
    "nom": "Dollar / Dollar canadien",
@@ -914,6 +899,21 @@
    "marche": "USDCAD",
    "nom": "Dollar / Dollar canadien",
    "prix": 1.42407,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "marche": "USDCAD",
+   "nom": "Dollar / Dollar canadien",
+   "prix": 1.42418,
    "jour": "HAUSSIER",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -2012,6 +2012,10 @@
   },
   {
    "quand": "2026-11-27T09:10+00:00",
+   "valeur": 98.84
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
    "valeur": 98.84
   },
   {

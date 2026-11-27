@@ -114,22 +114,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T04:20+00:00",
-   "marche": "EURJPY",
-   "nom": "Euro / Yen",
-   "prix": 174.714,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette.",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T04:25+00:00",
    "marche": "EURJPY",
    "nom": "Euro / Yen",
@@ -1009,6 +993,21 @@
    "marche": "EURJPY",
    "nom": "Euro / Yen",
    "prix": 174.797,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "marche": "EURJPY",
+   "nom": "Euro / Yen",
+   "prix": 174.796,
    "jour": "BAISSIER",
    "h4": "HAUSSIER",
    "h1": "HAUSSIER",
@@ -2112,9 +2111,13 @@
   {
    "quand": "2026-11-27T09:15+00:00",
    "valeur": 94.7
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "valeur": 94.69
   }
  ],
- "valeur": 94.7,
+ "valeur": 94.69,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,

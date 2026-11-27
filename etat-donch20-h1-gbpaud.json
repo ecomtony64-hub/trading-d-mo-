@@ -21,22 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T04:20+00:00",
-   "marche": "GBPAUD",
-   "nom": "Livre / Dollar australien",
-   "prix": 1.97005,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T04:25+00:00",
    "marche": "GBPAUD",
    "nom": "Livre / Dollar australien",
@@ -930,6 +914,21 @@
    "marche": "GBPAUD",
    "nom": "Livre / Dollar australien",
    "prix": 1.96527,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 59.87 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "marche": "GBPAUD",
+   "nom": "Livre / Dollar australien",
+   "prix": 1.96533,
    "jour": "HAUSSIER",
    "h4": "HAUSSIER",
    "h1": "BAISSIER",
@@ -2029,9 +2028,13 @@
   {
    "quand": "2026-11-27T09:15+00:00",
    "valeur": 103.24
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "valeur": 103.2
   }
  ],
- "valeur": 103.24,
+ "valeur": 103.2,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,

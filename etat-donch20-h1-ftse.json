@@ -20,22 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T04:20+00:00",
-   "marche": "FTSE",
-   "nom": "FTSE 100 (Londres)",
-   "prix": 10609.3,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T04:25+00:00",
    "marche": "FTSE",
    "nom": "FTSE 100 (Londres)",
@@ -956,6 +940,21 @@
    "marche": "FTSE",
    "nom": "FTSE 100 (Londres)",
    "prix": 10681.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 63.95 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "marche": "FTSE",
+   "nom": "FTSE 100 (Londres)",
+   "prix": 10680.7,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -2059,9 +2058,13 @@
   {
    "quand": "2026-11-27T09:15+00:00",
    "valeur": 108.5
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "valeur": 108.47
   }
  ],
- "valeur": 108.5,
+ "valeur": 108.47,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,

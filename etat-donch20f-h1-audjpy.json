@@ -21,21 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T04:20+00:00",
-   "marche": "AUDJPY",
-   "nom": "Dollar australien / Yen",
-   "prix": 105.98,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T04:25+00:00",
    "marche": "AUDJPY",
    "nom": "Dollar australien / Yen",
@@ -932,6 +917,21 @@
    "marche": "AUDJPY",
    "nom": "Dollar australien / Yen",
    "prix": 106.491,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "marche": "AUDJPY",
+   "nom": "Dollar australien / Yen",
+   "prix": 106.497,
    "jour": "BAISSIER",
    "h4": "RANGE",
    "h1": "RANGE",
@@ -2035,9 +2035,13 @@
   {
    "quand": "2026-11-27T09:15+00:00",
    "valeur": 100.86
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "valeur": 100.9
   }
  ],
- "valeur": 100.86,
+ "valeur": 100.9,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,

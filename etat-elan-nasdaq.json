@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T04:20+00:00",
-   "marche": "NASDAQ",
-   "nom": "Nasdaq 100 (États-Unis)",
-   "prix": 26046.9,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T04:25+00:00",
    "marche": "NASDAQ",
    "nom": "Nasdaq 100 (États-Unis)",
@@ -876,6 +861,21 @@
   },
   {
    "quand": "2026-11-27T09:10+00:00",
+   "marche": "NASDAQ",
+   "nom": "Nasdaq 100 (États-Unis)",
+   "prix": 26046.9,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
    "marche": "NASDAQ",
    "nom": "Nasdaq 100 (États-Unis)",
    "prix": 26046.9,
@@ -1992,6 +1992,10 @@
   },
   {
    "quand": "2026-11-27T09:10+00:00",
+   "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
    "valeur": 100.0
   },
   {

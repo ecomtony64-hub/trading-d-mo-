@@ -42,22 +42,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T04:20+00:00",
-   "marche": "EURAUD",
-   "nom": "Euro / Dollar australien",
-   "prix": 1.64845,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T04:25+00:00",
    "marche": "EURAUD",
    "nom": "Euro / Dollar australien",
@@ -949,6 +933,21 @@
    "marche": "EURAUD",
    "nom": "Euro / Dollar australien",
    "prix": 1.64134,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "marche": "EURAUD",
+   "nom": "Euro / Dollar australien",
+   "prix": 1.64129,
    "jour": "HAUSSIER",
    "h4": "HAUSSIER",
    "h1": "BAISSIER",
@@ -2052,9 +2051,13 @@
   {
    "quand": "2026-11-27T09:15+00:00",
    "valeur": 103.48
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "valeur": 103.51
   }
  ],
- "valeur": 103.48,
+ "valeur": 103.51,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,

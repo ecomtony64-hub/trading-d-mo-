@@ -159,21 +159,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T04:20+00:00",
-   "marche": "XRP",
-   "nom": "XRP (Ripple)",
-   "prix": 0.9586,
-   "jour": "RANGE",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T04:25+00:00",
    "marche": "XRP",
    "nom": "XRP (Ripple)",
@@ -1047,6 +1032,21 @@
    "marche": "XRP",
    "nom": "XRP (Ripple)",
    "prix": 0.9763,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "marche": "XRP",
+   "nom": "XRP (Ripple)",
+   "prix": 0.9769,
    "jour": "HAUSSIER",
    "h4": "HAUSSIER",
    "h1": "HAUSSIER",
@@ -2150,9 +2150,13 @@
   {
    "quand": "2026-11-27T09:15+00:00",
    "valeur": 100.27
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "valeur": 100.3
   }
  ],
- "valeur": 100.27,
+ "valeur": 100.3,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,

@@ -21,21 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T04:20+00:00",
-   "marche": "XRP",
-   "nom": "XRP (Ripple)",
-   "prix": 0.9586,
-   "jour": "RANGE",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T04:25+00:00",
    "marche": "XRP",
    "nom": "XRP (Ripple)",
@@ -911,6 +896,22 @@
    "marche": "XRP",
    "nom": "XRP (Ripple)",
    "prix": 0.9763,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "marche": "XRP",
+   "nom": "XRP (Ripple)",
+   "prix": 0.9769,
    "jour": "HAUSSIER",
    "h4": "HAUSSIER",
    "h1": "HAUSSIER",
@@ -2015,9 +2016,13 @@
   {
    "quand": "2026-11-27T09:15+00:00",
    "valeur": 100.2
+  },
+  {
+   "quand": "2026-11-27T09:15+00:00",
+   "valeur": 100.24
   }
  ],
- "valeur": 100.2,
+ "valeur": 100.24,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,
