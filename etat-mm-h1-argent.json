@@ -1,24 +1,25 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
- "historique": [],
- "analyses": [
+ "positions": [
   {
-   "quand": "2026-11-27T10:45+00:00",
    "marche": "ARGENT",
    "nom": "Argent (métal)",
-   "prix": 42.085,
-   "jour": "BAISSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
+   "sens": "ACHAT",
+   "entree": 43.843,
+   "stop": 42.864,
+   "objectif": 45.8,
+   "unites": 7,
+   "risque": 6.26,
+   "marge": 28.02,
+   "reel": true,
+   "ouvert_le": "2026-11-27T15:40+00:00",
+   "t_entree": 1795793404,
+   "t_reel": 1795794024
+  }
+ ],
+ "historique": [],
+ "analyses": [
   {
    "quand": "2026-11-27T10:50+00:00",
    "marche": "ARGENT",
@@ -902,6 +903,19 @@
    "raisons": [
     "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T15:40+00:00",
+   "marche": "ARGENT",
+   "nom": "Argent (métal)",
+   "prix": 43.805,
+   "jour": "BAISSIER",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2309,15 +2323,19 @@
   {
    "quand": "2026-11-27T15:35+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T15:40+00:00",
+   "valeur": 99.76
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.76,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T15:35+00:00",
+ "mis_a_jour": "2026-11-27T15:40+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Argent (métal)",
  "regle": "Argent (métal) seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"

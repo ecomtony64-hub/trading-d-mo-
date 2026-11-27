@@ -1,24 +1,25 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
- "historique": [],
- "analyses": [
+ "positions": [
   {
-   "quand": "2026-11-27T10:45+00:00",
    "marche": "BRENT",
    "nom": "Pétrole Brent",
-   "prix": 91.17,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
+   "sens": "ACHAT",
+   "entree": 91.28,
+   "stop": 90.62,
+   "objectif": 92.59,
+   "unites": 4,
+   "risque": 2.4,
+   "marge": 33.35,
+   "reel": true,
+   "ouvert_le": "2026-11-27T15:40+00:00",
+   "t_entree": 1795793400,
+   "t_reel": 1795794019
+  }
+ ],
+ "historique": [],
+ "analyses": [
   {
    "quand": "2026-11-27T10:50+00:00",
    "marche": "BRENT",
@@ -902,6 +903,19 @@
    "raisons": [
     "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T15:40+00:00",
+   "marche": "BRENT",
+   "nom": "Pétrole Brent",
+   "prix": 91.24,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2309,15 +2323,19 @@
   {
    "quand": "2026-11-27T15:35+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T15:40+00:00",
+   "valeur": 99.85
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.85,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T15:35+00:00",
+ "mis_a_jour": "2026-11-27T15:40+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Pétrole Brent",
  "regle": "Pétrole Brent seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
