@@ -62,21 +62,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T07:45+00:00",
-   "marche": "SOLANA",
-   "nom": "Solana",
-   "prix": 72.86,
-   "jour": "HAUSSIER",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T07:50+00:00",
    "marche": "SOLANA",
    "nom": "Solana",
@@ -951,6 +936,21 @@
    "marche": "SOLANA",
    "nom": "Solana",
    "prix": 73.05,
+   "jour": "HAUSSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T12:40+00:00",
+   "marche": "SOLANA",
+   "nom": "Solana",
+   "prix": 72.95,
    "jour": "HAUSSIER",
    "h4": "RANGE",
    "h1": "HAUSSIER",
@@ -2218,15 +2218,19 @@
   {
    "quand": "2026-11-27T12:35+00:00",
    "valeur": 100.81
+  },
+  {
+   "quand": "2026-11-27T12:40+00:00",
+   "valeur": 100.73
   }
  ],
- "valeur": 100.81,
+ "valeur": 100.73,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T12:35+00:00",
+ "mis_a_jour": "2026-11-27T12:40+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Solana",
  "regle": "Solana seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
