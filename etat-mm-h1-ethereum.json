@@ -163,21 +163,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T12:25+00:00",
-   "marche": "ETHEREUM",
-   "nom": "Ethereum",
-   "prix": 1719.4,
-   "jour": "RANGE",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T12:30+00:00",
    "marche": "ETHEREUM",
    "nom": "Ethereum",
@@ -1051,6 +1036,21 @@
    "marche": "ETHEREUM",
    "nom": "Ethereum",
    "prix": 1669.4,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T17:20+00:00",
+   "marche": "ETHEREUM",
+   "nom": "Ethereum",
+   "prix": 1670.2,
    "jour": "RANGE",
    "h4": "HAUSSIER",
    "h1": "BAISSIER",
@@ -2546,6 +2546,10 @@
   {
    "quand": "2026-11-27T17:15+00:00",
    "valeur": 96.04
+  },
+  {
+   "quand": "2026-11-27T17:20+00:00",
+   "valeur": 96.04
   }
  ],
  "valeur": 96.04,
@@ -2554,7 +2558,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T17:15+00:00",
+ "mis_a_jour": "2026-11-27T17:20+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Ethereum",
  "regle": "Ethereum seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
