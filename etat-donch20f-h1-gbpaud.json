@@ -21,21 +21,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T03:30+00:00",
-   "marche": "GBPAUD",
-   "nom": "Livre / Dollar australien",
-   "prix": 1.96943,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T03:35+00:00",
    "marche": "GBPAUD",
    "nom": "Livre / Dollar australien",
@@ -924,6 +909,22 @@
    "marche": "GBPAUD",
    "nom": "Livre / Dollar australien",
    "prix": 1.96617,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T08:25+00:00",
+   "marche": "GBPAUD",
+   "nom": "Livre / Dollar australien",
+   "prix": 1.96606,
    "jour": "HAUSSIER",
    "h4": "HAUSSIER",
    "h1": "BAISSIER",
@@ -1984,15 +1985,19 @@
   {
    "quand": "2026-11-27T08:20+00:00",
    "valeur": 100.18
+  },
+  {
+   "quand": "2026-11-27T08:25+00:00",
+   "valeur": 100.24
   }
  ],
- "valeur": 100.18,
+ "valeur": 100.24,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T08:20+00:00",
+ "mis_a_jour": "2026-11-27T08:25+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 + moyenne 200 1 h · Livre / Dollar australien",
  "regle": "Livre / Dollar australien seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"

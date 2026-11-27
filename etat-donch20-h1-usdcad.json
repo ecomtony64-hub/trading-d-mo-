@@ -65,21 +65,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T03:30+00:00",
-   "marche": "USDCAD",
-   "nom": "Dollar / Dollar canadien",
-   "prix": 1.42348,
-   "jour": "HAUSSIER",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T03:35+00:00",
    "marche": "USDCAD",
    "nom": "Dollar / Dollar canadien",
@@ -954,6 +939,21 @@
    "marche": "USDCAD",
    "nom": "Dollar / Dollar canadien",
    "prix": 1.4233,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T08:25+00:00",
+   "marche": "USDCAD",
+   "nom": "Dollar / Dollar canadien",
+   "prix": 1.42417,
    "jour": "HAUSSIER",
    "h4": "BAISSIER",
    "h1": "BAISSIER",
@@ -2013,6 +2013,10 @@
   {
    "quand": "2026-11-27T08:20+00:00",
    "valeur": 96.45
+  },
+  {
+   "quand": "2026-11-27T08:25+00:00",
+   "valeur": 96.45
   }
  ],
  "valeur": 96.45,
@@ -2021,7 +2025,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T08:20+00:00",
+ "mis_a_jour": "2026-11-27T08:25+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Dollar / Dollar canadien",
  "regle": "Dollar / Dollar canadien seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
