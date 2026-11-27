@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 116.21,
- "positions": [
-  {
-   "marche": "OR",
-   "nom": "Or",
-   "sens": "VENTE",
-   "entree": 3571.1,
-   "stop": 3676.7,
-   "objectif": 3359.9,
-   "unites": 0.05,
-   "risque": 4.81,
-   "marge": 8.14,
-   "reel": true,
-   "ouvert_le": "2026-11-24T17:00+00:00",
-   "t_entree": 1795539000
-  }
- ],
+ "capital": 111.28,
+ "positions": [],
  "historique": [
   {
    "marche": "OR",
@@ -150,24 +135,28 @@
    "ferme_le": "2026-11-26T04:59+00:00",
    "frais_nuit": 0.14,
    "resultat": -8.33
+  },
+  {
+   "marche": "OR",
+   "nom": "Or",
+   "sens": "VENTE",
+   "entree": 3571.1,
+   "stop": 3676.7,
+   "objectif": 3359.9,
+   "unites": 0.05,
+   "risque": 4.81,
+   "marge": 8.14,
+   "reel": true,
+   "ouvert_le": "2026-11-24T17:00+00:00",
+   "t_entree": 1795539000,
+   "sortie": 3676.8999999999996,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T18:00+00:00",
+   "frais_nuit": 0.09,
+   "resultat": -4.93
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T13:10+00:00",
-   "marche": "OR",
-   "nom": "Or",
-   "prix": 3620.4,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T13:15+00:00",
    "marche": "OR",
@@ -1043,6 +1032,21 @@
    "marche": "OR",
    "nom": "Or",
    "prix": 3673.3,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de tendance claire : les graphiques 4 h et 1 h ne vont pas dans le même sens."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T18:05+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3679.8,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "HAUSSIER",
@@ -3734,16 +3738,20 @@
   {
    "quand": "2026-11-27T18:00+00:00",
    "valeur": 111.43
+  },
+  {
+   "quand": "2026-11-27T18:05+00:00",
+   "valeur": 111.28
   }
  ],
  "risque_trade": 5.0,
- "valeur": 111.43,
+ "valeur": 111.28,
  "news": "",
  "methode": "actif",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T18:00+00:00",
+ "mis_a_jour": "2026-11-27T18:05+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Tendance 4 h + 1 h (risque fort)",
  "regle": "Or seulement. Les graphiques 4 h et 1 h vont dans le même sens, objectif 2 fois le risque ; risque 5 % du compte par trade, pause sous 50 € ; 4 trades ouverts au plus"
