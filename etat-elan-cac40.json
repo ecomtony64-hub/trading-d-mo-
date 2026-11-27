@@ -20,21 +20,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T21:00+00:00",
-   "marche": "CAC40",
-   "nom": "CAC 40 (France)",
-   "prix": 8108.7,
-   "jour": "HAUSSIER",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T21:05+00:00",
    "marche": "CAC40",
    "nom": "CAC 40 (France)",
@@ -906,6 +891,21 @@
   },
   {
    "quand": "2026-11-27T01:50+00:00",
+   "marche": "CAC40",
+   "nom": "CAC 40 (France)",
+   "prix": 8108.7,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T01:55+00:00",
    "marche": "CAC40",
    "nom": "CAC 40 (France)",
    "prix": 8108.7,
@@ -1652,6 +1652,10 @@
   {
    "quand": "2026-11-27T01:50+00:00",
    "valeur": 97.23
+  },
+  {
+   "quand": "2026-11-27T01:55+00:00",
+   "valeur": 97.23
   }
  ],
  "valeur": 97.23,
@@ -1660,7 +1664,7 @@
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T01:50+00:00",
+ "mis_a_jour": "2026-11-27T01:55+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · CAC 40 (France) (risque fort)",
  "regle": "CAC 40 (France) seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
