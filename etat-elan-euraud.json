@@ -1,24 +1,25 @@
 {
  "capital_depart": 100.0,
  "capital": 100.0,
- "positions": [],
- "historique": [],
- "analyses": [
+ "positions": [
   {
-   "quand": "2026-11-27T11:05+00:00",
    "marche": "EURAUD",
    "nom": "Euro / Dollar australien",
-   "prix": 1.64224,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
-   ],
-   "alerte": null
-  },
+   "sens": "VENTE",
+   "entree": 1.64694,
+   "stop": 1.65056,
+   "objectif": 1.63972,
+   "unites": 1000,
+   "risque": 2.19,
+   "marge": 50.0,
+   "reel": true,
+   "ouvert_le": "2026-11-27T16:00+00:00",
+   "t_entree": 1795795205,
+   "t_reel": 1795795205
+  }
+ ],
+ "historique": [],
+ "analyses": [
   {
    "quand": "2026-11-27T11:10+00:00",
    "marche": "EURAUD",
@@ -902,6 +903,19 @@
    "raisons": [
     "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %)."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T16:00+00:00",
+   "marche": "EURAUD",
+   "nom": "Euro / Dollar australien",
+   "prix": 1.64702,
+   "jour": "HAUSSIER",
+   "h4": "RANGE",
+   "h1": "BAISSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2325,15 +2339,19 @@
   {
    "quand": "2026-11-27T15:55+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T16:00+00:00",
+   "valeur": 99.77
   }
  ],
- "valeur": 100.0,
+ "valeur": 99.77,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T15:55+00:00",
+ "mis_a_jour": "2026-11-27T16:00+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Euro / Dollar australien (risque fort)",
  "regle": "Euro / Dollar australien seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
