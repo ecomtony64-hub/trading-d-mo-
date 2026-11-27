@@ -1,7 +1,23 @@
 {
  "capital_depart": 100.0,
  "capital": 99.32,
- "positions": [],
+ "positions": [
+  {
+   "marche": "XRP",
+   "nom": "XRP (Ripple)",
+   "sens": "VENTE",
+   "entree": 0.9367,
+   "stop": 0.9512,
+   "objectif": 0.9079,
+   "unites": 70,
+   "risque": 0.92,
+   "marge": 29.96,
+   "reel": true,
+   "ouvert_le": "2026-11-27T15:00+00:00",
+   "t_entree": 1795791608,
+   "t_reel": 1795791620
+  }
+ ],
  "historique": [
   {
    "marche": "XRP",
@@ -25,21 +41,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T10:05+00:00",
-   "marche": "XRP",
-   "nom": "XRP (Ripple)",
-   "prix": 0.9768,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T10:10+00:00",
    "marche": "XRP",
@@ -923,6 +924,19 @@
    "raisons": [
     "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T15:00+00:00",
+   "marche": "XRP",
+   "nom": "XRP (Ripple)",
+   "prix": 0.9375,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "VENTE",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2298,15 +2312,19 @@
   {
    "quand": "2026-11-27T14:55+00:00",
    "valeur": 99.32
+  },
+  {
+   "quand": "2026-11-27T15:00+00:00",
+   "valeur": 99.08
   }
  ],
- "valeur": 99.32,
+ "valeur": 99.08,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T14:55+00:00",
+ "mis_a_jour": "2026-11-27T15:00+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · XRP (Ripple)",
  "regle": "XRP (Ripple) seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
