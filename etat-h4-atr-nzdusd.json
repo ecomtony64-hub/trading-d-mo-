@@ -63,21 +63,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T21:30+00:00",
-   "marche": "NZDUSD",
-   "nom": "Dollar néo-zélandais / Dollar",
-   "prix": 0.54738,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T21:35+00:00",
    "marche": "NZDUSD",
    "nom": "Dollar néo-zélandais / Dollar",
@@ -959,6 +944,21 @@
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T02:25+00:00",
+   "marche": "NZDUSD",
+   "nom": "Dollar néo-zélandais / Dollar",
+   "prix": 0.55039,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1717,15 +1717,19 @@
   {
    "quand": "2026-11-27T02:20+00:00",
    "valeur": 108.46
+  },
+  {
+   "quand": "2026-11-27T02:25+00:00",
+   "valeur": 109.34
   }
  ],
- "valeur": 108.46,
+ "valeur": 109.34,
  "news": "",
  "methode": "h4_atr",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T02:20+00:00",
+ "mis_a_jour": "2026-11-27T02:25+00:00",
  "erreur_calendrier": null,
  "nom": "Tendance 4 h, stop serré · Dollar néo-zélandais / Dollar",
  "regle": "Dollar néo-zélandais / Dollar seulement. Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
