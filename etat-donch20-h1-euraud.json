@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-26T21:15+00:00",
-   "marche": "EURAUD",
-   "nom": "Euro / Dollar australien",
-   "prix": 1.65341,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-26T21:20+00:00",
    "marche": "EURAUD",
    "nom": "Euro / Dollar australien",
@@ -903,6 +888,21 @@
     "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T02:10+00:00",
+   "marche": "EURAUD",
+   "nom": "Euro / Dollar australien",
+   "prix": 1.64824,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1649,6 +1649,10 @@
   {
    "quand": "2026-11-27T02:05+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T02:10+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -1657,7 +1661,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T02:05+00:00",
+ "mis_a_jour": "2026-11-27T02:10+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Euro / Dollar australien",
  "regle": "Euro / Dollar australien seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
