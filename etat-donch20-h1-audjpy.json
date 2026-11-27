@@ -46,21 +46,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T15:15+00:00",
-   "marche": "AUDJPY",
-   "nom": "Dollar australien / Yen",
-   "prix": 106.032,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T15:20+00:00",
    "marche": "AUDJPY",
    "nom": "Dollar australien / Yen",
@@ -938,6 +923,21 @@
    "jour": "BAISSIER",
    "h4": "HAUSSIER",
    "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu)."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T20:15+00:00",
+   "marche": "AUDJPY",
+   "nom": "Dollar australien / Yen",
+   "prix": 106.082,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "HAUSSIER",
    "verdict": "PAS DE TRADE",
    "sens": null,
    "raisons": [
@@ -2570,6 +2570,10 @@
   {
    "quand": "2026-11-27T20:10+00:00",
    "valeur": 100.59
+  },
+  {
+   "quand": "2026-11-27T20:15+00:00",
+   "valeur": 100.59
   }
  ],
  "valeur": 100.59,
@@ -2578,7 +2582,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T20:10+00:00",
+ "mis_a_jour": "2026-11-27T20:15+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Dollar australien / Yen",
  "regle": "Dollar australien / Yen seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"
