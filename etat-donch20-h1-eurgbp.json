@@ -57,21 +57,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T10:50+00:00",
-   "marche": "EURGBP",
-   "nom": "Euro / Livre",
-   "prix": 0.83508,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:55+00:00",
    "marche": "EURGBP",
    "nom": "Euro / Livre",
@@ -974,6 +959,22 @@
    "marche": "EURGBP",
    "nom": "Euro / Livre",
    "prix": 0.83475,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Pas de signal : le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h (attendu).",
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T15:45+00:00",
+   "marche": "EURGBP",
+   "nom": "Euro / Livre",
+   "prix": 0.83482,
    "jour": "RANGE",
    "h4": "RANGE",
    "h1": "RANGE",
@@ -2394,15 +2395,19 @@
   {
    "quand": "2026-11-27T15:40+00:00",
    "valeur": 99.73
+  },
+  {
+   "quand": "2026-11-27T15:45+00:00",
+   "valeur": 99.56
   }
  ],
- "valeur": 99.73,
+ "valeur": 99.56,
  "news": "",
  "methode": "c:donch20-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T15:40+00:00",
+ "mis_a_jour": "2026-11-27T15:45+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 bougies 1 h · Euro / Livre",
  "regle": "Euro / Livre seulement. Le prix casse le plus haut ou le plus bas des 20 dernières bougies sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"

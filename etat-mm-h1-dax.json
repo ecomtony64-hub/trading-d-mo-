@@ -5,21 +5,6 @@
  "historique": [],
  "analyses": [
   {
-   "quand": "2026-11-27T10:50+00:00",
-   "marche": "DAX",
-   "nom": "DAX (Allemagne)",
-   "prix": 25422.8,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Stop trop loin : ce trade risquerait 15.76 € (plus de 15 % du compte)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T10:55+00:00",
    "marche": "DAX",
    "nom": "DAX (Allemagne)",
@@ -894,6 +879,21 @@
    "marche": "DAX",
    "nom": "DAX (Allemagne)",
    "prix": 25403.0,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Compte trop petit : le courtier demanderait 127.02 € de garantie pour cette position."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T15:45+00:00",
+   "marche": "DAX",
+   "nom": "DAX (Allemagne)",
+   "prix": 25404.3,
    "jour": "RANGE",
    "h4": "BAISSIER",
    "h1": "RANGE",
@@ -2313,6 +2313,10 @@
   {
    "quand": "2026-11-27T15:40+00:00",
    "valeur": 100.0
+  },
+  {
+   "quand": "2026-11-27T15:45+00:00",
+   "valeur": 100.0
   }
  ],
  "valeur": 100.0,
@@ -2321,7 +2325,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T15:40+00:00",
+ "mis_a_jour": "2026-11-27T15:45+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · DAX (Allemagne)",
  "regle": "DAX (Allemagne) seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
