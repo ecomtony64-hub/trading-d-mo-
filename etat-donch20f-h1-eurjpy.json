@@ -41,21 +41,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T01:40+00:00",
-   "marche": "EURJPY",
-   "nom": "Euro / Yen",
-   "prix": 174.665,
-   "jour": "BAISSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Pas de signal : cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h (attendu)."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T01:45+00:00",
    "marche": "EURJPY",
    "nom": "Euro / Yen",
@@ -928,6 +913,21 @@
    "marche": "EURJPY",
    "nom": "Euro / Yen",
    "prix": 174.956,
+   "jour": "BAISSIER",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T06:35+00:00",
+   "marche": "EURJPY",
+   "nom": "Euro / Yen",
+   "prix": 174.933,
    "jour": "BAISSIER",
    "h4": "HAUSSIER",
    "h1": "RANGE",
@@ -1899,15 +1899,19 @@
   {
    "quand": "2026-11-27T06:30+00:00",
    "valeur": 98.66
+  },
+  {
+   "quand": "2026-11-27T06:35+00:00",
+   "valeur": 98.53
   }
  ],
- "valeur": 98.66,
+ "valeur": 98.53,
  "news": "",
  "methode": "c:donch20f-h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T06:30+00:00",
+ "mis_a_jour": "2026-11-27T06:35+00:00",
  "erreur_calendrier": null,
  "nom": "Cassure 20 + moyenne 200 1 h · Euro / Yen",
  "regle": "Euro / Yen seulement. Cassure des 20 dernières bougies dans le sens de la moyenne 200 sur 1 h, objectif 2 fois le risque ; environ 30 € de garantie par trade, pause sous 50 €"

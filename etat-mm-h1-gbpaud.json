@@ -41,21 +41,6 @@
  ],
  "analyses": [
   {
-   "quand": "2026-11-27T01:40+00:00",
-   "marche": "GBPAUD",
-   "nom": "Livre / Dollar australien",
-   "prix": 1.97288,
-   "jour": "HAUSSIER",
-   "h4": "HAUSSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Compte trop petit : le courtier demanderait 59.75 € de garantie pour cette position."
-   ],
-   "alerte": null
-  },
-  {
    "quand": "2026-11-27T01:45+00:00",
    "marche": "GBPAUD",
    "nom": "Livre / Dollar australien",
@@ -928,6 +913,21 @@
    "marche": "GBPAUD",
    "nom": "Livre / Dollar australien",
    "prix": 1.96688,
+   "jour": "HAUSSIER",
+   "h4": "HAUSSIER",
+   "h1": "BAISSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T06:35+00:00",
+   "marche": "GBPAUD",
+   "nom": "Livre / Dollar australien",
+   "prix": 1.96695,
    "jour": "HAUSSIER",
    "h4": "HAUSSIER",
    "h1": "BAISSIER",
@@ -1899,15 +1899,19 @@
   {
    "quand": "2026-11-27T06:30+00:00",
    "valeur": 105.19
+  },
+  {
+   "quand": "2026-11-27T06:35+00:00",
+   "valeur": 105.15
   }
  ],
- "valeur": 105.19,
+ "valeur": 105.15,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T06:30+00:00",
+ "mis_a_jour": "2026-11-27T06:35+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Livre / Dollar australien",
  "regle": "Livre / Dollar australien seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"

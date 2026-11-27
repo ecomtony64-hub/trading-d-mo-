@@ -16,6 +16,21 @@
    "ouvert_le": "2026-11-27T02:30+00:00",
    "t_entree": 1795746606,
    "t_reel": 1795746619
+  },
+  {
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "sens": "ACHAT",
+   "entree": 61770.0,
+   "stop": 61270.0,
+   "objectif": 62771.0,
+   "unites": 0.001,
+   "risque": 0.46,
+   "marge": 28.1,
+   "reel": true,
+   "ouvert_le": "2026-11-27T06:35+00:00",
+   "t_entree": 1795761306,
+   "t_reel": 1795761322
   }
  ],
  "historique": [
@@ -98,21 +113,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T01:40+00:00",
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "prix": 60615.0,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T01:45+00:00",
    "marche": "BITCOIN",
@@ -995,6 +995,19 @@
    "raisons": [
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T06:35+00:00",
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "prix": 61708.0,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -1958,15 +1971,19 @@
   {
    "quand": "2026-11-27T06:30+00:00",
    "valeur": 100.73
+  },
+  {
+   "quand": "2026-11-27T06:35+00:00",
+   "valeur": 100.77
   }
  ],
- "valeur": 100.73,
+ "valeur": 100.77,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T06:30+00:00",
+ "mis_a_jour": "2026-11-27T06:35+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Bitcoin",
  "regle": "Bitcoin seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
