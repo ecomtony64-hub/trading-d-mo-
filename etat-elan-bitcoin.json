@@ -1,51 +1,21 @@
 {
  "capital_depart": 100.0,
- "capital": 100.03,
+ "capital": 98.53,
  "positions": [
   {
    "marche": "BITCOIN",
    "nom": "Bitcoin",
    "sens": "ACHAT",
-   "entree": 61362.0,
-   "stop": 60874.0,
-   "objectif": 62340.0,
+   "entree": 60806.0,
+   "stop": 60188.0,
+   "objectif": 62044.0,
    "unites": 0.001,
-   "risque": 0.45,
-   "marge": 27.92,
+   "risque": 0.57,
+   "marge": 27.73,
    "reel": true,
-   "ouvert_le": "2026-11-27T02:10+00:00",
-   "t_entree": 1795745407,
-   "t_reel": 1795745409
-  },
-  {
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "sens": "ACHAT",
-   "entree": 61651.0,
-   "stop": 61116.0,
-   "objectif": 62722.0,
-   "unites": 0.001,
-   "risque": 0.49,
-   "marge": 28.09,
-   "reel": true,
-   "ouvert_le": "2026-11-27T10:15+00:00",
-   "t_entree": 1795774506,
-   "t_reel": 1795774511
-  },
-  {
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "sens": "ACHAT",
-   "entree": 61460.0,
-   "stop": 60915.0,
-   "objectif": 62551.0,
-   "unites": 0.001,
-   "risque": 0.5,
-   "marge": 28.03,
-   "reel": true,
-   "ouvert_le": "2026-11-27T14:15+00:00",
-   "t_entree": 1795788906,
-   "t_reel": 1795788911
+   "ouvert_le": "2026-11-27T14:35+00:00",
+   "t_entree": 1795790110,
+   "t_reel": 1795790112
   }
  ],
  "historique": [
@@ -107,24 +77,69 @@
    "ferme_le": "2026-11-27T12:50+00:00",
    "frais_nuit": 0.0,
    "resultat": -0.47
+  },
+  {
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "sens": "ACHAT",
+   "entree": 61362.0,
+   "stop": 60874.0,
+   "objectif": 62340.0,
+   "unites": 0.001,
+   "risque": 0.45,
+   "marge": 27.92,
+   "reel": true,
+   "ouvert_le": "2026-11-27T02:10+00:00",
+   "t_entree": 1795745407,
+   "t_reel": 1795745409,
+   "sortie": 60849.0,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T14:30+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.47
+  },
+  {
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "sens": "ACHAT",
+   "entree": 61651.0,
+   "stop": 61116.0,
+   "objectif": 62722.0,
+   "unites": 0.001,
+   "risque": 0.49,
+   "marge": 28.09,
+   "reel": true,
+   "ouvert_le": "2026-11-27T10:15+00:00",
+   "t_entree": 1795774506,
+   "t_reel": 1795774511,
+   "sortie": 61091.0,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T14:30+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.51
+  },
+  {
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "sens": "ACHAT",
+   "entree": 61460.0,
+   "stop": 60915.0,
+   "objectif": 62551.0,
+   "unites": 0.001,
+   "risque": 0.5,
+   "marge": 28.03,
+   "reel": true,
+   "ouvert_le": "2026-11-27T14:15+00:00",
+   "t_entree": 1795788906,
+   "t_reel": 1795788911,
+   "sortie": 60890.0,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T14:30+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.52
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T09:35+00:00",
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "prix": 61753.0,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T09:40+00:00",
    "marche": "BITCOIN",
@@ -1004,6 +1019,19 @@
    "raisons": [
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:35+00:00",
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "prix": 60744.0,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2355,15 +2383,19 @@
   {
    "quand": "2026-11-27T14:30+00:00",
    "valeur": 99.45
+  },
+  {
+   "quand": "2026-11-27T14:35+00:00",
+   "valeur": 98.47
   }
  ],
- "valeur": 99.45,
+ "valeur": 98.47,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T14:30+00:00",
+ "mis_a_jour": "2026-11-27T14:35+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Bitcoin (risque fort)",
  "regle": "Bitcoin seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"

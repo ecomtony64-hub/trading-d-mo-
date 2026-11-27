@@ -1,51 +1,21 @@
 {
  "capital_depart": 100.0,
- "capital": 98.01,
+ "capital": 95.85,
  "positions": [
   {
    "marche": "ETHEREUM",
    "nom": "Ethereum",
    "sens": "ACHAT",
-   "entree": 1721.7,
-   "stop": 1705.2,
-   "objectif": 1754.7,
+   "entree": 1703.3,
+   "stop": 1682.1,
+   "objectif": 1745.7,
    "unites": 0.04,
-   "risque": 0.6,
-   "marge": 31.29,
+   "risque": 0.77,
+   "marge": 31.03,
    "reel": true,
-   "ouvert_le": "2026-11-27T02:10+00:00",
-   "t_entree": 1795745405,
-   "t_reel": 1795745410
-  },
-  {
-   "marche": "ETHEREUM",
-   "nom": "Ethereum",
-   "sens": "ACHAT",
-   "entree": 1730.7,
-   "stop": 1711.4,
-   "objectif": 1769.3,
-   "unites": 0.04,
-   "risque": 0.7,
-   "marge": 31.51,
-   "reel": true,
-   "ouvert_le": "2026-11-27T10:10+00:00",
-   "t_entree": 1795774206,
-   "t_reel": 1795774211
-  },
-  {
-   "marche": "ETHEREUM",
-   "nom": "Ethereum",
-   "sens": "ACHAT",
-   "entree": 1725.8,
-   "stop": 1707.1,
-   "objectif": 1763.2,
-   "unites": 0.04,
-   "risque": 0.68,
-   "marge": 31.45,
-   "reel": true,
-   "ouvert_le": "2026-11-27T14:15+00:00",
-   "t_entree": 1795788906,
-   "t_reel": 1795788912
+   "ouvert_le": "2026-11-27T14:35+00:00",
+   "t_entree": 1795790109,
+   "t_reel": 1795790113
   }
  ],
  "historique": [
@@ -107,24 +77,69 @@
    "ferme_le": "2026-11-27T11:00+00:00",
    "frais_nuit": 0.0,
    "resultat": -0.7
+  },
+  {
+   "marche": "ETHEREUM",
+   "nom": "Ethereum",
+   "sens": "ACHAT",
+   "entree": 1721.7,
+   "stop": 1705.2,
+   "objectif": 1754.7,
+   "unites": 0.04,
+   "risque": 0.6,
+   "marge": 31.29,
+   "reel": true,
+   "ouvert_le": "2026-11-27T02:10+00:00",
+   "t_entree": 1795745405,
+   "t_reel": 1795745410,
+   "sortie": 1703.7,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T14:30+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.66
+  },
+  {
+   "marche": "ETHEREUM",
+   "nom": "Ethereum",
+   "sens": "ACHAT",
+   "entree": 1730.7,
+   "stop": 1711.4,
+   "objectif": 1769.3,
+   "unites": 0.04,
+   "risque": 0.7,
+   "marge": 31.51,
+   "reel": true,
+   "ouvert_le": "2026-11-27T10:10+00:00",
+   "t_entree": 1795774206,
+   "t_reel": 1795774211,
+   "sortie": 1709.9,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T14:30+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.76
+  },
+  {
+   "marche": "ETHEREUM",
+   "nom": "Ethereum",
+   "sens": "ACHAT",
+   "entree": 1725.8,
+   "stop": 1707.1,
+   "objectif": 1763.2,
+   "unites": 0.04,
+   "risque": 0.68,
+   "marge": 31.45,
+   "reel": true,
+   "ouvert_le": "2026-11-27T14:15+00:00",
+   "t_entree": 1795788906,
+   "t_reel": 1795788912,
+   "sortie": 1705.6,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T14:30+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.74
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T09:35+00:00",
-   "marche": "ETHEREUM",
-   "nom": "Ethereum",
-   "prix": 1733.5,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T09:40+00:00",
    "marche": "ETHEREUM",
@@ -1004,6 +1019,19 @@
    "raisons": [
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:35+00:00",
+   "marche": "ETHEREUM",
+   "nom": "Ethereum",
+   "prix": 1699.6,
+   "jour": "RANGE",
+   "h4": "HAUSSIER",
+   "h1": "RANGE",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -2355,15 +2383,19 @@
   {
    "quand": "2026-11-27T14:30+00:00",
    "valeur": 97.23
+  },
+  {
+   "quand": "2026-11-27T14:35+00:00",
+   "valeur": 95.71
   }
  ],
- "valeur": 97.23,
+ "valeur": 95.71,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T14:30+00:00",
+ "mis_a_jour": "2026-11-27T14:35+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Ethereum (risque fort)",
  "regle": "Ethereum seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"

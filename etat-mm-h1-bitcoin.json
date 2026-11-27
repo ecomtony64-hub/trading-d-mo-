@@ -1,38 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 100.16,
- "positions": [
-  {
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "sens": "ACHAT",
-   "entree": 61504.0,
-   "stop": 60985.0,
-   "objectif": 62542.0,
-   "unites": 0.001,
-   "risque": 0.47,
-   "marge": 27.98,
-   "reel": true,
-   "ouvert_le": "2026-11-27T02:30+00:00",
-   "t_entree": 1795746606,
-   "t_reel": 1795746619
-  },
-  {
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "sens": "ACHAT",
-   "entree": 61612.0,
-   "stop": 61072.0,
-   "objectif": 62690.0,
-   "unites": 0.001,
-   "risque": 0.49,
-   "marge": 28.07,
-   "reel": true,
-   "ouvert_le": "2026-11-27T10:35+00:00",
-   "t_entree": 1795775706,
-   "t_reel": 1795775724
-  }
- ],
+ "capital": 99.14,
+ "positions": [],
  "historique": [
   {
    "marche": "BITCOIN",
@@ -130,24 +99,49 @@
    "ferme_le": "2026-11-27T13:20+00:00",
    "frais_nuit": 0.0,
    "resultat": -0.48
+  },
+  {
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "sens": "ACHAT",
+   "entree": 61504.0,
+   "stop": 60985.0,
+   "objectif": 62542.0,
+   "unites": 0.001,
+   "risque": 0.47,
+   "marge": 27.98,
+   "reel": true,
+   "ouvert_le": "2026-11-27T02:30+00:00",
+   "t_entree": 1795746606,
+   "t_reel": 1795746619,
+   "sortie": 60960.0,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T14:30+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.5
+  },
+  {
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "sens": "ACHAT",
+   "entree": 61612.0,
+   "stop": 61072.0,
+   "objectif": 62690.0,
+   "unites": 0.001,
+   "risque": 0.49,
+   "marge": 28.07,
+   "reel": true,
+   "ouvert_le": "2026-11-27T10:35+00:00",
+   "t_entree": 1795775706,
+   "t_reel": 1795775724,
+   "sortie": 61047.0,
+   "motif": "Stop touché",
+   "ferme_le": "2026-11-27T14:30+00:00",
+   "frais_nuit": 0.0,
+   "resultat": -0.52
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T09:35+00:00",
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "prix": 61753.0,
-   "jour": "RANGE",
-   "h4": "RANGE",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T09:40+00:00",
    "marche": "BITCOIN",
@@ -1028,6 +1022,21 @@
    "sens": null,
    "raisons": [
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T14:35+00:00",
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "prix": 60744.0,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
    ],
    "alerte": null
   }
@@ -2380,15 +2389,19 @@
   {
    "quand": "2026-11-27T14:30+00:00",
    "valeur": 99.65
+  },
+  {
+   "quand": "2026-11-27T14:35+00:00",
+   "valeur": 99.14
   }
  ],
- "valeur": 99.65,
+ "valeur": 99.14,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T14:30+00:00",
+ "mis_a_jour": "2026-11-27T14:35+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Bitcoin",
  "regle": "Bitcoin seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
