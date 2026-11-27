@@ -163,21 +163,6 @@
    "quand": "2026-11-27T14:55+00:00",
    "marche": "OR",
    "nom": "Or",
-   "prix": 3663.1,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "HAUSSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 1 h."
-   ],
-   "alerte": null
-  },
-  {
-   "quand": "2026-11-27T14:55+00:00",
-   "marche": "OR",
-   "nom": "Or",
    "prix": 3663.2,
    "jour": "RANGE",
    "h4": "BAISSIER",
@@ -1044,6 +1029,21 @@
   },
   {
    "quand": "2026-11-27T19:45+00:00",
+   "marche": "OR",
+   "nom": "Or",
+   "prix": 3668.5,
+   "jour": "RANGE",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Déjà 4 trade(s) ouvert(s) sur ce compte."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T19:50+00:00",
    "marche": "OR",
    "nom": "Or",
    "prix": 3668.5,
@@ -3822,6 +3822,10 @@
   {
    "quand": "2026-11-27T19:45+00:00",
    "valeur": 152.8
+  },
+  {
+   "quand": "2026-11-27T19:50+00:00",
+   "valeur": 152.8
   }
  ],
  "risque_trade": 10.0,
@@ -3831,7 +3835,7 @@
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T19:45+00:00",
+ "mis_a_jour": "2026-11-27T19:50+00:00",
  "erreur_calendrier": null,
  "nom": "Or · Tendance 4 h, stop serré (risque max)",
  "regle": "Or seulement. Tendance de 4 h, stop réglé sur la taille des bougies, objectif 2 fois le risque ; risque 10 € par trade (10 % des 100 € de départ), sans aucun blocage : continue même sous 0 € ; 4 trades ouverts au plus"
