@@ -1,22 +1,7 @@
 {
  "capital_depart": 100.0,
- "capital": 98.1,
+ "capital": 99.3,
  "positions": [
-  {
-   "marche": "USDJPY",
-   "nom": "Dollar / Yen",
-   "sens": "ACHAT",
-   "entree": 159.277,
-   "stop": 159.171,
-   "objectif": 159.487,
-   "unites": 1000,
-   "risque": 0.6,
-   "marge": 30.38,
-   "reel": true,
-   "ouvert_le": "2026-11-27T04:55+00:00",
-   "t_entree": 1795755302,
-   "t_reel": 1795755320
-  },
   {
    "marche": "USDJPY",
    "nom": "Dollar / Yen",
@@ -92,24 +77,29 @@
    "ferme_le": "2026-11-27T02:30+00:00",
    "frais_nuit": 0.05,
    "resultat": -0.7
+  },
+  {
+   "marche": "USDJPY",
+   "nom": "Dollar / Yen",
+   "sens": "ACHAT",
+   "entree": 159.277,
+   "stop": 159.171,
+   "objectif": 159.487,
+   "unites": 1000,
+   "risque": 0.6,
+   "marge": 30.38,
+   "reel": true,
+   "ouvert_le": "2026-11-27T04:55+00:00",
+   "t_entree": 1795755302,
+   "t_reel": 1795755320,
+   "sortie": 159.487,
+   "motif": "Objectif atteint",
+   "ferme_le": "2026-11-27T09:20+00:00",
+   "frais_nuit": 0.0,
+   "resultat": 1.2
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T04:30+00:00",
-   "marche": "USDJPY",
-   "nom": "Dollar / Yen",
-   "prix": 159.218,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T04:35+00:00",
    "marche": "USDJPY",
@@ -981,6 +971,21 @@
    "marche": "USDJPY",
    "nom": "Dollar / Yen",
    "prix": 159.467,
+   "jour": "RANGE",
+   "h4": "RANGE",
+   "h1": "RANGE",
+   "verdict": "PAS DE TRADE",
+   "sens": null,
+   "raisons": [
+    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
+   ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T09:25+00:00",
+   "marche": "USDJPY",
+   "nom": "Dollar / Yen",
+   "prix": 159.487,
    "jour": "RANGE",
    "h4": "RANGE",
    "h1": "RANGE",
@@ -2092,15 +2097,19 @@
   {
    "quand": "2026-11-27T09:20+00:00",
    "valeur": 99.24
+  },
+  {
+   "quand": "2026-11-27T09:25+00:00",
+   "valeur": 99.47
   }
  ],
- "valeur": 99.24,
+ "valeur": 99.47,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T09:20+00:00",
+ "mis_a_jour": "2026-11-27T09:25+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Dollar / Yen",
  "regle": "Dollar / Yen seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
