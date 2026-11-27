@@ -16,6 +16,21 @@
    "ouvert_le": "2026-11-26T22:30+00:00",
    "t_entree": 1795732203,
    "t_reel": 1795732218
+  },
+  {
+   "marche": "USDCHF",
+   "nom": "Dollar / Franc suisse",
+   "sens": "ACHAT",
+   "entree": 0.83436,
+   "stop": 0.8334,
+   "objectif": 0.83628,
+   "unites": 1000,
+   "risque": 1.05,
+   "marge": 30.38,
+   "reel": true,
+   "ouvert_le": "2026-11-27T04:35+00:00",
+   "t_entree": 1795754102,
+   "t_reel": 1795754120
   }
  ],
  "historique": [
@@ -60,21 +75,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-26T23:40+00:00",
-   "marche": "USDCHF",
-   "nom": "Dollar / Franc suisse",
-   "prix": 0.83419,
-   "jour": "RANGE",
-   "h4": "BAISSIER",
-   "h1": "BAISSIER",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-26T23:45+00:00",
    "marche": "USDCHF",
@@ -964,6 +964,19 @@
     "Les moyennes du graphique d'1 h ne donnent pas de direction nette."
    ],
    "alerte": null
+  },
+  {
+   "quand": "2026-11-27T04:35+00:00",
+   "marche": "USDCHF",
+   "nom": "Dollar / Franc suisse",
+   "prix": 0.83411,
+   "jour": "HAUSSIER",
+   "h4": "BAISSIER",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
+   "alerte": null
   }
  ],
  "courbe": [
@@ -1830,15 +1843,19 @@
   {
    "quand": "2026-11-27T04:30+00:00",
    "valeur": 96.54
+  },
+  {
+   "quand": "2026-11-27T04:35+00:00",
+   "valeur": 96.41
   }
  ],
- "valeur": 96.54,
+ "valeur": 96.41,
  "news": "",
  "methode": "mm_h1",
  "ratio": 2.0,
  "risque_vise": 1.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T04:30+00:00",
+ "mis_a_jour": "2026-11-27T04:35+00:00",
  "erreur_calendrier": null,
  "nom": "Moyennes 1 h · Dollar / Franc suisse",
  "regle": "Dollar / Franc suisse seulement. Moyenne courte au-dessus ou en dessous de la moyenne longue, sur 1 h, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade ; environ 30 € de garantie par trade, pause sous 50 €"
