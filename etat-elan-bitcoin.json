@@ -16,6 +16,21 @@
    "ouvert_le": "2026-11-27T02:10+00:00",
    "t_entree": 1795745407,
    "t_reel": 1795745409
+  },
+  {
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "sens": "ACHAT",
+   "entree": 61856.0,
+   "stop": 61361.0,
+   "objectif": 62846.0,
+   "unites": 0.001,
+   "risque": 0.45,
+   "marge": 28.13,
+   "reel": true,
+   "ouvert_le": "2026-11-27T06:15+00:00",
+   "t_entree": 1795760106,
+   "t_reel": 1795760110
   }
  ],
  "historique": [
@@ -60,22 +75,6 @@
   }
  ],
  "analyses": [
-  {
-   "quand": "2026-11-27T01:20+00:00",
-   "marche": "BITCOIN",
-   "nom": "Bitcoin",
-   "prix": 60701.0,
-   "jour": "BAISSIER",
-   "h4": "RANGE",
-   "h1": "RANGE",
-   "verdict": "PAS DE TRADE",
-   "sens": null,
-   "raisons": [
-    "Le prix n'a pas assez bougé depuis 24 h (moins de 0,3 %).",
-    "Un trade a été ouvert sur ce marché il y a moins de 4 h."
-   ],
-   "alerte": null
-  },
   {
    "quand": "2026-11-27T01:25+00:00",
    "marche": "BITCOIN",
@@ -966,6 +965,19 @@
    "raisons": [
     "Un trade a été ouvert sur ce marché il y a moins de 4 h."
    ],
+   "alerte": null
+  },
+  {
+   "quand": "2026-11-27T06:15+00:00",
+   "marche": "BITCOIN",
+   "nom": "Bitcoin",
+   "prix": 61794.0,
+   "jour": "BAISSIER",
+   "h4": "RANGE",
+   "h1": "HAUSSIER",
+   "verdict": "TRADE",
+   "sens": "ACHAT",
+   "raisons": [],
    "alerte": null
   }
  ],
@@ -1913,15 +1925,19 @@
   {
    "quand": "2026-11-27T06:10+00:00",
    "valeur": 100.78
+  },
+  {
+   "quand": "2026-11-27T06:15+00:00",
+   "valeur": 100.84
   }
  ],
- "valeur": 100.78,
+ "valeur": 100.84,
  "news": "",
  "methode": "elan",
  "ratio": 2.0,
  "risque_vise": 8.0,
  "conditions": "réelles",
- "mis_a_jour": "2026-11-27T06:10+00:00",
+ "mis_a_jour": "2026-11-27T06:15+00:00",
  "erreur_calendrier": null,
  "nom": "Élan 24 h · Bitcoin (risque fort)",
  "regle": "Bitcoin seulement. Le prix a bougé de plus de 0,3 % sur les 24 dernières bougies d'1 h, on suit le mouvement, objectif 2 fois le risque, mise forte : jusqu'à 8 % du compte risqué par trade"
