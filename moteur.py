@@ -477,6 +477,8 @@ def main():
                 etat["historique"].append(pos)
                 break
 
+    if mensuel and etat["capital"] < 0:   # Tony (28/11) : on ne perd jamais plus que les 100 € du mois (protection solde négatif)
+        etat["capital"] = 0.0
     # 2. Analyse de chaque marché
     for code, m in marches.items():
         if seul and code != seul:
