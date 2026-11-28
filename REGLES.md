@@ -40,3 +40,12 @@
 - Stop : si le prix saute par-dessus, sortie au prix réel du saut, plus un glissement.
 - Frais de nuit : à chaque passage à 22 h UTC ; triple le mercredi (forex, or, matières premières), le vendredi (indices) ; crypto tous les jours. Ils sont déduits aussi de la valeur des trades encore ouverts.
 - Limites : prix Yahoo gratuits (l'or et le pétrole peuvent avoir ~10 min de retard), pas de vrai carnet d'ordres. 100 % réel = seulement chez un vrai courtier (compte démo).
+
+## Bots or du classement (Tony, 28/11 soir)
+- 3 comptes « podium » (classement en 4 points) : or-bot-londres (stop 5 / objectif 1), or-bot-cassure48 (6 / 2), or-bot-cassure24 (1 / 4).
+  Risque 2 % du compte par trade, par pas de 0,01 once, 1 trade à la fois, 2 h entre deux ouvertures, stop jusqu'à 6 % du prix.
+- 3 comptes « 100 € par mois » (nouvelle règle de Tony : les 100 € sont le budget d'un mois, on accepte de les risquer) :
+  or-tout-londres-achat (8 / 0,75, achats seulement), or-tout-londres (5 / 1), or-tout-cassure48 (6 / 2).
+  Taille = la plus grosse que la garantie permet (levier 20) : tout le compte en jeu. 100 € remis au début de chaque mois
+  (dès qu'aucun trade n'est ouvert) ; le résultat de chaque mois est gardé dans « bilans_mois ».
+- Code : bots-or/bots.py (mêmes règles que le test sur 2 ans). Stop et objectif en « agitation » = taille moyenne d'une bougie d'1 h.

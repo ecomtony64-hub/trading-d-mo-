@@ -2223,5 +2223,131 @@
    "--marche",
    "XRP"
   ]
+ },
+ "or-bot-londres": {
+  "fichier": "etat-or-bot-londres.json",
+  "nom": "Or · Bot Londres 5/1 (podium 89 %)",
+  "regle": "Or seulement. Entre 8 h et 10 h UTC, suit le prix s'il sort du haut ou du bas de la nuit (0-7 h) ; stop 5 fois l'agitation, objectif 1 fois ; risque 2 % du compte ; 1 trade à la fois",
+  "args": [
+   "--mode",
+   "b:londres:5",
+   "--ratio",
+   "0.2",
+   "--marche",
+   "OR",
+   "--max-ouverts",
+   "1",
+   "--ecart",
+   "2",
+   "--risque-trade",
+   "2",
+   "--stop-max",
+   "6"
+  ]
+ },
+ "or-bot-cassure48": {
+  "fichier": "etat-or-bot-cassure48.json",
+  "nom": "Or · Bot Cassure 48 h 6/2 (podium équilibre)",
+  "regle": "Or seulement. Suit le prix s'il dépasse le plus haut ou le plus bas des 48 dernières heures ; stop 6 fois l'agitation, objectif 2 fois ; risque 2 % du compte ; 1 trade à la fois",
+  "args": [
+   "--mode",
+   "b:cassure48:6",
+   "--ratio",
+   "0.3333",
+   "--marche",
+   "OR",
+   "--max-ouverts",
+   "1",
+   "--ecart",
+   "2",
+   "--risque-trade",
+   "2",
+   "--stop-max",
+   "6"
+  ]
+ },
+ "or-bot-cassure24": {
+  "fichier": "etat-or-bot-cassure24.json",
+  "nom": "Or · Bot Cassure 24 h 1/4 (podium gain)",
+  "regle": "Or seulement. Suit le prix s'il dépasse le plus haut ou le plus bas des 24 dernières heures ; stop 1 fois l'agitation, objectif 4 fois ; risque 2 % du compte ; 1 trade à la fois",
+  "args": [
+   "--mode",
+   "b:cassure24:1",
+   "--ratio",
+   "4",
+   "--marche",
+   "OR",
+   "--max-ouverts",
+   "1",
+   "--ecart",
+   "2",
+   "--risque-trade",
+   "2",
+   "--stop-max",
+   "6"
+  ]
+ },
+ "or-tout-londres-achat": {
+  "fichier": "etat-or-tout-londres-achat.json",
+  "nom": "Or · Bot Londres 8/0,75 achat (100 €/mois)",
+  "regle": "Or seulement. Achats seulement : entre 8 h et 10 h UTC, achète si le prix sort par le haut de la nuit (0-7 h) ; stop 8 fois l'agitation, objectif 0,75 fois ; tout le compte en jeu (plus grosse taille que la garantie permet), 100 € remis chaque mois ; 1 trade à la fois",
+  "args": [
+   "--mode",
+   "b:londres:8:achat",
+   "--ratio",
+   "0.0938",
+   "--marche",
+   "OR",
+   "--max-ouverts",
+   "1",
+   "--ecart",
+   "2",
+   "--taille-tout",
+   "--mensuel",
+   "--stop-max",
+   "10"
+  ]
+ },
+ "or-tout-londres": {
+  "fichier": "etat-or-tout-londres.json",
+  "nom": "Or · Bot Londres 5/1 (100 €/mois)",
+  "regle": "Or seulement. Entre 8 h et 10 h UTC, suit le prix s'il sort du haut ou du bas de la nuit (0-7 h) ; stop 5 fois l'agitation, objectif 1 fois ; tout le compte en jeu (plus grosse taille que la garantie permet), 100 € remis chaque mois ; 1 trade à la fois",
+  "args": [
+   "--mode",
+   "b:londres:5",
+   "--ratio",
+   "0.2",
+   "--marche",
+   "OR",
+   "--max-ouverts",
+   "1",
+   "--ecart",
+   "2",
+   "--taille-tout",
+   "--mensuel",
+   "--stop-max",
+   "10"
+  ]
+ },
+ "or-tout-cassure48": {
+  "fichier": "etat-or-tout-cassure48.json",
+  "nom": "Or · Bot Cassure 48 h 6/2 (100 €/mois)",
+  "regle": "Or seulement. Suit le prix s'il dépasse le plus haut ou le plus bas des 48 dernières heures ; stop 6 fois l'agitation, objectif 2 fois ; tout le compte en jeu (plus grosse taille que la garantie permet), 100 € remis chaque mois ; 1 trade à la fois",
+  "args": [
+   "--mode",
+   "b:cassure48:6",
+   "--ratio",
+   "0.3333",
+   "--marche",
+   "OR",
+   "--max-ouverts",
+   "1",
+   "--ecart",
+   "2",
+   "--taille-tout",
+   "--mensuel",
+   "--stop-max",
+   "10"
+  ]
  }
 }

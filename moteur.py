@@ -190,6 +190,9 @@ def atr(b, n=14):
 
 
 def signal(mode, d, tj, t4, t1):
+    if mode.startswith("b:"):   # bots or du classement en 4 points (Tony, 28/11)
+        import os as _o, time as _t; sys.path.insert(0, _o.path.join(_o.path.dirname(_o.path.abspath(__file__)), "bots-or")); import bots as _bo
+        return _bo.signal(mode[2:], d, _t.time())
     if mode.startswith("c:"):
         import os as _o, time as _t; sys.path.insert(0, _o.path.join(_o.path.dirname(_o.path.abspath(__file__)), "cent")); import strategies as _cs
         return _cs.signal(mode[2:], d, _t.time())
@@ -302,6 +305,9 @@ def f_min_levier(code):
 
 
 def calcul_stop(type_stop, sens, entree, d, h4_hauts, h4_bas, h1_hauts, h1_bas):
+    if type_stop.startswith("botor_"):
+        import bots as _bo
+        return _bo.stop(type_stop, sens, entree, d)
     if type_stop.startswith("cent_"):
         import strategies as _cs
         return _cs.stop(type_stop, sens, entree, d)
@@ -357,6 +363,9 @@ def main():
     vetos, news, mode, ratio = {}, "", "strict", RATIO
     risque, risque_max, fort = RISQUE, RISQUE_MAX, False
     maxi = False
+    stop_max = 0.03
+    tout = False
+    mensuel = False
     seul, risque_trade, limite, ecart_h, pause = None, None, None, ECART_H, False
     args = sys.argv[2:]
     for i, a in enumerate(args):
@@ -379,6 +388,12 @@ def main():
             limite = int(args[i + 1])
         if a == "--ecart":
             ecart_h = float(args[i + 1])
+        if a == "--mensuel":   # Tony (28/11 soir) : 100 € remis chaque mois, quoi qu'il arrive
+            mensuel = True
+        if a == "--taille-tout":   # règle de Tony (28/11 soir) : la plus grosse taille que la garantie permet, tout le compte en jeu
+            tout = True
+        if a == "--stop-max":   # distance max du stop en % du prix (3 % par défaut)
+            stop_max = float(args[i + 1]) / 100
         if a == "--pause50":   # pause quand le compte tombe sous 50 €
             pause = True
         if a == "--risque":   # compte « risque fort » : vise ce % du compte par trade, plafond 25 % au-dessus
@@ -391,6 +406,12 @@ def main():
 
     maintenant = dt.datetime.now(dt.timezone.utc)
     iso = maintenant.isoformat(timespec="minutes")
+    if mensuel:   # nouveau mois et aucun trade ouvert : on note le résultat du mois et on remet 100 €
+        ce_mois = maintenant.strftime("%Y-%m")
+        etat.setdefault("mois", ce_mois)
+        if etat["mois"] != ce_mois and not etat["positions"]:
+            etat.setdefault("bilans_mois", []).append({"mois": etat["mois"], "resultat": round(etat["capital"] - 100.0, 2)})
+            etat["capital"], etat["mois"] = 100.0, ce_mois
     rouges, err_cal = calendrier(maintenant)
     donnees = {}
     for code, m in MARCHES.items():
@@ -510,12 +531,15 @@ def main():
             dist = abs(entree - stop) if stop else 0
             if not stop or dist <= 0 or (sens == "ACHAT" and stop >= entree) or (sens == "VENTE" and stop <= entree):
                 raisons.append("Impossible de placer un stop logique.")
-            elif dist / prix > 0.03:
-                raisons.append("Stop trop loin du prix (plus de 3 %).")
+            elif dist / prix > stop_max:
+                raisons.append(f"Stop trop loin du prix (plus de {stop_max * 100:g} %).")
             else:
                 objectif = entree + ratio * dist if sens == "ACHAT" else entree - ratio * dist
                 # Taille (Tony, 19/11) : environ MARGE_TRADE € de garantie par trade, levier légal européen (30 EUR/USD, 20 or).
-                if risque_trade is not None:   # comptes or : risquer risque_trade du compte (compte de départ pour les « risque max »)
+                if tout:
+                    pas = PAS_OR if code == "OR" else f["pas"]
+                    unites = round(int(max(etat["capital"], 0) * cv * f["levier"] / prix / pas + 1e-9) * pas, 2)
+                elif risque_trade is not None:   # comptes or : risquer risque_trade du compte (compte de départ pour les « risque max »)
                     pas = PAS_OR if code == "OR" else f["pas"]
                     base = etat.get("capital_depart", 100.0) if maxi else max(etat["capital"], 0)
                     unites = max(pas, round(int(base * risque_trade * cv / dist / pas + 1e-9) * pas, 2))
@@ -531,9 +555,13 @@ def main():
                 risque_ouvert = sum(p.get("risque", 0) for p in etat["positions"])
                 plafond = 0.25 if maxi else RISQUE_MAX_TRADE
                 sans_limite = maxi and (code == "EURUSD" or seul == code)   # risque max : aucun blocage, il trade jusqu'au bout, solde négatif compris
-                if not sans_limite and risque_eur > etat["capital"] * plafond:
+                if tout and unites < (PAS_OR if code == "OR" else f["pas"]):
+                    raisons.append("Compte trop petit pour la plus petite taille.")
+                elif tout and marge + marge_prise > etat["capital"]:
+                    raisons.append(f"Compte trop petit : le courtier demanderait {marge} € de garantie pour cette position.")
+                elif not (sans_limite or tout) and risque_eur > etat["capital"] * plafond:
                     raisons.append(f"Stop trop loin : ce trade risquerait {risque_eur} € (plus de {round(plafond * 100)} % du compte).")
-                elif not sans_limite and risque_ouvert + risque_eur > etat["capital"] * max(RISQUE_TOTAL, plafond):
+                elif not (sans_limite or tout) and risque_ouvert + risque_eur > etat["capital"] * max(RISQUE_TOTAL, plafond):
                     raisons.append(f"Trop de risque en jeu : {round(risque_ouvert + risque_eur, 2)} € avec ce trade (maximum {round(max(RISQUE_TOTAL, plafond) * 100)} % du compte au total).")
                 elif not sans_limite and marge + marge_prise > etat["capital"]:
                     raisons.append(f"Compte trop petit : le courtier demanderait {marge} € de garantie pour cette position.")
