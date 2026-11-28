@@ -366,6 +366,7 @@ def main():
     stop_max = 0.03
     tout = False
     mensuel = False
+    risque_eur_max, reserve = None, 0.0
     seul, risque_trade, limite, ecart_h, pause = None, None, None, ECART_H, False
     args = sys.argv[2:]
     for i, a in enumerate(args):
@@ -390,6 +391,10 @@ def main():
             ecart_h = float(args[i + 1])
         if a == "--mensuel":   # Tony (28/11 soir) : 100 € remis chaque mois, quoi qu'il arrive
             mensuel = True
+        if a == "--risque-eur":   # Tony (28/11, règle finale) : risque max en € par trade (7 €)
+            risque_eur_max = float(args[i + 1])
+        if a == "--reserve":   # on garde toujours ce montant : perte max du mois = 100 € - réserve (90 €)
+            reserve = float(args[i + 1])
         if a == "--taille-tout":   # règle de Tony (28/11 soir) : la plus grosse taille que la garantie permet, tout le compte en jeu
             tout = True
         if a == "--stop-max":   # distance max du stop en % du prix (3 % par défaut)
@@ -538,7 +543,12 @@ def main():
             else:
                 objectif = entree + ratio * dist if sens == "ACHAT" else entree - ratio * dist
                 # Taille (Tony, 19/11) : environ MARGE_TRADE € de garantie par trade, levier légal européen (30 EUR/USD, 20 or).
-                if tout:
+                if risque_eur_max is not None:   # taille pour perdre au plus risque_eur_max au stop, sans entamer la réserve
+                    pas = PAS_OR if code == "OR" else f["pas"]
+                    budget = min(risque_eur_max, etat["capital"] - reserve)
+                    unites = round(int(max(budget, 0) * cv / (dist + f["glissement"]) / pas + 1e-9) * pas, 2)
+                    tout = True   # mêmes contrôles que « tout » : taille mini et garantie
+                elif tout:
                     pas = PAS_OR if code == "OR" else f["pas"]
                     unites = round(int(max(etat["capital"], 0) * cv * f["levier"] / prix / pas + 1e-9) * pas, 2)
                 elif risque_trade is not None:   # comptes or : risquer risque_trade du compte (compte de départ pour les « risque max »)
